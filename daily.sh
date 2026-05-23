@@ -1,96 +1,111 @@
 #!/usr/bin/env bash
-# Daily IDX signals pipeline — runs Mon-Fri at 11:00 local (15:00 WIB,
-# 1 hour before IDX close) via launchd.
+# IDX signals pipeline — invoked by launchd every 5 minutes.
 #
-# Lifecycle:
-#   1. Start MLX server if not already running (Qwen2.5-72B for Hermes)
-#   2. Fetch intraday data via TradingView scanner
-#   3. Compute live BUY signals (tier-sorted by historical edge)
-#   4. Hermes qualitative review → top 5 picks
-#   5. Track outcomes of past signals (1/5/20d realized returns)
-#   6. Commit + push to GitHub
-#   7. Stop MLX server if we started it (leaves it alone if already running)
+# Self-gates: exits fast outside IDX hours.
+# Self-dedupes: hashes the (ticker, strategy) signal set; skips Hermes +
+#   git push if unchanged from previous run.
+#
+# Cost per run when nothing changed: ~2s (TV fetch + compute + hash).
+# Cost when signals changed: ~5 min (Hermes 72B + push).
 
 set -euo pipefail
 
 ROOT="$HOME/idx-signals"
 LOG_DIR="$ROOT/logs"
+HASH_FILE="$ROOT/.last_signals_hash"
 mkdir -p "$LOG_DIR"
+
+# --- 1. Market-hours guard (IDX: Mon-Fri 09:00-15:55 WIB = +07) ------------
+# Compute the current WIB hour:minute regardless of local TZ.
+WIB_HM=$(TZ=Asia/Jakarta date +%H%M)
+WIB_DOW=$(TZ=Asia/Jakarta date +%u)  # 1=Mon ... 7=Sun
+if [ "$WIB_DOW" -gt 5 ]; then
+  exit 0  # weekend
+fi
+if [ "$WIB_HM" -lt 0900 ] || [ "$WIB_HM" -gt 1555 ]; then
+  exit 0  # outside trading hours
+fi
+
+# Indonesian public holiday check (IDX closed)
+if ! "$ROOT/.venv/bin/python" -c "
+import holidays, datetime, pytz
+today = datetime.datetime.now(pytz.timezone('Asia/Jakarta')).date()
+import sys
+sys.exit(1 if today in holidays.Indonesia() else 0)
+"; then
+  exit 0  # IDX holiday
+fi
+
 LOG="$LOG_DIR/$(date +%Y-%m-%d).log"
+exec >> "$LOG" 2>&1
 
-# Redirect everything to log file + stdout
-exec > >(tee -a "$LOG") 2>&1
-
+WIB_TS=$(TZ=Asia/Jakarta date "+%Y-%m-%d %H:%M:%S WIB")
 echo ""
-echo "==========================================================="
-echo "  $(date)  —  daily.sh starting"
-echo "==========================================================="
+echo "[$WIB_TS] daily.sh tick (local: $(date +%H:%M))"
 
+# --- 2. MLX server lifecycle ----------------------------------------------
 MLX_BIN="$HOME/llm/.venv/bin"
 MLX_MODEL="mlx-community/Qwen2.5-72B-Instruct-4bit"
 MLX_PORT=8080
 MLX_LOG="$LOG_DIR/mlx_server.log"
 WE_STARTED_MLX=0
 
-# --- 1. Ensure MLX server up -----------------------------------------------
-if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$MLX_PORT/v1/models" | grep -q 200; then
-  echo "[mlx] already running on :$MLX_PORT"
-else
-  echo "[mlx] not running — starting (model: $MLX_MODEL)"
+ensure_mlx() {
+  if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$MLX_PORT/v1/models" | grep -q 200; then
+    return
+  fi
+  echo "  [mlx] starting (will be killed if we started it)"
   nohup "$MLX_BIN/mlx_lm.server" --model "$MLX_MODEL" --port "$MLX_PORT" \
     >> "$MLX_LOG" 2>&1 &
   WE_STARTED_MLX=1
-  # Wait up to 120s for server (72B takes ~30-60s to load)
   for i in $(seq 1 60); do
     if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$MLX_PORT/v1/models" | grep -q 200; then
-      echo "[mlx] ready after ${i}×2s"
-      break
+      echo "  [mlx] ready after ${i}×2s"
+      return
     fi
     sleep 2
   done
-fi
+  echo "  [mlx] failed to come up — Hermes step will be skipped"
+}
 
 cleanup() {
   if [ "$WE_STARTED_MLX" = "1" ]; then
-    echo "[mlx] stopping (we started it)"
-    pkill -f "mlx_lm.server.*port $MLX_PORT" || true
+    pkill -f "mlx_lm.server.*--port $MLX_PORT" || true
   fi
 }
 trap cleanup EXIT
 
-# --- 2. Fetch intraday -----------------------------------------------------
-echo ""
-echo "[1/5] Fetching intraday data via TradingView scanner..."
-"$ROOT/.venv/bin/python" "$ROOT/fetch_intraday_tv.py"
+# --- 3. Fetch + compute (cheap, always run) --------------------------------
+"$ROOT/.venv/bin/python" "$ROOT/fetch_intraday_tv.py" > /dev/null
+"$ROOT/.venv/bin/python" "$ROOT/compute_signals_live.py" > /dev/null
 
-# --- 3. Compute signals ----------------------------------------------------
-echo ""
-echo "[2/5] Computing live signals..."
-"$ROOT/.venv/bin/python" "$ROOT/compute_signals_live.py"
+# --- 4. Dedupe — hash the (ticker, strategy) set ---------------------------
+CURRENT_HASH=$(jq -r '[.[] | .ticker + "/" + .strategy] | sort | join(",")' \
+                  "$ROOT/candidates.json" | shasum -a 256 | cut -d' ' -f1)
+LAST_HASH=$(cat "$HASH_FILE" 2>/dev/null || echo "")
+N_SIGNALS=$(jq length "$ROOT/candidates.json")
 
-# --- 4. Hermes analysis ----------------------------------------------------
-echo ""
-echo "[3/5] Hermes qualitative review..."
-"$ROOT/ask_hermes.sh" || echo "[warn] Hermes step failed; continuing"
-
-# --- 5. Track outcomes -----------------------------------------------------
-echo ""
-echo "[4/5] Tracking outcomes of past signals..."
-"$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py"
-
-# --- 6. Git commit + push --------------------------------------------------
-echo ""
-echo "[5/5] Committing & pushing to GitHub..."
-cd "$ROOT"
-git add signals/ outcomes.csv ticker_edge.json data/snapshot_*.json 2>/dev/null || true
-if git diff --cached --quiet; then
-  echo "  No changes to commit."
-else
-  git commit -q -m "daily: $(date +%Y-%m-%d)"
-  git push -q origin main && echo "  Pushed to origin/main."
+if [ "$CURRENT_HASH" = "$LAST_HASH" ]; then
+  echo "  [dedupe] signal set unchanged ($N_SIGNALS signals) — skipping Hermes + push"
+  exit 0
 fi
 
-echo ""
-echo "==========================================================="
-echo "  $(date)  —  daily.sh done"
-echo "==========================================================="
+echo "  [change] signal set changed (was $N_SIGNALS now $(jq length $ROOT/candidates.json)) — running full pipeline"
+
+# --- 5. Expensive path: Hermes + outcomes + git push ----------------------
+ensure_mlx
+
+"$ROOT/ask_hermes.sh" > /dev/null 2>&1 || echo "  [warn] Hermes step failed; continuing"
+"$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
+
+cd "$ROOT"
+git add signals/ outcomes.csv ticker_edge.json data/snapshot_*.json 2>/dev/null || true
+if ! git diff --cached --quiet; then
+  git commit -q -m "auto: $WIB_TS"
+  git push -q origin main && echo "  [git] pushed"
+fi
+
+# Update hash AFTER successful run so next tick will dedupe correctly
+echo "$CURRENT_HASH" > "$HASH_FILE"
+
+echo "  [done]"

@@ -11,3 +11,6 @@ data/intraday_today.json
 
 # Local run logs
 logs/
+
+# Dedupe state (local-only)
+.last_signals_hash
