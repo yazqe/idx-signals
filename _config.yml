@@ -2,25 +2,3 @@ title: IDX Signals
 description: Daily IDX BUY signals — 3 strategies + Hermes Agent qualitative review
 theme: jekyll-theme-cayman
 show_downloads: false
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-
-# Exclude support files from the rendered site
-exclude:
-  - .venv/
-  - data/
-  - "*.py"
-  - "*.sh"
-  - "*.txt"
-  - "*.csv"
-  - "*.json"
-  - logs/
-  - outcomes/
-  - "*.plist"
