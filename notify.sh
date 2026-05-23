@@ -67,7 +67,15 @@ if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
 fi
 
 # Build hybrid message: short header + monospace top-5 + link
-REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html"
+# Cache-bust the URL with first 8 chars of report content hash:
+# same content → same URL (browser cache works); content changes → URL changes
+# → browser fetches fresh (no more "stale on phone" issue).
+HERMES_FILE="$ROOT/signals/${WIB_DATE}-hermes.md"
+CACHE_BUST=""
+if [ -f "$HERMES_FILE" ]; then
+  CACHE_BUST="?v=$(shasum -a 256 "$HERMES_FILE" | cut -c1-8)"
+fi
+REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html${CACHE_BUST}"
 
 TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```\n\n[📄 Full report](%s)' \
   "IDX Signals" "$SESSION" \
