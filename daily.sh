@@ -102,9 +102,10 @@ ensure_mlx
 
 "$ROOT/ask_hermes.sh" > /dev/null 2>&1 || echo "  [warn] Hermes step failed; continuing"
 "$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
+"$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 
 cd "$ROOT"
-git add signals/ outcomes.csv ticker_edge.json data/snapshot_*.json 2>/dev/null || true
+git add signals/ outcomes.csv ticker_edge.json data/snapshot_*.json index.html 2>/dev/null || true
 if ! git diff --cached --quiet; then
   git commit -q -m "auto: $WIB_TS"
   git push -q origin main && echo "  [git] pushed"
