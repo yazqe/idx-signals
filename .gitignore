@@ -5,3 +5,9 @@ __pycache__/
 
 # Regeneratable daily price snapshots — fetch_prices.py rebuilds these
 data/*.csv
+
+# Intraday transient (overwritten each run, also captured in snapshot_*.json)
+data/intraday_today.json
+
+# Local run logs
+logs/
