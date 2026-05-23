@@ -108,4 +108,41 @@ fi
 # Update hash AFTER successful run so next tick will dedupe correctly
 echo "$CURRENT_HASH" > "$HASH_FILE"
 
+# --- 6. Notify (macOS + optional Telegram) --------------------------------
+# Pick session label based on current WIB hour
+case "${WIB_HM:0:2}" in
+  09) SESSION="🌅 Sesi Pagi" ;;
+  12) SESSION="☀️ Sesi Siang" ;;
+  15) SESSION="🌆 Menjelang Tutup" ;;
+  *)  SESSION="📊 Update $WIB_HM WIB" ;;
+esac
+
+# Top 3 picks from candidates.json (high/medium only) → notification body
+TOP3=$(jq -r '[.[] | select(.history.tier == "high" or .history.tier == "medium")]
+              | sort_by(.history.tier, -(.history.edge_5d // 0))
+              | .[0:3]
+              | map("\(.ticker) (\(.history.tier))")
+              | join(", ")' "$ROOT/candidates.json")
+
+N_HIGH=$(jq '[.[] | select(.history.tier == "high")] | length' "$ROOT/candidates.json")
+N_MED=$(jq '[.[] | select(.history.tier == "medium")] | length' "$ROOT/candidates.json")
+
+NOTIF_TITLE="IDX Signals — $SESSION"
+NOTIF_BODY="${N_HIGH} HIGH, ${N_MED} MEDIUM. Top: ${TOP3:-none}"
+
+# macOS notification (always — zero config)
+osascript -e "display notification \"$NOTIF_BODY\" with title \"$NOTIF_TITLE\" sound name \"Glass\"" 2>/dev/null || true
+
+# Telegram push (only if both env vars set — see README for setup)
+if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+  TG_MSG=$(printf '*%s*\n%s\n\nFull report: %s' \
+    "$NOTIF_TITLE" "$NOTIF_BODY" \
+    "https://github.com/yazqe/idx-signals/blob/main/signals/$(date +%Y-%m-%d)-hermes.md")
+  curl -s -o /dev/null -X POST \
+    "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+    -d "chat_id=${TELEGRAM_CHAT_ID}" \
+    -d "parse_mode=Markdown" \
+    --data-urlencode "text=${TG_MSG}" || echo "  [tg] send failed"
+fi
+
 echo "  [done]"
