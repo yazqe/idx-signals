@@ -15,6 +15,11 @@ LOG_DIR="$ROOT/logs"
 HASH_FILE="$ROOT/.last_signals_hash"
 mkdir -p "$LOG_DIR"
 
+# Load secret credentials (Telegram, etc.) — file is chmod 600, never committed
+if [ -f "$HOME/.idx-signals.env" ]; then
+  set -a; . "$HOME/.idx-signals.env"; set +a
+fi
+
 # --- 1. Market-hours guard (IDX: Mon-Fri 09:00-15:55 WIB = +07) ------------
 # Compute the current WIB hour:minute regardless of local TZ.
 WIB_HM=$(TZ=Asia/Jakarta date +%H%M)
