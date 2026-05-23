@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.yazqe.idx-signals.daily</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-l</string>
+    <string>-c</string>
+    <string>/Users/ultra/idx-signals/daily.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/ultra/idx-signals</string>
+
+  <!-- Three ticks per trading day, matching AI/Swing dashboard cadence:
+         09:17 WIB (sesi pagi)        = 05:17 local (UTC+3)
+         12:03 WIB (sesi siang)       = 08:03 local
+         15:37 WIB (menjelang tutup)  = 11:37 local
+       daily.sh self-gates on weekday + holidays + signal dedupe, so the
+       three weekend ticks each exit in ~10ms. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>5</integer><key>Minute</key><integer>17</integer></dict>
+    <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>3</integer></dict>
+    <dict><key>Hour</key><integer>11</integer><key>Minute</key><integer>37</integer></dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/ultra/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key>
+    <string>/Users/ultra</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/ultra/idx-signals/logs/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ultra/idx-signals/logs/launchd.err.log</string>
+</dict>
+</plist>
