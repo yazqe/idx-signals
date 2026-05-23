@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Regeneratable daily price snapshots — fetch_prices.py rebuilds these
+data/*.csv
