@@ -67,7 +67,7 @@ if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
 fi
 
 # Build hybrid message: short header + monospace top-5 + link
-REPORT_URL="https://github.com/yazqe/idx-signals/blob/main/signals/${WIB_DATE}-hermes.md"
+REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html"
 
 TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```\n\n[📄 Full report](%s)' \
   "IDX Signals" "$SESSION" \
