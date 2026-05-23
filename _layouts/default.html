@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark">▲</span>
+        <span class="brand-text">{{ site.title }}</span>
+      </a>
+      <p class="site-tag">{{ site.description }}</p>
+    </div>
+  </header>
+
+  <main class="container content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Generated automatically by <code>idx-signals</code> · 3× daily during IDX trading sessions</p>
+      <p class="disclaimer">Not financial advice. Past performance does not guarantee future results.</p>
+    </div>
+  </footer>
+</body>
+</html>

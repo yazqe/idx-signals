@@ -50,19 +50,21 @@ Filtering rules:
 4. Note any ticker triggering vol_breakout_up — this had the best Sharpe in
    backtest (1.13 at 20d).
 
-For each of your TOP 5 picks, output in this EXACT format:
+For each of your TOP 5 picks, output in this EXACT format (note the
+**bold labels** — they are required for the rendered page styling):
 
 ## <TICKER> — BUY (5-20d hold)
-- Triggered: <strategy(s)>
-- Conviction: <High | Medium>
-- Historical edge: <mean_5d>% over <n> past trades (win rate <win_5d>%)
-- Entry zone: <current close ± a sensible range>
-- Stop loss: <-X% below close, e.g. -8%>
-- Take profit: <+Y% above close, e.g. +12%>
-- Why: <1 sentence — what specific signal + history suggests>
+- **Triggered:** <strategy(s)>
+- **Conviction:** <High | Medium>
+- **Historical edge:** <mean_5d>% over <n> past trades (win rate <win_5d>%)
+- **Entry zone:** <current close ± a sensible range>
+- **Stop loss:** <-X% below close, e.g. -8%>
+- **Take profit:** <+Y% above close, e.g. +12%>
+- **Why:** <1 sentence — what specific signal + history suggests>
 
 After the 5 picks, write a 2-3 sentence "Market read" — what does the
 distribution of HIGH/MEDIUM signals say about IDX small/mid-caps today.
+Use a `### Market Read` heading.
 
 Be terse. No preamble. If fewer than 5 picks meet quality bar, list fewer.
 

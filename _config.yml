@@ -1,4 +1,13 @@
 title: IDX Signals
 description: Daily IDX BUY signals — 3 strategies + Hermes Agent qualitative review
-theme: jekyll-theme-cayman
-show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Apply our custom layout to every markdown page
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
