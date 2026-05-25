@@ -101,6 +101,16 @@ echo "  [change] signal set changed (was $N_SIGNALS now $(jq length $ROOT/candid
 ensure_mlx
 
 "$ROOT/ask_hermes.sh" > /dev/null 2>&1 || echo "  [warn] Hermes step failed; continuing"
+
+# Critic review of the Hermes output (devil's advocate, not validator).
+# Catches R/R math errors, contradictions, hidden risks the author missed.
+HERMES_TODAY="$ROOT/signals/$(date +%Y-%m-%d)-hermes.md"
+if [ -s "$HERMES_TODAY" ]; then
+  HERMES_REVIEW="$ROOT/signals/$(date +%Y-%m-%d)-hermes-review.md"
+  "$ROOT/ask_hermes_review.sh" "$HERMES_TODAY" "$HERMES_REVIEW" > /dev/null 2>&1 \
+    || echo "  [warn] Hermes review step failed; continuing"
+fi
+
 "$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
 "$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 

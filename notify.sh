@@ -77,11 +77,21 @@ if [ -f "$HERMES_FILE" ]; then
 fi
 REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html${CACHE_BUST}"
 
-TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```\n\n[📄 Full report](%s)' \
+# Optional: Hermes critic review link (only included if review file exists)
+REVIEW_FILE="$ROOT/signals/${WIB_DATE}-hermes-review.md"
+REVIEW_LINK=""
+if [ -f "$REVIEW_FILE" ]; then
+  REVIEW_CACHE_BUST="?v=$(shasum -a 256 "$REVIEW_FILE" | cut -c1-8)"
+  REVIEW_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes-review.html${REVIEW_CACHE_BUST}"
+  REVIEW_LINK=$'\n[🔍 Critic review]('"$REVIEW_URL"')'
+fi
+
+TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```\n\n[📄 Full report](%s)%s' \
   "IDX Signals" "$SESSION" \
   "$N_HIGH" "$N_MED" "$N_TOTAL" \
   "$TOP5_TABLE" \
-  "$REPORT_URL")
+  "$REPORT_URL" \
+  "$REVIEW_LINK")
 
 RESP=$(curl -s -X POST \
   "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
