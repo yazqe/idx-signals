@@ -54,6 +54,46 @@ def parse_strat(text):
     return text.strip()[:8]
 
 
+def strat_emoji(strat):
+    """Map strategy to emoji for compact display."""
+    if not strat:
+        return ' '
+    s = strat.lower()
+    if 'vol' in s or 'bo' in s:
+        return '📊'
+    if 'rsi' in s:
+        return '📉'
+    if 'ma' in s:
+        return '✗'
+    return '·'
+
+
+def parse_edge_win(text):
+    """From 'Historical edge: 6.38% over 10 past trades (win rate 90%)'
+    extract (edge_pct, win_pct, n). Handles 'N/A' gracefully.
+
+    Returns (None, None, None) if no useful data.
+    """
+    # Bail early on 'N/A' or literal zero count (word boundary so '10 past trades' doesn't match)
+    if 'n/a' in text.lower() or re.search(r'\b0\s+past\s+trades\b', text, re.IGNORECASE):
+        return None, None, 0
+
+    edge = win = n = None
+    edge_m = re.search(r'(-?\d+(?:\.\d+)?)\s*%', text)
+    if edge_m:
+        edge = float(edge_m.group(1))
+
+    n_m = re.search(r'(\d+)\s+past\s+trades', text, re.IGNORECASE)
+    if n_m:
+        n = int(n_m.group(1))
+
+    win_m = re.search(r'win\s+rate\s+(\d+(?:\.\d+)?)\s*%', text, re.IGNORECASE)
+    if win_m:
+        win = float(win_m.group(1))
+
+    return edge, win, n
+
+
 def parse_tier(text):
     """Compact tier name from Conviction line."""
     s = text.lower()
@@ -91,6 +131,11 @@ def parse_picks(content):
             cur['strat'] = parse_strat(line.split('**Triggered:**', 1)[-1])
         elif '**conviction:**' in lower:
             cur['tier'] = parse_tier(line.split('**Conviction:**', 1)[-1])
+        elif '**historical edge:**' in lower:
+            edge, win, n = parse_edge_win(line.split('**Historical edge:**', 1)[-1])
+            cur['edge'] = edge
+            cur['win'] = win
+            cur['n'] = n
         elif '**entry zone:**' in lower or '**entry:**' in lower:
             cur['entry'] = parse_price(line)
         elif '**stop loss:**' in lower or '**sl:**' in lower:
@@ -124,24 +169,38 @@ def format_table(picks):
             return '—'
         return f'{v:.2f}'
 
-    # Column widths tuned for phone monospace (~38 chars total)
-    # SYM(5) ENTRY(6) SL(6) TP(6) R/R(5) TIER(4) STAR(2)
-    hdr = f'{"SYM":<5} {"ENTRY":>6} {"SL":>6} {"TP":>6} {"R/R":>5} TIER'
-    rows = [hdr]
+    def fmt_pct(v):
+        """Format percentage compact: +6%, -2%, —."""
+        if v is None:
+            return '—'
+        sign = '+' if v > 0 else ''
+        return f'{sign}{int(round(v))}%'
+
+    def fmt_win(v):
+        """Win rate as bare integer + %, fits 4 chars."""
+        if v is None:
+            return '—'
+        return f'{int(round(v))}%'
 
     # Sort by R/R desc (best setups first)
     sorted_picks = sorted(picks, key=lambda p: p.get('rr') or 0, reverse=True)
 
+    # Header — width tuned for Telegram code block on phone (~40-44 chars)
+    rows = [
+        f'{"SYM":<5}{"S":<2} {"ENT":>5} {"SL":>5} {"TP":>5} {"R/R":>4} {"EDG":>4} {"WIN":>4}'
+    ]
     for p in sorted_picks:
         rr = p.get('rr')
-        star = '⭐' if rr and rr >= 2.0 else ('  ' if rr else '⚠️')
+        marker = '⭐' if rr and rr >= 2.0 else ' '
         rows.append(
-            f'{p["ticker"]:<5} '
-            f'{fmt_price(p.get("entry")):>6} '
-            f'{fmt_price(p.get("sl")):>6} '
-            f'{fmt_price(p.get("tp")):>6} '
-            f'{fmt_rr(rr):>5} '
-            f'{p.get("tier","?"):<4} {star}'
+            f'{p["ticker"]:<5}{strat_emoji(p.get("strat"))} '
+            f'{fmt_price(p.get("entry")):>5} '
+            f'{fmt_price(p.get("sl")):>5} '
+            f'{fmt_price(p.get("tp")):>5} '
+            f'{fmt_rr(rr):>4} '
+            f'{fmt_pct(p.get("edge")):>4} '
+            f'{fmt_win(p.get("win")):>4} '
+            f'{p.get("tier","?")[:1]}{marker}'
         )
 
     return '\n'.join(rows)
