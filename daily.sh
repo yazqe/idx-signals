@@ -105,10 +105,20 @@ ensure_mlx
 "$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 
 cd "$ROOT"
-git add signals/ outcomes.csv ticker_edge.json data/snapshot_*.json index.html 2>/dev/null || true
+# Add only paths that exist — git add aborts entire batch on first missing pathspec,
+# which silently broke the commit/push step when outcomes.csv was missing.
+for path in signals/ data/ outcomes.csv ticker_edge.json index.html; do
+  if [ -e "$path" ] || compgen -G "$path" > /dev/null 2>&1; then
+    git add "$path" 2>/dev/null || true
+  fi
+done
 if ! git diff --cached --quiet; then
   git commit -q -m "auto: $WIB_TS"
-  git push -q origin main && echo "  [git] pushed"
+  if git push -q origin main; then
+    echo "  [git] pushed"
+  else
+    echo "  [git] PUSH FAILED — Telegram link will 404 until next successful push"
+  fi
 fi
 
 # Update hash AFTER successful run so next tick will dedupe correctly
