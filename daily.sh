@@ -143,6 +143,10 @@ fi
 
 "$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 
+# Regenerate validation dashboard (live tracking + backtest comparison)
+"$ROOT/.venv/bin/python" "$ROOT/generate_validation_dashboard.py" > /dev/null 2>&1 \
+  || echo "  [warn] validation dashboard generation failed; continuing"
+
 cd "$ROOT"
 # Add only paths that exist — git add aborts entire batch on first missing pathspec,
 # which silently broke the commit/push step when outcomes.csv was missing.
@@ -151,6 +155,8 @@ for path in signals/ data/ outcomes.csv ticker_edge.json index.html; do
     git add "$path" 2>/dev/null || true
   fi
 done
+# Add validation dashboard if it exists
+[ -f "$ROOT/validation.html" ] && git add "$ROOT/validation.html" 2>/dev/null || true
 if ! git diff --cached --quiet; then
   git commit -q -m "auto: $WIB_TS"
   if git push -q origin main; then
