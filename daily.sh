@@ -100,15 +100,33 @@ echo "  [change] signal set changed (was $N_SIGNALS now $(jq length $ROOT/candid
 # --- 5. Expensive path: Hermes + outcomes + git push ----------------------
 ensure_mlx
 
-"$ROOT/ask_hermes.sh" > /dev/null 2>&1 || echo "  [warn] Hermes step failed; continuing"
+# 3-stage Hermes pipeline: picks → critic → finalize.
+# Each stage outputs to signals/{date}-hermes-{stage}.md
+# Final stage writes signals/{date}-hermes.md (what notify.sh links as Full report).
+DATE_TODAY="$(date +%Y-%m-%d)"
+HERMES_PICKS="$ROOT/signals/${DATE_TODAY}-hermes-picks.md"
+HERMES_REVIEW="$ROOT/signals/${DATE_TODAY}-hermes-review.md"
+HERMES_FINAL="$ROOT/signals/${DATE_TODAY}-hermes.md"
 
-# Critic review of the Hermes output (devil's advocate, not validator).
-# Catches R/R math errors, contradictions, hidden risks the author missed.
-HERMES_TODAY="$ROOT/signals/$(date +%Y-%m-%d)-hermes.md"
-if [ -s "$HERMES_TODAY" ]; then
-  HERMES_REVIEW="$ROOT/signals/$(date +%Y-%m-%d)-hermes-review.md"
-  "$ROOT/ask_hermes_review.sh" "$HERMES_TODAY" "$HERMES_REVIEW" > /dev/null 2>&1 \
-    || echo "  [warn] Hermes review step failed; continuing"
+# Stage 1: broader initial picks (all tiers considered)
+"$ROOT/ask_hermes.sh" > /dev/null 2>&1 || echo "  [warn] Hermes stage 1 (picks) failed; continuing"
+
+# Stage 2: critic review of initial picks
+if [ -s "$HERMES_PICKS" ]; then
+  "$ROOT/ask_hermes_review.sh" "$HERMES_PICKS" "$HERMES_REVIEW" > /dev/null 2>&1 \
+    || echo "  [warn] Hermes stage 2 (review) failed; continuing"
+fi
+
+# Stage 3: finalize → re-rank with critic feedback, may add/drop picks
+if [ -s "$HERMES_PICKS" ] && [ -s "$HERMES_REVIEW" ]; then
+  "$ROOT/ask_hermes_finalize.sh" > /dev/null 2>&1 \
+    || echo "  [warn] Hermes stage 3 (finalize) failed; continuing"
+fi
+
+# Fallback: if stage 3 didn't produce final, copy picks as final so notify still works
+if [ ! -s "$HERMES_FINAL" ] && [ -s "$HERMES_PICKS" ]; then
+  cp "$HERMES_PICKS" "$HERMES_FINAL"
+  echo "  [warn] Stage 3 missing — using stage 1 picks as final fallback"
 fi
 
 "$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
