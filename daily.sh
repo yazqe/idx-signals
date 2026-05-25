@@ -136,6 +136,11 @@ if [ -s "$HERMES_FINAL" ]; then
 fi
 
 "$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
+
+# Track Hermes stage outcomes for empirical validation (Stage1 vs Stage3 vs Mechanical)
+"$ROOT/.venv/bin/python" "$ROOT/track_outcomes_hermes.py" update > /dev/null 2>&1 \
+  || echo "  [warn] hermes outcome tracking failed; continuing"
+
 "$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 
 cd "$ROOT"
