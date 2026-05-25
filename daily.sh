@@ -129,6 +129,12 @@ if [ ! -s "$HERMES_FINAL" ] && [ -s "$HERMES_PICKS" ]; then
   echo "  [warn] Stage 3 missing — using stage 1 picks as final fallback"
 fi
 
+# Post-process: LLMs are bad at arithmetic. Recompute R/R from structured prices.
+if [ -s "$HERMES_FINAL" ]; then
+  "$ROOT/.venv/bin/python" "$ROOT/fix_rr_math.py" "$HERMES_FINAL" \
+    || echo "  [warn] R/R post-processing failed; continuing"
+fi
+
 "$ROOT/.venv/bin/python" "$ROOT/track_outcomes.py" > /dev/null
 "$ROOT/.venv/bin/python" "$ROOT/generate_dashboard.py" > /dev/null
 
