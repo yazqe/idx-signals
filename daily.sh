@@ -172,4 +172,12 @@ echo "$CURRENT_HASH" > "$HASH_FILE"
 # Notify (macOS + optional Telegram) — see notify.sh for format
 "$ROOT/notify.sh" || echo "  [warn] notify step failed"
 
+# Weekly Hermes pipeline validation report — fire Monday morning only
+# (Monday=1 in %u, between 09:00 and 09:10 WIB to fire once)
+WEEKLY_FLAG="$ROOT/.weekly_validation_${WIB_DOW}_$(TZ=Asia/Jakarta date +%Y-%U)"
+if [ "$WIB_DOW" -eq 1 ] && [ "$WIB_HM" -ge 0900 ] && [ "$WIB_HM" -le 0910 ] \
+   && [ ! -f "$WEEKLY_FLAG" ]; then
+  "$ROOT/weekly_validation_report.sh" && touch "$WEEKLY_FLAG"
+fi
+
 echo "  [done]"
