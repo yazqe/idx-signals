@@ -33,22 +33,30 @@ N_HIGH=$(jq '[.[] | select(.history.tier == "high")] | length' "$CANDIDATES")
 N_MED=$(jq  '[.[] | select(.history.tier == "medium")] | length' "$CANDIDATES")
 N_TOTAL=$(jq 'length' "$CANDIDATES")
 
-# Top 5 picks (high + medium), formatted as fixed-width table for monospace block
-TOP5_TABLE=$(jq -r '
-  [.[] | select(.history.tier == "high" or .history.tier == "medium")]
-  | sort_by(.history.tier, -(.history.edge_5d // 0))
-  | .[0:5]
-  | (["TICKER", "STRAT", "EDGE", "WIN", "TIER"] | @tsv),
-    (.[] | [
-      .ticker,
-      (.strategy | sub("vol_breakout_up"; "volBO") | sub("rsi_oversold"; "RSI<30") | sub("ma_golden_cross"; "MA✗")),
-      (if .history.edge_5d != null then ((.history.edge_5d * 1000 | round / 10) | (if . >= 0 then "+" else "" end) + tostring + "%") else "—" end),
-      (if .history.win_5d != null then ((.history.win_5d * 100) | round | tostring + "%") else "—" end),
-      (.history.tier | ascii_upcase)
-    ] | @tsv)
-' "$CANDIDATES" | awk -F'\t' 'BEGIN{
-  fmt="%-7s %-7s %7s %5s %-6s\n"
-}{ printf fmt, $1, $2, $3, $4, $5 }')
+# Trade plan table — parsed from the FINAL Hermes report (post-critique + R/R fix).
+# Falls back to candidate-derived table only if Hermes pipeline didn't produce final.
+HERMES_FINAL_FOR_TABLE="$ROOT/signals/${WIB_DATE}-hermes.md"
+if [ -s "$HERMES_FINAL_FOR_TABLE" ]; then
+  TOP5_TABLE=$("$ROOT/.venv/bin/python" "$ROOT/extract_trade_table.py" "$HERMES_FINAL_FOR_TABLE" 2>/dev/null)
+fi
+# Fallback if extract failed or no Hermes output yet
+if [ -z "${TOP5_TABLE:-}" ]; then
+  TOP5_TABLE=$(jq -r '
+    [.[] | select(.history.tier == "high" or .history.tier == "medium")]
+    | sort_by(.history.tier, -(.history.edge_5d // 0))
+    | .[0:5]
+    | (["TICKER", "STRAT", "EDGE", "WIN", "TIER"] | @tsv),
+      (.[] | [
+        .ticker,
+        (.strategy | sub("vol_breakout_up"; "volBO") | sub("rsi_oversold"; "RSI<30") | sub("ma_golden_cross"; "MA✗")),
+        (if .history.edge_5d != null then ((.history.edge_5d * 1000 | round / 10) | (if . >= 0 then "+" else "" end) + tostring + "%") else "—" end),
+        (if .history.win_5d != null then ((.history.win_5d * 100) | round | tostring + "%") else "—" end),
+        (.history.tier | ascii_upcase)
+      ] | @tsv)
+  ' "$CANDIDATES" | awk -F'\t' 'BEGIN{
+    fmt="%-7s %-7s %7s %5s %-6s\n"
+  }{ printf fmt, $1, $2, $3, $4, $5 }')
+fi
 
 # --- macOS notification (always) ------------------------------------------
 TOP3_NAMES=$(jq -r '
