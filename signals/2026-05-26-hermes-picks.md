@@ -2,126 +2,99 @@
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 6.38% over 10 past trades (win rate 90%)
-- **Entry zone:** 655 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
+- **Entry zone:** 610 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
 - **Why:** Strong historical performance and high win rate.
 
 ## AMMN — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 3.58% over 23 past trades (win rate 60.9%)
-- **Entry zone:** 3170 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Good historical edge and moderate win rate.
+- **Entry zone:** 3120 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Good historical edge and win rate.
 
 ## BREN — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
+- **Triggered:** rsi_oversold, vol_breakout_up
 - **Conviction:** Medium
 - **Historical edge:** 3.33% over 21 past trades (win rate 66.7%)
-- **Entry zone:** 2400 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Strong historical edge and high win rate.
+- **Entry zone:** 2600 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Multi-strategy confluence with strong volume breakout.
 
 ## INKP — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.81% over 18 past trades (win rate 44.4%)
-- **Entry zone:** 7800 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Positive historical edge and recent volume action.
+- **Entry zone:** 7825 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Strong recent volume action and positive historical edge.
 
 ## CBDK — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.55% over 13 past trades (win rate 61.5%)
-- **Entry zone:** 3960 ± 5%
-- **Stop loss:** -5% below close- **Take profit:** +10% above close
-- **Why:** Positive historical edge and recent volume action.
+- **Entry zone:** 3930 ± 5- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Strong recent volume action and positive historical edge.
 
 ## TPIA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold, vol_breakout_up
 - **Conviction:** Low
 - **Historical edge:** 1.53% over 19 past trades (win rate 52.6%)
-- **Entry zone:** 1920 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Multi-strategy confluence with strong volume breakout and positive historical edge.
+- **Entry zone:** 1915 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Multi-strategy confluence with strong volume breakout.
 
 ## INDY — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.21% over 14 past trades (win rate 64.3%)
-- **Entry zone:** 2370 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Positive historical edge and recent volume action.
+- **Entry zone:** 2350 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Strong recent volume action and positive historical edge.
 
 ## CUAN — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.2% over 21 past trades (win rate 57.1%)
 - **Entry zone:** 505 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Positive historical edge and recent volume action.
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Strong recent volume action and positive historical edge.
 
 ## TOBA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative
 - **Historical edge:** -0.06% over 15 past trades (win rate 53.3%)
-- **Entry zone:** 438 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
+- **Entry zone:** 434 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Exceptional recent volume action and positive win rate.
 
 ## BKSL — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative
 - **Historical edge:** -0.16% over 13 past trades (win rate 38.5%)
-- **Entry zone:** 76 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
+- **Entry zone:** 74 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Exceptional recent volume action and positive win rate.
 
 ## NICL — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative
 - **Historical edge:** -0.65% over 17 past trades (win rate 47.1%)
-- **Entry zone:** 550 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
-
-## KIJA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative
-- **Historical edge:** -0.81% over 14 past trades (win rate 42.9%)
-- **Entry zone:** 122 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
-
-## INET — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative
-- **Historical edge:** -3.13% over 17 past trades (win rate 29.4%)
-- **Entry zone:** 218 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
-
-## EMTK — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative
-- **Historical edge:** -3.67% over 10 past trades (win rate 20%)
-- **Entry zone:** 655 ± 5%
-- **Stop loss:** -5% below close
-- **Take profit:** +10% above close
-- **Why:** Recent volume action and multi-strategy confluence.
+- **Entry zone:** 540 ± 5%
+- **Stop loss:** -10% below close
+- **Take profit:** +15% above close
+- **Why:** Exceptional recent volume action and positive win rate.
 
 ### Market Read
-The market is showing a mix of oversold conditions and strong volume breakouts, with several tickers triggering multiple strategies. High and medium conviction signals are prevalent, but low and negative signals with strong volume action are also worth considering. The overall sentiment suggests a potential rebound in the near term, but caution is advised due to the mixed historical performance of some signals.
+The market is showing signs of oversold conditions across multiple sectors, with several tickers triggering the RSI oversold signal. Volume breakouts are particularly strong in a few cases, indicating potential reversals. The combination of these signals suggests a good entry point for short-term trades, especially in tickers with multi-strategy confluence.
