@@ -45,7 +45,7 @@ tr:hover td { background: #1c2128; }
 <h1>🔬 Hermes Pipeline Validation</h1>
 <p class="subtitle">Empirical analysis: does the 3-stage Hermes pipeline beat
 a simple mechanical tier filter?</p>
-<p class="timestamp">Generated: 2026-05-26T03:27:56</p>
+<p class="timestamp">Generated: 2026-05-26T10:36:48</p>
 
 <div class="nav">
   <a href="./">← Dashboard</a>
@@ -380,10 +380,42 @@ a simple mechanical tier filter?</p>
 
 <div class="section">
 <h2>3. Live Outcomes Tracking</h2>
-<p class="subtitle">Live picks tracked since daily.sh integration. Accumulates over time — at least 30 days needed for meaningful comparison.</p><div class="empty">
-            No live outcomes yet (need ≥ 1 day since signal date for 1d horizon).<br>
-            Will populate automatically as <code>daily.sh</code> runs.
-        </div>
+<p class="subtitle">Live picks tracked since daily.sh integration. Accumulates over time — at least 30 days needed for meaningful comparison.</p><h3>Horizon: 1d</h3><table>
+<thead><tr><th>Source</th><th>n</th><th>Mean%</th><th>Win%</th><th>Med%</th><th>Best%</th><th>Worst%</th><th>Cum%</th><th>Sharpe</th></tr></thead><tbody>
+<tr>
+<td>Stage1 (Hermes picks)</td>
+<td>13</td>
+<td class="neg">-1.69% <span class="tag tag-bad">WORST</span></td>
+<td>38.5%</td>
+<td class="neg">-1.25%</td>
+<td class="pos">+9.28%</td>
+<td class="neg">-15.72%</td>
+<td class="muted">—</td>
+<td>-3.46</td>
+</tr>
+<tr>
+<td>Stage3 (Hermes final)</td>
+<td>12</td>
+<td class="pos">+0.37% <span class="tag tag-best">BEST</span></td>
+<td>66.7% <span class="tag tag-best">BEST</span></td>
+<td class="pos">+1.60%</td>
+<td class="pos">+9.95%</td>
+<td class="neg">-15.28%</td>
+<td class="muted">—</td>
+<td>0.76 <span class="tag tag-best">BEST</span></td>
+</tr>
+<tr>
+<td>Mechanical (all)</td>
+<td>32</td>
+<td class="neg">-1.39%</td>
+<td>37.5%</td>
+<td class="neg">-0.78%</td>
+<td class="pos">+9.95%</td>
+<td class="neg">-15.28%</td>
+<td class="muted">—</td>
+<td>-3.83 <span class="tag tag-bad">WORST</span></td>
+</tr>
+</tbody></table><h3>Horizon: 5d</h3><div class="empty">No data for this horizon yet</div><h3>Horizon: 20d</h3><div class="empty">No data for this horizon yet</div>
 </div>
 
 </body>
