@@ -45,154 +45,154 @@ tr:hover td { background: #1c2128; }
 <h1>🔬 Hermes Pipeline Validation</h1>
 <p class="subtitle">Empirical analysis: does the 3-stage Hermes pipeline beat
 a simple mechanical tier filter?</p>
-<p class="timestamp">Generated: 2026-05-25T14:58:53</p>
+<p class="timestamp">Generated: 2026-05-26T03:27:56</p>
 
 <div class="nav">
   <a href="./">← Dashboard</a>
   <a href="./signals/">Signals archive</a>
 </div>
 
-<div class="callout callout-good"><strong class="pos">VERDICT: Hermes adds value.</strong> Stage 3 picks beat the HIGH+MED tier filter by +3.62% mean and +1.61 Sharpe (5d horizon) on backtested dates. Keep the full pipeline.</div>
+<div class="callout callout-warn"><strong>VERDICT: Inconclusive.</strong> Stage 3 ≈ old_filter (diff: -0.67% mean, -0.11 Sharpe). Sample too small or effect too marginal to justify Hermes pipeline complexity. Default to simpler (drop Stages 2-3).</div>
 
 <div class="section">
 <h2>1. Backtest Comparison (sampled dates)</h2>
-<p class="subtitle">Dates tested: <code>2026-02-02, 2026-02-13, 2026-03-02, 2026-03-13, 2026-04-02</code></p><p class="subtitle">Pick counts: Stage1=40, Stage3=29, old_filter=17, mechanical_all=42</p><h3>Horizon: 1d forward return (fees applied)</h3><table>
+<p class="subtitle">Dates tested: <code>2025-09-01, 2025-09-08, 2025-09-16, 2025-09-22, 2025-09-26, 2025-10-02, 2025-10-08, 2025-10-17, 2025-10-28, 2025-11-05, 2025-11-12, 2025-11-18, 2025-11-25, 2025-12-01, 2025-12-05, 2025-12-11, 2025-12-18, 2025-12-29, 2026-01-06, 2026-01-12, 2026-01-19, 2026-01-23, 2026-01-29, 2026-02-02, 2026-02-10, 2026-02-13, 2026-02-23, 2026-03-02, 2026-03-13, 2026-04-02</code></p><p class="subtitle">Pick counts: Stage1=222, Stage3=163, old_filter=146, mechanical_all=245</p><h3>Horizon: 1d forward return (fees applied)</h3><table>
 <thead><tr><th>Source</th><th>n</th><th>Mean%</th><th>Win%</th><th>Med%</th><th>Best%</th><th>Worst%</th><th>Cum%</th><th>Sharpe</th></tr></thead><tbody>
 <tr>
 <td>Stage1 (Hermes broad)</td>
-<td>40</td>
-<td class="pos">+1.08%</td>
-<td>47.5%</td>
-<td class="neg">-0.24%</td>
-<td class="pos">+24.97%</td>
-<td class="neg">-13.47%</td>
-<td class="pos">+37.73%</td>
-<td>2.22</td>
+<td>222</td>
+<td class="pos">+1.14%</td>
+<td>48.6%</td>
+<td class="neg">-0.07%</td>
+<td class="pos">+34.55%</td>
+<td class="neg">-14.92%</td>
+<td class="pos">+672.56% <span class="tag tag-best">BEST</span></td>
+<td>2.67</td>
 </tr>
 <tr>
 <td>Stage3 (Hermes final)</td>
-<td>29</td>
-<td class="pos">+2.90% <span class="tag tag-best">BEST</span></td>
-<td>62.1% <span class="tag tag-best">BEST</span></td>
-<td class="pos">+2.39%</td>
-<td class="pos">+24.97%</td>
-<td class="neg">-13.47%</td>
-<td class="pos">+110.92% <span class="tag tag-best">BEST</span></td>
-<td>5.73 <span class="tag tag-best">BEST</span></td>
+<td>163</td>
+<td class="pos">+1.38%</td>
+<td>47.9%</td>
+<td class="neg">-0.07%</td>
+<td class="pos">+34.55%</td>
+<td class="neg">-14.53%</td>
+<td class="pos">+538.70%</td>
+<td>3.09</td>
 </tr>
 <tr>
 <td>old_filter (H+M tier)</td>
-<td>17</td>
-<td class="pos">+1.05% <span class="tag tag-bad">WORST</span></td>
-<td>47.1%</td>
+<td>146</td>
+<td class="pos">+1.46% <span class="tag tag-best">BEST</span></td>
+<td>48.6%</td>
 <td class="neg">-0.07%</td>
-<td class="pos">+24.97%</td>
+<td class="pos">+34.55%</td>
 <td class="neg">-13.47%</td>
-<td class="pos">+13.87%</td>
-<td>2.09 <span class="tag tag-bad">WORST</span></td>
+<td class="pos">+487.39%</td>
+<td>3.23 <span class="tag tag-best">BEST</span></td>
 </tr>
 <tr>
 <td>mechanical_all</td>
-<td>42</td>
-<td class="pos">+1.07%</td>
-<td>47.6%</td>
-<td class="neg">-0.24%</td>
-<td class="pos">+24.97%</td>
-<td class="neg">-13.47%</td>
-<td class="pos">+40.04%</td>
-<td>2.24</td>
+<td>245</td>
+<td class="pos">+0.95% <span class="tag tag-bad">WORST</span></td>
+<td>49.4% <span class="tag tag-best">BEST</span></td>
+<td class="neg">-0.03%</td>
+<td class="pos">+34.55%</td>
+<td class="neg">-14.92%</td>
+<td class="pos">+509.89%</td>
+<td>2.27 <span class="tag tag-bad">WORST</span></td>
 </tr>
 </tbody></table><h3>Horizon: 5d forward return (fees applied)</h3><table>
 <thead><tr><th>Source</th><th>n</th><th>Mean%</th><th>Win%</th><th>Med%</th><th>Best%</th><th>Worst%</th><th>Cum%</th><th>Sharpe</th></tr></thead><tbody>
 <tr>
 <td>Stage1 (Hermes broad)</td>
-<td>40</td>
-<td class="pos">+2.91%</td>
-<td>60.0%</td>
-<td class="pos">+3.26%</td>
-<td class="pos">+51.84%</td>
-<td class="neg">-24.95%</td>
-<td class="pos">+105.85%</td>
-<td>1.32</td>
+<td>222</td>
+<td class="pos">+3.37%</td>
+<td>55.4%</td>
+<td class="pos">+1.68%</td>
+<td class="pos">+59.88%</td>
+<td class="neg">-88.38%</td>
+<td class="pos">+3465.42%</td>
+<td>1.39</td>
 </tr>
 <tr>
 <td>Stage3 (Hermes final)</td>
-<td>29</td>
-<td class="pos">+6.52% <span class="tag tag-best">BEST</span></td>
-<td>72.4% <span class="tag tag-best">BEST</span></td>
-<td class="pos">+3.74%</td>
-<td class="pos">+51.84%</td>
-<td class="neg">-24.95%</td>
-<td class="pos">+354.02% <span class="tag tag-best">BEST</span></td>
-<td>2.82 <span class="tag tag-best">BEST</span></td>
+<td>163</td>
+<td class="pos">+4.48%</td>
+<td>60.7% <span class="tag tag-best">BEST</span></td>
+<td class="pos">+2.93%</td>
+<td class="pos">+59.88%</td>
+<td class="neg">-88.38%</td>
+<td class="pos">+4956.86%</td>
+<td>1.76</td>
 </tr>
 <tr>
 <td>old_filter (H+M tier)</td>
-<td>17</td>
+<td>146</td>
+<td class="pos">+5.15% <span class="tag tag-best">BEST</span></td>
+<td>60.3%</td>
 <td class="pos">+2.90%</td>
-<td>64.7%</td>
-<td class="pos">+2.93%</td>
-<td class="pos">+51.84%</td>
-<td class="neg">-24.95%</td>
-<td class="pos">+32.19%</td>
-<td>1.21</td>
+<td class="pos">+59.88%</td>
+<td class="neg">-88.38%</td>
+<td class="pos">+5372.79% <span class="tag tag-best">BEST</span></td>
+<td>1.87 <span class="tag tag-best">BEST</span></td>
 </tr>
 <tr>
 <td>mechanical_all</td>
-<td>42</td>
-<td class="pos">+2.42% <span class="tag tag-bad">WORST</span></td>
-<td>59.5%</td>
-<td class="pos">+3.26%</td>
-<td class="pos">+51.84%</td>
-<td class="neg">-24.95%</td>
-<td class="pos">+73.77%</td>
-<td>1.10 <span class="tag tag-bad">WORST</span></td>
+<td>245</td>
+<td class="pos">+3.01% <span class="tag tag-bad">WORST</span></td>
+<td>55.5%</td>
+<td class="pos">+1.52%</td>
+<td class="pos">+59.88%</td>
+<td class="neg">-88.38%</td>
+<td class="pos">+2754.22%</td>
+<td>1.28 <span class="tag tag-bad">WORST</span></td>
 </tr>
 </tbody></table><h3>Horizon: 20d forward return (fees applied)</h3><table>
 <thead><tr><th>Source</th><th>n</th><th>Mean%</th><th>Win%</th><th>Med%</th><th>Best%</th><th>Worst%</th><th>Cum%</th><th>Sharpe</th></tr></thead><tbody>
 <tr>
 <td>Stage1 (Hermes broad)</td>
-<td>40</td>
-<td class="pos">+10.39%</td>
-<td>62.5%</td>
-<td class="pos">+5.56%</td>
-<td class="pos">+145.87%</td>
-<td class="neg">-30.44%</td>
-<td class="pos">+813.68%</td>
-<td>1.04</td>
+<td>222</td>
+<td class="pos">+10.23%</td>
+<td>56.3%</td>
+<td class="pos">+2.55%</td>
+<td class="pos">+146.41%</td>
+<td class="neg">-88.14%</td>
+<td class="pos">+2212538.34% <span class="tag tag-best">BEST</span></td>
+<td>0.99</td>
 </tr>
 <tr>
 <td>Stage3 (Hermes final)</td>
-<td>29</td>
-<td class="pos">+16.64% <span class="tag tag-best">BEST</span></td>
-<td>69.0% <span class="tag tag-best">BEST</span></td>
-<td class="pos">+11.07%</td>
-<td class="pos">+145.87%</td>
-<td class="neg">-30.40%</td>
-<td class="pos">+2305.46% <span class="tag tag-best">BEST</span></td>
-<td>1.56 <span class="tag tag-best">BEST</span></td>
+<td>163</td>
+<td class="pos">+12.08% <span class="tag tag-best">BEST</span></td>
+<td>56.4% <span class="tag tag-best">BEST</span></td>
+<td class="pos">+2.71%</td>
+<td class="pos">+146.41%</td>
+<td class="neg">-88.14%</td>
+<td class="pos">+835452.36%</td>
+<td>1.12 <span class="tag tag-best">BEST</span></td>
 </tr>
 <tr>
 <td>old_filter (H+M tier)</td>
-<td>17</td>
-<td class="pos">+12.43%</td>
-<td>52.9%</td>
-<td class="pos">+4.92%</td>
-<td class="pos">+145.87%</td>
-<td class="neg">-30.40%</td>
-<td class="pos">+160.96%</td>
-<td>1.00</td>
+<td>146</td>
+<td class="pos">+10.61%</td>
+<td>51.4%</td>
+<td class="pos">+1.17%</td>
+<td class="pos">+146.41%</td>
+<td class="neg">-88.14%</td>
+<td class="pos">+14739.21%</td>
+<td>0.93</td>
 </tr>
 <tr>
 <td>mechanical_all</td>
-<td>42</td>
-<td class="pos">+9.34% <span class="tag tag-bad">WORST</span></td>
-<td>59.5%</td>
-<td class="pos">+4.94%</td>
-<td class="pos">+145.87%</td>
-<td class="neg">-30.44%</td>
-<td class="pos">+602.27%</td>
-<td>0.94 <span class="tag tag-bad">WORST</span></td>
+<td>245</td>
+<td class="pos">+9.19% <span class="tag tag-bad">WORST</span></td>
+<td>55.1%</td>
+<td class="pos">+1.94%</td>
+<td class="pos">+146.41%</td>
+<td class="neg">-88.14%</td>
+<td class="pos">+1134166.48%</td>
+<td>0.92 <span class="tag tag-bad">WORST</span></td>
 </tr>
 </tbody></table><div class="callout">
         <strong>Decision logic:</strong><br>
