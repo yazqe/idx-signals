@@ -1,0 +1,143 @@
+[
+  {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 11225,
+    "vol_ratio": 2.3,
+    "pct_chg": 9.78,
+    "note": "Volume 2.3x avg + price +9.78%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
+    "ticker": "INKP",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 7925,
+    "rsi": 29.5,
+    "note": "RSI 29.5 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0181,
+      "win_5d": 0.444,
+      "n": 18
+    }
+  },
+  {
+    "ticker": "CBDK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 3930,
+    "rsi": 27.5,
+    "note": "RSI 27.5 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0155,
+      "win_5d": 0.615,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "TPIA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2130,
+    "rsi": 26.4,
+    "note": "RSI 26.4 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0153,
+      "win_5d": 0.526,
+      "n": 19
+    }
+  },
+  {
+    "ticker": "INDY",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2370,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0121,
+      "win_5d": 0.643,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "MEDC",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 1220,
+    "rsi": 28.3,
+    "note": "RSI 28.3 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0041,
+      "win_5d": 0.556,
+      "n": 18
+    }
+  },
+  {
+    "ticker": "BKSL",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 76,
+    "rsi": 28.2,
+    "note": "RSI 28.2 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0016,
+      "win_5d": 0.385,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "NICL",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 560,
+    "rsi": 24.8,
+    "note": "RSI 24.8 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0065,
+      "win_5d": 0.471,
+      "n": 17
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 122,
+    "rsi": 17.9,
+    "note": "RSI 17.9 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0081,
+      "win_5d": 0.429,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "EMTK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 660,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0367,
+      "win_5d": 0.2,
+      "n": 10
+    }
+  }
+]
