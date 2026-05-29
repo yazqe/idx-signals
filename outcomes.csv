@@ -68,3 +68,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-05-28,EMTK,rsi_oversold,BUY,655,0.0,,,2026-05-29T06:02:20
 2026-05-28,TPIA,vol_breakout_up,BUY,1900,0.0053,,,2026-05-29T06:02:20
 2026-05-28,COIN,rsi_oversold,BUY,825,0.0,,,2026-05-29T06:02:20
+2026-05-28,SINI,vol_breakout_up,BUY,11225,0.098,,,2026-05-29T09:53:43

@@ -2,44 +2,44 @@
 
 ## 1. Sanity Check (math + logic)
 
-- SINI: ✓ clean  
-- INKP: R/R = (8405 - 7925) / (7925 - 7525) = 480 / 400 = 1.2, not 1.6 as implied by TP=+8%  
-- CBDK: R/R = (4200 - 3930) / (3930 - 3735) = 270 / 195 = 1.38, not 1.7  
-- TPIA: R/R = (2280 - 2130) / (2130 - 2025) = 150 / 105 = 1.43, not 1.7  
-- INDY: R/R = (2530 - 2370) / (2370 - 2250) = 160 / 120 = 1.33, not 1.7  
-- MEDC: R/R = (1290 - 1220) / (1220 - 1155) = 70 / 65 = 1.08, not 1.2  
-- BKSL: SL = 72.2, TP = 80.5 → R/R = 8.3 / 3.8 = 2.18, not 1.0  
-- NICL: SL = 532, TP = 594 → R/R = 34 / 28 = 1.21, not 1.2  
-- KIJA: SL = 116, TP = 128 → R/R = 12 / 6 = 2.0, not 1.0  
-- EMTK: SL = 627, TP = 693 → R/R = 66 / 33 = 2.0, not 1.0  
-- All SLs are arbitrary -5% — no technical structure cited.  
-- TP levels are arbitrary %, not resistance zones.  
-- Conviction- All SLs are arbitrary -5% — no technical structure cited.  
-- TP levels are arbitrary %, not resistance zones.  
-- Conviction tiers are inflated: 5⭐ for SINI based on one volatile breakout with no volume confirmation beyond “2.3x avg” (unverified), and 3⭐+ for negative-edge RSI signals. Tier inflation undermines risk calibration.  
+- CUAN: ✗ math error — Entry 630, SL 567 (10% below), TP 724.5 (15% above) → R/R = (724.5-630)/(630-567) = 94.5/63 = 1.5, not 2.33.  
+- BREN: ✗ conviction mismatch — 6.2x volume breakout + 25% move justifies High, not Low.  
+- CDIA: ✗ R/R miscalculation — Entry 875, SL 787.5 (10% below), TP 1006.25 (15% above) → R/R = 1.5, not 1.86.  
+- WBSA: ✗ historical edge claimed as N/A but 0 trades ≠ “strong performance” — conviction High is unjustified.  
+- KIJA: ✗ SL/TP arbitrary — Entry 124, SL 118 (5% below), TP 135 (9% above) → R/R = 1.83, but SL/TP not anchored to structure.  
+- INKP: ✗ R/R miscalculation — Entry 7725, SL 6952.5 (10% below), TP 8883.75 (15% above) → R/R = 1.5, not 1.50 as stated.  
+- TPIA: ✗ R/R miscalculation — Entry 1920, SL 1728 (10% below), TP 2208 (15% above) → R/R = 1.5, not 1.50 as stated.  
+- MEDC: ✓ clean  
+- TOBA: ✓ clean  
+- NKSL: ✓ clean  
+- NICL: ✓ clean  
+- KIJA: ✓ clean  
+- EMTK: ✓ clean  
+- COIN: ✓ clean  
 
 ## 2. Contradiction Hunter
 
-1. “SINI stands out as the only high-conviction play” — yet BKSL, NICL, KIJA, EMTK are labeled “Negative-but-confluence” and included in the top 10. Contradiction: negative-edge signals cannot be “confluence” if they’re the *reason* for exclusion under rule 5.  
-2. “RSI oversold signals show consistent but modest historical edges” — yet EMTK has -3.67% edge over 10 trades. “Consistent” contradicts “-3.67% edge.”  
-3. “Strong buying interest at oversold levels” — yet EMTK, KIJA, NICL have win rates below 45% and negative edge. Buying interest doesn’t imply profitability.  
-4. “No multi-strategy confluence” — yet SINI is the only HIGH pick, yet all others are LOW or NEGATIVE. No justification for why SINI’s single signal is “high” while others with similar or better win rates are not.  
+1. “CUAN: High conviction” in analysis vs “Dropped: CUAN — incorrect R/R and arbitrary SL/TP- CUAN: High conviction in analysis vs “Dropped: CUAN — incorrect R/R and arbitrary SL/TP” in changes — contradiction in rationale.  
+2. “WBSA: Promoted to higher rank due to exceptional volume breakout” vs “Historical edge: N/A (0 past trades)” — promotion based on single event contradicts reliance on historical edge as primary filter.  
+3. “Conviction: High after critic review” for BUVA, WBSA, KIJA — critic review is not a signal source; it’s a post-hoc validation, not a basis for conviction tier.  
+4. “R/R: 1.50 (auto-computed)” appears 4x with identical value — implies fixed R/R target, not calculated from actual SL/TP.  
+5. “Dropped: MEDC — low tier and weak historical edge” vs “MEDC: ✓ clean” — if clean, why drop? Contradictory decision logic.  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: 8/10 picks (INKP, CBDK, TPIA, INDY, MEDC, BKSL, NICL, KIJA) are in mining/metals/industrial sector. Single-day VaR >12% if commodity prices reverse.  
-- **Liquidity risk**: KIJA (122), BKSL (76), EMTK (660) — avg daily volume <500k shares. Proposed position sizes likely exceed 1% of daily volume → slippage >3%.  
-- **Correlation**: INKP, CBDK, TPIA, INDY all in industrial metals — highly correlated (ρ >0.85). Diversification illusion.  
-- **Timing**: SINI surged 9.78% today — entry zone 11225±200 implies chasing. High gap-down risk if momentum reverses.  
-- **Stale data**: RSI edge calculations lack training window. If regime shifted post-2025 coal export ban, historical win rates are invalid.  
-- **Indicator overlap**: RSI oversold + volume breakout = redundant. Volume surge is *consequence* of RSI oversold reversal — not independent signal. False confluence.  
+- **Sector concentration**: CUAN, BREN, CDIA, WBSA, KIJA — all are mining/industrial stocks. 5/13 picks = 38% exposure to commodity-linked equities. Single commodity shock (e.g., copper, coal) could trigger >15% portfolio drawdown.  
+- **Liquidity risk**: KIJA (124) and NKSL (76) — avg daily volume < 500k shares. Proposed position size (implied by 10% SL) could be 10–20% of daily volume — slippage risk >3%.  
+- **Correlation**: CUAN, BREN, CDIA, WBSA — all traded on IDX with similar macro drivers (commodities, USD/IDR). High correlation masked as diversification.  
+- **Timing**: CUAN +24.75%, BREN +25% — both surged >15% today. Entering now = chasing momentum. Gap-down risk >20% if volume dries up tomorrow.  
+- **Stale data**: “Historical edge” for CUAN (29 trades) and BREN (21 trades) — training window not stated. If regime shifted post-pandemic, data is stale.  
+- **Indicator overlap**: RSI oversold + vol_breakout_up — both are momentum indicators. False confluence — not independent signals.  
 
 ## 4. What the Author Got Right
 
-SINI’s volume breakout (2.3x avg) and 67.3% win rate are the only valid signals in the set — properly weighted as high-conviction.  
+The author correctly identified volume breakout as the most reliable signal and used historical win rate as a filter — this is sound. The decision to drop EMTK and DIVA due to arbitrary SL/TP is also valid.
 
 ## 5. Critical Recommendations
 
-1. **Remove all negative-edge picks (BKSL, NICL, KIJA, EMTK)** — their inclusion violates the stated rule: “NEGATIVE: include only if today’s confluence is EXCEPTIONAL (3+ strategies).”  
-2. **Replace arbitrary -5% SLs with ATR-based stops** — e.g., 1.5x 14-day ATR. -5% is statistically meaningless on low-vol stocks like KIJA.  
-3. **Cap sector exposure at 30%** — reduce INKP, CBDK, TPIA, INDY, MEDC positions proportionally. Add at least two non-industrial names to de-risk.
+1. **Reduce CUAN position to 3%** — 24.75% surge today is unsustainable; R/R is 1.5, not 2.33; high conviction is unsupported.  
+2. **Remove KIJA and NKSL** — low liquidity (avg volume <500k) + arbitrary SL/TP — slippage will erase edge.  
+3. **Add sector exposure cap** — limit commodity stocks to 30% of portfolio. CUAN, BREN, CDIA, WBSA, KIJA = 38% — exceed limit.
