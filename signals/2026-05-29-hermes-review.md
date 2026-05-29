@@ -1,45 +1,49 @@
-# Hermes Review — May 29, 2026
+# Hermes Review — Friday, May 29, 2026
 
 ## 1. Sanity Check (math + logic)
 
-- CUAN: ✗ math error — Entry 630, SL 567 (10% below), TP 724.5 (15% above) → R/R = (724.5-630)/(630-567) = 94.5/63 = 1.5, not 2.33.  
-- BREN: ✗ conviction mismatch — 6.2x volume breakout + 25% move justifies High, not Low.  
-- CDIA: ✗ R/R miscalculation — Entry 875, SL 787.5 (10% below), TP 1006.25 (15% above) → R/R = 1.5, not 1.86.  
-- WBSA: ✗ historical edge claimed as N/A but 0 trades ≠ “strong performance” — conviction High is unjustified.  
-- KIJA: ✗ SL/TP arbitrary — Entry 124, SL 118 (5% below), TP 135 (9% above) → R/R = 1.83, but SL/TP not anchored to structure.  
-- INKP: ✗ R/R miscalculation — Entry 7725, SL 6952.5 (10% below), TP 8883.75 (15% above) → R/R = 1.5, not 1.50 as stated.  
-- TPIA: ✗ R/R miscalculation — Entry 1920, SL 1728 (10% below), TP 2208 (15% above) → R/R = 1.5, not 1.50 as stated.  
+- PTRO: ✓ clean  
+- RAJA: ✓ clean  
+- MINA: ✓ clean  
+- CUAN: ✓ clean  
+- GTSI: ✓ clean  
+- CBDK: ✓ clean  
+- TPIA: ✓ clean  
+- BREN: ✓ clean  
+- INDY: ✓ clean  
+- CDIA: R/R = (850×1.11 - 850) / (850 - 850×0.93) = 93.5 / 59.5 = 1.57, not 1.4. Math error.  
 - MEDC: ✓ clean  
-- TOBA: ✓ clean  
-- NKSL: ✓ clean  
+- TOBA: R/R = (432×1.08 - 432) / (432 - 432×0.94) = 34.56 / 25.92 = 1.33, not 1.33? Wait — 1.33 is correct. ✓ clean  
+- BKSL: R/R = (75×1.09 - 75) / (75 - 75×0.93) = 6.75 / 5.25 = 1.29, not 1.29? Wait — 1.29 is correct. ✓ clean  
+- ANTM: ✓ clean  
 - NICL: ✓ clean  
-- KIJA: ✓ clean  
-- EMTK: ✓ clean  
-- COIN: ✓ clean  
+
+**CDIA: R/R misstated.**  
+**All SLs are arbitrary -8%/-7%/-6% — no structural support mentioned.**  
+**Conviction inflated:** CUAN (high) has 29 trades, CDIA (low) has 10 — but CDIA’s edge is 0.79% vs CUAN’s 7.00%. Conviction deflated for high-edge picks, inflated for low-edge.  
 
 ## 2. Contradiction Hunter
 
-1. “CUAN: High conviction” in analysis vs “Dropped: CUAN — incorrect R/R and arbitrary SL/TP- CUAN: High conviction in analysis vs “Dropped: CUAN — incorrect R/R and arbitrary SL/TP” in changes — contradiction in rationale.  
-2. “WBSA: Promoted to higher rank due to exceptional volume breakout” vs “Historical edge: N/A (0 past trades)” — promotion based on single event contradicts reliance on historical edge as primary filter.  
-3. “Conviction: High after critic review” for BUVA, WBSA, KIJA — critic review is not a signal source; it’s a post-hoc validation, not a basis for conviction tier.  
-4. “R/R: 1.50 (auto-computed)” appears 4x with identical value — implies fixed R/R target, not calculated from actual SL/TP.  
-5. “Dropped: MEDC — low tier and weak historical edge” vs “MEDC: ✓ clean” — if clean, why drop? Contradictory decision logic.  
+1. “Vol breakout signals dominate the top tier with strong historical edge” — yet CDIA (vol breakout) has 0.79% edge and 30% win rate, yet is labeled “Low” conviction. Contradiction: low edge/low win rate should not be in top tier.  
+2. “Negative-tier signals are2. “Negative-tier signals are included only where RSI is deeply oversold and volume supports reversal — TOBA and BKSL are the most compelling.” — Yet ANTM and NICL also have negative edge, deep RSI, and volume context. Contradiction: why are TOBA/BKSL “most compelling” when ANTM/NICL are identical?  
+3. “Market is in short-term momentum phase with volume confirming upside” — yet 7 of 14 picks (50%) have negative historical edge. Contradiction: momentum phase should favor positive-edge signals, not half-negative.  
+4. “RSI oversold plays are abundant but mostly low-tier” — yet BREN (vol breakout) has 1.23% edge and low conviction, while INDY (RSI) has 1.21% edge and low conviction. Contradiction: why is vol breakout treated as high-tier while RSI with identical edge is low-tier?  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: CUAN, BREN, CDIA, WBSA, KIJA — all are mining/industrial stocks. 5/13 picks = 38% exposure to commodity-linked equities. Single commodity shock (e.g., copper, coal) could trigger >15% portfolio drawdown.  
-- **Liquidity risk**: KIJA (124) and NKSL (76) — avg daily volume < 500k shares. Proposed position size (implied by 10% SL) could be 10–20% of daily volume — slippage risk >3%.  
-- **Correlation**: CUAN, BREN, CDIA, WBSA — all traded on IDX with similar macro drivers (commodities, USD/IDR). High correlation masked as diversification.  
-- **Timing**: CUAN +24.75%, BREN +25% — both surged >15% today. Entering now = chasing momentum. Gap-down risk >20% if volume dries up tomorrow.  
-- **Stale data**: “Historical edge” for CUAN (29 trades) and BREN (21 trades) — training window not stated. If regime shifted post-pandemic, data is stale.  
-- **Indicator overlap**: RSI oversold + vol_breakout_up — both are momentum indicators. False confluence — not independent signals.  
+- **Sector concentration:** 11/14 picks (79%) are in mining, metals, or energy (PTRO, RAJA, MINA, CUAN, GTSI, CDIA, BREN, TOBA, BKSL, ANTM, NICL). Single-sector VaR >25% if commodity reverses.  
+- **Liquidity risk:** BKSL (75 price) avg daily volume ~1.2M shares. Proposed position size (implied by 7% SL) could be >5% of daily volume — slippage risk.  
+- **Correlation:** PTRO, RAJA, MINA, CUAN, CDIA, BREN all in coal/metals. High correlation — diversification illusion.  
+- **Timing:** CUAN, BREN, ANTM all surged >15% in past 24h. High chase risk.  
+- **Stale data:** “Markov long-run mix” — no training window cited. If regime shifted in last 30 days, model is obsolete.  
+- **Indicator overlap:** Vol breakout + RSI oversold — both are momentum indicators. False confluence.  
 
 ## 4. What the Author Got Right
 
-The author correctly identified volume breakout as the most reliable signal and used historical win rate as a filter — this is sound. The decision to drop EMTK and DIVA due to arbitrary SL/TP is also valid.
+BREN’s 6.7x volume surge and 25% move justifies its inclusion despite thin history — this is the only pick where volume magnitude overrides sample size with logical justification.
 
 ## 5. Critical Recommendations
 
-1. **Reduce CUAN position to 3%** — 24.75% surge today is unsustainable; R/R is 1.5, not 2.33; high conviction is unsupported.  
-2. **Remove KIJA and NKSL** — low liquidity (avg volume <500k) + arbitrary SL/TP — slippage will erase edge.  
-3. **Add sector exposure cap** — limit commodity stocks to 30% of portfolio. CUAN, BREN, CDIA, WBSA, KIJA = 38% — exceed limit.
+1. **Remove CDIA** — R/R math is wrong (1.57 vs 1.4), edge is 0.79%, win rate 30%. No justification for inclusion.  
+2. **Reduce sector exposure** — cap metals/mining at 40% of portfolio. Remove 3 picks from PTRO, RAJA, MINA, CUAN, CDIA, BREN.  
+3. **Require structural SLs** — SL must be below recent swing low or volume node, not arbitrary %. Add 1-sentence justification per SL.

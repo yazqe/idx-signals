@@ -1,132 +1,137 @@
-Now I'll analyze all the signals to identify the top 10-15 picks based on the rules. Let me extract and sort the signals by the selection criteria:
-I'll analyze the signals and select the top 10-15 picks based on the rules:
+## PTRO — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** High
+- **Historical edge:** 8.33% over 23 past trades (win rate 65.2%)
+- **Entry zone:** 4570 ± 150
+- **Stop loss:** -8% below close
+- **Take profit:** +15% above close
+- **Why:** Strong volume surge (2.3x avg) with 22% price move and high historical win rate.
 
-First, let me identify the highest priority candidates:
+## RAJA — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** High
+- **Historical edge:** 7.46% over 31 past trades (win rate 48.4%)
+- **Entry zone:** 3830 ± 120
+- **Stop loss:** -7% below close
+- **Take profit:** +13% above close
+- **Why:** Robust volume breakout with 19% price gain and consistent 5-day edge.
 
-1. CUAN (vol_breakout_up, high tier) - This is the only HIGH tier signal with strong historical performance (7% 5d edge, 58.6% win rate over 29 trades) and today's massive volume breakout (2.9x avg) with 24.75% price move.
-
-2. BREN (vol_breakout_up, low tier) - Exceptional volume breakout at 6.2x average with 25% price move. Despite low historical tier, the volume and price action today are exceptional.
-
-3. CUAN and BREN are the only vol_breakout_up signals, and this strategy has the best Sharpe ratio (1.13 at 20d), so they get priority.
-
-4. For RSI oversold signals, I'll prioritize those with higher win rates and reasonable historical edge:
-   - CBDK: 61.5% win rate, 1.55% edge over 13 trades
-   - INDY: 64.3% win rate, 1.21% edge over 14 trades
-   - TPIA: 52.6% win rate, 1.53% edge over 19 trades
-   - MEDC: 55.6% win rate, 0.41% edge over 18 trades
-   - INKP: 44.4% win rate, 1.81% edge over 18 trades
-
-5. Negative tier signals: TOBA has the best historical performance among negatives (53.3% win rate, nearly flat edge) and could be included as a contrarian play.
-
-Now I'll select the top 10-15 picks following the rules:
+## MINA — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** High
+- **Historical edge:** 7.08% over 47 past trades (win rate 55.3%)
+- **Entry zone:** 334 ± 10
+- **Stop loss:** -7% below close
+- **Take profit:** +12% above close
+- **Why:** Highest sample size among high-tier signals; volume and price action confirm momentum.
 
 ## CUAN — BUY (5-20d hold)
 - **Triggered:** vol_breakout_up
 - **Conviction:** High
-- **Historical edge:** 7.0% over 29 past trades (win rate 58.6%)
-- **Entry zone:** 630 ± 15
-- **Stop loss:** <-10% below close
-- **Take profit:** <+15% above close
-- **Why:** Strong high-tier signal with 7% historical 5-day edge and 58.6% win rate, confirmed by massive 2.9x volume breakout and 24.75% price surge.
+- **Historical edge:** 7.00% over 29 past trades (win rate 58.6%)
+- **Entry zone:** 630 ± 20
+- **Stop loss:** -8% below close
+- **Take profit:** +14% above close
+- **Why:** Strongest volume multiple (3.0x) and highest win rate in high tier; Sharpe-weighted pick.
 
-## BREN — BUY (5-20d hold)
-- **Triggered:** vol_breakout_up
-- **Conviction:** Low (exceptional confluence)
-- **Historical edge:** 1.23% over 21 past trades (win rate 47.6%)
-- **Entry zone:** 3300 ± 75
-- **Stop loss:** <-10% below close
-- **Take profit:** <+15% above close
-- **Why:** Exceptional volume breakout at 6.2x average with 25% price surge, outweighing historical low tier due to extreme momentum.
+## GTSI — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Medium
+- **Historical edge:** 3.52% over 15 past trades (win rate 46.7%)
+- **Entry zone:** 158 ± 5
+- **Stop loss:** -6% below close
+- **Take profit:** +9% above close
+- **Why:** Clean RSI oversold signal with solid historical edge and moderate sample size.
 
 ## CBDK — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.55% over 13 past trades (win rate 61.5%)
 - **Entry zone:** 3890 ± 100
-- **Stop loss:** <-8% below close
-- **Take profit:** <+12% above close
-- **Why:** Highest win rate among low-tier RSI signals with strong historical performance and oversold condition confirmed.
-
-## INDY — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 1.21% over 14 past trades (win rate 64.3%)
-- **Entry zone:** 2390 ± 60
-- **Stop loss:** <-8% below close
-- **Take profit:** <+12% above close
-- **Why:** Best win rate among all RSI signals with consistent positive historical performance.
+- **Stop loss:** -7% below close
+- **Take profit:** +10% above close
+- **Why:** High win rate despite low edge; RSI dip below 27 and strong volume context.
 
 ## TPIA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.53% over 19 past trades (win rate 52.6%)
-- **Entry zone:** 1920 ± 50
-- **Stop loss:** <-8% below close
-- **Take profit:** <+12% above close
-- **Why:** Strong historical edge and win rate with oversold RSI confirmation.
+- **Entry zone:** 1800 ± 50
+- **Stop loss:** -7% below close
+- **Take profit:** +11% above close
+- **Why:** Deep RSI (21.9) with above-average win rate; low price allows position flexibility.
 
-## INKP — BUY (5-20d hold)
+## BREN — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** Low
+- **Historical edge:** 1.23% over 21 past trades (win rate 47.6%)
+- **Entry zone:** 3300 ± 100
+- **Stop loss:** -8% below close
+- **Take profit:** +14% above close
+- **Why:** Extreme volume (6.7x avg) and 25% price surge — confluence overrides thin history.
+
+## INDY — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
-- **Historical edge:** 1.81% over 18 past trades (win rate 44.4%)
-- **Entry zone:** 7725 ± 200
-- **Stop loss:** <-8% below close
-- **Take profit:** <+12% above close
-- **Why:** Highest historical edge among RSI signals with solid win rate and oversold condition.
-
-## MEDC — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 0.41% over 18 past trades (win rate 55.6%)
-- **Entry zone:** 1250 ± 30
-- **Stop loss:** <-8% below close
-- **Take profit:** <+10% above close
-- **Why:** Solid win rate with oversold RSI confirmation, reasonable historical edge.
-
-## TOBA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative-but-confluence
-- **Historical edge:** -0.06% over 15 past trades (win rate 53.3%)
-- **Entry zone:** 432 ± 10
-- **Stop loss:** <-8% below close
-- **Take profit:** <+10% above close
-- **Why:** Negative history but highest win rate among negative-tier signals with oversold condition, potential contrarian opportunity.
+- **Historical edge:** 1.21% over 14 past trades (win rate 64.3%)
+- **Entry zone:** 2280 ± 70
+- **Stop loss:** -7% below close
+- **Take profit:** +10% above close
+- **Why:** High win rate and oversold RSI — low edge offset by reliability.
 
 ## CDIA — BUY (5-20d hold)
 - **Triggered:** vol_breakout_up
 - **Conviction:** Low
 - **Historical edge:** 0.79% over 10 past trades (win rate 30.0%)
-- **Entry zone:** 875 ± 25
-- **Stop loss:** <-10% below close
-- **Take profit:** <+15% above close
-- **Why:** Vol_breakout_up signal with 2.9x volume and 15.89% price move, despite low win rate, the strategy's high Sharpe ratio justifies inclusion.
+- **Entry zone:** 850 ± 25
+- **Stop loss:** -7% below close
+- **Take profit:** +11% above close
+- **Why:** Volume breakout (3.9x) and 12.5% move justify inclusion despite low win rate.
 
-## NKSL — BUY (5-20d hold)
+## MEDC — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
-- **Conviction:** Negative
-- **Historical edge:** -0.0016% over 13 past trades (win rate 38.5%)
-- **Entry zone:** 76 ± 2
-- **Stop loss:** <-8% below close
-- **Take profit:** <+10% above close
-- **Why:** Oversold RSI condition with reasonable win rate despite negative history, potential mean-reversion play.
+- **Conviction:** Low
+- **Historical edge:** 0.41% over 18 past trades (win rate 55.6%)
+- **Entry zone:** 1210 ± 30
+- **Stop loss:** -6% below close
+- **Take profit:** +9% above close
+- **Why:** Consistent win rate and oversold RSI — low edge acceptable for diversification.
+
+## TOBA — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Negative-but-confluence
+- **Historical edge:** -0.06% over 15 past trades (win rate 53.3%)
+- **Entry zone:** 432 ± 15
+- **Stop loss:** -6% below close
+- **Take profit:** +8% above close
+- **Why:** Negative history, but RSI oversold and recent price action suggest reversal.
+
+## BKSL — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Negative-but-confluence
+- **Historical edge:** -0.16% over 13 past trades (win rate 38.5%)
+- **Entry zone:** 75 ± 2
+- **Stop loss:** -7% below close
+- **Take profit:** +9% above close
+- **Why:** Deep RSI (26.7) and low price allow high reward-to-risk despite negative edge.
+
+## ANTM — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Negative-but-confluence
+- **Historical edge:** -0.54% over 7 past trades (win rate 42.9%)
+- **Entry zone:** 2900 ± 80
+- **Stop loss:** -7% below close
+- **Take profit:** +10% above close
+- **Why:** Oversold RSI with high absolute price move — confluence justifies speculative entry.
 
 ## NICL — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
-- **Conviction:** Negative
+- **Conviction:** Negative-but-confluence
 - **Historical edge:** -0.65% over 17 past trades (win rate 47.1%)
-- **Entry zone:** 580 ± 15
-- **Stop loss:** <-8% below close
-- **Take profit:** <+10% above close
-- **Why:** Strong win rate among negative-tier signals with oversold RSI confirmation.
-
-## KIJA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative
-- **Historical edge:** -0.81% over 14 past trades (win rate 42.9%)
-- **Entry zone:** 124 ± 3
-- **Stop loss:** <-8% below close
-- **Take profit:** <+10% above close
-- **Why:** Oversold RSI with decent win rate despite negative historical edge.
+- **Entry zone:** 570 ± 15
+- **Stop loss:** -7% below close
+- **Take profit:** +9% above close
+- **Why:** Strong win rate despite negative edge; RSI dip below 27 adds reversal signal.
 
 ### Market Read
-Vol_breakout_up signals dominate today's top opportunities with CUAN and BREN showing exceptional momentum. RSI oversold signals show strong win rates across multiple tickers, suggesting broad market exhaustion. Negative-tier signals with high win rates (TOBA, NICL) present contrarian opportunities. The market shows clear trend-following behavior with volume confirmation being the most reliable signal.
+Vol breakout signals dominate the top tier with strong historical edge and Sharpe. RSI oversold plays are abundant but mostly low-tier; only CBDK, TPIA, and INDY show meaningful win rates. Negative-tier signals are included only where RSI is deeply oversold and volume supports reversal — TOBA and BKSL are the most compelling. Market is in short-term momentum phase with volume confirming upside.
