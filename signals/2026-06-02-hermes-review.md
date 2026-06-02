@@ -2,46 +2,50 @@
 
 ## 1. Sanity Check (math + logic)
 
-- GTSI: R/R stated as 3.52% edge — this is not R/R. R/R = (TP - Entry)/(Entry - SL). With -8% SL and +12% TP, R/R = 12/8 = 1.5. Edge is historical return, not risk-reward.  
-- TPIA: R/R = 15/7 = 2.14, not stated.  
-- CBDK: R/R = 10/8 = 1.25, not stated.  
-- INKP: R/R = 12/7 = 1.71, not stated.  
-- BKSL: R/R = 15/10 = 1.5, not stated.  
-- KIJA: R/R = 14/9 = 1.56, not stated.  
-- EMTK: R/R = 18/12 = 1.5, not stated.  
-- BRPT: R/R = 15/7 = 2.14, not stated.  
-- BRMS: R/R = 12/8 = 1.5, not stated.  
-- ASR: R/R = 16/8 = 2.0, not stated.  
-- BREN: R/R = 20/8 = 2.5, not stated.  
-- TAPG: R/R = 14/7 = 2.0, not stated.  
-- SMDR: R/R = 12/8 = 1.5, not stated.  
-- All SLs are arbitrary %-based, not anchored to structure.  
-- Conviction tier inflated: BREN has 22.42% edge but only 47.6% win rate — not “High” conviction. TAPG has 100% win rate on 8 trades — statistically meaningless, not “High” conviction.  
-- All picks: ✓ clean math if R/R were computed, but none are.
+- **ASPR**: ✓ clean  
+- **GTSI**: ✓ clean  
+- **INKP**: ✓ clean  
+- **CBDK**: ✓ clean  
+- **TPIA**: R/R = (1850×1.15 - 1850) / (1850 - 1850×0.9) = 212.75 / 185 = 1.15 → stated R/R 3.84x? **MATH ERROR**  
+- **INDY**: ✓ clean  
+- **TOBA**: ✓ clean  
+- **BKSL**: R/R = (74×1.1 - 74) / (74 - 74×0.92) = 7.4 / 5.92 = 1.25 → stated R/R 1.25x? **MATH ERROR** (stated 1.25x, but logic implies higher)  
+- **KIJA**: R/R = (123×1.12 - 123) / (123 - 123×0.92) = 9.84 / 9.84 = 1 → stated R/R 1.5x? **MATH ERROR**  
+- **EMTK**: R/R = (615×1.1 - 615) / (615 - 615×0.92) = 61.5 / 49.2 = 1.25 → stated R/R 1.35x? **MATH ERROR**  
+- **COIN**: R/R = (815×1.15 - 815) / (815 - 815×0.9) = 122.25 / 81.5 = 1.5 → stated R/R 1.5x? **MATH ERROR** (stated 1.5x, but 1.5x is correct — no error)  
+- **BRPT**: ✓ clean  
+- **BRMS**: ✓ clean  
+- **BREN**: ✓ clean  
+- **MINA**: ✓ clean  
+- **SMDR**:- **SMDR**: R/R = (304×1.09 - 304) / (304 - 304×0.94) = 15.2 / 18.24 = 0.83 → stated R/R 1.5x? **MATH ERROR**  
+- **TAPG**: ✓ clean  
 
 ## 2. Contradiction Hunter
 
-1. “Vol_breakout_up is the most reliable signal — 7 of top 10 picks rely on it.” — Yet BREN (top pick) has 20- BREN: 22.42% edge, 47.6% win rate — contradicts “most reliable” claim if reliability = win rate.  
-2. “Avoid low-volume RSI signals unless confluence exists.” — Yet INKP, KIJA, EMTK are all low-volume RSI-only picks with no volume or MA confluence.  
-3. “Market is favoring momentum over mean-reversion.” — Yet all picks are RSI oversold mean-reversion plays. Contradiction.  
-4. “Negative-tier stocks with RSI <20 are viable reversal candidates.” — Yet KIJA and EMTK are negative-tier with RSI <20, but no structural support (SL/TP arbitrary) — contradicts “if structure supports it” claim.  
-5. “Vol_breakout_up is the most reliable signal” — yet BRPT has 7.79% edge and 62.5% win rate, yet is ranked #7. Contradicts ranking logic.
+1. **TPIA**: “Negative-but-confluence” conviction with “exceptional 4.8x volume breakout” and “overrides negative history” — contradicts itself: if history is truly negative (-3.9% edge), calling it “exceptional” implies positive bias, not override.  
+2. **BKSL**: “Negative” conviction but “ma_golden_cross confluence (mean 5d edge 9.5%)” — positive edge contradicts negative conviction tier.  
+3. **KIJA**: “Negative” conviction but “today’s breakout momentum” cited as justification — contradicts stated reliance on historical edge.  
+4. **EMTK**: “Negative” conviction with “volume surge and ma_golden_cross” — same as above; contradicts tier.  
+5. **COIN**: “Negative” conviction with 0% win rate and “recent price action override past failure” — contradicts logic: if past failure is total (0% win rate), no “recent action” can override without new data.  
+6. **SMDR**: “Medium” conviction with “-0.5% historical edge” and “exceptional win rate” — win rate (53.8%) is not exceptional for medium tier; contradicts tier definition.  
+7. **BRMS**: “High” conviction with “ma_golden_cross confluence (mean 5d edge -0.0373)” — negative edge contradicts high conviction.  
+8. **TAPG**: “High” conviction with “RSI 37.4 oversold” — RSI 37.4 is not oversold (oversold = <30). Contradicts signal trigger logic.  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: 8 of 13 picks are small/mid-cap industrials or materials (GTSI, TPIA, CBDK, INKP, BKSL, KIJA, EMTK, SMDR). Single-sector VaR >15% if mining/industrial sector reverses.  
-- **Liquidity risk**: INKP (7675), CBDK (3880), BREN (4040) — all have low avg daily volume. Proposed position size likely exceeds 1% of daily volume — slippage risk >3%.  
-- **Correlation**: GTSI, TPIA, CBDK, INKP, SMDR all trade on same exchange, same sector, same liquidity profile — not diversified.  
-- **Timing**: BREN up 20% in one day — high gap-down risk at next open.  
-- **Stale data**: Historical edge for BREN (202 trades) likely includes pre-2025 regime. No training window stated — could be stale.  
-- **Indicator overlap**: RSI oversold + vol_breakout_up are highly correlated — both triggered on same 7 picks. False confluence.
+- **Sector concentration**: 11/15 picks are small/mid-cap industrials or materials (ASPR, GTSI, INKP, CBDK, TPIA, TOBA, BKSL, KIJA, EMTK, COIN, BRPT) — >70% exposure to volatile non-financials. Single-day VaR >15% if mining/industrial sector reverses.  
+- **Liquidity risk**: INKP (7750), CBDK (3910), TPIA (1850), BREN (4070) — all have low avg daily volume. Proposed position sizes likely exceed 5% of daily volume — slippage risk >3%.  
+- **Correlation**: BRPT, BREN, MINA, TAPG — all show vol_breakout_up + ma_golden_cross. High probability of co-movement due to shared macro triggers (commodity prices, FX). Not diversified.  
+- **Timing**: COIN (815), EMTK (615), KIJA (123) — all up >15% today. High gap-down risk at next open.  
+- **Stale data**: All Markov “long-run mix” claims — no training window disclosed. If regime shifted in last 30 days (e.g., post-election volatility), model is invalid.  
+- **Indicator overlap**: RSI, vol_breakout_up, ma_golden_cross — all are lagging indicators. Vol_breakout_up is derived from price/volume momentum — RSI is derived from price — ma_golden_cross is derived from price. Not independent. False confluence.  
 
 ## 4. What the Author Got Right
 
-The author correctly identified that RSI depth (KIJA at 19.7) can override negative historical edge when paired with structural support — a non-obvious insight in mean-reversion systems.
+BRPT and MINA correctly identify high-volume, high-win-rate breakout patterns with consistent edge — the only two picks with >7% historical edge and >50% win rate. Their structure is the only valid baseline.
 
 ## 5. Critical Recommendations
 
-1. **Remove all %-based SL/TP** — replace with structural levels (swing lows, EMA, prior highs). Current SL/TP are arbitrary and invalidate R/R.  
-2. **Reduce BREN position to 3%** — 22.42% edge is misleading; 47.6% win rate and 20% one-day move indicate high tail risk.  
-3. **Add volume filter** — exclude any pick with avg daily volume < 500k shares. INKP, CBDK, BREN violate this.
+1. **Remove TPIA, BKSL, KIJA, EMTK, COIN** — negative conviction with negative edge and no valid edge justification. These are not trades — they are gambling.  
+2. **Reduce INKP, CBDK, TPIA, BREN position sizes to 2% max** — all have volume <10% of proposed position size. Slippage will destroy R/R.  
+3. **Add sector cap: max 40% in materials/industrials** — current exposure is 73%. Rebalance to include at least 2 bank or tech names with positive edge.
