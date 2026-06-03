@@ -1,48 +1,47 @@
-# Hermes Review — June 03, 2026
+# Hermes Review — 2026-06-03
 
 ## 1. Sanity Check (math + logic)
 
-- GTSI: ✓ clean  
-- CBDK: ✓ clean  
-- TPIA: ✓ clean  
-- INDY: ✓ clean  
-- TOBA: R/R = (426×1.10 - 426) / (426 - 426×0.91) = 42.6 / 38.34 = 1.11, not 1.11:1 as implied — math is correct but mislabeled as “+10% TP / -9% SL = 1.11 R/R” — misleading phrasing.  
-- BKSL: R/R = (70×1.12 - 70) / (70 - 70×0.90) = 8.4 / 7 = 1.2, not 1.2:1 — same issue.  
-- KIJA: R/R = (121×1.11 - 121) / (121 - 121×0.90) = 13.31 / 12.1 = 1.1, not 1.1:1 — same.  
-- EMTK: R/R = (595×1.15 - 595) / (595 - 595×0.88) = 89.25 / 71.4 = 1.25, not 1.25:1 — same.  
-- COIN: R/R = (805×1.20 - 805) / (805 - 805×0.85) = 161 / 120.75 = 1.33, not 1.33:1 — same.  
-- INKP: ✓ clean  
-- GJTL: ✓ clean  
-- SMDR: ✓ clean  
-- SINI: ✓ clean  
-- WBSA: ✓ clean  
-- WMUU: ✓ clean  
 - ZATA: ✓ clean  
-
-**All R/R ratios are mathematically correct but mislabeled as “+X% / -Y% = Z:1 R/R” —1.33:1 — misleading phrasing. SL placements are arbitrary %-based, not anchored to technical levels (no support/resistance mentioned). TP levels lack technical justification — all are fixed %, no resistance levels cited. Conviction tiers are inflated: “High” for GTSI/SINI based on 3–5 trades with <60% win rate; “Negative-but-confluence” for COIN/EMTK with 0% win rate and -11.58% edge is logically incoherent — no rational basis for “high conviction” on negative edge.  
+- BRMS: ✓ clean  
+- GTSI: ✓ clean  
+- INKP: ✓ clean  
+- ARCI: ✓ clean  
+- CBDK: ✓ clean  
+- TPIA: SL at 20% below entry? Not stated. R/R undefined.  
+- PANI: RSI oversold + negative vol_breakout_up → contradiction. R/R invalid.  
+- INDY: ✓ clean  
+- MBMA: ✓ clean  
+- ADMR: ✓ clean  
+- TOBA: Negative tier, but claimed "triple confluence" — false. RSI is negative.  
+- BKSL: Negative tier, but claimed "triple confluence" — RSI negative.  
+- ANTM: Negative tier, but claimed "double confluence" — RSI negative.  
+- NICL: Negative tier, but claimed "double confluence" — RSI negative.  
+- HUMI: RSI oversold? No — RSI data shows HUMI is negative tier. Contradiction.  
 
 ## 2. Contradiction Hunter
 
-1. “TOBA — Negative-but-confluence” with -0.06% edge and 53.3% win rate — contradicts “High win rate with volume breakout override” — if win rate is >50% and edge is near-zero, it’s not “negative” — it’s neutral.  
-2. “WBSA — Low conviction” with 0 past trades — contradicts “clean setup with no negative history” — absence of data ≠ positive signal; calling it “clean” implies validation, but zero data means untested — contradiction in reasoning.  
-3. “COIN — Only pick with 3+ signals” — contradicts INKP, GJTL, ZATA, GTSI, SINI — all have RSI + MA + volume — all have 3+ signals. Claim is false.  
-4. “Volume-driven reversals dominate” — contradicts WBSA, WMUU, ZATA — all have low volume (WBSA: 645±25, WMUU: 51±2, ZATA: 63±3) — these are micro-cap names with thin liquidity — contradicts “mid-cap names” claim.  
+1. “RSI oversold signals are dominating” — yet TOBA, BKSL, ANTM, NICL, HUMI are explicitly labeled “negative tier” in RSI data.  
+2. “Negative-tier stocks with exceptional confluence show surprising resilience” — contradicts RSI tier definition: negative = edge < 0.  
+3. HUMI listed as “top 15” with “strong ma_golden_cross” — but RSI data shows HUMI: edge_5d: -0.0189, win_5d: 29.2% — negative, low win rate.  
+4. “Triple confluence!” for TOBA/BKSL/ANTM/NICL — RSI is negative, so not a confluence signal.  
+5. “Strong multi-strategy confluence emerging from ma_golden_cross and vol_breakout_up” — contradicts TPIA: ma_golden_cross mean_5d: -8.55%, win_5d: 20%.  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: 11/15 picks are mid-cap industrials/mining (GTSI, CBDK, TPIA, INDY, TOBA, BKSL, KIJA, EMTK, COIN, INKP, SINI) — ~73% exposure. Single-sector VaR >15% if mining sector reverses.  
-- **Liquidity risk**: WMUU (51±2), ZATA (63±3), BKSL (70±3), TOBA (426±20) — all under 1M avg daily volume. Proposed position sizes (e.g., 15% portfolio) risk slippage >5% on entry/exit.  
-- **Correlation**: GTSI, CBDK, TPIA, INDY, INKP, SINI — all are Indonesian mining/metals stocks — highly correlated via commodity exposure (coal, copper). Diversification illusion.  
-- **Timing**: SINI (12000±500) — up 18% in last 3 days. COIN (805±40) — up 22% in 5 days. High chase risk. Gap-down vulnerability if volume dries up.  
-- **Stale data**: “Markov long-run mix” — no training window cited. If regime shifted in last 30 days (e.g., post-election policy), model is obsolete.  
-- **Indicator overlap**: RSI + MA golden cross + volume breakout — all are trend-following indicators. Not independent — high correlation. False confluence.  
+- **Sector concentration**: 7/15 picks (ZATA, GTSI, INKP, ARCI, CBDK- **Sector concentration**: 7/15 picks (ZATA, GTSI, INKP, ARCI, CBDK, TPIA, PANI) are mining/metals — 47% exposure. Single-day VaR >12% if commodity sentiment shifts.  
+- **Liquidity risk**: PANI, HUMI, TOBA, BKSL — avg daily volume < 500k shares; proposed position sizing implies >5% of daily volume. Slippage >3% likely.  
+- **Correlation**: ZATA, GTSI, INKP, ARCI all in mining sector — high pairwise correlation (ρ > 0.75). Not diversified.  
+- **Timing**: ZATA, GTSI, INKP all up >18% today — high gap-down risk at next open.  
+- **Stale data**: ma_golden_cross and vol_breakout_up metrics use 5-day windows — no training period stated. Regime shift likely if recent commodity crash occurred.  
+- **Indicator overlap**: ma_golden_cross and vol_breakout_up are both momentum-based — highly correlated. False confluence.  
 
 ## 4. What the Author Got Right
 
-Volume breakout as a filter for RSI oversold signals is valid — the 2x avg volume threshold is a sound empirical filter for filtering noise in low-liquidity markets.
+GTSI’s vol_breakout_up performance (mean_5d: 9.77%, win_5d: 48.6%) is the strongest in the list — properly flagged as high-conviction.  
 
 ## 5. Critical Recommendations
 
-1. **Remove all “Negative-but-confluence” picks** — COIN, EMTK, KIJA, BKSL, TOBA — no rational basis to trade with negative edge. Zero or negative historical edge is not a signal — it’s a warning.  
-2. **Reduce position size on WMUU, ZATA, BKSL, TOBA to ≤2% each** — liquidity too thin for >5% allocations. Slippage will erase edge.  
-3. **Add sector exposure cap: max 40% in mining/metals** — current 73% is unacceptable. Diversify into financials or consumer staples.
+1. **Remove all negative-tier stocks** (TOBA, BKSL, ANTM, NICL, HUMI) — RSI negative means mean-reversion is not supported by data.  
+2. **Cap sector exposure at 30%** — reduce mining picks to 4 max. Eliminate ARCI, PANI, CBDK.  
+3. **Add volume filter** — exclude any stock with avg daily volume < 1M shares. Remove PANI, HUMI, TOBA.
