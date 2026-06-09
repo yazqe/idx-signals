@@ -1,16 +1,61 @@
 [
   {
     "ticker": "WIFI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1500,
+    "vol_ratio": 2.0,
+    "pct_chg": 9.89,
+    "note": "Volume 2.0x avg + price +9.89%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1043,
+      "win_5d": 0.5,
+      "n": 24
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 117,
+    "vol_ratio": 2.2,
+    "pct_chg": 15.84,
+    "note": "Volume 2.2x avg + price +15.84%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "WIFI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1520,
-    "rsi": 29.7,
-    "note": "RSI 29.7 < 30 (oversold)",
+    "close": 1500,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.093,
       "win_5d": 0.7,
       "n": 10
+    }
+  },
+  {
+    "ticker": "NICL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 505,
+    "vol_ratio": 2.9,
+    "pct_chg": 5.21,
+    "note": "Volume 2.9x avg + price +5.21%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0714,
+      "win_5d": 0.571,
+      "n": 42
     }
   },
   {
@@ -31,9 +76,9 @@
     "ticker": "GTSI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 114,
-    "rsi": 26.4,
-    "note": "RSI 26.4 < 30 (oversold)",
+    "close": 117,
+    "rsi": 28.1,
+    "note": "RSI 28.1 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0352,
@@ -42,26 +87,26 @@
     }
   },
   {
-    "ticker": "INKP",
+    "ticker": "ARCI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 6850,
-    "rsi": 26.0,
-    "note": "RSI 26.0 < 30 (oversold)",
+    "close": 980,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
     "history": {
       "tier": "low",
-      "edge_5d": 0.0181,
+      "edge_5d": 0.0164,
       "win_5d": 0.444,
-      "n": 18
+      "n": 9
     }
   },
   {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 3330,
-    "rsi": 26.1,
-    "note": "RSI 26.1 < 30 (oversold)",
+    "close": 3290,
+    "rsi": 24.3,
+    "note": "RSI 24.3 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
@@ -70,26 +115,12 @@
     }
   },
   {
-    "ticker": "TPIA",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 1735,
-    "rsi": 29.3,
-    "note": "RSI 29.3 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0153,
-      "win_5d": 0.526,
-      "n": 19
-    }
-  },
-  {
     "ticker": "INDY",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 2060,
-    "rsi": 29.2,
-    "note": "RSI 29.2 < 30 (oversold)",
+    "close": 2030,
+    "rsi": 27.8,
+    "note": "RSI 27.8 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0121,
@@ -101,9 +132,9 @@
     "ticker": "SMDR",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 268,
-    "rsi": 28.5,
-    "note": "RSI 28.5 < 30 (oversold)",
+    "close": 266,
+    "rsi": 27.1,
+    "note": "RSI 27.1 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0063,
@@ -112,12 +143,26 @@
     }
   },
   {
+    "ticker": "APLN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 121,
+    "rsi": 29.7,
+    "note": "RSI 29.7 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0049,
+      "win_5d": 0.5,
+      "n": 12
+    }
+  },
+  {
     "ticker": "TOBA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 344,
-    "rsi": 26.7,
-    "note": "RSI 26.7 < 30 (oversold)",
+    "close": 348,
+    "rsi": 27.6,
+    "note": "RSI 27.6 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0006,
@@ -129,28 +174,14 @@
     "ticker": "BKSL",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 61,
-    "rsi": 26.9,
-    "note": "RSI 26.9 < 30 (oversold)",
+    "close": 59,
+    "rsi": 24.1,
+    "note": "RSI 24.1 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0016,
       "win_5d": 0.385,
       "n": 13
-    }
-  },
-  {
-    "ticker": "NICL",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 488,
-    "rsi": 28.5,
-    "note": "RSI 28.5 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0065,
-      "win_5d": 0.471,
-      "n": 17
     }
   },
   {
@@ -171,9 +202,9 @@
     "ticker": "KIJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 111,
-    "rsi": 16.3,
-    "note": "RSI 16.3 < 30 (oversold)",
+    "close": 112,
+    "rsi": 17.8,
+    "note": "RSI 17.8 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0081,
@@ -182,40 +213,12 @@
     }
   },
   {
-    "ticker": "BUMI",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 139,
-    "rsi": 29.5,
-    "note": "RSI 29.5 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0082,
-      "win_5d": 0.5,
-      "n": 14
-    }
-  },
-  {
-    "ticker": "HUMI",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 102,
-    "rsi": 28.8,
-    "note": "RSI 28.8 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0189,
-      "win_5d": 0.292,
-      "n": 24
-    }
-  },
-  {
     "ticker": "EMTK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 520,
-    "rsi": 22.8,
-    "note": "RSI 22.8 < 30 (oversold)",
+    "close": 530,
+    "rsi": 25.3,
+    "note": "RSI 25.3 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0367,
@@ -227,9 +230,9 @@
     "ticker": "COIN",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 645,
-    "rsi": 26.4,
-    "note": "RSI 26.4 < 30 (oversold)",
+    "close": 660,
+    "rsi": 28.1,
+    "note": "RSI 28.1 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.1158,
