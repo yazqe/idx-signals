@@ -109,10 +109,10 @@ ${RANKING_CONTENT}"
 
 echo "[hermes-review] Input:  $INPUT"
 echo "[hermes-review] Output: $OUTPUT"
-echo "[hermes-review] Sending to Hermes (this takes ~3-5 min for 72B model)..."
+echo "[hermes-review] Sending to Hermes (Qwen3-Next-80B-A3B MoE, ~30-90s)..."
 echo ""
 
-~/.local/bin/hermes -z "$FULL_PROMPT" | tee "$OUTPUT"
+"$(cd "$(dirname "$0")" && pwd)/llm_oneshot.sh" "$FULL_PROMPT" | tee "$OUTPUT"
 
 echo ""
 echo "[hermes-review] Saved review to: $OUTPUT"

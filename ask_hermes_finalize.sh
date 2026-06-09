@@ -105,7 +105,7 @@ ${ALL_CANDIDATES}
 echo "Stage 3/3: Consolidating picks + critic into final ranking..."
 echo ""
 
-~/.local/bin/hermes -z "$FULL_PROMPT" | tee "$OUT"
+"$ROOT/llm_oneshot.sh" "$FULL_PROMPT" | tee "$OUT"
 
 echo ""
 echo "Saved final consolidated report to: $OUT"

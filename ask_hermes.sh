@@ -77,7 +77,7 @@ echo ""
 FULL_PROMPT="${PROMPT}
 ${ALL_CANDIDATES}"
 
-~/.local/bin/hermes -z "$FULL_PROMPT" | tee "$OUT"
+"$ROOT/llm_oneshot.sh" "$FULL_PROMPT" | tee "$OUT"
 
 echo ""
 echo "Saved initial picks to: $OUT"
