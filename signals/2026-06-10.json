@@ -1,11 +1,55 @@
 [
   {
+    "ticker": "HUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 116,
+    "vol_ratio": 2.1,
+    "pct_chg": 6.42,
+    "note": "Volume 2.1x avg + price +6.42%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1304,
+      "win_5d": 0.419,
+      "n": 31
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 129,
+    "vol_ratio": 2.4,
+    "pct_chg": 5.74,
+    "note": "Volume 2.4x avg + price +5.74%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "ARCI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 980,
+    "rsi": 29.1,
+    "note": "RSI 29.1 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0164,
+      "win_5d": 0.444,
+      "n": 9
+    }
+  },
+  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 3350,
-    "rsi": 27.2,
-    "note": "RSI 27.2 < 30 (oversold)",
+    "close": 3310,
+    "rsi": 25.4,
+    "note": "RSI 25.4 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
@@ -14,26 +58,12 @@
     }
   },
   {
-    "ticker": "INDY",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 2070,
-    "rsi": 29.8,
-    "note": "RSI 29.8 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0121,
-      "win_5d": 0.643,
-      "n": 14
-    }
-  },
-  {
     "ticker": "KIJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 116,
-    "rsi": 23.5,
-    "note": "RSI 23.5 < 30 (oversold)",
+    "close": 114,
+    "rsi": 20.6,
+    "note": "RSI 20.6 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0081,
