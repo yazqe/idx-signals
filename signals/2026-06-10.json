@@ -1,0 +1,44 @@
+[
+  {
+    "ticker": "CBDK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 3350,
+    "rsi": 27.2,
+    "note": "RSI 27.2 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0155,
+      "win_5d": 0.615,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "INDY",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2070,
+    "rsi": 29.8,
+    "note": "RSI 29.8 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0121,
+      "win_5d": 0.643,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 116,
+    "rsi": 23.5,
+    "note": "RSI 23.5 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0081,
+      "win_5d": 0.429,
+      "n": 14
+    }
+  }
+]
