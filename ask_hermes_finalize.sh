@@ -42,16 +42,23 @@ previous stages produced:
   STAGE 2 — Critic review (devil's advocate who found weaknesses)
   RAW DATA — Full candidates list (ALL today's signals, all tiers)
 
-Your job: produce the FINAL CONSOLIDATED RANKING of TOP 5-7 picks for trading.
+Your job: produce the FINAL CONSOLIDATED RANKING of up to 7 picks for trading.
+
+HARD RULES (violating these makes the output worthless):
+  - EVERY ticker MUST appear by name in the RAW DATA candidates list below.
+    NEVER introduce a ticker that is not in that list (no PTBA/BBCA/TLKM/etc.
+    from memory). If you are unsure a ticker is in the list, do not include it.
+  - ALL prices (Entry/SL/TP) MUST be derived from that candidate's `close`
+    value in the RAW DATA. NEVER use a price from memory or training data.
+  - Use ONLY the strategy names present in the data (rsi_oversold,
+    ma_golden_cross, vol_breakout_up). Do NOT invent triggers like "da8_bullish".
+  - If fewer than 7 candidates exist, output ONLY that many. Do NOT pad the
+    list to reach a count — 2 real picks beats 7 with 5 invented.
 
 You have the AUTHORITY to:
   - DROP picks the critic exposed as mathematically broken or risk-flawed
-  - PROMOTE underrated picks the initial selector missed (browse the full
-    candidates list — anything not in picks but worthy must be surfaced)
-  - REORDER based on critic findings (e.g., R/R math errors corrected)
-  - ADD picks from the candidate pool not in initial 10-15 if you find them
-    superior (especially LOW or UNTESTED tiers that have multi-strategy
-    confluence)
+  - PROMOTE/REORDER underrated picks — but ONLY tickers already in the
+    candidates list below (e.g. LOW/UNTESTED tiers with multi-strategy confluence)
 
 For each FINAL pick, output in this format:
 

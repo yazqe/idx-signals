@@ -129,6 +129,13 @@ if [ ! -s "$HERMES_FINAL" ] && [ -s "$HERMES_PICKS" ]; then
   echo "  [warn] Stage 3 missing — using stage 1 picks as final fallback"
 fi
 
+# Guard: finalize can hallucinate tickers/prices not in the candidate pool
+# (e.g. PTBA entry 5885 when it trades ~2690). Strip any pick not backed by data.
+if [ -s "$HERMES_FINAL" ] && [ -s "$ROOT/candidates.json" ]; then
+  "$ROOT/.venv/bin/python" "$ROOT/validate_picks.py" "$HERMES_FINAL" "$ROOT/candidates.json" \
+    || echo "  [warn] pick validation failed; continuing"
+fi
+
 # Post-process: LLMs are bad at arithmetic. Recompute R/R from structured prices.
 if [ -s "$HERMES_FINAL" ]; then
   "$ROOT/.venv/bin/python" "$ROOT/fix_rr_math.py" "$HERMES_FINAL" \
