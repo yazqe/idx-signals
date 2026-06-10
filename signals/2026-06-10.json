@@ -3,10 +3,10 @@
     "ticker": "HUMI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 116,
-    "vol_ratio": 2.1,
-    "pct_chg": 6.42,
-    "note": "Volume 2.1x avg + price +6.42%",
+    "close": 117,
+    "vol_ratio": 2.7,
+    "pct_chg": 7.34,
+    "note": "Volume 2.7x avg + price +7.34%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1304,
@@ -18,15 +18,75 @@
     "ticker": "GTSI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 129,
-    "vol_ratio": 2.4,
-    "pct_chg": 5.74,
-    "note": "Volume 2.4x avg + price +5.74%",
+    "close": 132,
+    "vol_ratio": 3.0,
+    "pct_chg": 8.2,
+    "note": "Volume 3.0x avg + price +8.20%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0977,
       "win_5d": 0.486,
       "n": 37
+    }
+  },
+  {
+    "ticker": "VKTR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 645,
+    "vol_ratio": 2.2,
+    "pct_chg": 6.61,
+    "note": "Volume 2.2x avg + price +6.61%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0686,
+      "win_5d": 0.607,
+      "n": 28
+    }
+  },
+  {
+    "ticker": "INET",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 198,
+    "vol_ratio": 2.0,
+    "pct_chg": 8.2,
+    "note": "Volume 2.0x avg + price +8.20%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0514,
+      "win_5d": 0.487,
+      "n": 39
+    }
+  },
+  {
+    "ticker": "TOBA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 402,
+    "vol_ratio": 2.0,
+    "pct_chg": 11.67,
+    "note": "Volume 2.0x avg + price +11.67%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0473,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
+    "ticker": "RATU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4850,
+    "vol_ratio": 2.0,
+    "pct_chg": 4.08,
+    "note": "Volume 2.0x avg + price +4.08%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0384,
+      "win_5d": 0.4,
+      "n": 20
     }
   },
   {
@@ -47,14 +107,29 @@
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 3310,
-    "rsi": 25.4,
-    "note": "RSI 25.4 < 30 (oversold)",
+    "close": 3400,
+    "rsi": 29.5,
+    "note": "RSI 29.5 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
       "win_5d": 0.615,
       "n": 13
+    }
+  },
+  {
+    "ticker": "BULL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 350,
+    "vol_ratio": 2.3,
+    "pct_chg": 14.38,
+    "note": "Volume 2.3x avg + price +14.38%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0113,
+      "win_5d": 0.421,
+      "n": 19
     }
   },
   {
@@ -69,6 +144,20 @@
       "edge_5d": -0.0081,
       "win_5d": 0.429,
       "n": 14
+    }
+  },
+  {
+    "ticker": "EMTK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 540,
+    "rsi": 27.7,
+    "note": "RSI 27.7 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0367,
+      "win_5d": 0.2,
+      "n": 10
     }
   }
 ]
