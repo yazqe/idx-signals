@@ -1,25 +1,26 @@
 [
   {
-    "ticker": "ARCI",
-    "strategy": "rsi_oversold",
+    "ticker": "KAQI",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 920,
-    "rsi": 29.9,
-    "note": "RSI 29.9 < 30 (oversold)",
+    "close": 93,
+    "vol_ratio": 2.3,
+    "pct_chg": 4.49,
+    "note": "Volume 2.3x avg + price +4.49%",
     "history": {
       "tier": "low",
-      "edge_5d": 0.0164,
-      "win_5d": 0.444,
-      "n": 9
+      "edge_5d": 0.0121,
+      "win_5d": 0.588,
+      "n": 17
     }
   },
   {
     "ticker": "KIJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 114,
-    "rsi": 22.6,
-    "note": "RSI 22.6 < 30 (oversold)",
+    "close": 117,
+    "rsi": 27.0,
+    "note": "RSI 27.0 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0081,
