@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "ARCI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 920,
+    "rsi": 29.9,
+    "note": "RSI 29.9 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0164,
+      "win_5d": 0.444,
+      "n": 9
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 114,
+    "rsi": 22.6,
+    "note": "RSI 22.6 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0081,
+      "win_5d": 0.429,
+      "n": 14
+    }
+  }
+]
