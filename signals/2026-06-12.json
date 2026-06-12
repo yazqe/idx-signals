@@ -1,12 +1,57 @@
 [
   {
+    "ticker": "NICL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 600,
+    "vol_ratio": 3.0,
+    "pct_chg": 14.29,
+    "note": "Volume 3.0x avg + price +14.29%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0714,
+      "win_5d": 0.571,
+      "n": 42
+    }
+  },
+  {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 52,
+    "vol_ratio": 2.4,
+    "pct_chg": 4,
+    "note": "Volume 2.4x avg + price +4.00%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "INDY",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2300,
+    "vol_ratio": 2.8,
+    "pct_chg": 20.42,
+    "note": "Volume 2.8x avg + price +20.42%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0252,
+      "win_5d": 0.438,
+      "n": 32
+    }
+  },
+  {
     "ticker": "KAQI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 93,
-    "vol_ratio": 2.3,
-    "pct_chg": 4.49,
-    "note": "Volume 2.3x avg + price +4.49%",
+    "close": 91,
+    "vol_ratio": 2.7,
+    "pct_chg": 2.25,
+    "note": "Volume 2.7x avg + price +2.25%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0121,
@@ -18,9 +63,9 @@
     "ticker": "KIJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 117,
-    "rsi": 27.0,
-    "note": "RSI 27.0 < 30 (oversold)",
+    "close": 116,
+    "rsi": 25.6,
+    "note": "RSI 25.6 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0081,
