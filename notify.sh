@@ -79,11 +79,13 @@ fi
 # same content → same URL (browser cache works); content changes → URL changes
 # → browser fetches fresh (no more "stale on phone" issue).
 HERMES_FILE="$ROOT/signals/${WIB_DATE}-hermes.md"
-CACHE_BUST=""
-if [ -f "$HERMES_FILE" ]; then
+REPORT_LINK=""
+if [ -s "$HERMES_FILE" ]; then
   CACHE_BUST="?v=$(shasum -a 256 "$HERMES_FILE" | cut -c1-8)"
+  REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html${CACHE_BUST}"
+  REPORT_LINK=$'\n\n[📄 Full report]('"$REPORT_URL"')'
 fi
-REPORT_URL="https://yazqe.github.io/idx-signals/signals/${WIB_DATE}-hermes.html${CACHE_BUST}"
+# No final report (LLM down etc.) → omit the link instead of sending a 404.
 
 # Optional: Hermes critic review link (only included if review file exists)
 REVIEW_FILE="$ROOT/signals/${WIB_DATE}-hermes-review.md"
@@ -94,11 +96,11 @@ if [ -f "$REVIEW_FILE" ]; then
   REVIEW_LINK=$'\n[🔍 Critic review]('"$REVIEW_URL"')'
 fi
 
-TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```\n\n[📄 Full report](%s)%s' \
+TG_MSG=$(printf '*%s — %s*\n%d HIGH · %d MEDIUM · %d total signals\n\n```\n%s```%s%s' \
   "IDX Signals" "$SESSION" \
   "$N_HIGH" "$N_MED" "$N_TOTAL" \
   "$TOP5_TABLE" \
-  "$REPORT_URL" \
+  "$REPORT_LINK" \
   "$REVIEW_LINK")
 
 RESP=$(curl -s -X POST \
