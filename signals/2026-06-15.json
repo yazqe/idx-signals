@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ticker": "NICL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 660,
+    "vol_ratio": 2.7,
+    "pct_chg": 8.2,
+    "note": "Volume 2.7x avg + price +8.20%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0714,
+      "win_5d": 0.571,
+      "n": 42
+    }
+  }
+]
