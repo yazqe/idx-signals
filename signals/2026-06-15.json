@@ -1,17 +1,92 @@
 [
   {
+    "ticker": "BNBR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 123,
+    "vol_ratio": 2.2,
+    "pct_chg": 11.82,
+    "note": "Volume 2.2x avg + price +11.82%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1267,
+      "win_5d": 0.583,
+      "n": 36
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 935,
+    "vol_ratio": 4.2,
+    "pct_chg": 24.67,
+    "note": "Volume 4.2x avg + price +24.67%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
     "ticker": "NICL",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 660,
-    "vol_ratio": 2.7,
-    "pct_chg": 8.2,
-    "note": "Volume 2.7x avg + price +8.20%",
+    "close": 630,
+    "vol_ratio": 3.6,
+    "pct_chg": 3.28,
+    "note": "Volume 3.6x avg + price +3.28%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0714,
       "win_5d": 0.571,
       "n": 42
+    }
+  },
+  {
+    "ticker": "ARCI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1145,
+    "vol_ratio": 2.2,
+    "pct_chg": 17.44,
+    "note": "Volume 2.2x avg + price +17.44%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0453,
+      "win_5d": 0.541,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "DEWA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 374,
+    "vol_ratio": 2.3,
+    "pct_chg": 13.33,
+    "note": "Volume 2.3x avg + price +13.33%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0318,
+      "win_5d": 0.485,
+      "n": 33
+    }
+  },
+  {
+    "ticker": "BUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 176,
+    "vol_ratio": 2.7,
+    "pct_chg": 12.1,
+    "note": "Volume 2.7x avg + price +12.10%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0205,
+      "win_5d": 0.536,
+      "n": 28
     }
   }
 ]
