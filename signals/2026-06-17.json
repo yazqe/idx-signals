@@ -3,10 +3,10 @@
     "ticker": "DEFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 129,
-    "vol_ratio": 2.5,
-    "pct_chg": 16.22,
-    "note": "Volume 2.5x avg + price +16.22%",
+    "close": 141,
+    "vol_ratio": 4.1,
+    "pct_chg": 27.03,
+    "note": "Volume 4.1x avg + price +27.03%",
     "history": {
       "tier": "high",
       "edge_5d": 0.2152,
@@ -18,10 +18,10 @@
     "ticker": "SDMU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 76,
-    "vol_ratio": 8.3,
-    "pct_chg": 13.43,
-    "note": "Volume 8.3x avg + price +13.43%",
+    "close": 70,
+    "vol_ratio": 10.2,
+    "pct_chg": 4.48,
+    "note": "Volume 10.2x avg + price +4.48%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0784,
@@ -33,10 +33,10 @@
     "ticker": "KOTA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 103,
-    "vol_ratio": 2.1,
-    "pct_chg": 14.44,
-    "note": "Volume 2.1x avg + price +14.44%",
+    "close": 102,
+    "vol_ratio": 3.7,
+    "pct_chg": 13.33,
+    "note": "Volume 3.7x avg + price +13.33%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0711,
@@ -48,10 +48,10 @@
     "ticker": "ESIP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 139,
-    "vol_ratio": 5.4,
-    "pct_chg": 25.23,
-    "note": "Volume 5.4x avg + price +25.23%",
+    "close": 142,
+    "vol_ratio": 8.2,
+    "pct_chg": 27.93,
+    "note": "Volume 8.2x avg + price +27.93%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0622,
@@ -60,18 +60,18 @@
     }
   },
   {
-    "ticker": "RODA",
+    "ticker": "ESSA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 58,
-    "vol_ratio": 2.2,
-    "pct_chg": 3.57,
-    "note": "Volume 2.2x avg + price +3.57%",
+    "close": 665,
+    "vol_ratio": 2.7,
+    "pct_chg": 8.13,
+    "note": "Volume 2.7x avg + price +8.13%",
     "history": {
-      "tier": "medium",
-      "edge_5d": 0.0369,
-      "win_5d": 0.54,
-      "n": 50
+      "tier": "negative",
+      "edge_5d": -0.0197,
+      "win_5d": 0.281,
+      "n": 32
     }
   }
 ]
