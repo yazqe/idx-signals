@@ -249,3 +249,9 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-06-12,INDY,vol_breakout_up,BUY,2300,0.0348,,,2026-06-15T05:17:20
 2026-06-12,KAQI,vol_breakout_up,BUY,91,0.011,,,2026-06-15T05:17:20
 2026-06-12,KIJA,rsi_oversold,BUY,116,0.0517,,,2026-06-15T05:17:20
+2026-06-15,BNBR,vol_breakout_up,BUY,123,-0.0163,,,2026-06-17T05:17:20
+2026-06-15,COIN,vol_breakout_up,BUY,935,-0.0481,,,2026-06-17T05:17:20
+2026-06-15,NICL,vol_breakout_up,BUY,630,-0.0079,,,2026-06-17T05:17:20
+2026-06-15,ARCI,vol_breakout_up,BUY,1145,0.0218,,,2026-06-17T05:17:20
+2026-06-15,DEWA,vol_breakout_up,BUY,374,0.0,,,2026-06-17T05:17:20
+2026-06-15,BUMI,vol_breakout_up,BUY,176,0.0,,,2026-06-17T05:17:20
