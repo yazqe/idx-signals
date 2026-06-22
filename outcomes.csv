@@ -260,3 +260,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-06-17,KOTA,vol_breakout_up,BUY,102,-0.0588,,,2026-06-18T05:17:20
 2026-06-17,ESIP,vol_breakout_up,BUY,142,-0.0775,,,2026-06-18T05:17:20
 2026-06-17,ESSA,vol_breakout_up,BUY,665,0.0,,,2026-06-18T05:17:20
+2026-06-19,SDMU,vol_breakout_up,BUY,91,0.1538,,,2026-06-22T05:17:21
+2026-06-19,ESIP,vol_breakout_up,BUY,134,0.0821,,,2026-06-22T05:17:21
+2026-06-19,KAQI,vol_breakout_up,BUY,92,-0.0326,,,2026-06-22T05:17:21
