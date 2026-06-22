@@ -1,42 +1,12 @@
 [
   {
-    "ticker": "SDMU",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 101,
-    "vol_ratio": 9.2,
-    "pct_chg": 7.45,
-    "note": "Volume 9.2x avg + price +7.45%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0784,
-      "win_5d": 0.565,
-      "n": 46
-    }
-  },
-  {
-    "ticker": "KOTA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 103,
-    "vol_ratio": 2.1,
-    "pct_chg": 3,
-    "note": "Volume 2.1x avg + price +3.00%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0711,
-      "win_5d": 0.511,
-      "n": 45
-    }
-  },
-  {
     "ticker": "ESIP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 144,
-    "vol_ratio": 2.0,
-    "pct_chg": 7.46,
-    "note": "Volume 2.0x avg + price +7.46%",
+    "close": 149,
+    "vol_ratio": 3.0,
+    "pct_chg": 11.19,
+    "note": "Volume 3.0x avg + price +11.19%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0622,
