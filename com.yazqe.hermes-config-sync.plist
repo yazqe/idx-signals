@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.yazqe.hermes-config-sync</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>/Users/ultra/idx-signals/sync_hermes_config.sh</string>
+  </array>
+
+  <!-- Fires whenever ~/.hermes/config.yaml is modified -->
+  <key>WatchPaths</key>
+  <array>
+    <string>/Users/ultra/.hermes/config.yaml</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/ultra/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/ultra/idx-signals/logs/hermes-config-sync.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ultra/idx-signals/logs/hermes-config-sync.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
