@@ -1,31 +1,44 @@
 [
   {
-    "ticker": "COIN",
-    "strategy": "vol_breakout_up",
+    "ticker": "APLN",
+    "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 785,
-    "vol_ratio": 2.3,
-    "pct_chg": 6.8,
-    "note": "Volume 2.3x avg + price +6.80%",
+    "close": 114,
+    "rsi": 29.7,
+    "note": "RSI 29.7 < 30 (oversold)",
     "history": {
-      "tier": "high",
-      "edge_5d": 0.0807,
-      "win_5d": 0.688,
-      "n": 16
+      "tier": "low",
+      "edge_5d": 0.0049,
+      "win_5d": 0.5,
+      "n": 12
     }
   },
   {
     "ticker": "MEDC",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1085,
-    "rsi": 28.7,
-    "note": "RSI 28.7 < 30 (oversold)",
+    "close": 1060,
+    "rsi": 27.3,
+    "note": "RSI 27.3 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0041,
       "win_5d": 0.556,
       "n": 18
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 115,
+    "rsi": 29.8,
+    "note": "RSI 29.8 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0081,
+      "win_5d": 0.429,
+      "n": 14
     }
   }
 ]
