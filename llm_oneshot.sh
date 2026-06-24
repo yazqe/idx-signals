@@ -8,7 +8,10 @@ set -euo pipefail
 
 PROMPT="$1"
 ENDPOINT="${LLM_ENDPOINT:-http://127.0.0.1:8799/v1/chat/completions}"
-MAX_TOKENS="${LLM_MAX_TOKENS:-4000}"
+# gpt-oss-120b is reasoning-heavy: it spends tokens in the analysis channel
+# before the final answer, so a low cap → empty content. 16000 leaves room for
+# reasoning + a full multi-pick markdown report.
+MAX_TOKENS="${LLM_MAX_TOKENS:-16000}"
 
 REQ=$(python3 -c "import json,sys;print(json.dumps({'model':'base','messages':[{'role':'user','content':sys.argv[1]}],'max_tokens':int(sys.argv[2])}))" "$PROMPT" "$MAX_TOKENS")
 
