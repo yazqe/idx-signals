@@ -1,31 +1,31 @@
 [
   {
-    "ticker": "KAQI",
+    "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 93,
+    "close": 785,
     "vol_ratio": 2.3,
-    "pct_chg": 4.49,
-    "note": "Volume 2.3x avg + price +4.49%",
+    "pct_chg": 6.8,
+    "note": "Volume 2.3x avg + price +6.80%",
     "history": {
-      "tier": "low",
-      "edge_5d": 0.0121,
-      "win_5d": 0.588,
-      "n": 17
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
     }
   },
   {
-    "ticker": "KIJA",
+    "ticker": "MEDC",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 117,
-    "rsi": 27.0,
-    "note": "RSI 27.0 < 30 (oversold)",
+    "close": 1085,
+    "rsi": 28.7,
+    "note": "RSI 28.7 < 30 (oversold)",
     "history": {
-      "tier": "negative",
-      "edge_5d": -0.0081,
-      "win_5d": 0.429,
-      "n": 14
+      "tier": "low",
+      "edge_5d": 0.0041,
+      "win_5d": 0.556,
+      "n": 18
     }
   }
 ]
