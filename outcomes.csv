@@ -264,3 +264,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-06-19,ESIP,vol_breakout_up,BUY,134,0.0821,,,2026-06-22T05:17:21
 2026-06-19,KAQI,vol_breakout_up,BUY,92,-0.0326,,,2026-06-22T05:17:21
 2026-06-22,ESIP,vol_breakout_up,BUY,149,0.0067,,,2026-06-23T05:17:19
+2026-06-24,APLN,rsi_oversold,BUY,114,0.0,,,2026-06-25T05:17:52
+2026-06-24,MEDC,rsi_oversold,BUY,1060,0.0047,,,2026-06-25T05:17:52
+2026-06-24,KIJA,rsi_oversold,BUY,115,-0.0087,,,2026-06-25T05:17:52
