@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ticker": "MEDC",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 1050,
+    "rsi": 27.2,
+    "note": "RSI 27.2 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0041,
+      "win_5d": 0.556,
+      "n": 18
+    }
+  }
+]
