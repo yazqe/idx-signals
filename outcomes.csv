@@ -267,3 +267,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-06-24,APLN,rsi_oversold,BUY,114,0.0,,,2026-06-25T05:17:52
 2026-06-24,MEDC,rsi_oversold,BUY,1060,0.0047,,,2026-06-25T05:17:52
 2026-06-24,KIJA,rsi_oversold,BUY,115,-0.0087,,,2026-06-25T05:17:52
+2026-06-25,MEDC,rsi_oversold,BUY,1070,0.028,,,2026-06-26T05:17:17
