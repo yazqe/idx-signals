@@ -1,11 +1,25 @@
 [
   {
+    "ticker": "APLN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 110,
+    "rsi": 29.6,
+    "note": "RSI 29.6 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0049,
+      "win_5d": 0.5,
+      "n": 12
+    }
+  },
+  {
     "ticker": "MEDC",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1050,
-    "rsi": 27.2,
-    "note": "RSI 27.2 < 30 (oversold)",
+    "close": 1055,
+    "rsi": 27.5,
+    "note": "RSI 27.5 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0041,
