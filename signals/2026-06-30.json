@@ -17,9 +17,9 @@
     "ticker": "MEDC",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1020,
-    "rsi": 25.3,
-    "note": "RSI 25.3 < 30 (oversold)",
+    "close": 1035,
+    "rsi": 26.2,
+    "note": "RSI 26.2 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0041,
@@ -39,6 +39,20 @@
       "edge_5d": -0.0037,
       "win_5d": 0.5,
       "n": 14
+    }
+  },
+  {
+    "ticker": "BIPI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 115,
+    "rsi": 29.5,
+    "note": "RSI 29.5 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0104,
+      "win_5d": 0.333,
+      "n": 9
     }
   }
 ]
