@@ -280,3 +280,7 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-06-30,BIPI,rsi_oversold,BUY,112,0.0179,,,2026-07-01T05:18:07
 2026-06-30,EMTK,rsi_oversold,BUY,488,0.0041,,,2026-07-01T05:18:07
 2026-06-30,EMAS,rsi_oversold,BUY,5550,0.009,,,2026-07-01T05:18:07
+2026-07-01,RAJA,vol_breakout_up,BUY,3990,-0.0075,,,2026-07-02T05:17:23
+2026-07-01,RATU,vol_breakout_up,BUY,5450,0.0,,,2026-07-02T05:17:23
+2026-07-01,APLN,rsi_oversold,BUY,105,0.0095,,,2026-07-02T05:17:23
+2026-07-01,EMTK,rsi_oversold,BUY,486,0.0206,,,2026-07-02T05:17:23
