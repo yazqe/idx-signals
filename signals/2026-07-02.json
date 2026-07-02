@@ -3,15 +3,30 @@
     "ticker": "BNBR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 106,
-    "vol_ratio": 2.3,
-    "pct_chg": 17.78,
-    "note": "Volume 2.3x avg + price +17.78%",
+    "close": 102,
+    "vol_ratio": 2.9,
+    "pct_chg": 13.33,
+    "note": "Volume 2.9x avg + price +13.33%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1267,
       "win_5d": 0.583,
       "n": 36
+    }
+  },
+  {
+    "ticker": "VKTR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 520,
+    "vol_ratio": 2.2,
+    "pct_chg": 13.04,
+    "note": "Volume 2.2x avg + price +13.04%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0686,
+      "win_5d": 0.607,
+      "n": 28
     }
   }
 ]
