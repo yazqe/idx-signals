@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ticker": "BNBR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 108,
+    "vol_ratio": 2.0,
+    "pct_chg": 2.86,
+    "note": "Volume 2.0x avg + price +2.86%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1267,
+      "win_5d": 0.583,
+      "n": 36
+    }
+  }
+]
