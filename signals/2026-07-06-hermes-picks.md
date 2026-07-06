@@ -2,28 +2,28 @@
 - **Triggered:** vol_breakout_up  
 - **Conviction:** High  
 - **Historical edge:** 12.34% over 32 past trades (win rate 37.5%)  
-- **Entry zone:** 57 ± 0.5  
+- **Entry zone:** 58.00 ± 0.30 (57.70‑58.30)  
 - **Stop loss:** -3% below close  
 - **Take profit:** +6% above close  
-- **Why:** Volume surged to 3.1 × the 20‑day average while price jumped 5.56%, a classic high‑conviction breakout.
+- **Why:** Volume 3.4× average and a 7.41% price surge indicate strong short‑term momentum.
 
 ## ASHA — BUY (5-20d hold)  
 - **Triggered:** vol_breakout_up  
 - **Conviction:** High  
 - **Historical edge:** 5.86% over 35 past trades (win rate 57.1%)  
-- **Entry zone:** 55 ± 0.5  
+- **Entry zone:** 55.00 ± 0.30 (54.70‑55.30)  
 - **Stop loss:** -3% below close  
 - **Take profit:** +6% above close  
-- **Why:** A massive 4.3 × volume surge paired with a 7.84% price surge signals a strong momentum breakout.
+- **Why:** A 4.7× volume breakout with a 7.84% price jump suggests a robust upside bias.
 
-## APLN — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low  
-- **Historical edge:** 0.49% over 12 past trades (win rate 50.0%)  
-- **Entry zone:** 104 ± 1.0  
-- **Stop loss:** -2% below close  
-- **Take profit:** +4% above close  
-- **Why:** RSI slipped just below 30, indicating oversold conditions; despite modest edge, the signal merits a cautious play.
+## RODA — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** Medium  
+- **Historical edge:** 3.69% over 50 past trades (win rate 54.0%)  
+- **Entry zone:** 53.00 ± 0.30 (52.70‑53.30)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +6% above close  
+- **Why:** Exceptional 8.3× volume surge and a 6% price rise point to a solid short‑term rally.
 
 ### Market Read  
-Today's market shows a pronounced bias toward volume‑driven breakouts, with two high‑conviction tickers (KRYA, ASHA) displaying multi‑standard‑deviation volume spikes and solid forward returns. A modest RSI‑oversold signal (APLN) rounds out the list, offering a low‑risk, low‑edge add‑on for diversified short‑term exposure.
+Today's volume‑driven breakouts dominate the signal set, with high‑conviction tickers KRYA and ASHA showing the strongest confluence. RODA, while only medium‑tier, still offers a solid edge and merits inclusion for a diversified short‑term play.

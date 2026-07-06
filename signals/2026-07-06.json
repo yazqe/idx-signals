@@ -3,10 +3,10 @@
     "ticker": "KRYA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 57,
-    "vol_ratio": 3.1,
-    "pct_chg": 5.56,
-    "note": "Volume 3.1x avg + price +5.56%",
+    "close": 58,
+    "vol_ratio": 3.4,
+    "pct_chg": 7.41,
+    "note": "Volume 3.4x avg + price +7.41%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1234,
@@ -19,9 +19,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 55,
-    "vol_ratio": 4.3,
+    "vol_ratio": 4.7,
     "pct_chg": 7.84,
-    "note": "Volume 4.3x avg + price +7.84%",
+    "note": "Volume 4.7x avg + price +7.84%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0586,
@@ -30,17 +30,18 @@
     }
   },
   {
-    "ticker": "APLN",
-    "strategy": "rsi_oversold",
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 104,
-    "rsi": 29.6,
-    "note": "RSI 29.6 < 30 (oversold)",
+    "close": 53,
+    "vol_ratio": 8.3,
+    "pct_chg": 6,
+    "note": "Volume 8.3x avg + price +6.00%",
     "history": {
-      "tier": "low",
-      "edge_5d": 0.0049,
-      "win_5d": 0.5,
-      "n": 12
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
     }
   }
 ]
