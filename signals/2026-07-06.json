@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "ticker": "KRYA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 57,
+    "vol_ratio": 3.1,
+    "pct_chg": 5.56,
+    "note": "Volume 3.1x avg + price +5.56%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1234,
+      "win_5d": 0.375,
+      "n": 32
+    }
+  },
+  {
+    "ticker": "ASHA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 55,
+    "vol_ratio": 4.3,
+    "pct_chg": 7.84,
+    "note": "Volume 4.3x avg + price +7.84%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0586,
+      "win_5d": 0.571,
+      "n": 35
+    }
+  },
+  {
+    "ticker": "APLN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 104,
+    "rsi": 29.6,
+    "note": "RSI 29.6 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0049,
+      "win_5d": 0.5,
+      "n": 12
+    }
+  }
+]
