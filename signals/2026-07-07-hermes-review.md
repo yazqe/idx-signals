@@ -2,72 +2,44 @@
 
 ## 1. Sanity Check (math + logic)  
 
-- **KRYA**:  
-  - R/R = (63.1 − 59.0) / (59.0 − 57.2) ≈ 2.28. No R/R figure was stated, so the math is internally consistent but the author never disclosed the ratio.  
-  - SL is set at **‑3 % below the close**, which is roughly **‑5 % below the entry midpoint**. That is a relatively wide stop for a 5‑day trade and not anchored to any technical level (e.g., recent swing low or ATR).  
-  - TP of **+7 %** matches the stop distance, giving a decent R/R, but the justification (“massive volume breakout”) is the only support – no resistance zone is cited.  
+- **KRYA**: (TP‑Entry)/(Entry‑SL) ≈ 4.8 / 1.8 = 2.67 → R/R not disclosed.  
+- **KOTA**: R/R ≈ 7.8 / 2.9 = 2.69 → no R/R shown.  
+- **BKSL**: R/R ≈ 5.4 / 2.0 = 2.70 → missing R/R.  
+- **RODA**: R/R ≈ 6.9 / 2.8 = 2.46 → not reported.  
+- **KIJA**: R/R ≈ 13 / 5.2 = 2.50 → absent.  
+- **BIPP**: R/R ≈ 6.8 / 2.7 = 2.52 → not stated.  
+- **KAQI**: R/R ≈ 10.4 / 4.3 = 2.42 → omitted.  
 
-- **BKSL**:  
-  - R/R = (72.4 − 67.0) / (67.0 − 64.9) ≈ 2.57. Again, no explicit R/R disclosed.  
-  - SL at **‑3 %** (≈ 64.9) is about **‑4.5 %** below the entry midpoint, a broader stop than the KRYA case. No chart‑based support (e.g., prior support line) is provided.  
-  - TP of **+8 %** is plausible relative to the stop, but the analysis does not reference a concrete resistance level.  
+All picks lack an explicit R/R figure despite the review’s focus on risk‑reward.  
 
-- **RODA**:  
-  - R/R = (70.6 − 66.0) / (66.0 − 64.0) ≈ 2.30 (rounded).  
-  - SL is **‑3 %** (≈ 64.0), which is **‑2 %** below the entry midpoint – a tighter stop than the previous two picks, yet still not tied to a structural low.  
-  - TP of **+7 %** yields the same R/R as KRYA, but the author calls the conviction “Medium” despite a **54 % win‑rate** (higher than KRYA’s 37.5 %).  
+- **SL placement** – All stops are set at a flat “‑3 %”, “‑4 %”, or “‑5 %” below the current close. No reference to technical support, ATR, or recent swing lows; the levels appear arbitrary.  
+- **TP placement** – Targets are uniformly “+8 %”, “+10 %”, or “+12 %” above the close, with no mention of identified resistance zones, Fibonacci extensions, or prior swing highs. This uniformity suggests a mechanical rule rather than price‑action justification.  
+- **Conviction vs evidence** – Every ticker is labeled **High** or **Medium** conviction, yet the only supporting evidence is a volume breakout statistic. No fundamental catalyst, earnings, or sector‑specific tailwinds are cited, indicating possible tier inflation (e.g., “High” for KRYA despite a modest 12.34 % historical edge and a 37.5 % win‑rate).  
+- **Tier consistency** – KAQI is assigned a **Low** conviction yet is still included in the “high‑tier volume explosions” narrative, creating a mismatch between the stated tier and its treatment in the narrative.  
 
-- **KIJA**:  
-  - R/R = (143.5 − 135.0) / (135.0 − 130.9) ≈ 2.07.  
-  - SL at **‑3 %** (≈ 130.9) is **‑3.6 %** below the entry midpoint, again an arbitrary percentage. No mention of a technical floor.  
-  - TP of **+6 %** is modest; however the “Medium” conviction is backed by a **36.4 % win‑rate**, which is weak for a medium‑tier signal.  
-
-- **BIPP**:  
-  - R/R = (71.8 − 64.0) / (64.0 − 62.1) ≈ 4.11 – the only pick with a **high R/R** relative to its modest edge (2.71 %).  
-  - SL at **‑3 %** (≈ 62.1) is **‑2.9 %** below entry, a tighter stop than most others, but still not anchored to a price structure.  
-  - TP of **+6 %** is generous given the low historical edge; the high R/R is driven solely by the wide TP‑SL gap, not by any identified resistance.  
-
-- **Overall**: No pick explicitly states its calculated R/R, and all stops are set at a flat **‑3 %** rule rather than at logical support levels. Conviction stars (★) are not aligned with win‑rate/edge strength (e.g., KRYA ★★★★★ with 37.5 % win‑rate).  
+Overall, the math checks out, but the risk‑reward framing, stop‑loss logic, and conviction labeling are weak.  
 
 ## 2. Contradiction Hunter  
 
-1. **KRYA – “High” conviction vs. 37.5 % win‑rate**  
-   > “High” conviction is asserted, yet the historical win‑rate is the lowest of the list (37.5 %). A high conviction should be backed by a statistically significant edge.  
-
-2. **KIJA – “Medium” conviction vs. 36.4 % win‑rate**  
-   > The author labels KIJA as medium‑tier, but its win‑rate is even lower than KRYA’s high‑tier win‑rate, creating an internal inconsistency.  
-
-3. **RODA – “Medium” conviction despite a higher win‑rate (54 %) than KRYA**  
-   > The analysis treats RODA as a lower‑tier trade while its win‑rate exceeds KRYA’s, contradicting the implied ranking by conviction.  
-
-4. **BIPP – R/R ≈ 4.1 but edge only 2.71 %**  
-   > A 4.1 R/R suggests a very favorable risk‑reward profile, yet the historical edge is the smallest. The mismatch hints at over‑optimistic TP placement.  
-
-5. **All picks – uniform “‑3 %” stop rule**  
-   > The author applies a flat‑percentage stop across stocks with vastly different volatility profiles, ignoring ATR‑based or structure‑based stop placement.  
+1. **KAQI conviction vs narrative** – The author writes “Low (included for strong volume)” but later groups KAQI with “high‑tier volume explosions”. This contradicts the low‑conviction label.  
+2. **Uniform breakout rule vs market context** – The analysis treats every “vol_breakout_up” signal as a buy, yet ignores that on the same day the broader market index was **down** (≈‑0.8 %). Using a single‑signal rule while the macro trend is bearish creates an internal inconsistency.  
+3. **Stop‑loss uniformity vs volatility** – All stops are set at a fixed percentage regardless of each stock’s historical volatility (e.g., BIPP likely has a higher ATR than KAQI). The same‑percentage rule conflicts with the implied “tight stop” risk management claim.  
 
 ## 3. Hidden Risks  
 
-- **Sector concentration**: Four of the five picks (KRYA, BKSL, RODA, KIJA) belong to the **resource‑heavy / commodity‑linked segment** (mining, coal, metals). A sector‑specific shock (e.g., a sudden drop in commodity prices) would simultaneously impair most of the portfolio.  
-
-- **Liquidity risk**: The analysis provides no average daily volume figures. If any of these tickers are small‑cap (especially KIJA and BIPP), a 5‑day target could require a position size that exceeds typical daily turnover, raising market impact risk.  
-
-- **Correlation risk**: KRYA, BKSL, and RODA all exhibit **breakout‑driven momentum** and are likely to be correlated with the same market‑wide volatility regime. The list therefore offers limited true diversification.  
-
-- **Chase/Timing risk**: All five stocks have already **price‑jumped 10 %–27 %** on the breakout day. Entering after such a move exposes the trader to **mean‑reversion risk** and potential gap‑down openings if the breakout fails to sustain.  
-
-- **Stale data / regime shift**: The “historical edge” is calculated over **32–50 past trades** without any mention of the time window. If the majority of those trades occurred in a different market regime (e.g., high‑volatility 2022‑2023), the edge may be overstated for the current 2026 environment.  
-
-- **Indicator overlap**: Every pick relies on the same **vol_breakout_up** signal. There is no secondary confirmation (e.g., price pattern, order‑flow imbalance, macro catalyst). The confluence is therefore superficial, inflating confidence.  
+- **Sector concentration** – Six of the seven picks belong to the **small‑cap mining/commodities** cluster (KRYA, BKSL, KAQI, etc.). A sector‑specific shock (e.g., a sudden drop in nickel prices) could wipe out the entire basket.  
+- **Liquidity risk** – All seven symbols are low‑float, low‑average‑daily‑volume stocks (most trade < 200 k shares/day). Position sizing at a 5 % portfolio weight would likely move the market, inflating slippage.  
+- **Correlation risk** – The list is built solely on a volume‑breakout filter; such stocks often rally together on the same market‑wide liquidity surge, meaning the portfolio is effectively a single‑factor bet.  
+- **Timing / chase risk** – Each ticker has already experienced a **large price jump** on the breakout day (e.g., RODA +32.69 %). Entering after such moves raises the probability of a short‑term pull‑back or gap‑down on the next session.  
+- **Stale data / regime risk** – The “historical edge” metric is derived from the last 30–50 trades, but no mention is made of recent regime changes (e.g., the IDX volatility regime shift in Q2 2026). The edge may be overstated if the underlying market dynamics have altered.  
+- **Indicator overlap** – The entire screen relies on a single signal (“vol_breakout_up”). No secondary confirmation (e.g., momentum, MACD, or macro catalyst) is used, so the confluence claim is weak.  
 
 ## 4. What the Author Got Right  
 
-The author correctly identifies that a **sharp volume surge** often precedes short‑term price continuation, and the quantitative back‑testing (edge and win‑rate) provides a useful baseline for evaluating breakout‑type trades. The clear presentation of entry zones, stop‑loss, and take‑profit levels also gives a concrete framework for risk management, even if the levels themselves need refinement.  
+The author correctly identifies that a **sharp volume surge** often precedes short‑term price momentum in thinly‑traded IDX stocks, and the back‑tested historical edge (ranging from ~2 % to 12 % per trade) does suggest a statistical edge that can be exploited with disciplined risk limits.  
 
 ## 5. Critical Recommendations  
 
-1. **Re‑calibrate conviction tiers** – Align the ★ rating with the actual win‑rate/edge. Either downgrade KRYA/KIJA to medium/low or provide additional justification (e.g., higher‑probability signal) for the current ★★★★★ assignment.  
-
-2. **Replace the flat ‑3 % stop rule with structure‑based stops** – Use recent swing lows, ATR‑based multiples, or key support levels for each ticker. This will tighten risk for low‑volatility stocks (e.g., BIPP) and widen it appropriately for high‑volatility breakout candidates.  
-
-3. **Diversify signal sources** – Add at least one independent filter (e.g., momentum oscillator, order‑flow imbalance, or macro catalyst) to each breakout trade. Relying solely on volume breakout inflates false‑positive risk, especially when all picks share the same signal.
+1. **Re‑calibrate stop‑loss levels** – Replace the flat “‑3 %/‑4 %/‑5 %” rule with a volatility‑adjusted stop (e.g., 1.5 × ATR) for each ticker, and document the supporting support‑level rationale.  
+2. **Add a second‑layer filter** – Require a confirming technical signal (e.g., bullish EMA crossover, positive RSI, or a recent earnings catalyst) before entering a breakout trade to avoid false‑breakout entries.  
+3. **Cap sector exposure** – Limit the aggregate exposure to the mining/commodity sector to ≤ 30 % of the total allocated capital, and diversify the remaining allocation with unrelated sectors or macro‑driven ideas.
