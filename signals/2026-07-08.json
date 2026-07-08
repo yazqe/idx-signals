@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ticker": "ASHA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 58,
+    "vol_ratio": 6.3,
+    "pct_chg": 5.45,
+    "note": "Volume 6.3x avg + price +5.45%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0586,
+      "win_5d": 0.571,
+      "n": 35
+    }
+  }
+]
