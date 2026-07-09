@@ -1,11 +1,20 @@
-## SINI — BUY (5-20d hold)
+## HUMI — BUY (5-20d hold)
 - **Triggered:** vol_breakout_up  
 - **Conviction:** High  
-- **Historical edge:** 13.23% over 52 past trades (win rate 67.3%)  
-- **Entry zone:** 10,800 – 11,100 (around today’s close of 10,950)  
-- **Stop loss:** -5% below close (≈ 10,402)  
-- **Take profit:** +12% above close (≈ 12,284)  
-- **Why:** An 8.3× volume breakout paired with a 9.77% price surge places SINI in a high‑conviction, high‑edge regime.  
+- **Historical edge:** 13.0% over 31 past trades (win rate 41.9%)  
+- **Entry zone:** 116 ± 0.5 (≈115.5‑116.5)  
+- **Stop loss:** -3% below close (≈112.5)  
+- **Take profit:** +7% above close (≈124.1)  
+- **Why:** Volume surged to 3.1× average with a 2.65% price jump, a classic high‑conviction breakout.
 
-### Market Read  
-Today's volume‑driven breakout on SINI signals strong short‑term buying pressure, aligning with its historically robust 5‑day edge. Expect continued upward bias over the next 5‑20 trading days, though watch for rapid reversals if broader market sentiment shifts.
+## GTSI — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 9.8% over 37 past trades (win rate 48.6%)  
+- **Entry zone:** 127 ± 0.5 (≈126.5‑127.5)  
+- **Stop loss:** -3% below close (≈123.2)  
+- **Take profit:** +7% above close (≈135.9)  
+- **Why:** A 2.9× volume surge accompanied a 3.25% price rise, fitting a strong breakout pattern.
+
+### Market Read
+Today's list is short but both signals are high‑tier volume breakouts, the strongest driver in our framework. Expect short‑to‑mid‑term upside if the breakout momentum sustains, with modest risk controls.
