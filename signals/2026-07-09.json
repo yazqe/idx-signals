@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 10950,
+    "vol_ratio": 8.3,
+    "pct_chg": 9.77,
+    "note": "Volume 8.3x avg + price +9.77%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  }
+]

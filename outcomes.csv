@@ -298,3 +298,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-07,BIPP,vol_breakout_up,BUY,68,-0.1029,,,2026-07-08T05:17:21
 2026-07-07,KAQI,vol_breakout_up,BUY,87,-0.023,,,2026-07-08T05:17:21
 2026-07-07,APLN,vol_breakout_up,BUY,132,0.0379,,,2026-07-08T05:17:21
+2026-07-08,ASHA,vol_breakout_up,BUY,58,-0.0345,,,2026-07-09T05:17:48
