@@ -1,32 +1,60 @@
 [
   {
-    "ticker": "HUMI",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 116,
-    "vol_ratio": 3.1,
-    "pct_chg": 2.65,
-    "note": "Volume 3.1x avg + price +2.65%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.1304,
-      "win_5d": 0.419,
-      "n": 31
-    }
-  },
-  {
     "ticker": "GTSI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 127,
-    "vol_ratio": 2.9,
-    "pct_chg": 3.25,
-    "note": "Volume 2.9x avg + price +3.25%",
+    "close": 126,
+    "vol_ratio": 3.6,
+    "pct_chg": 2.44,
+    "note": "Volume 3.6x avg + price +2.44%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0977,
       "win_5d": 0.486,
       "n": 37
+    }
+  },
+  {
+    "ticker": "DEWA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 332,
+    "vol_ratio": 2.2,
+    "pct_chg": 11.41,
+    "note": "Volume 2.2x avg + price +11.41%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0318,
+      "win_5d": 0.485,
+      "n": 33
+    }
+  },
+  {
+    "ticker": "ENRG",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1210,
+    "vol_ratio": 2.4,
+    "pct_chg": 2.98,
+    "note": "Volume 2.4x avg + price +2.98%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0264,
+      "win_5d": 0.467,
+      "n": 30
+    }
+  },
+  {
+    "ticker": "RAJA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 4350,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0298,
+      "win_5d": 0.5,
+      "n": 4
     }
   }
 ]
