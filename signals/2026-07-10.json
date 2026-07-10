@@ -1,12 +1,27 @@
 [
   {
+    "ticker": "DEFI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 111,
+    "vol_ratio": 3.8,
+    "pct_chg": 7.77,
+    "note": "Volume 3.8x avg + price +7.77%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.2152,
+      "win_5d": 0.417,
+      "n": 24
+    }
+  },
+  {
     "ticker": "KRYA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 60,
-    "vol_ratio": 2.5,
+    "vol_ratio": 2.8,
     "pct_chg": 3.45,
-    "note": "Volume 2.5x avg + price +3.45%",
+    "note": "Volume 2.8x avg + price +3.45%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1234,
@@ -15,16 +30,46 @@
     }
   },
   {
+    "ticker": "ELSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 645,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.61,
+    "note": "Volume 2.4x avg + price +6.61%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0008,
+      "win_5d": 0.368,
+      "n": 19
+    }
+  },
+  {
     "ticker": "TINS",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 3440,
+    "close": 3470,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0071,
       "win_5d": 0.667,
       "n": 3
+    }
+  },
+  {
+    "ticker": "DIVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 111,
+    "vol_ratio": 2.5,
+    "pct_chg": 2.78,
+    "note": "Volume 2.5x avg + price +2.78%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0327,
+      "win_5d": 0.444,
+      "n": 36
     }
   }
 ]
