@@ -1,9 +1,24 @@
 [
   {
+    "ticker": "KRYA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 60,
+    "vol_ratio": 2.5,
+    "pct_chg": 3.45,
+    "note": "Volume 2.5x avg + price +3.45%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1234,
+      "win_5d": 0.375,
+      "n": 32
+    }
+  },
+  {
     "ticker": "TINS",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 3400,
+    "close": 3440,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
