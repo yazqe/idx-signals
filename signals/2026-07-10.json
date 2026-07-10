@@ -1,0 +1,15 @@
+[
+  {
+    "ticker": "TINS",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 3400,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0071,
+      "win_5d": 0.667,
+      "n": 3
+    }
+  }
+]
