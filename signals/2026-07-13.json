@@ -1,12 +1,27 @@
 [
   {
+    "ticker": "BIPI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 132,
+    "vol_ratio": 2.4,
+    "pct_chg": 5.6,
+    "note": "Volume 2.4x avg + price +5.60%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0704,
+      "win_5d": 0.576,
+      "n": 33
+    }
+  },
+  {
     "ticker": "VKTR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 650,
-    "vol_ratio": 3.9,
+    "vol_ratio": 5.0,
     "pct_chg": 25,
-    "note": "Volume 3.9x avg + price +25.00%",
+    "note": "Volume 5.0x avg + price +25.00%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0686,
@@ -15,13 +30,28 @@
     }
   },
   {
+    "ticker": "TOBA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 426,
+    "vol_ratio": 4.2,
+    "pct_chg": 8.12,
+    "note": "Volume 4.2x avg + price +8.12%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0473,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
     "ticker": "RODA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 68,
-    "vol_ratio": 2.7,
+    "vol_ratio": 4.6,
     "pct_chg": 15.25,
-    "note": "Volume 2.7x avg + price +15.25%",
+    "note": "Volume 4.6x avg + price +15.25%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0369,
@@ -34,9 +64,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 72,
-    "vol_ratio": 2.8,
+    "vol_ratio": 5.3,
     "pct_chg": 14.29,
-    "note": "Volume 2.8x avg + price +14.29%",
+    "note": "Volume 5.3x avg + price +14.29%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0271,
