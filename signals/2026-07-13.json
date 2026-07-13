@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "ticker": "VKTR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 650,
+    "vol_ratio": 3.9,
+    "pct_chg": 25,
+    "note": "Volume 3.9x avg + price +25.00%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0686,
+      "win_5d": 0.607,
+      "n": 28
+    }
+  },
+  {
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 68,
+    "vol_ratio": 2.7,
+    "pct_chg": 15.25,
+    "note": "Volume 2.7x avg + price +15.25%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
+    }
+  },
+  {
+    "ticker": "BIPP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 72,
+    "vol_ratio": 2.8,
+    "pct_chg": 14.29,
+    "note": "Volume 2.8x avg + price +14.29%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0271,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  }
+]
