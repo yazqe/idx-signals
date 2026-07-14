@@ -309,3 +309,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-10,ELSA,vol_breakout_up,BUY,645,0.0233,,,2026-07-13T05:17:54
 2026-07-10,TINS,ma_golden_cross,BUY,3470,-0.0115,,,2026-07-13T05:17:54
 2026-07-10,DIVA,vol_breakout_up,BUY,111,-0.036,,,2026-07-13T05:17:54
+2026-07-13,BIPI,vol_breakout_up,BUY,132,-0.0076,,,2026-07-14T05:17:55
+2026-07-13,VKTR,vol_breakout_up,BUY,650,0.0154,,,2026-07-14T05:17:55
+2026-07-13,TOBA,vol_breakout_up,BUY,426,-0.0141,,,2026-07-14T05:17:55
+2026-07-13,RODA,vol_breakout_up,BUY,68,-0.0882,,,2026-07-14T05:17:55
+2026-07-13,BIPP,vol_breakout_up,BUY,72,-0.0833,,,2026-07-14T05:17:55
