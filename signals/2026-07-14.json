@@ -1,27 +1,12 @@
 [
   {
-    "ticker": "HUMI",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 126,
-    "vol_ratio": 2.2,
-    "pct_chg": 5,
-    "note": "Volume 2.2x avg + price +5.00%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.1304,
-      "win_5d": 0.419,
-      "n": 31
-    }
-  },
-  {
     "ticker": "WIFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 1790,
-    "vol_ratio": 2.1,
+    "vol_ratio": 2.8,
     "pct_chg": 7.19,
-    "note": "Volume 2.1x avg + price +7.19%",
+    "note": "Volume 2.8x avg + price +7.19%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1043,
@@ -30,28 +15,13 @@
     }
   },
   {
-    "ticker": "GTSI",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 137,
-    "vol_ratio": 2.9,
-    "pct_chg": 4.58,
-    "note": "Volume 2.9x avg + price +4.58%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0977,
-      "win_5d": 0.486,
-      "n": 37
-    }
-  },
-  {
     "ticker": "BIPI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 143,
-    "vol_ratio": 2.7,
+    "vol_ratio": 3.8,
     "pct_chg": 5.93,
-    "note": "Volume 2.7x avg + price +5.93%",
+    "note": "Volume 3.8x avg + price +5.93%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0704,
@@ -63,10 +33,10 @@
     "ticker": "VKTR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 745,
-    "vol_ratio": 4.4,
-    "pct_chg": 14.62,
-    "note": "Volume 4.4x avg + price +14.62%",
+    "close": 725,
+    "vol_ratio": 5.0,
+    "pct_chg": 11.54,
+    "note": "Volume 5.0x avg + price +11.54%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0686,
@@ -75,13 +45,28 @@
     }
   },
   {
+    "ticker": "INET",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 212,
+    "vol_ratio": 2.0,
+    "pct_chg": 4.95,
+    "note": "Volume 2.0x avg + price +4.95%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0514,
+      "win_5d": 0.487,
+      "n": 39
+    }
+  },
+  {
     "ticker": "TOBA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 438,
-    "vol_ratio": 2.2,
-    "pct_chg": 3.79,
-    "note": "Volume 2.2x avg + price +3.79%",
+    "close": 454,
+    "vol_ratio": 4.3,
+    "pct_chg": 7.58,
+    "note": "Volume 4.3x avg + price +7.58%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0473,
@@ -90,18 +75,63 @@
     }
   },
   {
+    "ticker": "ENRG",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1440,
+    "vol_ratio": 2.3,
+    "pct_chg": 14.74,
+    "note": "Volume 2.3x avg + price +14.74%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0264,
+      "win_5d": 0.467,
+      "n": 30
+    }
+  },
+  {
+    "ticker": "INDY",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2230,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.7,
+    "note": "Volume 2.4x avg + price +6.70%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0252,
+      "win_5d": 0.438,
+      "n": 32
+    }
+  },
+  {
     "ticker": "BULL",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 372,
-    "vol_ratio": 3.4,
-    "pct_chg": 11.38,
-    "note": "Volume 3.4x avg + price +11.38%",
+    "close": 368,
+    "vol_ratio": 4.3,
+    "pct_chg": 10.18,
+    "note": "Volume 4.3x avg + price +10.18%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0113,
       "win_5d": 0.421,
       "n": 19
+    }
+  },
+  {
+    "ticker": "MEDC",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1235,
+    "vol_ratio": 2.3,
+    "pct_chg": 4.22,
+    "note": "Volume 2.3x avg + price +4.22%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0198,
+      "win_5d": 0.471,
+      "n": 17
     }
   }
 ]
