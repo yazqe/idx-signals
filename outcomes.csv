@@ -314,3 +314,12 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-13,TOBA,vol_breakout_up,BUY,426,-0.0141,,,2026-07-14T05:17:55
 2026-07-13,RODA,vol_breakout_up,BUY,68,-0.0882,,,2026-07-14T05:17:55
 2026-07-13,BIPP,vol_breakout_up,BUY,72,-0.0833,,,2026-07-14T05:17:55
+2026-07-14,WIFI,vol_breakout_up,BUY,1790,0.0475,,,2026-07-15T05:18:10
+2026-07-14,BIPI,vol_breakout_up,BUY,143,0.042,,,2026-07-15T05:18:10
+2026-07-14,VKTR,vol_breakout_up,BUY,725,-0.0207,,,2026-07-15T05:18:10
+2026-07-14,INET,vol_breakout_up,BUY,212,0.066,,,2026-07-15T05:18:10
+2026-07-14,TOBA,vol_breakout_up,BUY,454,0.022,,,2026-07-15T05:18:10
+2026-07-14,ENRG,vol_breakout_up,BUY,1440,0.0,,,2026-07-15T05:18:10
+2026-07-14,INDY,vol_breakout_up,BUY,2230,-0.0045,,,2026-07-15T05:18:10
+2026-07-14,BULL,vol_breakout_up,BUY,368,0.0054,,,2026-07-15T05:18:10
+2026-07-14,MEDC,vol_breakout_up,BUY,1235,0.0,,,2026-07-15T05:18:10
