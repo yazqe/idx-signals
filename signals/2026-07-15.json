@@ -1,27 +1,42 @@
 [
   {
-    "ticker": "KRYA",
+    "ticker": "ASPR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 61,
-    "vol_ratio": 2.8,
-    "pct_chg": 3.39,
-    "note": "Volume 2.8x avg + price +3.39%",
+    "close": 160,
+    "vol_ratio": 3.6,
+    "pct_chg": 8.11,
+    "note": "Volume 3.6x avg + price +8.11%",
     "history": {
       "tier": "high",
-      "edge_5d": 0.1234,
-      "win_5d": 0.375,
-      "n": 32
+      "edge_5d": 0.12,
+      "win_5d": 0.478,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "KAQI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 88,
+    "vol_ratio": 2.1,
+    "pct_chg": 2.33,
+    "note": "Volume 2.1x avg + price +2.33%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0121,
+      "win_5d": 0.588,
+      "n": 17
     }
   },
   {
     "ticker": "APLN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 141,
-    "vol_ratio": 3.3,
-    "pct_chg": 11.9,
-    "note": "Volume 3.3x avg + price +11.90%",
+    "close": 137,
+    "vol_ratio": 3.7,
+    "pct_chg": 8.73,
+    "note": "Volume 3.7x avg + price +8.73%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0188,
