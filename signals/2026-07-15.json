@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ticker": "KRYA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 61,
+    "vol_ratio": 2.8,
+    "pct_chg": 3.39,
+    "note": "Volume 2.8x avg + price +3.39%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1234,
+      "win_5d": 0.375,
+      "n": 32
+    }
+  },
+  {
+    "ticker": "APLN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 141,
+    "vol_ratio": 3.3,
+    "pct_chg": 11.9,
+    "note": "Volume 3.3x avg + price +11.90%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0188,
+      "win_5d": 0.29,
+      "n": 31
+    }
+  }
+]
