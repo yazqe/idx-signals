@@ -3,7 +3,7 @@
     "ticker": "SDMU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 82,
+    "close": 81,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,12 +13,42 @@
     }
   },
   {
+    "ticker": "WIFI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2060,
+    "vol_ratio": 2.6,
+    "pct_chg": 11.35,
+    "note": "Volume 2.6x avg + price +11.35%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1043,
+      "win_5d": 0.5,
+      "n": 24
+    }
+  },
+  {
+    "ticker": "INET",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 224,
+    "vol_ratio": 2.9,
+    "pct_chg": 4.67,
+    "note": "Volume 2.9x avg + price +4.67%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0514,
+      "win_5d": 0.487,
+      "n": 39
+    }
+  },
+  {
     "ticker": "RAJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 920,
-    "rsi": 23.4,
-    "note": "RSI 23.4 < 30 (oversold)",
+    "close": 885,
+    "rsi": 23.2,
+    "note": "RSI 23.2 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0301,
@@ -27,10 +57,40 @@
     }
   },
   {
+    "ticker": "INDY",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2470,
+    "vol_ratio": 2.2,
+    "pct_chg": 10.27,
+    "note": "Volume 2.2x avg + price +10.27%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0252,
+      "win_5d": 0.438,
+      "n": 32
+    }
+  },
+  {
+    "ticker": "HRTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1965,
+    "vol_ratio": 2.1,
+    "pct_chg": 7.08,
+    "note": "Volume 2.1x avg + price +7.08%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0157,
+      "win_5d": 0.481,
+      "n": 27
+    }
+  },
+  {
     "ticker": "RATU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 5175,
+    "close": 5075,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
