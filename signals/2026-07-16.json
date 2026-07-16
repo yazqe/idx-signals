@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "SDMU",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 82,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1342,
+      "win_5d": 0.4,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "RAJA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 920,
+    "rsi": 23.4,
+    "note": "RSI 23.4 < 30 (oversold)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0301,
+      "win_5d": 0.643,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "RATU",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 5175,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0868,
+      "win_5d": 0.333,
+      "n": 3
+    }
+  }
+]

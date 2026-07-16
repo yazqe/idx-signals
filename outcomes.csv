@@ -323,3 +323,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-14,INDY,vol_breakout_up,BUY,2230,-0.0045,,,2026-07-15T05:18:10
 2026-07-14,BULL,vol_breakout_up,BUY,368,0.0054,,,2026-07-15T05:18:10
 2026-07-14,MEDC,vol_breakout_up,BUY,1235,0.0,,,2026-07-15T05:18:10
+2026-07-15,ASPR,vol_breakout_up,BUY,160,-0.0188,,,2026-07-16T05:19:36
+2026-07-15,KAQI,vol_breakout_up,BUY,88,0.0341,,,2026-07-16T05:19:36
+2026-07-15,APLN,vol_breakout_up,BUY,137,-0.0073,,,2026-07-16T05:19:36
