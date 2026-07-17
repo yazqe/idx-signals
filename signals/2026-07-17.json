@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ticker": "BUVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 905,
+    "vol_ratio": 2.0,
+    "pct_chg": 2.84,
+    "note": "Volume 2.0x avg + price +2.84%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.459,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 710,
+    "vol_ratio": 2.1,
+    "pct_chg": 4.41,
+    "note": "Volume 2.1x avg + price +4.41%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  }
+]
