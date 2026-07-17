@@ -326,3 +326,11 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-15,ASPR,vol_breakout_up,BUY,160,-0.0188,,,2026-07-16T05:19:36
 2026-07-15,KAQI,vol_breakout_up,BUY,88,0.0341,,,2026-07-16T05:19:36
 2026-07-15,APLN,vol_breakout_up,BUY,137,-0.0073,,,2026-07-16T05:19:36
+2026-07-16,SDMU,ma_golden_cross,BUY,82,0.0,,,2026-07-17T05:18:11
+2026-07-16,WIFI,vol_breakout_up,BUY,2030,-0.0099,,,2026-07-17T05:18:11
+2026-07-16,INET,vol_breakout_up,BUY,222,0.0,,,2026-07-17T05:18:11
+2026-07-16,RAJA,rsi_oversold,BUY,890,0.0,,,2026-07-17T05:18:11
+2026-07-16,KIJA,vol_breakout_up,BUY,141,-0.0426,,,2026-07-17T05:18:11
+2026-07-16,INDY,vol_breakout_up,BUY,2500,-0.004,,,2026-07-17T05:18:11
+2026-07-16,HRTA,vol_breakout_up,BUY,1960,-0.0204,,,2026-07-17T05:18:11
+2026-07-16,RATU,ma_golden_cross,BUY,5100,-0.0196,,,2026-07-17T05:18:11
