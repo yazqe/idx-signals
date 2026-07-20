@@ -1,17 +1,17 @@
 [
   {
-    "ticker": "SINI",
+    "ticker": "GTSI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 6150,
-    "vol_ratio": 4.3,
-    "pct_chg": 2.93,
-    "note": "Volume 4.3x avg + price +2.93%",
+    "close": 144,
+    "vol_ratio": 3.0,
+    "pct_chg": 2.13,
+    "note": "Volume 3.0x avg + price +2.13%",
     "history": {
       "tier": "high",
-      "edge_5d": 0.1323,
-      "win_5d": 0.673,
-      "n": 52
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
     }
   }
 ]
