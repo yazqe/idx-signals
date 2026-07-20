@@ -1,33 +1,58 @@
-# Hermes Review — 2023-10-04
+# Hermes Review — 2023-11-28
 
 ## 1. Sanity Check (math + logic)
 
-- **GTSI:**
-  - **R/R math:** (158.4 - 144) / (144 - 136.8) = 14.4 / 7.2 = 2.00. The stated R/R is 2.00, so this is correct.
-  - **SL placement:** The SL is set at -5% below the close, which is an arbitrary percentage rather than a logical structure level. This could lead to premature exits if the market experiences normal volatility.
-  - **TP placement:** The TP is set at +10% above the close, which is also an arbitrary percentage. There is no mention of resistance levels in the analysis to justify this TP.
-  - **Tier consistency:** The conviction is rated as "High" based on a strong volume breakout and a high historical edge. However, the win rate of 48.6% is below 50%, which is not particularly strong. This could be a case of tier inflation.
+- **BNBR**: 
+  - R/R math: (115 - 100) / (100 - 95) = 15 / 5 = 3.00 (stated R/R is 3.00) ✓ clean
+  - SL placement: -5% below close is arbitrary and not based on a logical structure level.
+  - TP placement: +15% above close is not justified by any specific resistance level.
+  - Tier consistency: High conviction is justified by strong volume breakout and high historical edge.
+
+- **GTSI**: 
+  - R/R math: (160.6 - 146) / (146 - 138.7) = 14.6 / 7.3 = 2.00 (stated R/R is 2.00) ✓ clean
+  - SL placement: -5% below close is arbitrary and not based on a logical structure level.
+  - TP placement: +10% above close is not justified by any specific resistance level.
+  - Tier consistency: High conviction is justified by strong volume surge and positive price movement, but the win rate is relatively low (48.6%).
+
+- **PACK**: 
+  - R/R math: (253 - 230) / (230 - 218.5) = 23 / 11.5 = 2.00 (stated R/R is 2.00) ✓ clean
+  - SL placement: -5% below close is arbitrary and not based on a logical structure level.
+  - TP placement: +10% above close is not justified by any specific resistance level.
+  - Tier consistency: High conviction is justified by significant volume and price increase, but the win rate is only 50%.
+
+- **BIPI**: 
+  - R/R math: (170.5 - 155) / (155 - 147.25) = 15.5 / 7.75 = 2.00 (stated R/R is 2.00) ✓ clean
+  - SL placement: -5% below close is arbitrary and not based on a logical structure level.
+  - TP placement: +10% above close is not justified by any specific resistance level.
+  - Tier consistency: High conviction is justified by strong volume and price action, and a positive historical edge with a high win rate.
+
+- **TPIA**: 
+  - R/R math: (2299 - 2090) / (2090 - 1985.5) = 209 / 104.5 = 2.00 (stated R/R is 2.00) ✓ clean
+  - SL placement: -5% below close is arbitrary and not based on a logical structure level.
+  - TP placement: +10% above close is not justified by any specific resistance level.
+  - Tier consistency: Negative-but-confluence conviction is a contradiction. The negative historical edge and low win rate do not justify a high conviction rating.
 
 ## 2. Contradiction Hunter
 
-1. **Location quote:** "The market is showing signs of strength in specific stocks with strong volume breakouts."
-   - **Why contradictory:** The analysis mentions a high historical edge and strong volume breakout, but the win rate of 48.6% is below 50%, which contradicts the notion of "strength" and "high conviction."
+1. **TPIA Conviction Rating**:
+   - **Location quote**: "Despite negative historical performance, the exceptional volume and price action suggest a potential reversal."
+   - **Why contradictory**: The negative historical edge (-3.92%) and low win rate (35.3%) do not support a high conviction rating. The author's reasoning for a "Negative-but-confluence" rating is inconsistent with the evidence provided.
 
 ## 3. Hidden Risks
 
-- **Sector concentration:** The analysis only mentions one stock, GTSI, so there is no immediate sector concentration risk. However, if this is part of a larger portfolio, the risk should be evaluated.
-- **Liquidity risk:** The average daily volume of GTSI should be checked against the proposed position size to ensure liquidity. If the position size is too large relative to the daily volume, it could lead to slippage and difficulty in exiting the position.
-- **Correlation:** Since only one stock is mentioned, this is not a concern. However, if GTSI is part of a larger portfolio, correlations with other holdings should be considered.
-- **Timing:** The analysis does not mention the intraday movement of GTSI. If the stock has already moved significantly today, there is a risk of chasing the move and potential gap-down vulnerability at the next open.
-- **Stale data:** The historical edge is based on past trades, but the training window for this edge is not mentioned. If the market regime has shifted recently, this historical edge may no longer be valid.
-- **Indicator overlap:** The analysis relies on a single trigger (vol_breakout_up) and does not mention other indicators. This reduces the risk of indicator overlap, but it also means the analysis is less robust.
+- **Sector concentration**: The analysis does not specify the sectors of these stocks. If they are all in the same sector (e.g., mining, coal, metal, bank), the portfolio is highly concentrated and vulnerable to sector-specific risks.
+- **Liquidity risk**: The average daily volume of these stocks is not provided. If any of these stocks have thin average daily volume relative to the proposed position size, it could lead to liquidity issues and difficulty in exiting positions.
+- **Correlation**: The analysis does not address whether these stocks move together. If they are part of the same conglomerate group or have similar commodity exposure, the portfolio may be over-concentrated and not truly diversified.
+- **Timing**: The analysis does not mention the intraday price movements. If any of these stocks have already moved >15% today, entering a trade could be risky due to the potential for a gap-down at the next open.
+- **Stale data**: The historical edge is based on past trades, but the training window is not mentioned. If the market regime has shifted recently, the historical edge may no longer be relevant.
+- **Indicator overlap**: The analysis relies on the "vol_breakout_up" trigger for all picks. This could be a false confluence if the signals are not truly independent.
 
 ## 4. What the Author Got Right
 
-The author correctly identified a strong volume breakout in GTSI, which is a valid technical signal for potential short-term momentum. The historical edge of 9.77% over 37 trades provides a quantitative basis for the trade, even though the win rate is below 50%.
+The author correctly identified strong volume breakouts as a key trigger for these trades, which is a valid technical indicator for potential short-term momentum. The historical edge and win rates are provided for each stock, which adds a quantitative dimension to the analysis.
 
 ## 5. Critical Recommendations
 
-1. **Re-evaluate the stop loss placement:** Consider setting the stop loss at a logical support level rather than an arbitrary -5% below the close to avoid premature exits due to normal market volatility.
-2. **Justify the take profit level:** Instead of using an arbitrary +10% TP, identify specific resistance levels or technical indicators that justify the TP placement.
-3. **Check for intraday movement:** Before entering the trade, verify that GTSI has not already moved significantly today to avoid the risk of chasing the move and potential gap-down vulnerability at the next open.
+1. **Reduce TPIA position from 15% to 5% because** the negative historical edge and low win rate do not justify a high conviction rating. A smaller position size would better align with the risk profile.
+2. **Specify the sectors of these stocks and assess sector concentration** to avoid over-exposure to a single sector. If the portfolio is heavily concentrated in one sector, consider diversifying into other sectors.
+3. **Check the average daily volume and intraday price movements** of these stocks before entering trades. Ensure that the proposed position sizes are within the liquidity constraints and that the stocks have not already moved significantly today.

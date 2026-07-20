@@ -1,17 +1,77 @@
 [
   {
+    "ticker": "BNBR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 100,
+    "vol_ratio": 2.8,
+    "pct_chg": 17.65,
+    "note": "Volume 2.8x avg + price +17.65%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1267,
+      "win_5d": 0.583,
+      "n": 36
+    }
+  },
+  {
     "ticker": "GTSI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 144,
-    "vol_ratio": 3.0,
-    "pct_chg": 2.13,
-    "note": "Volume 3.0x avg + price +2.13%",
+    "close": 146,
+    "vol_ratio": 3.5,
+    "pct_chg": 3.55,
+    "note": "Volume 3.5x avg + price +3.55%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0977,
       "win_5d": 0.486,
       "n": 37
+    }
+  },
+  {
+    "ticker": "PACK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 230,
+    "vol_ratio": 2.2,
+    "pct_chg": 9.52,
+    "note": "Volume 2.2x avg + price +9.52%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0758,
+      "win_5d": 0.5,
+      "n": 44
+    }
+  },
+  {
+    "ticker": "BIPI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 155,
+    "vol_ratio": 2.6,
+    "pct_chg": 9.15,
+    "note": "Volume 2.6x avg + price +9.15%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0704,
+      "win_5d": 0.576,
+      "n": 33
+    }
+  },
+  {
+    "ticker": "TPIA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2090,
+    "vol_ratio": 2.3,
+    "pct_chg": 7.46,
+    "note": "Volume 2.3x avg + price +7.46%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0392,
+      "win_5d": 0.353,
+      "n": 17
     }
   }
 ]
