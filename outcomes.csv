@@ -334,3 +334,7 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-16,INDY,vol_breakout_up,BUY,2500,-0.004,,,2026-07-17T05:18:11
 2026-07-16,HRTA,vol_breakout_up,BUY,1960,-0.0204,,,2026-07-17T05:18:11
 2026-07-16,RATU,ma_golden_cross,BUY,5100,-0.0196,,,2026-07-17T05:18:11
+2026-07-17,BUVA,vol_breakout_up,BUY,960,0.0208,,,2026-07-20T05:19:31
+2026-07-17,COIN,vol_breakout_up,BUY,715,0.028,,,2026-07-20T05:19:31
+2026-07-17,SDMU,vol_breakout_up,BUY,86,-0.0349,,,2026-07-20T05:19:31
+2026-07-17,MINA,vol_breakout_up,BUY,288,0.0069,,,2026-07-20T05:19:31
