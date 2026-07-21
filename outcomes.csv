@@ -338,3 +338,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-17,COIN,vol_breakout_up,BUY,715,0.028,,,2026-07-20T05:19:31
 2026-07-17,SDMU,vol_breakout_up,BUY,86,-0.0349,,,2026-07-20T05:19:31
 2026-07-17,MINA,vol_breakout_up,BUY,288,0.0069,,,2026-07-20T05:19:31
+2026-07-20,BNBR,vol_breakout_up,BUY,100,0.02,,,2026-07-21T05:18:07
+2026-07-20,GTSI,vol_breakout_up,BUY,146,0.0,,,2026-07-21T05:18:07
+2026-07-20,PACK,vol_breakout_up,BUY,230,-0.0348,,,2026-07-21T05:18:07
+2026-07-20,BIPI,vol_breakout_up,BUY,155,0.0645,,,2026-07-21T05:18:07
+2026-07-20,TPIA,vol_breakout_up,BUY,2090,0.0239,,,2026-07-21T05:18:07
