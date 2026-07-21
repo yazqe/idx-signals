@@ -1,27 +1,100 @@
 [
   {
-    "ticker": "BNBR",
-    "strategy": "vol_breakout_up",
+    "ticker": "BUVA",
+    "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 109,
-    "vol_ratio": 3.1,
-    "pct_chg": 3.81,
-    "note": "Volume 3.1x avg + price +3.81%",
+    "close": 1005,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
-      "edge_5d": 0.1267,
-      "win_5d": 0.583,
-      "n": 36
+      "edge_5d": 0.1104,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "BUVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1005,
+    "vol_ratio": 2.1,
+    "pct_chg": 7.49,
+    "note": "Volume 2.1x avg + price +7.49%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.459,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "PTRO",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4390,
+    "vol_ratio": 2.9,
+    "pct_chg": 6.55,
+    "note": "Volume 2.9x avg + price +6.55%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0833,
+      "win_5d": 0.652,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "RAJA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 955,
+    "vol_ratio": 2.0,
+    "pct_chg": 4.37,
+    "note": "Volume 2.0x avg + price +4.37%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0746,
+      "win_5d": 0.484,
+      "n": 31
+    }
+  },
+  {
+    "ticker": "KOTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 102,
+    "vol_ratio": 2.9,
+    "pct_chg": 4.08,
+    "note": "Volume 2.9x avg + price +4.08%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0711,
+      "win_5d": 0.511,
+      "n": 45
+    }
+  },
+  {
+    "ticker": "MINA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 302,
+    "vol_ratio": 3.2,
+    "pct_chg": 5.59,
+    "note": "Volume 3.2x avg + price +5.59%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0708,
+      "win_5d": 0.553,
+      "n": 47
     }
   },
   {
     "ticker": "CUAN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 705,
-    "vol_ratio": 2.2,
-    "pct_chg": 5.22,
-    "note": "Volume 2.2x avg + price +5.22%",
+    "close": 745,
+    "vol_ratio": 3.9,
+    "pct_chg": 11.19,
+    "note": "Volume 3.9x avg + price +11.19%",
     "history": {
       "tier": "high",
       "edge_5d": 0.07,
@@ -30,13 +103,43 @@
     }
   },
   {
+    "ticker": "INET",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 238,
+    "vol_ratio": 2.2,
+    "pct_chg": 8.18,
+    "note": "Volume 2.2x avg + price +8.18%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0514,
+      "win_5d": 0.487,
+      "n": 39
+    }
+  },
+  {
+    "ticker": "BRMS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 600,
+    "vol_ratio": 2.1,
+    "pct_chg": 4.35,
+    "note": "Volume 2.1x avg + price +4.35%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0332,
+      "win_5d": 0.5,
+      "n": 26
+    }
+  },
+  {
     "ticker": "DEWA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 436,
-    "vol_ratio": 2.4,
+    "vol_ratio": 3.0,
     "pct_chg": 9.55,
-    "note": "Volume 2.4x avg + price +9.55%",
+    "note": "Volume 3.0x avg + price +9.55%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0318,
@@ -48,10 +151,10 @@
     "ticker": "BUMI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 168,
-    "vol_ratio": 2.3,
-    "pct_chg": 5.66,
-    "note": "Volume 2.3x avg + price +5.66%",
+    "close": 167,
+    "vol_ratio": 2.9,
+    "pct_chg": 5.03,
+    "note": "Volume 2.9x avg + price +5.03%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0205,
@@ -63,15 +166,44 @@
     "ticker": "CDIA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 705,
-    "vol_ratio": 2.4,
-    "pct_chg": 6.02,
-    "note": "Volume 2.4x avg + price +6.02%",
+    "close": 720,
+    "vol_ratio": 3.9,
+    "pct_chg": 8.27,
+    "note": "Volume 3.9x avg + price +8.27%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0079,
       "win_5d": 0.3,
       "n": 10
+    }
+  },
+  {
+    "ticker": "WBSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 655,
+    "vol_ratio": 2.4,
+    "pct_chg": 4.8,
+    "note": "Volume 2.4x avg + price +4.80%",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
+    "ticker": "TPIA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2250,
+    "vol_ratio": 2.7,
+    "pct_chg": 6.13,
+    "note": "Volume 2.7x avg + price +6.13%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0392,
+      "win_5d": 0.353,
+      "n": 17
     }
   }
 ]
