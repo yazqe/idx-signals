@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "ticker": "BNBR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 109,
+    "vol_ratio": 3.1,
+    "pct_chg": 3.81,
+    "note": "Volume 3.1x avg + price +3.81%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1267,
+      "win_5d": 0.583,
+      "n": 36
+    }
+  },
+  {
+    "ticker": "CUAN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 705,
+    "vol_ratio": 2.2,
+    "pct_chg": 5.22,
+    "note": "Volume 2.2x avg + price +5.22%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.07,
+      "win_5d": 0.586,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "DEWA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 436,
+    "vol_ratio": 2.4,
+    "pct_chg": 9.55,
+    "note": "Volume 2.4x avg + price +9.55%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0318,
+      "win_5d": 0.485,
+      "n": 33
+    }
+  },
+  {
+    "ticker": "BUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 168,
+    "vol_ratio": 2.3,
+    "pct_chg": 5.66,
+    "note": "Volume 2.3x avg + price +5.66%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0205,
+      "win_5d": 0.536,
+      "n": 28
+    }
+  },
+  {
+    "ticker": "CDIA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 705,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.02,
+    "note": "Volume 2.4x avg + price +6.02%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0079,
+      "win_5d": 0.3,
+      "n": 10
+    }
+  }
+]
