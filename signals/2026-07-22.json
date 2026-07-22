@@ -1,12 +1,42 @@
 [
   {
+    "ticker": "BNBR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 113,
+    "vol_ratio": 2.3,
+    "pct_chg": 5.61,
+    "note": "Volume 2.3x avg + price +5.61%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1267,
+      "win_5d": 0.583,
+      "n": 36
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 159,
+    "vol_ratio": 4.1,
+    "pct_chg": 3.92,
+    "note": "Volume 4.1x avg + price +3.92%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
     "ticker": "PTRO",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 4690,
-    "vol_ratio": 3.7,
-    "pct_chg": 4.92,
-    "note": "Volume 3.7x avg + price +4.92%",
+    "close": 4680,
+    "vol_ratio": 4.3,
+    "pct_chg": 4.7,
+    "note": "Volume 4.3x avg + price +4.70%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0833,
@@ -15,13 +45,28 @@
     }
   },
   {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 785,
+    "vol_ratio": 2.0,
+    "pct_chg": 2.61,
+    "note": "Volume 2.0x avg + price +2.61%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
     "ticker": "KOTA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 109,
-    "vol_ratio": 4.2,
-    "pct_chg": 5.83,
-    "note": "Volume 4.2x avg + price +5.83%",
+    "close": 108,
+    "vol_ratio": 6.4,
+    "pct_chg": 4.85,
+    "note": "Volume 6.4x avg + price +4.85%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0711,
@@ -34,9 +79,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 61,
-    "vol_ratio": 876.7,
+    "vol_ratio": 1213.6,
     "pct_chg": 22,
-    "note": "Volume 876.7x avg + price +22.00%",
+    "note": "Volume 1213.6x avg + price +22.00%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0604,
@@ -45,13 +90,28 @@
     }
   },
   {
+    "ticker": "BREN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3690,
+    "vol_ratio": 2.3,
+    "pct_chg": 5.43,
+    "note": "Volume 2.3x avg + price +5.43%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0123,
+      "win_5d": 0.476,
+      "n": 21
+    }
+  },
+  {
     "ticker": "ZATA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 65,
-    "vol_ratio": 8.1,
-    "pct_chg": 30,
-    "note": "Volume 8.1x avg + price +30.00%",
+    "close": 67,
+    "vol_ratio": 11.6,
+    "pct_chg": 34,
+    "note": "Volume 11.6x avg + price +34.00%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0052,
@@ -63,7 +123,7 @@
     "ticker": "ITMG",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 24250,
+    "close": 24375,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -76,7 +136,7 @@
     "ticker": "MBMA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 535,
+    "close": 540,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -89,7 +149,7 @@
     "ticker": "AMMN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 4180,
+    "close": 4170,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
