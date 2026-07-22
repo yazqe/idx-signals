@@ -1,0 +1,41 @@
+[
+  {
+    "ticker": "ITMG",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 24500,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0071,
+      "win_5d": 0.4,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "MBMA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 550,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0129,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "AMMN",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 4360,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0338,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  }
+]
