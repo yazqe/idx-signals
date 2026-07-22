@@ -1,9 +1,69 @@
 [
   {
+    "ticker": "PTRO",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4690,
+    "vol_ratio": 3.7,
+    "pct_chg": 4.92,
+    "note": "Volume 3.7x avg + price +4.92%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0833,
+      "win_5d": 0.652,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "KOTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 109,
+    "vol_ratio": 4.2,
+    "pct_chg": 5.83,
+    "note": "Volume 4.2x avg + price +5.83%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0711,
+      "win_5d": 0.511,
+      "n": 45
+    }
+  },
+  {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 61,
+    "vol_ratio": 876.7,
+    "pct_chg": 22,
+    "note": "Volume 876.7x avg + price +22.00%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "ZATA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 65,
+    "vol_ratio": 8.1,
+    "pct_chg": 30,
+    "note": "Volume 8.1x avg + price +30.00%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0052,
+      "win_5d": 0.387,
+      "n": 31
+    }
+  },
+  {
     "ticker": "ITMG",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 24500,
+    "close": 24250,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -16,7 +76,7 @@
     "ticker": "MBMA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 550,
+    "close": 535,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -29,7 +89,7 @@
     "ticker": "AMMN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 4360,
+    "close": 4180,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
