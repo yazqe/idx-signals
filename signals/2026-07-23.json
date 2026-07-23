@@ -1,0 +1,43 @@
+[
+  {
+    "ticker": "AADI",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 8900,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0396,
+      "win_5d": 0.75,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "BIPP",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 69,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0179,
+      "win_5d": 0.5,
+      "n": 6
+    }
+  },
+  {
+    "ticker": "ZATA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 79,
+    "vol_ratio": 2.5,
+    "pct_chg": 17.91,
+    "note": "Volume 2.5x avg + price +17.91%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0052,
+      "win_5d": 0.387,
+      "n": 31
+    }
+  }
+]
