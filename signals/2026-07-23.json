@@ -3,10 +3,10 @@
     "ticker": "PTRO",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 5125,
-    "vol_ratio": 2.8,
-    "pct_chg": 9.28,
-    "note": "Volume 2.8x avg + price +9.28%",
+    "close": 4900,
+    "vol_ratio": 4.0,
+    "pct_chg": 4.48,
+    "note": "Volume 4.0x avg + price +4.48%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0833,
@@ -18,10 +18,10 @@
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 835,
-    "vol_ratio": 3.8,
-    "pct_chg": 7.74,
-    "note": "Volume 3.8x avg + price +7.74%",
+    "close": 805,
+    "vol_ratio": 5.1,
+    "pct_chg": 3.87,
+    "note": "Volume 5.1x avg + price +3.87%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
@@ -33,10 +33,10 @@
     "ticker": "KOTA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 129,
-    "vol_ratio": 4.9,
-    "pct_chg": 16.22,
-    "note": "Volume 4.9x avg + price +16.22%",
+    "close": 122,
+    "vol_ratio": 5.7,
+    "pct_chg": 9.91,
+    "note": "Volume 5.7x avg + price +9.91%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0711,
@@ -48,10 +48,10 @@
     "ticker": "CUAN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 810,
-    "vol_ratio": 2.3,
-    "pct_chg": 12.5,
-    "note": "Volume 2.3x avg + price +12.50%",
+    "close": 750,
+    "vol_ratio": 3.2,
+    "pct_chg": 4.17,
+    "note": "Volume 3.2x avg + price +4.17%",
     "history": {
       "tier": "high",
       "edge_5d": 0.07,
@@ -60,10 +60,25 @@
     }
   },
   {
+    "ticker": "EMAS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 6125,
+    "vol_ratio": 3.7,
+    "pct_chg": 5.15,
+    "note": "Volume 3.7x avg + price +5.15%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0409,
+      "win_5d": 0.625,
+      "n": 8
+    }
+  },
+  {
     "ticker": "AADI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 9050,
+    "close": 9000,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -73,13 +88,43 @@
     }
   },
   {
+    "ticker": "CBDK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3770,
+    "vol_ratio": 3.4,
+    "pct_chg": 2.17,
+    "note": "Volume 3.4x avg + price +2.17%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0336,
+      "win_5d": 0.4,
+      "n": 15
+    }
+  },
+  {
+    "ticker": "DEWA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 472,
+    "vol_ratio": 2.1,
+    "pct_chg": 7.27,
+    "note": "Volume 2.1x avg + price +7.27%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0318,
+      "win_5d": 0.485,
+      "n": 33
+    }
+  },
+  {
     "ticker": "BUMI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 190,
-    "vol_ratio": 2.4,
-    "pct_chg": 13.1,
-    "note": "Volume 2.4x avg + price +13.10%",
+    "close": 183,
+    "vol_ratio": 4.5,
+    "pct_chg": 8.93,
+    "note": "Volume 4.5x avg + price +8.93%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0205,
@@ -91,7 +136,7 @@
     "ticker": "BIPP",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 71,
+    "close": 70,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -104,15 +149,30 @@
     "ticker": "ZATA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 79,
-    "vol_ratio": 8.2,
-    "pct_chg": 17.91,
-    "note": "Volume 8.2x avg + price +17.91%",
+    "close": 77,
+    "vol_ratio": 13.7,
+    "pct_chg": 14.93,
+    "note": "Volume 13.7x avg + price +14.93%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0052,
       "win_5d": 0.387,
       "n": 31
+    }
+  },
+  {
+    "ticker": "SMDR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 300,
+    "vol_ratio": 3.0,
+    "pct_chg": 2.04,
+    "note": "Volume 3.0x avg + price +2.04%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0053,
+      "win_5d": 0.538,
+      "n": 26
     }
   }
 ]
