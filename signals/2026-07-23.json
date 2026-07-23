@@ -1,9 +1,69 @@
 [
   {
+    "ticker": "PTRO",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 5125,
+    "vol_ratio": 2.8,
+    "pct_chg": 9.28,
+    "note": "Volume 2.8x avg + price +9.28%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0833,
+      "win_5d": 0.652,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 835,
+    "vol_ratio": 3.8,
+    "pct_chg": 7.74,
+    "note": "Volume 3.8x avg + price +7.74%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
+    "ticker": "KOTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 129,
+    "vol_ratio": 4.9,
+    "pct_chg": 16.22,
+    "note": "Volume 4.9x avg + price +16.22%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0711,
+      "win_5d": 0.511,
+      "n": 45
+    }
+  },
+  {
+    "ticker": "CUAN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 810,
+    "vol_ratio": 2.3,
+    "pct_chg": 12.5,
+    "note": "Volume 2.3x avg + price +12.50%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.07,
+      "win_5d": 0.586,
+      "n": 29
+    }
+  },
+  {
     "ticker": "AADI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 8900,
+    "close": 9050,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -13,10 +73,25 @@
     }
   },
   {
+    "ticker": "BUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 190,
+    "vol_ratio": 2.4,
+    "pct_chg": 13.1,
+    "note": "Volume 2.4x avg + price +13.10%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0205,
+      "win_5d": 0.536,
+      "n": 28
+    }
+  },
+  {
     "ticker": "BIPP",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 69,
+    "close": 71,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -30,9 +105,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 79,
-    "vol_ratio": 2.5,
+    "vol_ratio": 8.2,
     "pct_chg": 17.91,
-    "note": "Volume 2.5x avg + price +17.91%",
+    "note": "Volume 8.2x avg + price +17.91%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0052,
