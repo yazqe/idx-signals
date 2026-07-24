@@ -3,10 +3,10 @@
     "ticker": "ESIP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 144,
-    "vol_ratio": 2.8,
-    "pct_chg": 10.77,
-    "note": "Volume 2.8x avg + price +10.77%",
+    "close": 143,
+    "vol_ratio": 13.3,
+    "pct_chg": 10,
+    "note": "Volume 13.3x avg + price +10.00%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0622,
@@ -18,7 +18,7 @@
     "ticker": "TAPG",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1720,
+    "close": 1725,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -31,13 +31,28 @@
     "ticker": "DEWA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 466,
+    "close": 442,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0139,
       "win_5d": 0.5,
       "n": 4
+    }
+  },
+  {
+    "ticker": "BULL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 416,
+    "vol_ratio": 3.4,
+    "pct_chg": 6.67,
+    "note": "Volume 3.4x avg + price +6.67%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0113,
+      "win_5d": 0.421,
+      "n": 19
     }
   }
 ]
