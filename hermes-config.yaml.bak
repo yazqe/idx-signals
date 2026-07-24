@@ -1,12 +1,9 @@
 model:
-  default: mlx-community/Qwen3-Next-80B-A3B-Instruct-4bit
+  default: mlx-community/Qwen2.5-72B-Instruct-4bit
   provider: custom
   api_key: sk-mlx-local
   base_url: http://localhost:8799/v1
-  # OUTPUT cap. gpt-oss-120b is reasoning-heavy: it spends tokens in the analysis
-  # channel before the final answer. Too-low a cap → finish_reason:length with empty
-  # content ("thinking-only"). 16384 leaves ample room for reasoning + final.
-  max_tokens: 16384
+  max_tokens: 4096
 terminal:
   backend: local
   cwd: .
