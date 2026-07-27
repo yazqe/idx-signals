@@ -3,7 +3,7 @@
     "ticker": "WIFI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1960,
+    "close": 2000,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -16,7 +16,7 @@
     "ticker": "RODA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 60,
+    "close": 62,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -29,7 +29,7 @@
     "ticker": "ELSA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 660,
+    "close": 655,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -39,10 +39,40 @@
     }
   },
   {
+    "ticker": "GJTL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1205,
+    "vol_ratio": 7.3,
+    "pct_chg": 8.07,
+    "note": "Volume 7.3x avg + price +8.07%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0097,
+      "win_5d": 0.312,
+      "n": 16
+    }
+  },
+  {
+    "ticker": "DIVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 140,
+    "vol_ratio": 9.2,
+    "pct_chg": 23.89,
+    "note": "Volume 9.2x avg + price +23.89%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0327,
+      "win_5d": 0.444,
+      "n": 36
+    }
+  },
+  {
     "ticker": "TOBA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 470,
+    "close": 468,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
