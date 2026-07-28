@@ -1,0 +1,93 @@
+[
+  {
+    "ticker": "INET",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 230,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.5,
+      "n": 6
+    }
+  },
+  {
+    "ticker": "VKTR",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 790,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0347,
+      "win_5d": 0.5,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "ANTM",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 2940,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0029,
+      "win_5d": 0.333,
+      "n": 6
+    }
+  },
+  {
+    "ticker": "MDKA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 2630,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0036,
+      "win_5d": 0.4,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "PTRO",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 4800,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.03,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "ESIP",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 134,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0437,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 127,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0826,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  }
+]
