@@ -3,7 +3,7 @@
     "ticker": "INET",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 230,
+    "close": 222,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,36 +13,10 @@
     }
   },
   {
-    "ticker": "VKTR",
-    "strategy": "ma_golden_cross",
-    "side": "BUY",
-    "close": 790,
-    "note": "20-SMA crossed above 50-SMA today (golden cross)",
-    "history": {
-      "tier": "medium",
-      "edge_5d": 0.0347,
-      "win_5d": 0.5,
-      "n": 4
-    }
-  },
-  {
-    "ticker": "INDY",
-    "strategy": "ma_golden_cross",
-    "side": "BUY",
-    "close": 2680,
-    "note": "20-SMA crossed above 50-SMA today (golden cross)",
-    "history": {
-      "tier": "medium",
-      "edge_5d": 0.0224,
-      "win_5d": 0.6,
-      "n": 5
-    }
-  },
-  {
     "ticker": "ANTM",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2950,
+    "close": 2880,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -55,7 +29,7 @@
     "ticker": "MDKA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2660,
+    "close": 2640,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -68,7 +42,7 @@
     "ticker": "PTRO",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 4750,
+    "close": 4710,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -81,7 +55,7 @@
     "ticker": "ESIP",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 134,
+    "close": 132,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -94,7 +68,7 @@
     "ticker": "KIJA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 127,
+    "close": 125,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
