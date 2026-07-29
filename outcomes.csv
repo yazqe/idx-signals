@@ -390,3 +390,9 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-27,GJTL,vol_breakout_up,BUY,1200,0.0,,,2026-07-28T05:18:14
 2026-07-27,DIVA,vol_breakout_up,BUY,151,-0.0993,,,2026-07-28T05:18:14
 2026-07-27,TOBA,ma_golden_cross,BUY,462,0.0087,,,2026-07-28T05:18:14
+2026-07-28,INET,ma_golden_cross,BUY,222,0.018,,,2026-07-29T05:18:06
+2026-07-28,ANTM,ma_golden_cross,BUY,2880,0.0035,,,2026-07-29T05:18:06
+2026-07-28,MDKA,ma_golden_cross,BUY,2640,0.0038,,,2026-07-29T05:18:06
+2026-07-28,PTRO,ma_golden_cross,BUY,4710,0.0064,,,2026-07-29T05:18:06
+2026-07-28,ESIP,ma_golden_cross,BUY,132,0.0152,,,2026-07-29T05:18:06
+2026-07-28,KIJA,ma_golden_cross,BUY,125,0.0,,,2026-07-29T05:18:06
