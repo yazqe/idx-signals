@@ -1,22 +1,9 @@
 [
   {
-    "ticker": "CUAN",
-    "strategy": "ma_golden_cross",
-    "side": "BUY",
-    "close": 685,
-    "note": "20-SMA crossed above 50-SMA today (golden cross)",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.1337,
-      "win_5d": 0.6,
-      "n": 5
-    }
-  },
-  {
     "ticker": "BRPT",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1775,
+    "close": 1780,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -29,7 +16,7 @@
     "ticker": "VKTR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 760,
+    "close": 720,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -42,7 +29,7 @@
     "ticker": "INDY",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2590,
+    "close": 2560,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -55,7 +42,7 @@
     "ticker": "KOTA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 136,
+    "close": 126,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
