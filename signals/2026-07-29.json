@@ -3,7 +3,7 @@
     "ticker": "BRPT",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1780,
+    "close": 1765,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -16,7 +16,7 @@
     "ticker": "VKTR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 720,
+    "close": 705,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -29,7 +29,7 @@
     "ticker": "INDY",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2560,
+    "close": 2580,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -42,7 +42,7 @@
     "ticker": "KOTA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 126,
+    "close": 125,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
