@@ -3,7 +3,7 @@
     "ticker": "CUAN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 650,
+    "close": 645,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -16,7 +16,7 @@
     "ticker": "INCO",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 4880,
+    "close": 4900,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -29,7 +29,7 @@
     "ticker": "ADMR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1455,
+    "close": 1490,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -39,25 +39,10 @@
     }
   },
   {
-    "ticker": "RODA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 60,
-    "vol_ratio": 2.3,
-    "pct_chg": 3.45,
-    "note": "Volume 2.3x avg + price +3.45%",
-    "history": {
-      "tier": "medium",
-      "edge_5d": 0.0369,
-      "win_5d": 0.54,
-      "n": 50
-    }
-  },
-  {
     "ticker": "INKP",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 8125,
+    "close": 8225,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -70,7 +55,7 @@
     "ticker": "BULL",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 414,
+    "close": 438,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -83,7 +68,7 @@
     "ticker": "MEDC",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1265,
+    "close": 1290,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -93,23 +78,10 @@
     }
   },
   {
-    "ticker": "GJTL",
-    "strategy": "ma_golden_cross",
-    "side": "BUY",
-    "close": 1225,
-    "note": "20-SMA crossed above 50-SMA today (golden cross)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0047,
-      "win_5d": 0.5,
-      "n": 6
-    }
-  },
-  {
     "ticker": "ENRG",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1245,
+    "close": 1265,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
@@ -122,7 +94,7 @@
     "ticker": "TPIA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2120,
+    "close": 2110,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
