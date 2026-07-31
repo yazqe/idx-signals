@@ -401,3 +401,11 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-29,INDY,ma_golden_cross,BUY,2580,0.0078,,,2026-07-30T05:18:44
 2026-07-29,KOTA,ma_golden_cross,BUY,125,0.04,,,2026-07-30T05:18:44
 2026-07-29,KRYA,ma_golden_cross,BUY,60,-0.0167,,,2026-07-30T05:18:44
+2026-07-30,CUAN,ma_golden_cross,BUY,645,0.031,,,2026-07-31T05:18:51
+2026-07-30,INCO,ma_golden_cross,BUY,4900,0.0255,,,2026-07-31T05:18:51
+2026-07-30,ADMR,ma_golden_cross,BUY,1490,0.0067,,,2026-07-31T05:18:51
+2026-07-30,INKP,ma_golden_cross,BUY,8225,0.0,,,2026-07-31T05:18:51
+2026-07-30,BULL,ma_golden_cross,BUY,438,0.0183,,,2026-07-31T05:18:51
+2026-07-30,MEDC,ma_golden_cross,BUY,1290,-0.0078,,,2026-07-31T05:18:51
+2026-07-30,ENRG,ma_golden_cross,BUY,1265,0.0277,,,2026-07-31T05:18:51
+2026-07-30,TPIA,ma_golden_cross,BUY,2110,0.0142,,,2026-07-31T05:18:51
