@@ -3,7 +3,7 @@
     "ticker": "HUMI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 133,
+    "close": 134,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -16,7 +16,7 @@
     "ticker": "BNBR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 101,
+    "close": 98,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -26,10 +26,25 @@
     }
   },
   {
+    "ticker": "TINS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3760,
+    "vol_ratio": 2.4,
+    "pct_chg": 5.62,
+    "note": "Volume 2.4x avg + price +5.62%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0551,
+      "win_5d": 0.457,
+      "n": 35
+    }
+  },
+  {
     "ticker": "ARCI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1075,
+    "close": 1080,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -42,7 +57,7 @@
     "ticker": "BUMI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 167,
+    "close": 164,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -68,7 +83,7 @@
     "ticker": "APLN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 125,
+    "close": 123,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -81,7 +96,7 @@
     "ticker": "NCKL",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 890,
+    "close": 895,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -94,7 +109,7 @@
     "ticker": "GTSI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 142,
+    "close": 145,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -120,13 +135,26 @@
     "ticker": "DIVA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 122,
+    "close": 123,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0602,
       "win_5d": 0.5,
       "n": 4
+    }
+  },
+  {
+    "ticker": "SINI",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 7175,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0672,
+      "win_5d": 0.333,
+      "n": 3
     }
   }
 ]

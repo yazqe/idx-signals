@@ -1,92 +1,92 @@
-## HUMI — BUY (5-20d hold)  
+## HUMI — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** High  
 - **Historical edge:** 17.02% over 4 past trades (win rate 50%)  
-- **Entry zone:** 133 ± 1% (≈132‑135)  
-- **Stop loss:** -3% below close (≈129)  
-- **Take profit:** +6% above close (≈141)  
-- **Why:** 20‑SMA crossed above 50‑SMA on strong momentum, a high‑tier signal.
+- **Entry zone:** 134 ± 1% (≈133‑135)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +6% above close  
+- **Why:** Golden‑cross on HUMI historically delivers a strong 5‑day upside (~17% mean).
 
-## BNBR — BUY (5-20d hold)  
+## BNBR — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** High  
 - **Historical edge:** 10.68% over 5 past trades (win rate 60%)  
-- **Entry zone:** 101 ± 1% (≈100‑102)  
-- **Stop loss:** -3% (≈98)  
-- **Take profit:** +6% (≈107)  
-- **Why:** Golden cross on a high‑conviction ticker with solid win‑rate.
+- **Entry zone:** 98 ± 1% (≈97‑99)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +5% above close  
+- **Why:** High‑tier golden‑cross with solid win‑rate suggests continued momentum.
 
-## ARCI — BUY (5-20d hold)  
+## TINS — BUY (5‑20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 5.51% over 35 past trades (win rate 45.7%)  
+- **Entry zone:** 3760 ± 2% (≈3685‑3835)  
+- **Stop loss:** -4% below close  
+- **Take profit:** +8% above close  
+- **Why:** Volume >2× average and a 5.6% price jump give the best Sharpe among today’s signals.
+
+## ARCI — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Medium  
 - **Historical edge:** 7.79% over 3 past trades (win rate 100%)  
-- **Entry zone:** 1 075 ± 1% (≈1 064‑1 086)  
-- **Stop loss:** -3% (≈1 043)  
-- **Take profit:** +6% (≈1 140)  
-- **Why:** Medium tier but perfect 5‑day win record on golden‑cross.
+- **Entry zone:** 1080 ± 1% (≈1070‑1090)  
+- **Stop loss:** -4% below close  
+- **Take profit:** +7% above close  
+- **Why:** Medium‑tier golden‑cross with a perfect win record indicates a reliable short‑term lift.
 
-## BUMI — BUY (5-20d hold)  
+## BUMI — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Medium  
 - **Historical edge:** 4.40% over 3 past trades (win rate 66.7%)  
-- **Entry zone:** 167 ± 1% (≈166‑168)  
-- **Stop loss:** -3% (≈162)  
-- **Take profit:** +6% (≈177)  
-- **Why:** Decent edge and decent win‑rate despite modest magnitude.
+- **Entry zone:** 164 ± 1% (≈162‑166)  
+- **Stop loss:** -4% below close  
+- **Take profit:** +7% above close  
+- **Why:** Consistent upside on prior golden‑cross events makes it a solid medium‑tier pick.
 
-## ASHA — BUY (5-20d hold)  
+## ASHA — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Medium  
 - **Historical edge:** 3.99% over 7 past trades (win rate 42.9%)  
 - **Entry zone:** 56 ± 1% (≈55‑57)  
-- **Stop loss:** -3% (≈54)  
-- **Take profit:** +6% (≈59)  
-- **Why:** Medium tier with enough occurrences to merit a watch‑list play.
+- **Stop loss:** -5% below close  
+- **Take profit:** +9% above close  
+- **Why:** Modest edge but still positive; inclusion adds breadth to the medium‑tier set.
 
-## APLN — BUY (5-20d hold)  
+## APLN — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Medium  
 - **Historical edge:** 2.05% over 4 past trades (win rate 75%)  
-- **Entry zone:** 125 ± 1% (≈124‑126)  
-- **Stop loss:** -3% (≈121)  
-- **Take profit:** +6% (≈133)  
-- **Why:** Good win‑rate despite a thin edge; golden cross adds bullish bias.
+- **Entry zone:** 123 ± 1% (≈122‑124)  
+- **Stop loss:** -5% below close  
+- **Take profit:** +8% above close  
+- **Why:** Decent win rate despite low edge; worth a short‑term play.
 
-## NCKL — BUY (5-20d hold)  
+## NCKL — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Low  
 - **Historical edge:** 1.52% over 4 past trades (win rate 50%)  
-- **Entry zone:** 890 ± 1% (≈881‑899)  
-- **Stop loss:** -3% (≈863)  
-- **Take profit:** +6% (≈944)  
-- **Why:** Low tier but still positive edge; include to meet broader net.
+- **Entry zone:** 895 ± 2% (≈877‑913)  
+- **Stop loss:** -6% below close  
+- **Take profit:** +12% above close  
+- **Why:** Low tier but still positive edge; included for diversification.
 
-## GTSI — BUY (5-20d hold)  
+## GTSI — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Low  
 - **Historical edge:** 1.45% over 4 past trades (win rate 50%)  
-- **Entry zone:** 142 ± 1% (≈141‑144)  
-- **Stop loss:** -3% (≈138)  
-- **Take profit:** +6% (≈151)  
-- **Why:** Thin edge but meets low‑tier inclusion criteria.
+- **Entry zone:** 145 ± 2% (≈141‑149)  
+- **Stop loss:** -6% below close  
+- **Take profit:** +12% above close  
+- **Why:** Small but positive edge; adds breadth to the low‑tier list.
 
-## GJTL — BUY (5-20d hold)  
+## GJTL — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** Low  
 - **Historical edge:** 0.47% over 6 past trades (win rate 50%)  
-- **Entry zone:** 1 235 ± 1% (≈1 223‑1 247)  
-- **Stop loss:** -3% (≈1 198)  
-- **Take profit:** +6% (≈1 310)  
-- **Why:** Very thin edge; added for completeness of the list.
-
-## DIVA — BUY (5-20d hold)  
-- **Triggered:** ma_golden_cross  
-- **Conviction:** Negative-but-confluence  
-- **Historical edge:** -6.02% over 4 past trades (win rate 50%)  
-- **Entry zone:** 122 ± 1% (≈121‑123)  
-- **Stop loss:** -3% (≈118)  
-- **Take profit:** +6% (≈129)  
-- **Why:** Despite negative history, the golden‑cross provides a rare confluence that may overturn the bias.
+- **Entry zone:** 1235 ± 2% (≈1210‑1260)  
+- **Stop loss:** -6% below close  
+- **Take profit:** +12% above close  
+- **Why:** Minimal edge but still above‑zero; retained for completeness.
 
 ### Market Read  
-Golden‑cross activity dominates today’s BUY list, delivering strong bullish bias on high‑tier tickers (HUMI, BNBR) and a solid medium‑tier spread. Low‑tier and even a negative‑tier ticker are added to broaden the net, acknowledging that short‑term momentum can still generate outsized 5‑20‑day returns when volume backs the breakout.
+Today's buy list is dominated by high‑tier golden‑crosses (HUMI, BNBR) and a strong volume breakout (TINS). Medium‑tier signals (ARCI, BUMI) show solid win rates, while low‑tier picks add breadth despite thin edges. Overall bias is bullish, targeting stocks with recent momentum and volume strength for a 5‑20‑day upside.
