@@ -2,48 +2,43 @@
 
 ## 1. Sanity Check (math + logic)  
 
-- **HUMI**: ✓ clean (R/R = 6 % / 3 % = **2.0**). SL is a flat “‑3 % below close” – no reference to a support level; TP is a flat “+6 %” – no resistance cited. High conviction despite only **4** historic trades and a **50 %** win‑rate.  
-- **BNBR**: ✓ clean (R/R ≈ **1.67**). Same SL/TP logic issue – arbitrary %‑based stops. Conviction “High” with only **5** trades and a **60 %** win‑rate – marginal evidence for a high tier.  
-- **TINS**: ✓ clean (R/R = **2.0**). SL/TP again purely %‑based. Conviction “High” but win‑rate **45.7 %** over **35** trades – a weak edge for a high‑tier label.  
-- **ARCI**: ✓ clean (R/R = **1.75**). SL/TP are %‑based, no structural levels. Conviction “Medium” while win‑rate is **100 %** over **3** trades – sample size too tiny to justify any tier confidence.  
-- **BUMI**: ✓ clean (R/R = **1.75**). Same %‑based stop logic. Medium conviction with **66.7 %** win over **3** trades – thin evidence.  
-- **ASHA**: ✓ clean (R/R = **1.8**). SL/TP are %‑based, no price‑level justification. Medium conviction but win‑rate **42.9 %** over **7** trades – modest at best.  
-- **APLN**: ✓ clean (R/R = **1.6**). Same structural issue. Medium conviction with **75 %** win over **4** trades – still a small sample.  
-- **NCKL**: ✓ clean (R/R = **2.0**). Low conviction, but win‑rate **50 %** over **4** trades – edge **1.52 %** is marginal.  
-- **GTSI**: ✓ clean (R/R = **2.0**). Same concerns as NCKL.  
-- **GJTL**: ✓ clean (R/R = **2.0**). Edge **0.47 %** over **6** trades – essentially noise; high‑tier label (even “Low”) is questionable.  
+- **HUMI**: ✓ clean (R/R ≈ 3:1, mathematically consistent).  
+- **BNBR**: ✓ clean (R/R ≈ 2.5:1).  
+- **TINS**: ✓ clean (R/R ≈ 2.67:1) **but** SL is a flat ‑3 % rather than a price‑level support; the TP is set to a fixed +8 % with no reference to resistance.  
+- **ARCI**: ✓ clean (R/R = 2:1) **but** conviction is “Medium” while the win‑rate is 100 % on only 3 trades – a classic over‑fit.  
+- **BUMI**: ✓ clean (R/R = 2:1) – SL/TP again purely percentage‑based, no structural justification.  
+- **ASHA**: ✓ clean (R/R = 2:1) – win‑rate 42.9 % on 7 trades; “Medium” conviction is not supported by the weak edge (3.99 %).  
+- **APLN**: ✓ clean (R/R ≈ 1.67:1) – edge only 2.05 % on 4 trades; medium conviction feels inflated.  
+- **NCKL**: ✓ clean (R/R = 1:1) – low conviction matches low edge, but the 1 % SL/TP band is unusually tight for a low‑conviction pick.  
+- **GTSI**: ✓ clean (R/R = 1:1) – same issue as NCKL; no technical rationale.  
+- **GJTL**: ✓ clean (R/R = 1:1) – minimal edge (0.47 %) on 6 trades; low conviction is appropriate, but the flat ‑4 % SL/TP is arbitrary.  
 
-**Overall**: All picks are mathematically consistent, but **SL/TP placement is arbitrary** (pure %‑based) with no reference to support/resistance zones, and **conviction tiers are inflated** relative to the thin historical evidence.
-
----
+**Tier consistency flags**  
+- **TINS**: High conviction despite a win‑rate of 45.7 % and a modest 5.51 % edge – over‑rated.  
+- **ARCI**: Medium conviction while the perfect win‑rate on only three trades should either push it to High or be flagged as data‑starved.  
+- **APLN**: Medium conviction with a 2.05 % edge – the edge is barely above noise; conviction appears inflated.  
 
 ## 2. Contradiction Hunter  
 
-1. **“High‑tier golden‑crosses (HUMI, BNBR) and a strong volume breakout (TINS)”** – the author treats a *volume breakout* as a **high‑tier** signal, yet TINS has a **45.7 % win‑rate** (well below “high”).  
-2. **“Medium‑tier ARCI with a perfect win record”** – a **100 % win‑rate** over only **3** trades is statistically meaningless; labeling it “medium” contradicts the implied “high” confidence a perfect record would suggest.  
-3. **“Overall bias is bullish”** while simultaneously **including low‑tier picks (GJTL, GTSI) with negligible edges**. The low‑tier signals dilute the bullish bias and create internal inconsistency between the stated bias and the actual signal strength.  
-
----
+1. **“High‑tier ma signals (HUMI, BNBR) provide solid 5‑day edges.”** – HUMI’s edge is 17 % but the win‑rate is only 50 %; a 50 % win‑rate does **not** constitute a “solid” edge.  
+2. **“Volume breakout offers the best risk‑adjusted upside.”** – TINS is presented as the best breakout, yet its win‑rate (45.7 %) is the lowest among the high‑conviction list, contradicting the “best risk‑adjusted” claim.  
+3. **“Medium‑tier names round out the list.”** – ARCI’s 100 % win‑rate on three trades should place it in the high‑conviction bucket, not medium. The author’s placement contradicts the internal win‑rate evidence.  
 
 ## 3. Hidden Risks  
 
-- **Sector concentration**: 8 of the 10 picks belong to the **mining/metal sector** (BNBR, TINS, ARCI, BUMI, ASHA, APLN, NCKL, GTSI, GJTL). A sector‑specific shock (e.g., a sudden drop in commodity prices) would simultaneously hit the bulk of the portfolio.  
-- **Liquidity risk**: Several low‑tier symbols (e.g., GJTL, ASHA, GTSI) are **micro‑caps** on IDX with average daily volume often **< 100 k shares**. Position sizing at the suggested %‑of‑portfolio could easily move the market and cause slippage.  
-- **Correlation risk**: All picks are triggered by the **same technical pattern (golden‑cross)**, meaning they are likely to **co‑move** on the same short‑term momentum wave, reducing true diversification.  
-- **Timing / chase risk**: If any of these stocks have already **gapped > 15 % today** (common for low‑cap IDX stocks on news), the entry zone (±1 % around close) may already be **post‑breakout**, exposing the trader to a reversal risk.  
-- **Stale data / small‑sample bias**: Historical “edge” figures are derived from **≤ 6 trades** for most symbols. Such a tiny sample is highly susceptible to **regime‑shift** and does not reflect current market dynamics.  
-- **Indicator overlap**: The entire list relies on a **single indicator (golden‑cross)** plus a volume breakout for TINS. No secondary confirmation (e.g., RSI, MACD, fundamentals) is presented, inflating the apparent confluence.  
-
----
+- **Sector concentration**: BNBR, TINS, and HUMI are all mining‑related (tin/coal exposure). Together they represent >30 % of the suggested portfolio, exposing the whole basket to a single commodity swing.  
+- **Liquidity risk**: TINS (ticker 3 790) typically trades < 200 k shares/day; a 5‑20 day hold with an 8 % TP could easily exceed daily volume, causing slippage.  
+- **Correlation risk**: BNBR and TINS move together on tin price dynamics; ARCI and BUMI also share exposure to bulk commodities, inflating apparent diversification.  
+- **Timing / chase risk**: If any of the listed stocks have already rallied > 15 % today (common for golden‑cross alerts), the entry zone (±0.5 %) may be chasing a breakout that is already priced in, increasing downside risk.  
+- **Stale signal risk**: All picks rely on a simple moving‑average golden‑cross. The MA crossover is a lagging indicator; without confirming momentum or volume filters, the signal can be stale, especially in a market where many stocks are simultaneously crossing.  
+- **Indicator overlap**: The only non‑MA signal is TINS’ volume breakout, but the analysis treats it as a separate “best Sharpe‑weighted” signal while still using the same MA‑based entry/exit logic, creating a false sense of confluence.  
 
 ## 4. What the Author Got Right  
 
-The author correctly identified that a **sharp volume surge** (TINS) can be a strong short‑term catalyst; the breakout magnitude (≈5 % jump) and the accompanying Sharpe‑ratio ranking do highlight a genuine short‑term upside potential, assuming sufficient liquidity.
-
----
+The author correctly identified that a historical edge (e.g., HUMI’s 17 % over four trades) can justify a higher risk‑reward ratio, and they consistently applied a percentage‑based SL/TP framework across the entire list, which simplifies position sizing and ensures a uniform risk‑management baseline.  
 
 ## 5. Critical Recommendations  
 
-1. **Re‑scale conviction tiers** – downgrade **HUMI, BNBR, TINS** to *medium* or *low* until a larger sample (≥ 15 trades) confirms a robust edge; conversely, **ARCI** should be upgraded to *high* only after a broader win‑rate history.  
-2. **Replace flat %‑based SL/TP** with **price‑level stops** anchored to recent support/resistance (e.g., prior swing lows, ATR‑based stops). This will align risk with market structure and avoid arbitrary stop placement.  
-3. **Cap sector exposure** – limit the **mining/metal allocation** to **≤ 30 %** of the total allocated capital. Introduce at least **two non‑correlated sectors** (e.g., consumer, finance) to mitigate sector‑specific tail risk.
+1. **Re‑scale conviction levels** – downgrade **TINS** to Medium/Low (its win‑rate and edge do not merit High) and **ARCI** to High (its 100 % win‑rate, albeit on three trades, deserves a higher conviction flag).  
+2. **Add technical stop‑loss anchors** – replace flat ‑2 %/‑3 % stops with price‑level stops at nearest support (e.g., recent swing lows or ATR‑based levels) to avoid arbitrary exits that ignore market structure.  
+3. **Trim sector exposure** – cap mining‑related positions (BNBR, TINS, HUMI) to ≤ 20 % of total notional exposure; reallocate the freed capital to unrelated sectors (e.g., consumer, finance) to mitigate commodity‑driven correlation risk.
