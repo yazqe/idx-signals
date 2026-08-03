@@ -3,7 +3,7 @@
     "ticker": "BKSL",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 69,
+    "close": 67,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -16,10 +16,10 @@
     "ticker": "KOTA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 167,
-    "vol_ratio": 2.2,
-    "pct_chg": 13.61,
-    "note": "Volume 2.2x avg + price +13.61%",
+    "close": 150,
+    "vol_ratio": 2.8,
+    "pct_chg": 2.04,
+    "note": "Volume 2.8x avg + price +2.04%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0711,
@@ -28,25 +28,10 @@
     }
   },
   {
-    "ticker": "ASHA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 61,
-    "vol_ratio": 12.1,
-    "pct_chg": 8.93,
-    "note": "Volume 12.1x avg + price +8.93%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0586,
-      "win_5d": 0.571,
-      "n": 35
-    }
-  },
-  {
     "ticker": "KAQI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 96,
+    "close": 93,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -59,10 +44,10 @@
     "ticker": "ZATA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 73,
-    "vol_ratio": 2.2,
-    "pct_chg": 10.61,
-    "note": "Volume 2.2x avg + price +10.61%",
+    "close": 68,
+    "vol_ratio": 2.9,
+    "pct_chg": 3.03,
+    "note": "Volume 2.9x avg + price +3.03%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0052,
@@ -74,7 +59,7 @@
     "ticker": "SMDR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 304,
+    "close": 298,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
