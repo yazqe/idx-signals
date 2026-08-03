@@ -1,0 +1,41 @@
+[
+  {
+    "ticker": "BKSL",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 68,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0952,
+      "win_5d": 0.6,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "KAQI",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 96,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0541,
+      "win_5d": 0.75,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "SMDR",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 302,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.037,
+      "win_5d": 0.5,
+      "n": 4
+    }
+  }
+]
