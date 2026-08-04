@@ -1,0 +1,28 @@
+[
+  {
+    "ticker": "WMUU",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 54,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0583,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "BRMS",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 560,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0373,
+      "win_5d": 0.0,
+      "n": 2
+    }
+  }
+]

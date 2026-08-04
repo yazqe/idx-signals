@@ -422,3 +422,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-07-31,SMDR,vol_breakout_up,BUY,302,0.0,,,2026-08-03T05:18:07
 2026-07-31,DIVA,ma_golden_cross,BUY,122,0.0246,,,2026-08-03T05:18:07
 2026-07-31,SINI,ma_golden_cross,BUY,7250,0.0138,,,2026-08-03T08:04:32
+2026-08-03,BKSL,ma_golden_cross,BUY,67,0.0,,,2026-08-04T05:17:46
+2026-08-03,KOTA,vol_breakout_up,BUY,150,-0.0067,,,2026-08-04T05:17:46
+2026-08-03,KAQI,ma_golden_cross,BUY,93,0.0108,,,2026-08-04T05:17:46
+2026-08-03,ZATA,vol_breakout_up,BUY,68,-0.0147,,,2026-08-04T05:17:46
+2026-08-03,SMDR,ma_golden_cross,BUY,298,0.0134,,,2026-08-04T05:17:46
