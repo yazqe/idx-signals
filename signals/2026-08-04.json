@@ -1,5 +1,50 @@
 [
   {
+    "ticker": "HUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 154,
+    "vol_ratio": 4.0,
+    "pct_chg": 11.59,
+    "note": "Volume 4.0x avg + price +11.59%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1304,
+      "win_5d": 0.419,
+      "n": 31
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 172,
+    "vol_ratio": 3.5,
+    "pct_chg": 12.42,
+    "note": "Volume 3.5x avg + price +12.42%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "SDMU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 83,
+    "vol_ratio": 4.1,
+    "pct_chg": 6.41,
+    "note": "Volume 4.1x avg + price +6.41%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0784,
+      "win_5d": 0.565,
+      "n": 46
+    }
+  },
+  {
     "ticker": "WMUU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
@@ -13,10 +58,25 @@
     }
   },
   {
+    "ticker": "PANI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 6575,
+    "vol_ratio": 2.0,
+    "pct_chg": 6.05,
+    "note": "Volume 2.0x avg + price +6.05%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0073,
+      "win_5d": 0.48,
+      "n": 25
+    }
+  },
+  {
     "ticker": "BRMS",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 560,
+    "close": 565,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",

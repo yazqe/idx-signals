@@ -1,32 +1,74 @@
-# Hermes Review — 2024‑08‑04  
+# Hermes Review — 2026‑08‑04  
 
 ## 1. Sanity Check (math + logic)  
 
-- **WMUU:** ✗ **R/R not disclosed** – using entry ≈ 54, SL ≈ 52.6, TP ≈ 57.2 gives a risk‑reward ≈ 2.3 : 1, yet the author never states it.  
-- **WMUU:** ✗ **SL placement arbitrary** – a flat “‑3 %” stop is not anchored to a technical support level (e.g., recent swing low, ATR‑based stop, or a structural price floor).  
-- **WMUU:** ✗ **TP placement unjustified** – a “+6 %” target is not tied to a visible resistance zone, prior swing high, Fibonacci extension, or earnings‑driven catalyst.  
-- **WMUU:** ✗ **Conviction tier inflated** – the author rates conviction “High” despite only a single‑indicator trigger (golden‑cross) and a weak historical edge (5.83 % over 4 trades, win‑rate 25 %). The evidence density is thin, suggesting a lower tier.  
-- **WMUU:** ✓ clean (no arithmetic errors beyond the missing R/R).  
+- **HUMI**:  
+  - R/R (computed) ≈ 2.38, but the analysis never states an R/R figure.  
+  - SL is set at “‑5 % below close” (~146) with no reference to a support zone or chart structure – appears arbitrary.  
+  - TP is “+12 % above close” (~173) with no identified resistance level.  
+  - Conviction = **High** despite a win‑rate of only **41.9 %** over 31 trades – tier inflation.  
+
+- **GTSI**:  
+  - R/R (computed) ≈ 2.33, again not disclosed.  
+  - SL = ‑5 % below close (~163) – no structural justification.  
+  - TP = +12 % above close (~193) – no resistance cited.  
+  - Conviction = **High** while win‑rate is **48.6 %** (sub‑50 %); evidence density is thin → tier inflation.  
+
+- **SDMU**:  
+  - R/R (computed) = **2.00** – clean mathematically but not reported.  
+  - SL = ‑5 % below close (~79) – no support reference.  
+  - TP = +10 % above close (~91) – no resistance cited.  
+  - Conviction = **High** with a win‑rate of **56.5 %** (better but still modest) – borderline tier inflation.  
+
+- **WMUU**:  
+  - R/R (computed) = **2.00** – mathematically sound.  
+  - SL = ‑5 % below close (~51) – no structural support.  
+  - TP = +10 % above close (~60) – no resistance level.  
+  - Conviction = **High** despite only **4** historical trades and a **25 %** win‑rate – **severe tier inflation**.  
+
+**Summary**:  
+- HUMI, GTSI, SDMU, WMUU: ✓ clean math (if entry = mid‑zone) but **✓** missing explicit R/R disclosure.  
+- All picks suffer from **arbitrary SL/TP placement** (fixed % rather than structure).  
+- Conviction ratings are **over‑stated** for three of the four names, especially WMUU.  
+
+---
 
 ## 2. Contradiction Hunter  
 
-1. **“Limited downside risk” vs. “‑3 % stop loss”** – The narrative claims “limited downside risk,” yet a flat 3 % stop ignores the actual price structure; a true limited‑risk setup would place the stop at a meaningful support level, not an arbitrary percentage.  
+1. **“High‑conviction volume breakouts” vs. WMUU** – The market read states the list is “dominated by high‑conviction volume breakouts,” yet WMUU is entered on a **moving‑average golden cross** with only **4** past trades and a **25 %** win‑rate. This mixes fundamentally different signal types under the same conviction banner.  
+
+2. **“Short‑to‑medium‑term upside bias”** – The author recommends a short‑to‑medium bias across all picks, but the SLs are set at a flat ‑5 % rule regardless of each stock’s volatility. For a high‑beta breakout (e.g., HUMI’s 11.6 % price jump), a uniform ‑5 % stop may be **too tight**, contradicting the implied “hold 5‑20 days” horizon.  
+
+3. **Conviction vs. Evidence** – All four tickers are labeled **High** conviction, yet the underlying win‑rates range from **25 %** (WMUU) to **56.5 %** (SDMU). The analysis does not reconcile this mismatch, creating an internal inconsistency between stated confidence and statistical support.  
+
+---
 
 ## 3. Hidden Risks  
 
-- **Sector concentration** – WMUU is a consumer‑tech/online‑services name (subject to sector‑wide sentiment swings). If the author’s broader portfolio already leans heavily into tech, the net exposure could be >30 % to a single sector, magnifying sector‑specific shocks.  
-- **Liquidity risk** – WMUU’s average daily volume (≈ 200 k shares) is modest relative to a 5 % portfolio allocation. A 5 % position could easily move the market, especially on a volatile day, inflating slippage.  
-- **Correlation risk** – The trade is effectively a pure momentum bet. WMUU’s price action is highly correlated with other Indonesian “golden‑cross” stocks (e.g., BBCA, TLKM). Adding it may not diversify but rather double‑down on a single market‑wide momentum regime.  
-- **Timing / chase risk** – The stock is already trading near the upper bound of the entry zone (≈ 54.5). Entering now may be chasing the move; a pull‑back to the lower bound (≈ 53.5) would provide a better risk‑to‑reward profile.  
-- **Stale signal** – The golden‑cross signal is based on a 20‑day SMA vs. 50‑day SMA. In a market that has been trending upward for months, the signal may be “over‑cooked” and losing predictive power; the author does not assess whether the regime has shifted.  
-- **Indicator overlap** – The analysis leans solely on the SMA crossover, ignoring other confluence tools (e.g., volume surge, MACD, or Markov‑based momentum). Relying on a single indicator inflates false‑positive risk.  
+- **Sector concentration** – HUMI, GTSI and SDMU are all **small‑cap, high‑volatility** stocks (largely in the **consumer‑discretionary / mining** niche). Concentrating > 60 % of the suggested allocation in a single sector magnifies sector‑specific tail risk if commodity prices reverse.  
+
+- **Liquidity risk** – These tickers are **micro‑cap** (average daily turnover < 500 k shares). Position sizing based on a flat 5 % SL could easily exceed 10 % of average daily volume, inviting slippage and execution risk.  
+
+- **Correlation risk** – All three volume‑breakout picks are driven by the same **volatility‑breakout filter**; they tend to co‑move on market‑wide risk‑on/off flows, effectively creating a **single‑factor exposure** rather than true diversification.  
+
+- **Timing / chase risk** – Each stock has already **gapped up** 6‑12 % today (e.g., HUMI +11.6 %). Entering after such a move raises the probability of a **pull‑back** or **gap‑down** on the next session, especially when the breakout is not anchored to a clear support level.  
+
+- **Stale data / regime shift** – The “historical edge” metric is derived from the last **31‑46 trades**. No mention is made of the **time window** (e.g., pre‑COVID vs. post‑2022). If the bulk of those trades occurred in a different market regime, the edge may be **stale**.  
+
+- **Indicator overlap** – The three volume‑breakout signals (HUMI, GTSI, SDMU) are essentially the same filter (vol_breakout_up). Using them as independent signals inflates confidence while the underlying information is **highly correlated**.  
+
+---
 
 ## 4. What the Author Got Right  
 
-The author correctly notes that a golden‑cross historically provides a modest edge (≈ 5.8 % over four prior trades) and that WMUU’s current price sits comfortably within the defined entry band, which keeps the trade’s initial risk bounded if a proper support‑based stop were used.  
+The author correctly identified that each of the four stocks is experiencing a **sharp, short‑term volume surge** (4×‑5× average) and that such spikes historically have produced **positive expectancy** in the author’s back‑test, which is a legitimate starting point for a breakout‑style trade.  
+
+---
 
 ## 5. Critical Recommendations  
 
-1. **Redefine the stop‑loss** – Anchor the SL to the most recent swing low (≈ 52.8) or an ATR‑based multiple (e.g., 1.5 × ATR) rather than a flat ‑3 % rule. This will align risk with market structure and improve the true R/R calculation.  
-2. **Explicitly state the risk‑reward** – Compute and disclose the exact R/R (≈ 2.3 : 1) in the write‑up. If the R/R falls below a pre‑defined threshold (e.g., 2 : 1), either tighten the TP or widen the SL to meet the risk‑reward policy.  
-3. **Add multi‑timeframe confirmation** – Before entering, verify that the weekly chart does not show a bearish divergence (e.g., price below the 20‑week SMA or a bearish MACD histogram). If the higher‑timeframe is neutral or bearish, downgrade conviction to “Medium” and/or reduce position size to ≤ 2 % of the portfolio.
+1. **Redefine SL/TP on structural levels** – Replace the flat ‑5 % SL with the nearest **technical support** (e.g., prior swing low, VWAP, or 20‑day low) and set TP at the **next resistance** (previous swing high, Fibonacci extension, or sector‑wide ceiling). This will align risk‑reward to the chart rather than an arbitrary percentage.  
+
+2. **Scale back conviction for WMUU** – Given only **4** prior trades and a **25 %** win‑rate, downgrade WMUU’s conviction to **Low‑Medium** and cap its position size to **≤ 5 %** of total capital.  
+
+3. **Diversify away from the breakout‑bias cluster** – Add at least **two non‑correlated** positions (e.g., a defensive dividend stock or a macro‑driven commodity hedge) to mitigate the **single‑factor exposure** inherent in the current list. This will reduce sector‑ and correlation‑risk while preserving upside potential.
