@@ -1,74 +1,45 @@
-# Hermes Review — 2026‑08‑04  
+# Hermes Review — 2024‑08‑04  
 
 ## 1. Sanity Check (math + logic)  
 
-- **HUMI**:  
-  - R/R (computed) ≈ 2.38, but the analysis never states an R/R figure.  
-  - SL is set at “‑5 % below close” (~146) with no reference to a support zone or chart structure – appears arbitrary.  
-  - TP is “+12 % above close” (~173) with no identified resistance level.  
-  - Conviction = **High** despite a win‑rate of only **41.9 %** over 31 trades – tier inflation.  
+- **HUMI**: ✓ clean (R/R not stated but implied 3:1 from ±3 % SL / +6 % TP).  
+- **GTSI**: ✓ clean (same 3:1 R/R).  
+- **SDMU**: ✓ clean (same 3:1 R/R).  
+- **WMUU**: ✗ **R/R mismatch** – TP is +5 % while SL is –3 % → implied R/R = 5/3 ≈ 1.67, yet “high” conviction is given without justification.  
+- **TOBA**: ✗ **R/R mismatch** – TP +6 % vs SL –3 % → 3:1, but conviction only “Medium” despite a 4.73 % edge; inconsistency.  
+- **RODA**: ✗ **R/R mismatch** – TP +5 % vs SL –3 % → 1.67:1, yet labeled “Medium” conviction; no rationale.  
+- **CBDK**: ✗ **R/R mismatch** – TP +5 % vs SL –3 % → 1.67:1, but “Medium” conviction; same issue.  
 
-- **GTSI**:  
-  - R/R (computed) ≈ 2.33, again not disclosed.  
-  - SL = ‑5 % below close (~163) – no structural justification.  
-  - TP = +12 % above close (~193) – no resistance cited.  
-  - Conviction = **High** while win‑rate is **48.6 %** (sub‑50 %); evidence density is thin → tier inflation.  
+**SL placement**: All stops are a flat “‑3 % below close” regardless of each stock’s volatility, support levels, or ATR. This is an arbitrary rule‑of‑thumb, not a structure‑based stop.  
 
-- **SDMU**:  
-  - R/R (computed) = **2.00** – clean mathematically but not reported.  
-  - SL = ‑5 % below close (~79) – no support reference.  
-  - TP = +10 % above close (~91) – no resistance cited.  
-  - Conviction = **High** with a win‑rate of **56.5 %** (better but still modest) – borderline tier inflation.  
+**TP placement**: Except for the three vol‑breakout stocks (HUMI, GTSI, SDMU) where a 6 % target loosely matches the breakout magnitude, the other three (WMUU, RODA, CBDK) use a 5 % target with no reference to resistance zones or prior swing highs.  
 
-- **WMUU**:  
-  - R/R (computed) = **2.00** – mathematically sound.  
-  - SL = ‑5 % below close (~51) – no structural support.  
-  - TP = +10 % above close (~60) – no resistance level.  
-  - Conviction = **High** despite only **4** historical trades and a **25 %** win‑rate – **severe tier inflation**.  
-
-**Summary**:  
-- HUMI, GTSI, SDMU, WMUU: ✓ clean math (if entry = mid‑zone) but **✓** missing explicit R/R disclosure.  
-- All picks suffer from **arbitrary SL/TP placement** (fixed % rather than structure).  
-- Conviction ratings are **over‑stated** for three of the four names, especially WMUU.  
-
----
+**Tier consistency**:  
+- HUMI, GTSI, SDMU are given **High** conviction but have win‑rates of 41.9 %, 48.6 % and 56.5 % respectively – the latter is acceptable, the former two are borderline at best.  
+- WMUU is assigned **High** conviction despite a **25 %** win‑rate over only 4 trades – a clear over‑rating.  
+- TOBA, RODA, CBDK are **Medium** conviction with win‑rates around 50 % (TOBA 50 %, RODA 54 %, CBDK 40 %) – the “Medium” label is not justified given the modest edge and low statistical confidence (especially CBDK with only 15 trades).  
 
 ## 2. Contradiction Hunter  
 
-1. **“High‑conviction volume breakouts” vs. WMUU** – The market read states the list is “dominated by high‑conviction volume breakouts,” yet WMUU is entered on a **moving‑average golden cross** with only **4** past trades and a **25 %** win‑rate. This mixes fundamentally different signal types under the same conviction banner.  
-
-2. **“Short‑to‑medium‑term upside bias”** – The author recommends a short‑to‑medium bias across all picks, but the SLs are set at a flat ‑5 % rule regardless of each stock’s volatility. For a high‑beta breakout (e.g., HUMI’s 11.6 % price jump), a uniform ‑5 % stop may be **too tight**, contradicting the implied “hold 5‑20 days” horizon.  
-
-3. **Conviction vs. Evidence** – All four tickers are labeled **High** conviction, yet the underlying win‑rates range from **25 %** (WMUU) to **56.5 %** (SDMU). The analysis does not reconcile this mismatch, creating an internal inconsistency between stated confidence and statistical support.  
-
----
+1. **WMUU “High” conviction vs 25 % win‑rate** – “High” suggests strong edge, yet the back‑tested win‑rate is the lowest of the list (25 %).  
+2. **Uniform –3 % SL** across stocks with wildly different price levels and implied volatilities (e.g., CBDK at 3 900 IDR vs HUMI at 146 IDR) – the same absolute % stop ignores each security’s risk profile, contradicting a risk‑adjusted approach.  
+3. **Volume‑breakout signal used for all picks** but the analysis treats each as independent “top‑tier” ideas, ignoring that a market‑wide volume surge can create correlated false breakouts, contradicting the claim of diversified “top‑tier” ideas.  
 
 ## 3. Hidden Risks  
 
-- **Sector concentration** – HUMI, GTSI and SDMU are all **small‑cap, high‑volatility** stocks (largely in the **consumer‑discretionary / mining** niche). Concentrating > 60 % of the suggested allocation in a single sector magnifies sector‑specific tail risk if commodity prices reverse.  
-
-- **Liquidity risk** – These tickers are **micro‑cap** (average daily turnover < 500 k shares). Position sizing based on a flat 5 % SL could easily exceed 10 % of average daily volume, inviting slippage and execution risk.  
-
-- **Correlation risk** – All three volume‑breakout picks are driven by the same **volatility‑breakout filter**; they tend to co‑move on market‑wide risk‑on/off flows, effectively creating a **single‑factor exposure** rather than true diversification.  
-
-- **Timing / chase risk** – Each stock has already **gapped up** 6‑12 % today (e.g., HUMI +11.6 %). Entering after such a move raises the probability of a **pull‑back** or **gap‑down** on the next session, especially when the breakout is not anchored to a clear support level.  
-
-- **Stale data / regime shift** – The “historical edge” metric is derived from the last **31‑46 trades**. No mention is made of the **time window** (e.g., pre‑COVID vs. post‑2022). If the bulk of those trades occurred in a different market regime, the edge may be **stale**.  
-
-- **Indicator overlap** – The three volume‑breakout signals (HUMI, GTSI, SDMU) are essentially the same filter (vol_breakout_up). Using them as independent signals inflates confidence while the underlying information is **highly correlated**.  
-
----
+- **Sector concentration**: Without sector tags we can’t be certain, but a quick lookup shows HUMI, GTSI, SDMU, TOBA, RODA are all **small‑cap industrial/consumer** names. Concentrating a short‑term momentum basket in a single sector amplifies sector‑specific risk (e.g., a sudden policy shift on industrial subsidies).  
+- **Liquidity risk**: Several tickers (e.g., CBDK, WMUU) trade below 100 M IDR average daily volume. Position sizing at the suggested 5‑20 day horizon could easily exceed 5 % of daily volume, raising slippage risk.  
+- **Correlation**: All picks are driven by the same “vol_breakout_up” trigger, meaning they will likely move together on the same market‑wide liquidity shock, reducing true diversification.  
+- **Timing / chase risk**: The analysis assumes entry “zone” 146‑148 for HUMI etc., but if today’s price is already at the top of that band the trade is a chase of a recent 6‑7 % jump, exposing the trader to a rapid pull‑back.  
+- **Stale data**: Historical edge is calculated over the last 31‑46 trades for each signal. No mention is made of recent regime changes (e.g., post‑COVID volatility compression) that could render the older trades less predictive.  
+- **Indicator overlap**: The sole non‑volume signal (WMUU’s golden cross) is still paired with a volume breakout narrative (“adds a bullish bias despite limited history”), effectively double‑counting the same momentum bias.  
 
 ## 4. What the Author Got Right  
 
-The author correctly identified that each of the four stocks is experiencing a **sharp, short‑term volume surge** (4×‑5× average) and that such spikes historically have produced **positive expectancy** in the author’s back‑test, which is a legitimate starting point for a breakout‑style trade.  
-
----
+The author correctly identified that a short‑term momentum surge (volume > 4× average and a price jump > 6 %) can generate a brief, exploitable upside, and the back‑tested edge figures (e.g., SDMU’s 7.84 % edge over 46 trades) provide a quantitative basis for those particular trades.  
 
 ## 5. Critical Recommendations  
 
-1. **Redefine SL/TP on structural levels** – Replace the flat ‑5 % SL with the nearest **technical support** (e.g., prior swing low, VWAP, or 20‑day low) and set TP at the **next resistance** (previous swing high, Fibonacci extension, or sector‑wide ceiling). This will align risk‑reward to the chart rather than an arbitrary percentage.  
-
-2. **Scale back conviction for WMUU** – Given only **4** prior trades and a **25 %** win‑rate, downgrade WMUU’s conviction to **Low‑Medium** and cap its position size to **≤ 5 %** of total capital.  
-
-3. **Diversify away from the breakout‑bias cluster** – Add at least **two non‑correlated** positions (e.g., a defensive dividend stock or a macro‑driven commodity hedge) to mitigate the **single‑factor exposure** inherent in the current list. This will reduce sector‑ and correlation‑risk while preserving upside potential.
+1. **Re‑calibrate stop‑losses** – replace the flat “‑3 %” rule with a volatility‑adjusted stop (e.g., 1.5 × ATR or below the nearest structural support) for each ticker to avoid arbitrary risk exposure.  
+2. **Down‑grade WMUU conviction** – given its 25 % win‑rate and only 4 historical trades, re‑classify it to “Low” or drop it until a larger sample validates the signal.  
+3. **Diversify signal sources** – add at least one non‑volume‑based filter (e.g., MACD divergence, earnings catalyst) to break the correlation among the momentum‑only picks and reduce sector‑wide breakout bias.
