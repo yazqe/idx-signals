@@ -3,10 +3,10 @@
     "ticker": "DEFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 118,
-    "vol_ratio": 11.8,
-    "pct_chg": 12.38,
-    "note": "Volume 11.8x avg + price +12.38%",
+    "close": 114,
+    "vol_ratio": 13.6,
+    "pct_chg": 8.57,
+    "note": "Volume 13.6x avg + price +8.57%",
     "history": {
       "tier": "high",
       "edge_5d": 0.2152,
@@ -18,10 +18,10 @@
     "ticker": "KRYA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 64,
-    "vol_ratio": 3.6,
-    "pct_chg": 4.92,
-    "note": "Volume 3.6x avg + price +4.92%",
+    "close": 63,
+    "vol_ratio": 3.9,
+    "pct_chg": 3.28,
+    "note": "Volume 3.9x avg + price +3.28%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1234,
@@ -30,13 +30,43 @@
     }
   },
   {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 173,
+    "vol_ratio": 2.0,
+    "pct_chg": 2.37,
+    "note": "Volume 2.0x avg + price +2.37%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "PACK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 266,
+    "vol_ratio": 2.0,
+    "pct_chg": 9.92,
+    "note": "Volume 2.0x avg + price +9.92%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0758,
+      "win_5d": 0.5,
+      "n": 44
+    }
+  },
+  {
     "ticker": "BKSL",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 74,
-    "vol_ratio": 4.2,
-    "pct_chg": 7.25,
-    "note": "Volume 4.2x avg + price +7.25%",
+    "close": 72,
+    "vol_ratio": 5.3,
+    "pct_chg": 4.35,
+    "note": "Volume 5.3x avg + price +4.35%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0563,
@@ -48,10 +78,10 @@
     "ticker": "TOBA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 540,
-    "vol_ratio": 5.2,
-    "pct_chg": 10.66,
-    "note": "Volume 5.2x avg + price +10.66%",
+    "close": 530,
+    "vol_ratio": 6.2,
+    "pct_chg": 8.61,
+    "note": "Volume 6.2x avg + price +8.61%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0473,
@@ -63,13 +93,43 @@
     "ticker": "CBDK",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 3920,
+    "close": 3850,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0427,
       "win_5d": 0.333,
       "n": 3
+    }
+  },
+  {
+    "ticker": "HRTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2000,
+    "vol_ratio": 2.1,
+    "pct_chg": 5.26,
+    "note": "Volume 2.1x avg + price +5.26%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0157,
+      "win_5d": 0.481,
+      "n": 27
+    }
+  },
+  {
+    "ticker": "APLN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 130,
+    "vol_ratio": 2.2,
+    "pct_chg": 4.84,
+    "note": "Volume 2.2x avg + price +4.84%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0188,
+      "win_5d": 0.29,
+      "n": 31
     }
   },
   {
