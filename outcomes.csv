@@ -427,3 +427,12 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-03,KAQI,ma_golden_cross,BUY,93,0.0108,,,2026-08-04T05:17:46
 2026-08-03,ZATA,vol_breakout_up,BUY,68,-0.0147,,,2026-08-04T05:17:46
 2026-08-03,SMDR,ma_golden_cross,BUY,298,0.0134,,,2026-08-04T05:17:46
+2026-08-04,HUMI,vol_breakout_up,BUY,147,0.0136,,,2026-08-05T05:17:48
+2026-08-04,GTSI,vol_breakout_up,BUY,164,0.0366,,,2026-08-05T05:17:48
+2026-08-04,SDMU,vol_breakout_up,BUY,83,0.0,,,2026-08-05T05:17:48
+2026-08-04,WMUU,ma_golden_cross,BUY,55,-0.0182,,,2026-08-05T05:17:48
+2026-08-04,TOBA,vol_breakout_up,BUY,486,0.0082,,,2026-08-05T05:17:48
+2026-08-04,RODA,vol_breakout_up,BUY,61,0.0,,,2026-08-05T05:17:48
+2026-08-04,CBDK,vol_breakout_up,BUY,3910,0.0077,,,2026-08-05T05:17:48
+2026-08-04,PANI,vol_breakout_up,BUY,6375,0.0118,,,2026-08-05T05:17:48
+2026-08-04,BRMS,ma_golden_cross,BUY,565,0.0354,,,2026-08-05T05:17:48

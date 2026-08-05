@@ -1,0 +1,28 @@
+[
+  {
+    "ticker": "CBDK",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 3940,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0427,
+      "win_5d": 0.333,
+      "n": 3
+    }
+  },
+  {
+    "ticker": "BIPI",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 152,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.028,
+      "win_5d": 0.5,
+      "n": 6
+    }
+  }
+]
