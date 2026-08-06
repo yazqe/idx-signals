@@ -1,59 +1,41 @@
-# Hermes Review — 2024‑08‑06  
+# Hermes Review — 2026‑08‑06  
 
-## 1. Sanity Check (math + logic)  
+## 1. Sanity Check (math + logic)
 
-- **ARCI**: ✓ clean *on the surface* (TP ≈ +5 % / SL ≈ ‑2 % → R/R ≈ 2.5).  
-  *Issue*: No explicit R/R stated; the author never quantifies the 2.5 ratio, violating the “R/R math” requirement.  
+- **HUMI**: ✓ clean (R/R ≈ 2.66, matches 8%/‑3%). SL set at a flat ‑3 % rather than a technical support level – arbitrary. TP is a flat +8 % target, not tied to any identified resistance. Conviction “High” is overstated given a modest win‑rate (41.9 %).  
+- **BNBR**: ✓ clean (R/R ≈ 2.66). SL again a blunt ‑3 % rule; no support reference. TP +8 % lacks resistance justification. Conviction “High” despite a win‑rate of 58 % but edge only 12.67 % – still borderline for “high”.  
+- **GTSI**: ✓ clean (R/R ≈ 2.66). SL/TP same flat percentages – no structural rationale. Conviction “High” while win‑rate is 48.6 % and edge 9.77 % – thin edge for a high tier.  
+- **KOTA**: ✓ clean (R/R ≈ 2.66). SL/TP flat; no support/resistance anchoring. Conviction “High” despite win‑rate just above 50 % and edge 7.11 % – likely tier inflation.  
+- **BKSL**: ✓ clean (R/R ≈ 2.66). SL/TP flat; no technical justification. Conviction “High” with win‑rate 54 % but edge only 5.63 % – thin edge for high tier.  
+- **ARCI**: ✓ clean (R/R ≈ 2.66). SL/TP flat; price level ~1180 IDR suggests low‑liquidity cap – flat‑% SL may be too wide. Conviction “Medium” but edge 4.53 % and win‑rate 54 % – still modest; tier seems acceptable.  
+- **RODA**: ✓ clean (R/R ≈ 2.66). SL/TP flat; no support level. Conviction “Medium” with edge 3.69 % – borderline for even medium tier.  
+- **BIPP**: ✓ clean (R/R ≈ 2.66). SL/TP flat; edge 2.71 % – low‑edge for a “Medium” pick; tier likely overstated.  
+- **HRTA**: ✓ clean (R/R ≈ 2.66). SL/TP flat; conviction labeled “Low” yet still placed in the same “Buy” list with identical risk parameters – inconsistent treatment.  
 
-- **RODA**: ✓ clean mathematically (R/R ≈ 2.5).  
-  *Issue*: Same as ARCI – missing explicit R/R figure.  
+**Overall Tier Consistency Issues**  
+- All picks use identical ‑3 % SL and +8 % TP regardless of price level, volatility, or chart‑based support/resistance. This uniformity inflates “high” conviction for many marginal edges and deflates “low” conviction for HRTA (same risk‑reward as the rest).  
 
-- **BIPP**: ✓ clean mathematically (R/R ≈ 2.5).  
-  *Issue*: No R/R disclosed; also the win‑rate is only 50 % – a “medium” conviction is questionable given the thin edge (2.71 %).  
+## 2. Contradiction Hunter
 
-- **HRTA**: ✓ clean mathematically (R/R ≈ 2.5).  
-  *Issue*: Conviction is labeled “Low” yet the pick is still presented alongside “medium‑tier” stocks, creating a tier‑inflation mismatch.  
+1. **HRTA Conviction vs. Risk Parameters** – Quote: “Conviction: Low (but high volume)”. Yet HRTA receives the same ‑3 % SL and +8 % TP as the high‑conviction picks, contradicting the stated low confidence.  
+2. **Uniform R/R vs. Varying Edge** – The analysis treats a 13 % edge (HUMI) and a 1.5 % edge (HRTA) as equally attractive by applying identical R/R, ignoring that a lower edge should demand a tighter SL or higher TP to preserve expectancy.  
+3. **Medium‑Tier Picks with Weak Win‑Rates** – BIPP’s win‑rate is exactly 50 % (break‑even) but is still listed as a “Medium” conviction, conflicting with the implied expectation that medium tier requires >50 % win‑rate and >3 % edge.  
 
-- **SL placement** (all picks): All stop‑losses are set at a flat **‑2 %** below the close, **not** anchored to any technical support, trend‑line, ATR‑based volatility stop, or market‑structure level. This is an arbitrary percentage stop, exposing the trade to premature exits on normal intraday noise.  
+## 3. Hidden Risks
 
-- **TP placement** (all picks): All take‑profits are a flat **+5 %** above the close, with no reference to identified resistance zones, Fibonacci extensions, or historical swing highs. The TP is therefore speculative rather than price‑level justified.  
+- **Sector Concentration**: Six of the nine picks (HUMI, BNBR, GTSI, KOTA, BKSL, HRTA) are mid‑cap Indonesian consumer/industrial stocks heavily correlated with domestic consumption cycles. A sector‑wide shock (e.g., policy tightening on consumer credit) could wipe out >30 % of the suggested portfolio.  
+- **Liquidity Risk**: ARCI (price ~1180 IDR) and HRTA (price ~2110 IDR) are low‑priced, low‑volume stocks. A 5 % position could easily exceed 20 % of average daily volume, raising slippage risk, especially with a flat ‑3 % SL that may be breached on a single gap.  
+- **Correlation / Over‑Concentration**: All picks are selected on the same “vol_breakout_up” signal, meaning they will likely fire together on a market‑wide volatility surge. This creates a hidden correlation cluster rather than true diversification.  
+- **Timing / Chase Risk**: Each ticker has already experienced a price jump of 2‑12 % on the breakout day. Entering after the jump leaves little upside before the +8 % TP is reached, increasing the chance of a pull‑back eroding the expected edge.  
+- **Stale Data / Regime Shift**: The “historical edge” is derived from the last 30‑50 trades, but no mention is made of the time window (e.g., pre‑COVID vs. post‑2024 regime). If the underlying market dynamics have shifted, the edge estimate may be stale.  
+- **Indicator Overlap**: The sole filter is “vol_breakout_up”. No secondary confirmation (e.g., trend, macro, earnings) is used, so the signal set is not independent – it merely reflects a single volume spike, inflating false confidence.  
 
-- **Tier consistency**:  
-  - ARCI, RODA, BIPP are all tagged **Medium** despite win‑rates hovering just above 50 % and edges under 5 %. The evidence density is thin; a “Medium” label suggests stronger conviction than the data support.  
-  - HRTA is marked **Low** but still makes the top‑4 list, effectively receiving a **Medium** exposure in the portfolio. This inflates its perceived weight relative to its statistical edge (1.57 %).  
+## 4. What the Author Got Right
 
-## 2. Contradiction Hunter  
+The author correctly identified that a volume‑driven breakout can generate short‑term momentum, and they quantified a historical edge for each signal, providing a transparent back‑test win‑rate that can be useful for a quick‑turnover strategy.
 
-1. **“Low conviction but strong volume” vs. inclusion** – The author writes:  
-   > “HRTA, though low‑tier, earns a spot thanks to its solid volume surge.”  
-   Yet the same paragraph states HRTA’s conviction is *Low*. Including a low‑conviction stock in a *medium‑tier* ranked list contradicts the internal hierarchy that low‑conviction picks should be filtered out.  
+## 5. Critical Recommendations
 
-2. **Medium‑tier label vs. win‑rate** – For BIPP the win‑rate is **50 %** (exactly break‑even). Yet the pick is still labeled **Medium**. Elsewhere the author treats a >54 % win‑rate as “Medium”. The inconsistency in the win‑rate threshold for tier assignment is a logical contradiction.  
-
-3. **“Only negative‑tier candidate (ESSA) omitted”** – The market read claims ESSA is a *negative‑tier* candidate, yet the analysis never defines what constitutes a negative tier (e.g., win‑rate < 45 % or edge < 0 %). The omission leaves the reader without a clear rule, contradicting the implied systematic filter.  
-
-## 3. Hidden Risks  
-
-- **Sector concentration** – ARCI and RODA are both **automotive/transportation** stocks (both part of the broader vehicle manufacturing sector). HRTA is a **health‑care** name, while BIPP is a **biotech** ticker, but the three‑stock concentration in *auto‑related* equities raises sector‑specific exposure to any macro‑level shock (e.g., policy change on vehicle subsidies). If the portfolio were to allocate > 30 % to auto, a sector‑specific reversal could wipe out a large chunk of the trade book.  
-
-- **Liquidity risk** – All four picks are **Tier‑1** (small‑cap) equities on IDX with average daily turnover often below **IDR 200 bn**. Position sizing is not disclosed, but a typical 5‑day hold at 2 % risk per trade could easily exceed 10 % of daily volume, inviting slippage and execution risk.  
-
-- **Correlation risk** – The volume‑breakout signal is applied uniformly, creating a *signal‑correlation* cluster. If market‑wide volume spikes (e.g., due to a macro news flow) trigger multiple breakouts, the strategy may be over‑exposed to a single market driver, inflating apparent diversification.  
-
-- **Timing / chase risk** – Each stock has already **gained > 4 %** intraday (ARCI 4.33 %, RODA 4.84 %, BIPP 9.09 %, HRTA 5.5 %). Entering after such moves means the trader is chasing the tail of the breakout, increasing the probability of a rapid pull‑back (mean‑reversion) and reducing the expected edge.  
-
-- **Stale data / regime risk** – The “historical edge” figures (e.g., 4.53 % over 37 trades) are derived from *all* past breakout trades, without any weighting for recent market regimes. If the last 12 months have seen a shift in volatility regime, the edge may be overstated.  
-
-- **Indicator overlap** – The sole filter is **vol_breakout_up**. No secondary confirmation (e.g., momentum oscillator, order‑flow imbalance, or macro catalyst) is used. This single‑indicator reliance inflates the false‑positive rate, especially in a market where volume spikes can be noise‑driven.  
-
-## 4. What the Author Got Right  
-
-The author correctly identified that **large, sudden volume surges** on IDX historically precede short‑term price spikes, and they quantified a modest edge (≈ 2‑5 % over a 5‑day horizon) for each breakout, providing a data‑backed rationale for a directional bias.  
-
-## 5. Critical Recommendations  
-
-1. **Anchor SL/TP to market structure** – Replace the flat ‑2 % / +5 % stops with **technical‑level** stops (e.g., below the nearest swing low, ATR‑based multiples, or key support zones) and **TPs at identified resistance** (previous swing highs, Fibonacci extensions, or volume‑profile peaks). This will align risk‑reward to actual price‑action rather than arbitrary percentages.  
-
-2. **Re‑calibrate conviction tiers** – Introduce a transparent win‑rate / edge threshold matrix (e.g., *Low* < 45 % win, *Medium* 45‑55 % win, *High* > 55 % win) and re‑assign HRTA to the appropriate tier. If HRTA truly merits a *Low* label, either **downgrade its position size** or **exclude it** from the top‑4 list to avoid tier inflation.  
-
-3. **Limit sector exposure** – Cap **auto‑sector exposure** (ARCI + RODA) to **≤ 20 %** of the total allocated capital for this breakout strategy. Consider swapping one auto pick for a **non‑correlated** sector (e.g., consumer staples or utilities) to mitigate sector‑specific tail risk.
+1. **Redefine SL/TP on a per‑stock basis** – Replace the blanket ‑3 % SL with support‑based stops (e.g., recent swing lows, ATR‑based buffers) and adjust TP to the nearest technical resistance. This will align risk‑reward with each ticker’s volatility profile.  
+2. **Trim the portfolio’s sector exposure** – Limit the combined weight of consumer/industrial mid‑cap stocks to ≤ 30 % of the total allocation. Replace excess exposure with unrelated sectors (e.g., utilities, telecom) to mitigate sector‑specific shocks.  
+3. **Add a secondary filter for medium/low conviction picks** – Require an additional confirmation (e.g., positive MACD crossover, earnings beat, or macro‑trend alignment) before entering BIPP, ARCI, RODA, and especially HRTA. This will prevent over‑reliance on a single volume breakout and improve the true expectancy of the medium/low tier signals.
