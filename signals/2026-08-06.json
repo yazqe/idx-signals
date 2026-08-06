@@ -1,9 +1,69 @@
 [
   {
+    "ticker": "ARCI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1205,
+    "vol_ratio": 2.4,
+    "pct_chg": 4.33,
+    "note": "Volume 2.4x avg + price +4.33%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0453,
+      "win_5d": 0.541,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 65,
+    "vol_ratio": 4.7,
+    "pct_chg": 4.84,
+    "note": "Volume 4.7x avg + price +4.84%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
+    }
+  },
+  {
+    "ticker": "BIPP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 72,
+    "vol_ratio": 4.6,
+    "pct_chg": 9.09,
+    "note": "Volume 4.6x avg + price +9.09%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0271,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
+    "ticker": "HRTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2110,
+    "vol_ratio": 2.2,
+    "pct_chg": 5.5,
+    "note": "Volume 2.2x avg + price +5.50%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0157,
+      "win_5d": 0.481,
+      "n": 27
+    }
+  },
+  {
     "ticker": "ESSA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 625,
+    "close": 630,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
