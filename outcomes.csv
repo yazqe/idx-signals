@@ -436,3 +436,13 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-04,CBDK,vol_breakout_up,BUY,3910,0.0077,,,2026-08-05T05:17:48
 2026-08-04,PANI,vol_breakout_up,BUY,6375,0.0118,,,2026-08-05T05:17:48
 2026-08-04,BRMS,ma_golden_cross,BUY,565,0.0354,,,2026-08-05T05:17:48
+2026-08-05,DEFI,vol_breakout_up,BUY,114,0.0,,,2026-08-06T05:17:29
+2026-08-05,KRYA,vol_breakout_up,BUY,63,0.0,,,2026-08-06T05:17:29
+2026-08-05,GTSI,vol_breakout_up,BUY,173,-0.0116,,,2026-08-06T05:17:29
+2026-08-05,PACK,vol_breakout_up,BUY,266,0.0376,,,2026-08-06T05:17:29
+2026-08-05,BKSL,vol_breakout_up,BUY,72,0.0139,,,2026-08-06T05:17:29
+2026-08-05,TOBA,vol_breakout_up,BUY,530,0.0,,,2026-08-06T05:17:29
+2026-08-05,CBDK,ma_golden_cross,BUY,3850,0.0,,,2026-08-06T05:17:29
+2026-08-05,HRTA,vol_breakout_up,BUY,2000,0.04,,,2026-08-06T05:17:29
+2026-08-05,APLN,vol_breakout_up,BUY,130,0.0154,,,2026-08-06T05:17:29
+2026-08-05,BIPI,ma_golden_cross,BUY,152,-0.0132,,,2026-08-06T05:17:29
