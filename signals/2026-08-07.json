@@ -1,0 +1,15 @@
+[
+  {
+    "ticker": "CDIA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 700,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0317,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  }
+]

@@ -446,3 +446,13 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-05,HRTA,vol_breakout_up,BUY,2000,0.04,,,2026-08-06T05:17:29
 2026-08-05,APLN,vol_breakout_up,BUY,130,0.0154,,,2026-08-06T05:17:29
 2026-08-05,BIPI,ma_golden_cross,BUY,152,-0.0132,,,2026-08-06T05:17:29
+2026-08-06,HUMI,vol_breakout_up,BUY,156,0.0128,,,2026-08-07T05:17:50
+2026-08-06,BNBR,vol_breakout_up,BUY,104,0.0192,,,2026-08-07T05:17:50
+2026-08-06,GTSI,vol_breakout_up,BUY,192,0.0156,,,2026-08-07T05:17:50
+2026-08-06,KOTA,vol_breakout_up,BUY,190,-0.0263,,,2026-08-07T05:17:50
+2026-08-06,BKSL,vol_breakout_up,BUY,78,0.0128,,,2026-08-07T05:17:50
+2026-08-06,ARCI,vol_breakout_up,BUY,1180,0.0085,,,2026-08-07T05:17:50
+2026-08-06,RODA,vol_breakout_up,BUY,67,-0.0299,,,2026-08-07T05:17:50
+2026-08-06,BIPP,vol_breakout_up,BUY,71,0.0,,,2026-08-07T05:17:50
+2026-08-06,HRTA,vol_breakout_up,BUY,2110,-0.0047,,,2026-08-07T05:17:50
+2026-08-06,ESSA,ma_golden_cross,BUY,630,-0.0079,,,2026-08-07T05:17:50
