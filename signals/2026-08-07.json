@@ -1,9 +1,39 @@
 [
   {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 58,
+    "vol_ratio": 5.3,
+    "pct_chg": 9.43,
+    "note": "Volume 5.3x avg + price +9.43%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 71,
+    "vol_ratio": 2.5,
+    "pct_chg": 7.58,
+    "note": "Volume 2.5x avg + price +7.58%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
+    }
+  },
+  {
     "ticker": "CDIA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 700,
+    "close": 710,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",

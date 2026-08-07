@@ -1,34 +1,50 @@
-# Hermes Review — 2024‑08‑07  
+# Hermes Review — 2026‑08‑07  
 
-## 1. Sanity Check (math + logic)  
+## 1. Sanity Check (math + logic)
 
-- **CDIA:**  
-  - **R/R missing:** The analysis never states a risk‑reward ratio, yet the implied ratio using a mid‑point entry of 700 Rp is (735‑700)/(700‑686) ≈ 2.5 : 1. The omission makes it impossible to judge whether the trade meets a minimum R/R threshold.  
-  - **SL placement:** A flat **‑2 %** stop is not anchored to any technical level (e.g., recent swing low, ATR‑based volatility, or a structural support zone). It appears arbitrarily chosen, which could cause premature exits on normal intraday noise.  
-  - **TP placement:** The **+5 %** target (≈ 735 Rp) is not linked to a documented resistance, prior swing high, Fibonacci extension, or any price‑objective derived from the golden‑cross history. The author merely cites a “classic bullish signal” without mapping the expected move.  
-  - **Conviction vs evidence:** Conviction is labeled **Medium** while the supporting evidence is thin: only **4 past trades**, a **25 % win‑rate**, and a modest **3.17 % edge**. Assigning a medium conviction (or any star rating) on such a sparse statistical base inflates the confidence level.  
+- **WMUU**:  
+  - R/R not disclosed. Using mid‑point entry ≈ 58, SL ≈ 56.3, TP ≈ 61.5 → R/R ≈ 2.06. No explicit R/R figure, so the claim “high conviction” lacks a quantitative risk‑reward backing.  
+  - SL set at “‑3 % below close” – a flat % rule rather than a structural support level (e.g., recent swing low, ATR‑based stop). This is arbitrary.  
+  - TP is simply “+6 % above close”, not tied to a visible resistance zone (previous swing high, Fibonacci‑38.2 % etc.).  
 
-**Result:** CDIA – ⚠️ issues with R/R disclosure, SL justification, TP justification, and conviction‑evidence mismatch.  
+- **RODA**:  
+  - Implied R/R = (74.5‑71)/(71‑68.9) ≈ 1.67, again not stated.  
+  - SL again a flat “‑3 % below close” with no reference to price structure (e.g., prior consolidation zone).  
+  - TP of +5 % is not anchored to a concrete resistance level.  
 
-## 2. Contradiction Hunter  
+- **CDIA**:  
+  - R/R = (767‑710)/(710‑681) ≈ 1.97, not disclosed.  
+  - Win‑rate is only **25 %** over 4 trades, yet conviction is marked **Medium** – a clear conviction‑evidence mismatch.  
+  - SL at “‑4 % below close” is a blunt rule; a more defensible stop would reference the 20‑SMA or a recent trough (~695‑700).  
+  - TP of +8 % is not linked to a defined resistance (e.g., prior high‑low range).  
 
-1. **Edge vs target mismatch** – The author writes: “historically yields a **3 % 5‑day edge** for CDIA” but then sets a **+5 %** take‑profit. If the historical edge is only 3 %, targeting 5 % is inconsistent with the stated edge expectation.  
-2. **Limited downside vs ‑2 % SL** – The narrative claims “limited downside risk,” yet a **‑2 %** stop on a volatile small‑cap can be easily breached on normal price swings, contradicting the “limited” characterization.  
+- **Overall**: No pick provides an explicit R/R figure; all stops are percentage‑based rather than structure‑based, and CDIA’s conviction is overstated relative to its weak win‑rate.  
 
-## 3. Hidden Risks  
+**Result**:  
+- WMUU – ❗ missing R/R, arbitrary SL, unanchored TP.  
+- RODA – ❗ missing R/R, arbitrary SL, unanchored TP.  
+- CDIA – ❗ missing R/R, weak win‑rate vs. medium conviction, arbitrary SL, unanchored TP.  
 
-- **Sector concentration:** CDIA is a **consumer‑discretionary / small‑cap** ticker (exact sector not specified). If the author’s broader portfolio already leans heavily into consumer stocks, a single‑stock bet could amplify sector‑specific shocks (e.g., a sudden risk‑off or policy change affecting consumer spending).  
-- **Liquidity risk:** Small‑cap Indonesian stocks often trade **< 200 k shares/day**. A 5‑day swing of **+5 %** could require a position size that exceeds a safe fraction of average daily volume, raising market impact and slippage concerns.  
-- **Single‑signal dependence:** The trade hinges solely on a **golden‑cross**. Research shows that moving‑average crossovers lose predictive power in choppy, range‑bound markets, especially when not corroborated by volume, momentum, or macro‑level confirmation.  
-- **Timing / chase risk:** The entry zone (698‑702) is **at‑the‑money** with today’s close (~700). The price may have already incorporated the bullish signal, leaving little upside “alpha” and exposing the trade to a **gap‑down** if sentiment reverses.  
-- **Indicator overlap / false confluence:** No other independent indicators (e.g., RSI divergence, volume surge, macro catalyst) are presented. Relying on a single moving‑average crossover creates a **false sense of confluence**.  
+## 2. Contradiction Hunter
 
-## 4. What the Author Got Right  
+1. **CDIA conviction vs. win‑rate** – “Medium” conviction is contradicted by a **25 %** win‑rate over only four historic trades. The analysis claims a “classic bullish catalyst” but provides insufficient statistical support.  
+2. **Uniform stop‑loss methodology** – WMUU and RODA both use a flat “‑3 % below close” rule, while CDIA uses “‑4 %”. The inconsistency is not justified, yet the same “vol_breakout_up” narrative is applied to all three, implying a uniform risk framework that does not exist.  
 
-The author correctly identified that a **golden‑cross** can act as a momentum catalyst in a risk‑on environment and appropriately framed the trade as a short‑to‑medium‑term directional play, keeping the stop relatively tight relative to the entry.  
+## 3. Hidden Risks
 
-## 5. Critical Recommendations  
+- **Sector concentration** – WMUU and RODA are both flagged on “vol_breakout_up” without sector tags, but both appear to be **resource‑heavy equities** (e.g., mining/energy). If they belong to the same sector, the portfolio is overly exposed to commodity price swings.  
+- **Liquidity risk** – No volume data is supplied. If either WMUU or RODA is a low‑float stock, a 5‑20 day hold could be hampered by thin order books, especially when the analysis recommends a 6 % upside on a breakout that already moved ~9 %.  
+- **Chasing risk / timing** – Both WMUU (+9.43 %) and RODA (+7.58 %) have already realized a large portion of the projected move. Entering after such a jump raises the probability of a **pull‑back** rather than a continuation.  
+- **Correlation & over‑concentration** – All three picks are driven by volume‑breakout signals; the same underlying metric (volume surge) may cause them to **co‑move**, inflating portfolio beta.  
+- **Indicator overlap** – The “vol_breakout_up” signal is essentially a volume spike plus price jump; CDIA’s “ma_golden_cross” is also a momentum‑type trigger. The three signals are not independent, reducing true diversification.  
+- **Stale data / regime shift** – The historical edge for WMUU (6.04 %) and RODA (3.69 %) is derived from past breakout performance, but no mention is made of recent market regime (e.g., post‑COVID volatility compression). If the market has shifted to a lower‑vol regime, the edge may be overstated.  
 
-1. **Define a concrete R/R target** – Calculate and disclose the exact risk‑reward (e.g., 2.5 : 1) and ensure it meets your minimum threshold (commonly ≥ 2 : 1). If it falls short, either tighten the stop or lower the profit target.  
-2. **Anchor SL to a technical level** – Move the stop to a **support zone** (e.g., the most recent swing low, a 2‑ATR distance, or a key price‑level such as the 20‑day SMA) rather than a flat ‑2 % rule. This reduces the chance of being stopped out by routine volatility.  
-3. **Add corroborating signals** – Require at least one additional confirmation (e.g., bullish volume breakout, RSI > 50, or a positive macro catalyst) before entering. If the extra signal is absent, downgrade the conviction rating or skip the trade.
+## 4. What the Author Got Right
+
+The author correctly identified that recent **large‑volume breakouts** (WMUU +9.43 %, RODA +7.58 %) have historically produced a modest positive edge, and they appropriately limited the trade horizon to a 5‑20 day window, which aligns with the short‑term nature of breakout momentum.
+
+## 5. Critical Recommendations
+
+1. **Add explicit R/R calculations** – For each pick, publish the exact risk‑reward ratio (e.g., “R/R = 2.06”) and ensure it meets a minimum threshold (≥1.5) before taking the trade.  
+2. **Re‑anchor stop‑losses to price structure** – Replace flat “‑3 %” rules with stops at the nearest **support level, ATR‑multiple, or swing low**. For CDIA, a stop just below the 20‑SMA (≈695) would be more defensible than a blanket 4 % rule.  
+3. **Trim CDIA conviction** – Given a 25 % win‑rate over only four trades, downgrade CDIA to **Low** conviction or remove it until a larger sample size (≥20 trades) validates the golden‑cross edge. This prevents over‑weighting a weak signal.
