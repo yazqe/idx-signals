@@ -4,9 +4,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 59,
-    "vol_ratio": 2.7,
+    "vol_ratio": 3.2,
     "pct_chg": 3.51,
-    "note": "Volume 2.7x avg + price +3.51%",
+    "note": "Volume 3.2x avg + price +3.51%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0604,
@@ -15,18 +15,48 @@
     }
   },
   {
+    "ticker": "KIJA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 131,
+    "vol_ratio": 3.3,
+    "pct_chg": 5.65,
+    "note": "Volume 3.3x avg + price +5.65%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.03,
+      "win_5d": 0.364,
+      "n": 11
+    }
+  },
+  {
     "ticker": "BIPP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 75,
-    "vol_ratio": 2.3,
-    "pct_chg": 4.17,
-    "note": "Volume 2.3x avg + price +4.17%",
+    "close": 74,
+    "vol_ratio": 2.5,
+    "pct_chg": 2.78,
+    "note": "Volume 2.5x avg + price +2.78%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0271,
       "win_5d": 0.5,
       "n": 34
+    }
+  },
+  {
+    "ticker": "ESSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 675,
+    "vol_ratio": 3.8,
+    "pct_chg": 6.3,
+    "note": "Volume 3.8x avg + price +6.30%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0197,
+      "win_5d": 0.281,
+      "n": 32
     }
   }
 ]
