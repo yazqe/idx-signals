@@ -1,5 +1,20 @@
 [
   {
+    "ticker": "PTRO",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 5400,
+    "vol_ratio": 2.3,
+    "pct_chg": 9.53,
+    "note": "Volume 2.3x avg + price +9.53%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0833,
+      "win_5d": 0.652,
+      "n": 23
+    }
+  },
+  {
     "ticker": "HRTA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
@@ -16,30 +31,15 @@
     "ticker": "CUAN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 770,
-    "vol_ratio": 2.5,
-    "pct_chg": 6.94,
-    "note": "Volume 2.5x avg + price +6.94%",
+    "close": 820,
+    "vol_ratio": 4.9,
+    "pct_chg": 13.89,
+    "note": "Volume 4.9x avg + price +13.89%",
     "history": {
       "tier": "high",
       "edge_5d": 0.07,
       "win_5d": 0.586,
       "n": 29
-    }
-  },
-  {
-    "ticker": "ASHA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 61,
-    "vol_ratio": 2.3,
-    "pct_chg": 5.17,
-    "note": "Volume 2.3x avg + price +5.17%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0586,
-      "win_5d": 0.571,
-      "n": 35
     }
   },
   {
@@ -56,10 +56,40 @@
     }
   },
   {
+    "ticker": "BREN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3660,
+    "vol_ratio": 2.2,
+    "pct_chg": 10.57,
+    "note": "Volume 2.2x avg + price +10.57%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0123,
+      "win_5d": 0.476,
+      "n": 21
+    }
+  },
+  {
+    "ticker": "CDIA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 720,
+    "vol_ratio": 2.2,
+    "pct_chg": 6.67,
+    "note": "Volume 2.2x avg + price +6.67%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0079,
+      "win_5d": 0.3,
+      "n": 10
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 700,
+    "close": 710,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",
@@ -71,7 +101,7 @@
     "ticker": "EMAS",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 7600,
+    "close": 7575,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",
