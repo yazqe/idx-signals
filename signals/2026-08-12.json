@@ -1,0 +1,40 @@
+[
+  {
+    "ticker": "HRTA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 2060,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0718,
+      "win_5d": 1.0,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "PACK",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 258,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0283,
+      "win_5d": 0.75,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "EMAS",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 7675,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  }
+]
