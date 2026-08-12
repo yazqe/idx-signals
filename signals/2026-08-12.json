@@ -3,7 +3,7 @@
     "ticker": "HRTA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 2060,
+    "close": 2160,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,10 +13,40 @@
     }
   },
   {
+    "ticker": "CUAN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 770,
+    "vol_ratio": 2.5,
+    "pct_chg": 6.94,
+    "note": "Volume 2.5x avg + price +6.94%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.07,
+      "win_5d": 0.586,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "ASHA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 61,
+    "vol_ratio": 2.3,
+    "pct_chg": 5.17,
+    "note": "Volume 2.3x avg + price +5.17%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0586,
+      "win_5d": 0.571,
+      "n": 35
+    }
+  },
+  {
     "ticker": "PACK",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 258,
+    "close": 268,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -26,10 +56,22 @@
     }
   },
   {
+    "ticker": "COIN",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 700,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
     "ticker": "EMAS",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 7675,
+    "close": 7600,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",
