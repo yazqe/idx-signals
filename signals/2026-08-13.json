@@ -1,0 +1,41 @@
+[
+  {
+    "ticker": "ZATA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 70,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0368,
+      "win_5d": 0.5,
+      "n": 4
+    }
+  },
+  {
+    "ticker": "IMPC",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 1475,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0093,
+      "win_5d": 0.6,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "PANI",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 6150,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0107,
+      "win_5d": 0.25,
+      "n": 4
+    }
+  }
+]

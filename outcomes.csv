@@ -463,3 +463,11 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-10,KIJA,vol_breakout_up,BUY,131,-0.0076,,,2026-08-11T05:17:49
 2026-08-10,BIPP,vol_breakout_up,BUY,74,-0.0405,,,2026-08-11T05:17:49
 2026-08-10,ESSA,vol_breakout_up,BUY,675,0.0,,,2026-08-11T05:17:49
+2026-08-12,PTRO,vol_breakout_up,BUY,5400,-0.0046,,,2026-08-13T05:18:08
+2026-08-12,HRTA,ma_golden_cross,BUY,2160,-0.0046,,,2026-08-13T05:18:08
+2026-08-12,CUAN,vol_breakout_up,BUY,820,0.0244,,,2026-08-13T05:18:08
+2026-08-12,PACK,ma_golden_cross,BUY,268,-0.0149,,,2026-08-13T05:18:08
+2026-08-12,BREN,vol_breakout_up,BUY,3660,0.0055,,,2026-08-13T05:18:08
+2026-08-12,CDIA,vol_breakout_up,BUY,720,-0.0069,,,2026-08-13T05:18:08
+2026-08-12,COIN,ma_golden_cross,BUY,710,-0.007,,,2026-08-13T05:18:08
+2026-08-12,EMAS,ma_golden_cross,BUY,7575,0.0,,,2026-08-13T05:18:08
