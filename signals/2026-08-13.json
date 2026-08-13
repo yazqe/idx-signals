@@ -1,9 +1,24 @@
 [
   {
+    "ticker": "ASPR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 161,
+    "vol_ratio": 6.1,
+    "pct_chg": 6.62,
+    "note": "Volume 6.1x avg + price +6.62%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.12,
+      "win_5d": 0.478,
+      "n": 23
+    }
+  },
+  {
     "ticker": "ZATA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 70,
+    "close": 69,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "medium",
@@ -16,7 +31,7 @@
     "ticker": "IMPC",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1475,
+    "close": 1415,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -29,7 +44,7 @@
     "ticker": "PANI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 6150,
+    "close": 6025,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "negative",
