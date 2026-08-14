@@ -471,3 +471,7 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-12,CDIA,vol_breakout_up,BUY,720,-0.0069,,,2026-08-13T05:18:08
 2026-08-12,COIN,ma_golden_cross,BUY,710,-0.007,,,2026-08-13T05:18:08
 2026-08-12,EMAS,ma_golden_cross,BUY,7575,0.0,,,2026-08-13T05:18:08
+2026-08-13,ASPR,vol_breakout_up,BUY,161,-0.0062,,,2026-08-14T05:17:23
+2026-08-13,ZATA,ma_golden_cross,BUY,69,-0.0145,,,2026-08-14T05:17:23
+2026-08-13,IMPC,ma_golden_cross,BUY,1415,0.0,,,2026-08-14T05:17:23
+2026-08-13,PANI,ma_golden_cross,BUY,6025,0.0,,,2026-08-14T05:17:23
