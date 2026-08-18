@@ -3,10 +3,10 @@
     "ticker": "WIFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 2130,
-    "vol_ratio": 5.7,
-    "pct_chg": 10.08,
-    "note": "Volume 5.7x avg + price +10.08%",
+    "close": 2160,
+    "vol_ratio": 7.9,
+    "pct_chg": 11.63,
+    "note": "Volume 7.9x avg + price +11.63%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1043,
@@ -15,13 +15,28 @@
     }
   },
   {
+    "ticker": "PACK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 324,
+    "vol_ratio": 2.5,
+    "pct_chg": 9.46,
+    "note": "Volume 2.5x avg + price +9.46%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0758,
+      "win_5d": 0.5,
+      "n": 44
+    }
+  },
+  {
     "ticker": "INET",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 290,
-    "vol_ratio": 8.8,
-    "pct_chg": 23.93,
-    "note": "Volume 8.8x avg + price +23.93%",
+    "close": 292,
+    "vol_ratio": 10.3,
+    "pct_chg": 24.79,
+    "note": "Volume 10.3x avg + price +24.79%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0514,
@@ -33,15 +48,30 @@
     "ticker": "KIJA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 138,
-    "vol_ratio": 3.1,
-    "pct_chg": 12.2,
-    "note": "Volume 3.1x avg + price +12.20%",
+    "close": 166,
+    "vol_ratio": 12.6,
+    "pct_chg": 34.96,
+    "note": "Volume 12.6x avg + price +34.96%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.03,
       "win_5d": 0.364,
       "n": 11
+    }
+  },
+  {
+    "ticker": "APLN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 137,
+    "vol_ratio": 7.4,
+    "pct_chg": 7.87,
+    "note": "Volume 7.4x avg + price +7.87%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0188,
+      "win_5d": 0.29,
+      "n": 31
     }
   }
 ]
