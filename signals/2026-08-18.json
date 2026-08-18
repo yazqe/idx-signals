@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "ticker": "WIFI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 2130,
+    "vol_ratio": 5.7,
+    "pct_chg": 10.08,
+    "note": "Volume 5.7x avg + price +10.08%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1043,
+      "win_5d": 0.5,
+      "n": 24
+    }
+  },
+  {
+    "ticker": "INET",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 290,
+    "vol_ratio": 8.8,
+    "pct_chg": 23.93,
+    "note": "Volume 8.8x avg + price +23.93%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0514,
+      "win_5d": 0.487,
+      "n": 39
+    }
+  },
+  {
+    "ticker": "KIJA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 138,
+    "vol_ratio": 3.1,
+    "pct_chg": 12.2,
+    "note": "Volume 3.1x avg + price +12.20%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.03,
+      "win_5d": 0.364,
+      "n": 11
+    }
+  }
+]
