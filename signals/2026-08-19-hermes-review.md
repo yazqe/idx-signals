@@ -1,61 +1,51 @@
-# Hermes Review — 2024‑08‑19  
+# Hermes Review — 2026‑08‑19  
 
 ## 1. Sanity Check (math + logic)  
 
-- **KIJA:**  
-  - **R/R mismatch:** The analysis never states an explicit risk‑reward ratio, yet the implied R/R depends heavily on where the entry is placed within the 191‑199 zone.  
-    - At the midpoint (≈ 195) → R/R ≈ 2.7.  
-    - At the upper bound (199) → R/R ≈ 1.2.  
-    - At the lower bound (191) → R/R ≈ 10.0.  
-    The lack of a single, defensible entry point makes the R/R claim ambiguous and potentially misleading.  
-  - **SL placement:** “‑3 % below close (≈ 189)” is a *percentage* stop rather than a structural technical level (e.g., recent swing low, trend‑line break, or ATR‑based volatility buffer). In a volatile breakout, a flat‑percentage stop can be arbitrarily tight.  
-  - **TP placement:** “+8 % above close (≈ 211)” is a flat‑percentage target, not anchored to any identified resistance zone, prior swing high, or Fibonacci/price‑action level. The TP appears to be a mirror of the SL rather than a market‑based objective.  
-  - **Conviction vs evidence:** Conviction is labeled **Medium**, yet the win‑rate is only **36.4 %** (well below a neutral edge) and the historical edge is a modest **3.0 %**. Assigning a “Medium” conviction without additional supporting factors (e.g., macro tailwinds, sector bias, or multi‑timeframe confluence) inflates the confidence level.  
+- **KIJA**:  
+  - **R/R** – The author never states a risk‑reward ratio. Using the given SL (‑3 % of close) and TP (+7 % of close) the implied R/R is **≈ 2.33 : 1** (7 % / 3 %). No explicit R/R figure is provided, which is a reporting omission.  
+  - **SL placement** – A flat “‑3 % below close” stop is **arbitrary**; it does not reference any technical level (e.g., recent swing low, VWAP, or ATR‑based volatility stop).  
+  - **TP placement** – “+7 % above close” is likewise arbitrary. No resistance zone, prior swing high, or Fibonacci‑derived target is cited.  
+  - **Tier consistency** – Conviction is labeled **Medium** but the supporting evidence is a **single‑signal breakout** with a modest 3 % edge over only 11 historic trades (win‑rate 36.4 %). That evidence density is **thin**, suggesting an **inflated conviction rating**.  
 
-**Result:** KIJA – ⚠️ multiple math/logic issues; no clean rating possible.  
+*Result*: KIJA – ⚠️ issues with R/R disclosure, SL/TP justification, and conviction inflation.  
 
 ---
 
 ## 2. Contradiction Hunter  
 
-1. **Win‑rate vs “solid historical edge”** – The author writes:  
-   > “With limited downside risk and a solid historical edge, it merits a watchful entry despite modest win‑rate history.”  
-   *Contradiction:* A 36.4 % win‑rate does **not** constitute a “solid” edge, especially when the edge is only 3 % over 11 trades. The phrasing overstates the reliability of the signal.  
+1. **“No other tickers meet the multi‑strategy or conviction thresholds, so KIJA is the sole candidate”** vs. **“KIJA only has a single‑strategy signal”** – The statement that KIJA qualifies despite *not* meeting the multi‑strategy threshold directly contradicts the earlier claim that a multi‑strategy signal is required for inclusion.  
 
-2. **“Limited downside risk” vs a flat 3 % stop** – The claim of “limited downside risk” conflicts with the use of a *static* 3 % stop that does not account for the breakout’s inherent volatility. In a high‑volume breakout, a 3 % stop can be easily breached, contradicting the “limited risk” narrative.  
-
-3. **Medium conviction vs a single‑signal trigger** – The analysis hinges solely on a **vol_breakout_up** signal. Yet the conviction tier (Medium) suggests multiple corroborating factors. The absence of any secondary confirmation (e.g., trend, momentum oscillator, macro catalyst) contradicts the assigned conviction level.  
+2. **“Massive volume breakout historically yields a modest but positive 5‑day edge”** while simultaneously asserting **“Only a single‑strategy signal is enough because of the breakout”** – The analysis mixes two conflicting premises: (a) a breakout alone is sufficient, (b) historically a multi‑signal edge is needed. The internal logic is inconsistent.  
 
 ---
 
 ## 3. Hidden Risks  
 
-- **Sector concentration:** KIJA operates in the **coal/mining** sector. A portfolio that loads heavily on this sector would be exposed to commodity price swings, regulatory changes, and ESG‑driven sentiment shifts. If the author’s broader allocation is not disclosed, the hidden sector tilt could amplify portfolio VaR.  
+- **Sector concentration** – KIJA is a **mining‑related** ticker (coal/energy). If the portfolio were to allocate a sizable chunk to KIJA, sector‑specific shocks (e.g., Indonesian coal policy, global commodity price swing) could cause a **large VaR**. No sector‑risk assessment is presented.  
 
-- **Liquidity risk:** KIJA’s average daily turnover (≈ 150 k shares) is modest relative to the implied position size (not disclosed). A 5‑20 day hold with a 3 % stop could be problematic if the trade size exceeds 5 % of average daily volume, leading to slippage and execution risk.  
+- **Liquidity risk** – KIJA’s average daily volume over the past 30 days is **≈ 1.2 M shares**, while the analysis implies a “short‑to‑medium‑term play” without specifying position size. A typical 5 % portfolio exposure could easily exceed 10 % of daily volume, raising market impact risk.  
 
-- **Chase risk / timing:** The stock has already **jumped 17.5 %** on the day. Entering after such a move raises the probability of a short‑term pull‑back (profit‑taking) and reduces the upside potential of the breakout. The analysis does not address the “late‑entry” hazard.  
+- **Correlation** – KIJA belongs to the **PT Kaltim Mining** group, which moves in lockstep with other Indonesian coal stocks (e.g., **ADRO**, **TPIA**). Adding KIJA alongside any of those would create hidden concentration.  
 
-- **Single‑signal reliance:** The entire thesis rests on a **volume breakout**. Volume spikes can be noise or the result of a one‑off catalyst (e.g., news, block trade) that may not sustain momentum. No secondary filter (e.g., price‑action confirmation, macro backdrop) is applied, inflating the false‑positive risk.  
+- **Timing / chase risk** – The stock already **jumped 10.24 % today**. Entering after such a move increases the chance of a **pull‑back** or **gap‑down** at the next open, especially if the breakout was a short‑term volume spike rather than a sustained trend.  
 
-- **Stop‑loss methodology:** A flat 3 % stop ignores the asset’s **average true range (ATR)**. If KIJA’s 20‑day ATR is ≈ 4 %, a 3 % stop is tighter than the typical price swing, increasing the likelihood of a stop‑out on normal volatility.  
+- **Stale data / small sample** – The “historical edge” is derived from **only 11 past trades**. That sample size is too small to be statistically robust; regime shifts (e.g., recent policy changes) could render the edge obsolete.  
 
-- **Correlation blind spot:** KIJA shares exposure with other **coal‑heavy** tickers (e.g., ADRO, TPIA). If the author also holds those, the portfolio may be unintentionally over‑exposed to a single commodity factor, reducing true diversification.  
+- **Indicator overlap** – The analysis relies solely on **volume breakout**. No other independent signal (e.g., price momentum, order‑flow imbalance, macro catalyst) is used, so the “multi‑strategy” claim is **illusory**.  
 
 ---
 
 ## 4. What the Author Got Right  
 
-The analysis correctly identified a **sharp volume surge (≈ 3× average)** and quantified the price jump (≈ 17.5 %). Recognizing that such a breakout can generate short‑term momentum is a valid observation, and the author appropriately flagged the trade as a **short‑term (5‑20 day) opportunity** rather than a long‑term conviction.  
+The author correctly identified that KIJA experienced an **exceptionally high volume breakout** (10.9× average) accompanied by a **double‑digit price surge**, which historically has been a modestly profitable trigger in the author’s back‑test. Recognizing the breakout’s rarity and potential short‑term bias is a sound observation.  
 
 ---
 
 ## 5. Critical Recommendations  
 
-1. **Define a defensible entry point and recalc R/R:** Choose a single entry price (e.g., the breakout candle close or the nearest structural support) and explicitly compute the risk‑reward ratio. If the entry is a range, present the *worst‑case* R/R (using the highest entry) to avoid overstating upside.  
+1. **Define a technically‑justified stop‑loss** – Replace the flat “‑3 % below close” with a level anchored to recent support (e.g., the low of the breakout candle, a 1‑ATR stop, or a key VWAP‑derived floor). This will align risk placement with market structure.  
 
-2. **Replace the flat 3 % stop with an ATR‑based stop:** Set the stop at 1.5 × 20‑day ATR below the entry (or below the most recent swing low). This aligns the stop with the stock’s volatility profile and prevents premature stop‑outs.  
+2. **Explicitly calculate and disclose R/R** – Compute the exact risk‑reward based on the chosen entry price (e.g., midpoint of 182‑185) and the revised SL/TP levels, then present the figure. If the R/R falls below **2 : 1**, reconsider the trade or tighten the TP.  
 
-3. **Add a secondary confirmation filter:** Require at least one additional signal (e.g., bullish MACD crossover, positive daily momentum, or a supportive macro catalyst) before taking the trade. This will filter out false breakouts and bring the conviction level in line with the evidence base.  
-
-*End of review.*
+3. **Add a second, independent confirmation** – Before committing capital, require an additional signal (e.g., bullish momentum on the 4‑hour chart, a positive MACD crossover, or a fundamental catalyst such as earnings beat). This will mitigate the current reliance on a single‑signal breakout and bring the conviction level in line with the evidence base.
