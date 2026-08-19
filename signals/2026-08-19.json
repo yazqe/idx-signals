@@ -1,27 +1,27 @@
 [
   {
-    "ticker": "KIJA",
+    "ticker": "ELSA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 183,
-    "vol_ratio": 10.9,
-    "pct_chg": 10.24,
-    "note": "Volume 10.9x avg + price +10.24%",
+    "close": 715,
+    "vol_ratio": 2.4,
+    "pct_chg": 2.14,
+    "note": "Volume 2.4x avg + price +2.14%",
     "history": {
-      "tier": "medium",
-      "edge_5d": 0.03,
-      "win_5d": 0.364,
-      "n": 11
+      "tier": "negative",
+      "edge_5d": -0.0008,
+      "win_5d": 0.368,
+      "n": 19
     }
   },
   {
     "ticker": "APLN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 155,
-    "vol_ratio": 10.7,
-    "pct_chg": 13.14,
-    "note": "Volume 10.7x avg + price +13.14%",
+    "close": 142,
+    "vol_ratio": 13.0,
+    "pct_chg": 3.65,
+    "note": "Volume 13.0x avg + price +3.65%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0188,
