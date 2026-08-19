@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "KIJA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 195,
+    "vol_ratio": 3.0,
+    "pct_chg": 17.47,
+    "note": "Volume 3.0x avg + price +17.47%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.03,
+      "win_5d": 0.364,
+      "n": 11
+    }
+  }
+]
