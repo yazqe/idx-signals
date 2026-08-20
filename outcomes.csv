@@ -481,3 +481,5 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-18,INET,vol_breakout_up,BUY,292,-0.0342,,,2026-08-19T05:17:52
 2026-08-18,KIJA,vol_breakout_up,BUY,166,0.1386,,,2026-08-19T05:17:52
 2026-08-18,APLN,vol_breakout_up,BUY,137,0.1095,,,2026-08-19T05:17:52
+2026-08-19,ELSA,vol_breakout_up,BUY,715,0.0,,,2026-08-20T05:17:53
+2026-08-19,APLN,vol_breakout_up,BUY,142,0.0282,,,2026-08-20T05:17:53

@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 825,
+    "vol_ratio": 2.2,
+    "pct_chg": 17.02,
+    "note": "Volume 2.2x avg + price +17.02%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  }
+]
