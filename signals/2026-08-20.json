@@ -1,12 +1,27 @@
 [
   {
+    "ticker": "IMPC",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1390,
+    "vol_ratio": 2.3,
+    "pct_chg": 2.58,
+    "note": "Volume 2.3x avg + price +2.58%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1004,
+      "win_5d": 0.667,
+      "n": 12
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 880,
-    "vol_ratio": 9.8,
+    "vol_ratio": 10.2,
     "pct_chg": 24.82,
-    "note": "Volume 9.8x avg + price +24.82%",
+    "note": "Volume 10.2x avg + price +24.82%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
@@ -15,18 +30,63 @@
     }
   },
   {
+    "ticker": "KIJA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 196,
+    "vol_ratio": 4.4,
+    "pct_chg": 18.79,
+    "note": "Volume 4.4x avg + price +18.79%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.03,
+      "win_5d": 0.364,
+      "n": 11
+    }
+  },
+  {
     "ticker": "BIPP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 74,
-    "vol_ratio": 6.3,
-    "pct_chg": 17.46,
-    "note": "Volume 6.3x avg + price +17.46%",
+    "close": 73,
+    "vol_ratio": 8.1,
+    "pct_chg": 15.87,
+    "note": "Volume 8.1x avg + price +15.87%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0271,
       "win_5d": 0.5,
       "n": 34
+    }
+  },
+  {
+    "ticker": "AMMN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4490,
+    "vol_ratio": 2.3,
+    "pct_chg": 8.45,
+    "note": "Volume 2.3x avg + price +8.45%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0122,
+      "win_5d": 0.625,
+      "n": 8
+    }
+  },
+  {
+    "ticker": "MBMA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 575,
+    "vol_ratio": 3.0,
+    "pct_chg": 12.75,
+    "note": "Volume 3.0x avg + price +12.75%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0019,
+      "win_5d": 0.542,
+      "n": 24
     }
   }
 ]
