@@ -3,15 +3,30 @@
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 825,
-    "vol_ratio": 2.2,
-    "pct_chg": 17.02,
-    "note": "Volume 2.2x avg + price +17.02%",
+    "close": 880,
+    "vol_ratio": 9.8,
+    "pct_chg": 24.82,
+    "note": "Volume 9.8x avg + price +24.82%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
       "win_5d": 0.688,
       "n": 16
+    }
+  },
+  {
+    "ticker": "BIPP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 74,
+    "vol_ratio": 6.3,
+    "pct_chg": 17.46,
+    "note": "Volume 6.3x avg + price +17.46%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0271,
+      "win_5d": 0.5,
+      "n": 34
     }
   }
 ]
