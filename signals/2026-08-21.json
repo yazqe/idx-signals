@@ -1,12 +1,27 @@
 [
   {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 8075,
+    "vol_ratio": 2.9,
+    "pct_chg": 9.86,
+    "note": "Volume 2.9x avg + price +9.86%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
     "ticker": "BUVA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 770,
-    "vol_ratio": 2.0,
-    "pct_chg": 3.36,
-    "note": "Volume 2.0x avg + price +3.36%",
+    "close": 760,
+    "vol_ratio": 2.7,
+    "pct_chg": 2.01,
+    "note": "Volume 2.7x avg + price +2.01%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0867,
@@ -15,28 +30,28 @@
     }
   },
   {
-    "ticker": "COIN",
+    "ticker": "SDMU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 945,
-    "vol_ratio": 10.1,
-    "pct_chg": 7.39,
-    "note": "Volume 10.1x avg + price +7.39%",
+    "close": 88,
+    "vol_ratio": 7.3,
+    "pct_chg": 7.32,
+    "note": "Volume 7.3x avg + price +7.32%",
     "history": {
       "tier": "high",
-      "edge_5d": 0.0807,
-      "win_5d": 0.688,
-      "n": 16
+      "edge_5d": 0.0784,
+      "win_5d": 0.565,
+      "n": 46
     }
   },
   {
     "ticker": "PACK",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 382,
-    "vol_ratio": 3.0,
-    "pct_chg": 8.52,
-    "note": "Volume 3.0x avg + price +8.52%",
+    "close": 386,
+    "vol_ratio": 3.8,
+    "pct_chg": 9.66,
+    "note": "Volume 3.8x avg + price +9.66%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0758,
@@ -45,13 +60,28 @@
     }
   },
   {
+    "ticker": "NICL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 486,
+    "vol_ratio": 2.5,
+    "pct_chg": 2.1,
+    "note": "Volume 2.5x avg + price +2.10%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0714,
+      "win_5d": 0.571,
+      "n": 42
+    }
+  },
+  {
     "ticker": "MINA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 288,
-    "vol_ratio": 7.6,
-    "pct_chg": 5.88,
-    "note": "Volume 7.6x avg + price +5.88%",
+    "close": 286,
+    "vol_ratio": 8.5,
+    "pct_chg": 5.15,
+    "note": "Volume 8.5x avg + price +5.15%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0708,
@@ -63,10 +93,10 @@
     "ticker": "TOBA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 570,
-    "vol_ratio": 4.2,
-    "pct_chg": 7.55,
-    "note": "Volume 4.2x avg + price +7.55%",
+    "close": 565,
+    "vol_ratio": 6.1,
+    "pct_chg": 6.6,
+    "note": "Volume 6.1x avg + price +6.60%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0473,
@@ -75,25 +105,13 @@
     }
   },
   {
-    "ticker": "COIN",
-    "strategy": "ma_golden_cross",
-    "side": "BUY",
-    "close": 945,
-    "note": "20-SMA crossed above 50-SMA today (golden cross)",
-    "history": {
-      "tier": "untested",
-      "edge_5d": null,
-      "n": 0
-    }
-  },
-  {
     "ticker": "WBSA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 710,
-    "vol_ratio": 2.8,
+    "vol_ratio": 3.2,
     "pct_chg": 6.77,
-    "note": "Volume 2.8x avg + price +6.77%",
+    "note": "Volume 3.2x avg + price +6.77%",
     "history": {
       "tier": "untested",
       "edge_5d": null,
