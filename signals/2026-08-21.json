@@ -1,0 +1,29 @@
+[
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1010,
+    "vol_ratio": 2.2,
+    "pct_chg": 14.77,
+    "note": "Volume 2.2x avg + price +14.77%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 1010,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  }
+]
