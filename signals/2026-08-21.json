@@ -1,12 +1,27 @@
 [
   {
+    "ticker": "BUVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 770,
+    "vol_ratio": 2.0,
+    "pct_chg": 3.36,
+    "note": "Volume 2.0x avg + price +3.36%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.459,
+      "n": 37
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 1010,
-    "vol_ratio": 2.2,
-    "pct_chg": 14.77,
-    "note": "Volume 2.2x avg + price +14.77%",
+    "close": 945,
+    "vol_ratio": 10.1,
+    "pct_chg": 7.39,
+    "note": "Volume 10.1x avg + price +7.39%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
@@ -15,11 +30,70 @@
     }
   },
   {
+    "ticker": "PACK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 382,
+    "vol_ratio": 3.0,
+    "pct_chg": 8.52,
+    "note": "Volume 3.0x avg + price +8.52%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0758,
+      "win_5d": 0.5,
+      "n": 44
+    }
+  },
+  {
+    "ticker": "MINA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 288,
+    "vol_ratio": 7.6,
+    "pct_chg": 5.88,
+    "note": "Volume 7.6x avg + price +5.88%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0708,
+      "win_5d": 0.553,
+      "n": 47
+    }
+  },
+  {
+    "ticker": "TOBA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 570,
+    "vol_ratio": 4.2,
+    "pct_chg": 7.55,
+    "note": "Volume 4.2x avg + price +7.55%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0473,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1010,
+    "close": 945,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
+    "ticker": "WBSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 710,
+    "vol_ratio": 2.8,
+    "pct_chg": 6.77,
+    "note": "Volume 2.8x avg + price +6.77%",
     "history": {
       "tier": "untested",
       "edge_5d": null,
