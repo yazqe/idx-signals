@@ -3,7 +3,7 @@
     "ticker": "SDMU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 95,
+    "close": 87,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,10 +13,55 @@
     }
   },
   {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 8700,
+    "vol_ratio": 6.5,
+    "pct_chg": 7.74,
+    "note": "Volume 6.5x avg + price +7.74%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
+    "ticker": "PACK",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 424,
+    "vol_ratio": 2.2,
+    "pct_chg": 9.84,
+    "note": "Volume 2.2x avg + price +9.84%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0758,
+      "win_5d": 0.5,
+      "n": 44
+    }
+  },
+  {
+    "ticker": "EMAS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 8475,
+    "vol_ratio": 3.1,
+    "pct_chg": 7.28,
+    "note": "Volume 3.1x avg + price +7.28%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0409,
+      "win_5d": 0.625,
+      "n": 8
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 865,
+    "close": 845,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",

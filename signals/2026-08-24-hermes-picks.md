@@ -1,20 +1,47 @@
-## SDMU — BUY (5-20d hold)  
+## SDMU — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
 - **Conviction:** High  
 - **Historical edge:** 13.42% over 5 past trades (win rate 40%)  
-- **Entry zone:** 95 ± 1% (≈ 94 – 96)  
-- **Stop loss:** -2% below close (≈ 93.1)  
-- **Take profit:** +5% above close (≈ 99.8)  
-- **Why:** High‑tier golden‑cross historically delivers a solid 5‑day edge, justifying a short‑term long.
+- **Entry zone:** 86.5 – 87.5 (≈ ±0.5%)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +6% above close  
+- **Why:** Golden‑cross on strong trend, historically yields >13% 5‑day upside.
 
-## COIN — BUY (5-20d hold)  
+## SINI — BUY (5‑20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 13.23% over 52 past trades (win rate 67.3%)  
+- **Entry zone:** 8,655 – 8,745 (≈ ±0.5%)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +6% above close  
+- **Why:** 6.5× volume surge with +7.74% price jump, the best‑performing breakout signal.
+
+## PACK — BUY (5‑20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 7.58% over 44 past trades (win rate 50%)  
+- **Entry zone:** 421 – 427 (≈ ±1.5%)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +6% above close  
+- **Why:** Volume >2× average and a 9.84% price surge, solid breakout despite modest edge.
+
+## EMAS — BUY (5‑20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** Medium  
+- **Historical edge:** 4.09% over 8 past trades (win rate 62.5%)  
+- **Entry zone:** 8,440 – 8,510 (≈ ±0.5%)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +5% above close  
+- **Why:** 3.1× volume and +7.28% price jump, medium‑tier but strong breakout profile.
+
+## COIN — BUY (5‑20d hold)  
 - **Triggered:** ma_golden_cross  
-- **Conviction:** Untested (included for confluence)  
-- **Historical edge:** N/A% over 0 past trades (win rate N/A)  
-- **Entry zone:** 865 ± 2% (≈ 848 – 882)  
-- **Stop loss:** -2% below close (≈ 847)  
-- **Take profit:** +5% above close (≈ 908)  
-- **Why:** Though untested, today’s golden‑cross may signal a breakout, warranting a speculative entry.
+- **Conviction:** Untested  
+- **Historical edge:** N/A over 0 past trades (win rate N/A)  
+- **Entry zone:** 842 – 848 (≈ ±0.5%)  
+- **Stop loss:** -3% below close  
+- **Take profit:** +5% above close  
+- **Why:** First‑time golden‑cross, offering fresh upside potential despite lack of track record.  
 
 ### Market Read  
-Golden‑cross signals dominate today, with SDMU offering a proven high‑conviction edge and COIN presenting a speculative but potentially rewarding breakout. With limited coverage, focus on SDMU for a higher probability trade while monitoring COIN for early‑stage momentum.
+Today's list is dominated by high‑conviction breakout and golden‑cross signals, with volume‑driven moves (SINI, PACK) offering the strongest risk‑adjusted edge. Even the untested COIN merits a watch as a fresh golden‑cross could spark a new rally.
