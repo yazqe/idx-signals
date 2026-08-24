@@ -496,3 +496,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-21,MINA,vol_breakout_up,BUY,286,-0.014,,,2026-08-24T05:18:16
 2026-08-21,TOBA,vol_breakout_up,BUY,565,0.0177,,,2026-08-24T05:18:16
 2026-08-21,WBSA,vol_breakout_up,BUY,710,0.007,,,2026-08-24T05:18:16
+2026-08-21,SINI,vol_breakout_up,BUY,8075,0.0991,,,2026-08-24T08:03:56

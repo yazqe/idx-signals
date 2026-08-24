@@ -3,7 +3,7 @@
     "ticker": "SDMU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 90,
+    "close": 95,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,25 +13,10 @@
     }
   },
   {
-    "ticker": "SINI",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 8075,
-    "vol_ratio": 3.3,
-    "pct_chg": 9.86,
-    "note": "Volume 3.3x avg + price +9.86%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.1323,
-      "win_5d": 0.673,
-      "n": 52
-    }
-  },
-  {
     "ticker": "COIN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 905,
+    "close": 865,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",
