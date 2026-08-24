@@ -489,3 +489,10 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-20,BIPP,vol_breakout_up,BUY,73,0.0,,,2026-08-21T05:17:46
 2026-08-20,AMMN,vol_breakout_up,BUY,4490,-0.0089,,,2026-08-21T05:17:46
 2026-08-20,MBMA,vol_breakout_up,BUY,575,-0.0174,,,2026-08-21T05:17:46
+2026-08-21,BUVA,vol_breakout_up,BUY,760,-0.0132,,,2026-08-24T05:18:16
+2026-08-21,SDMU,vol_breakout_up,BUY,88,0.0227,,,2026-08-24T05:18:16
+2026-08-21,PACK,vol_breakout_up,BUY,386,0.0518,,,2026-08-24T05:18:16
+2026-08-21,NICL,vol_breakout_up,BUY,486,0.0041,,,2026-08-24T05:18:16
+2026-08-21,MINA,vol_breakout_up,BUY,286,-0.014,,,2026-08-24T05:18:16
+2026-08-21,TOBA,vol_breakout_up,BUY,565,0.0177,,,2026-08-24T05:18:16
+2026-08-21,WBSA,vol_breakout_up,BUY,710,0.007,,,2026-08-24T05:18:16
