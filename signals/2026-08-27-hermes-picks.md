@@ -2,10 +2,19 @@
 - **Triggered:** vol_breakout_up  
 - **Conviction:** High  
 - **Historical edge:** 7.84% over 46 past trades (win rate 56.5%)  
-- **Entry zone:** 95 ± 1.5 (≈ 93.5 – 96.5)  
-- **Stop loss:** -5% below close (≈ 90.3)  
-- **Take profit:** +12% above close (≈ 106.4)  
-- **Why:** A >2× volume breakout with +15.85% price jump, backed by a strong 7.84% 5‑day edge in the high‑conviction tier.  
+- **Entry zone:** 92 ± 0.9 (≈ ±1%)  
+- **Stop loss:** -3% below close (≈ 89.2)  
+- **Take profit:** +6% above close (≈ 97.5)  
+- **Why:** Volume 2.5× average and price jump +12.2% signal a strong breakout with a historically solid 5‑day edge.
+
+## NICL — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 7.14% over 42 past trades (win rate 57.1%)  
+- **Entry zone:** 505 ± 5 (≈ ±1%)  
+- **Stop loss:** -3% below close (≈ 489.9)  
+- **Take profit:** +6% above close (≈ 535)  
+- **Why:** Volume 2.1× average and a +6.09% price surge indicate a robust breakout, backed by a strong historical 5‑day return.
 
 ### Market Read  
-Today's market shows a rare, high‑conviction volume breakout in SDMU, suggesting short‑to‑mid‑term upside. With limited other signals, the focus remains on this clear, statistically supported catalyst.
+Today's volume‑driven breakouts dominate the signal set, with SDMU and NICL both posting >2× average volume and double‑digit price gains. Their high‑tier histories suggest a reliable 5‑day edge, making them prime candidates for short‑to‑medium‑term momentum plays. Other tickers lack sufficient confluence, so the focus remains on these two high‑conviction opportunities.

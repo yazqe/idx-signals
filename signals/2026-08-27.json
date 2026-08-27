@@ -3,10 +3,10 @@
     "ticker": "SDMU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 95,
-    "vol_ratio": 2.1,
-    "pct_chg": 15.85,
-    "note": "Volume 2.1x avg + price +15.85%",
+    "close": 92,
+    "vol_ratio": 2.5,
+    "pct_chg": 12.2,
+    "note": "Volume 2.5x avg + price +12.20%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0784,
@@ -15,13 +15,28 @@
     }
   },
   {
+    "ticker": "NICL",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 505,
+    "vol_ratio": 2.1,
+    "pct_chg": 6.09,
+    "note": "Volume 2.1x avg + price +6.09%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0714,
+      "win_5d": 0.571,
+      "n": 42
+    }
+  },
+  {
     "ticker": "DIVA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 138,
-    "vol_ratio": 7.2,
+    "vol_ratio": 8.2,
     "pct_chg": 6.15,
-    "note": "Volume 7.2x avg + price +6.15%",
+    "note": "Volume 8.2x avg + price +6.15%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0327,
