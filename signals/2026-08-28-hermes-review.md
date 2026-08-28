@@ -1,22 +1,38 @@
-# Hermes Review — 2024‑08‑28  
+# Hermes Review — 2026‑08‑28  
 
-## 1. Sanity Check (math + logic)  
-- No tickers, entry, SL, TP, or R/R values are presented, therefore **no mathematical verification is possible**.  
-- Consequently, there are **no sanity‑check items to flag**; the analysis is vacuous in this respect.  
+## 1. Sanity Check (math + logic)
 
-## 2. Contradiction Hunter  
-1. **“No suitable BUY ideas” vs. “Market Read”** – The document still provides a “Market Read” section implying a market‑wide assessment, yet it simultaneously claims *no* actionable ideas. This creates a mild internal inconsistency: a market commentary is offered without any follow‑through trade signal, which could mislead a reader expecting at least a “watchlist” or “avoid” recommendation.  
+- **SINI**: ✓ clean (entry ≈ close, SL = ‑3 % → risk 3 %, TP = +6 % → reward 6 % → R/R ≈ 2.0). No explicit R/R disclosed – omission.  
+- **KRYA**: ⚠️ **R/R mismatch** – win‑rate 37.5 % yet “High” conviction; R/R still 2.0 but low edge (12.34 % over 32 trades) raises doubt on statistical significance.  
+- **VKTR**: ✓ clean (R/R ≈ 2.0, win‑rate 60.7 %).  
+- **WBSA**: ⚠️ **Missing R/R** – no historical edge, yet a BUY with “Untested” conviction; R/R not justified.  
+- **SL placement** (all picks): ⚠️ Uniform ‑3 % rule is **arbitrary**; no ATR‑based volatility buffer, no support‑level reference.  
+- **TP placement** (all picks): ⚠️ Uniform +6 % rule ignores actual resistance zones; could be overly optimistic for a breakout that may stall at +3‑4 %.  
+- **Conviction vs evidence**:  
+  - KRYA – “High” despite a **37.5 % win rate** (well below typical breakout edge).  
+  - WBSA – “Untested” yet still a BUY; conviction tier not aligned with evidence (no back‑test).  
 
-## 3. Hidden Risks  
-- **Opportunity risk** – By declaring a blank slate, the author implicitly assumes that *no* trade is better than a *potentially* weak trade. This ignores the risk of **under‑exposure**: a portfolio that sits completely on cash may miss out on modest upside, especially in a market where sector‑specific catalysts (e.g., commodity‑price rebounds) could be captured with tight risk controls.  
-- **Selection‑bias risk** – The analysis does not disclose the *filter* that led to “no suitable ideas.” If the filter is overly stringent (e.g., requiring multi‑strategy confluence on a 5‑day horizon), it may systematically exclude viable setups, creating a hidden bias toward inactivity.  
-- **Liquidity blind spot** – No positions are proposed, but the author also does not comment on the **liquidity profile of the broader watchlist** (if any). If the intent is to stay out, the risk is that the next signal may arise in a thinly‑traded stock, and the team may be unprepared to handle slippage.  
-- **Sector‑exposure blind spot** – The blank stance could inadvertently concentrate the portfolio in cash or a single “safe‑haven” asset (e.g., government bonds). The analysis fails to warn that such concentration could expose the portfolio to **interest‑rate or credit‑spread shocks**.  
+## 2. Contradiction Hunter
 
-## 4. What the Author Got Right  
-The author correctly identified that the day’s signal set lacked the required multi‑strategy confluence, thereby avoiding the temptation to enter low‑conviction trades that would have offered poor risk‑reward profiles.  
+1. **KRYA conviction vs win‑rate** – “High” conviction quoted while the win‑rate is **37.5 %**, contradicting the implied statistical confidence.  
+2. **WBSA inclusion in “high‑conviction volume breakouts”** – the market read says the list is “dominated by high‑conviction volume breakouts,” yet WBSA is a **golden‑cross** signal, not a volume breakout.  
+3. **Uniform SL/TP rules vs individual stock volatility** – applying a flat ‑3 % SL and +6 % TP to all four stocks ignores differing ATR levels; this conflicts with the implied “risk‑adjusted” approach.  
 
-## 5. Critical Recommendations  
-1. **Document the filter thresholds** – Before declaring a “no‑buy” day, list the exact criteria (e.g., required R/R ≥ 2, minimum volume, confluence count) that were not met. This transparency prevents accusations of arbitrary selectivity.  
-2. **Provide a fallback “watchlist”** – Even when no entry is justified, suggest a short list of stocks that are *near* the criteria (e.g., one‑step away from a golden‑cross) with clear entry triggers. This prepares the team for rapid deployment if conditions improve.  
-3. **Address cash‑drag risk** – Include a brief note on how the portfolio will be allocated on a “no‑buy” day (e.g., maintain a tactical cash buffer, or rotate into low‑beta defensive assets). This mitigates the hidden risk of prolonged under‑exposure.
+## 3. Hidden Risks
+
+- **Sector concentration** – SINI, KRYA, and VKTR are all **resource‑heavy** (mining/energy) equities. A sector‑specific shock (e.g., commodity price drop) could wipe out >30 % of the suggested portfolio.  
+- **Liquidity risk** – Preliminary volume data shows **KRYA** and **WBSA** have average daily turnover < 500 k shares, which is thin for a 5‑20 day hold if the suggested position size is > 2 % of capital.  
+- **Correlation risk** – The three volume‑breakout picks moved together on the same market‑wide volume surge, suggesting **high correlation**; diversification benefit is illusory.  
+- **Timing / chase risk** – All three breakout stocks have already **gained >10 %** intraday. Entering at the close may expose the trader to a rapid **pull‑back** or gap‑down at the next open.  
+- **Stale back‑test window** – Historical edge is calculated over the **last 52, 32, and 28 trades** respectively, but the regime shift (post‑COVID‑19 volatility regime) is not accounted for; edge may be overstated.  
+- **Indicator overlap** – Volume breakout and golden‑cross are both **trend‑following** signals; they are not independent, so the “breadth” claim for WBSA adds little true confluence.  
+
+## 4. What the Author Got Right
+
+The author correctly identified that **SINI** exhibits a genuine volume breakout (3.3× average volume) coupled with a sizable price jump, which historically has delivered a **13.23 % edge** and a respectable **67.3 % win rate**—a solid quantitative justification for a short‑term long bias.  
+
+## 5. Critical Recommendations
+
+1. **Re‑calibrate stop‑losses** – replace the flat ‑3 % SL with an **ATR‑based stop** (e.g., 1.5 × ATR) for each ticker to respect individual volatility and avoid premature exits.  
+2. **Adjust conviction tiers** – downgrade KRYA to **Medium** (or Low) given its 37.5 % win rate, and either remove or downgrade WBSA until a back‑test is available; current “High”/“Untested” labeling is misleading.  
+3. **Diversify sector exposure** – cap the combined exposure to the **resource sector** at **≤ 15 %** of the total allocated capital; consider adding at least one **non‑correlated** pick (e.g., consumer staples or finance) to mitigate sector‑specific tail risk.

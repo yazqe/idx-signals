@@ -1,9 +1,54 @@
 [
   {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 9625,
+    "vol_ratio": 3.3,
+    "pct_chg": 10,
+    "note": "Volume 3.3x avg + price +10.00%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
+    "ticker": "KRYA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 70,
+    "vol_ratio": 11.6,
+    "pct_chg": 12.9,
+    "note": "Volume 11.6x avg + price +12.90%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1234,
+      "win_5d": 0.375,
+      "n": 32
+    }
+  },
+  {
+    "ticker": "VKTR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 960,
+    "vol_ratio": 2.0,
+    "pct_chg": 6.08,
+    "note": "Volume 2.0x avg + price +6.08%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0686,
+      "win_5d": 0.607,
+      "n": 28
+    }
+  },
+  {
     "ticker": "WBSA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 675,
+    "close": 685,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "untested",
