@@ -1,0 +1,27 @@
+[
+  {
+    "ticker": "WBSA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 675,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
+    "ticker": "ENRG",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 1260,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0684,
+      "win_5d": 0.333,
+      "n": 3
+    }
+  }
+]

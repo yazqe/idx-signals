@@ -502,3 +502,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-24,EMAS,vol_breakout_up,BUY,8475,0.0442,,,2026-08-26T05:17:45
 2026-08-24,COIN,ma_golden_cross,BUY,845,-0.0237,,,2026-08-26T05:17:45
 2026-08-24,SINI,vol_breakout_up,BUY,8700,0.0316,,,2026-08-26T08:03:20
+2026-08-27,SDMU,vol_breakout_up,BUY,92,0.0,,,2026-08-28T05:17:39
+2026-08-27,NICL,vol_breakout_up,BUY,505,0.0099,,,2026-08-28T05:17:39
+2026-08-27,DIVA,vol_breakout_up,BUY,138,-0.0072,,,2026-08-28T05:17:39
