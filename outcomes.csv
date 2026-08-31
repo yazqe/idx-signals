@@ -505,3 +505,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-27,SDMU,vol_breakout_up,BUY,92,0.0,,,2026-08-28T05:17:39
 2026-08-27,NICL,vol_breakout_up,BUY,505,0.0099,,,2026-08-28T05:17:39
 2026-08-27,DIVA,vol_breakout_up,BUY,138,-0.0072,,,2026-08-28T05:17:39
+2026-08-28,SINI,vol_breakout_up,BUY,9625,0.0545,,,2026-08-31T05:17:44
+2026-08-28,KRYA,vol_breakout_up,BUY,70,0.0143,,,2026-08-31T05:17:44
+2026-08-28,VKTR,vol_breakout_up,BUY,960,0.026,,,2026-08-31T05:17:44
+2026-08-28,WBSA,ma_golden_cross,BUY,685,0.0146,,,2026-08-31T05:17:44
+2026-08-28,ENRG,ma_golden_cross,BUY,1260,0.0357,,,2026-08-31T05:17:44
