@@ -3,10 +3,10 @@
     "ticker": "SINI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 10825,
-    "vol_ratio": 5.0,
-    "pct_chg": 12.47,
-    "note": "Volume 5.0x avg + price +12.47%",
+    "close": 10625,
+    "vol_ratio": 5.7,
+    "pct_chg": 10.39,
+    "note": "Volume 5.7x avg + price +10.39%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1323,
@@ -15,43 +15,13 @@
     }
   },
   {
-    "ticker": "KRYA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 72,
-    "vol_ratio": 3.3,
-    "pct_chg": 2.86,
-    "note": "Volume 3.3x avg + price +2.86%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.1234,
-      "win_5d": 0.375,
-      "n": 32
-    }
-  },
-  {
-    "ticker": "SDMU",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 97,
-    "vol_ratio": 3.6,
-    "pct_chg": 2.11,
-    "note": "Volume 3.6x avg + price +2.11%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0784,
-      "win_5d": 0.565,
-      "n": 46
-    }
-  },
-  {
     "ticker": "KOTA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 196,
-    "vol_ratio": 4.7,
-    "pct_chg": 21.74,
-    "note": "Volume 4.7x avg + price +21.74%",
+    "close": 216,
+    "vol_ratio": 6.0,
+    "pct_chg": 34.16,
+    "note": "Volume 6.0x avg + price +34.16%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0711,
@@ -63,7 +33,7 @@
     "ticker": "ASPR",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 154,
+    "close": 153,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
