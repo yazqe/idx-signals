@@ -1,15 +1,58 @@
 [
   {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 855,
+    "vol_ratio": 2.1,
+    "pct_chg": 6.21,
+    "note": "Volume 2.1x avg + price +6.21%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
     "ticker": "BREN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 3340,
+    "close": 3350,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
       "edge_5d": 0.067,
       "win_5d": 0.75,
       "n": 4
+    }
+  },
+  {
+    "ticker": "EMTK",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 525,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0032,
+      "win_5d": 0.2,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "ESSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 695,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.92,
+    "note": "Volume 2.4x avg + price +6.92%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0197,
+      "win_5d": 0.281,
+      "n": 32
     }
   }
 ]

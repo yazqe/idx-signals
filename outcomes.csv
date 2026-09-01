@@ -510,3 +510,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-08-28,VKTR,vol_breakout_up,BUY,960,0.026,,,2026-08-31T05:17:44
 2026-08-28,WBSA,ma_golden_cross,BUY,685,0.0146,,,2026-08-31T05:17:44
 2026-08-28,ENRG,ma_golden_cross,BUY,1260,0.0357,,,2026-08-31T05:17:44
+2026-08-31,SINI,vol_breakout_up,BUY,10625,0.1176,,,2026-09-01T08:04:09
+2026-08-31,KOTA,vol_breakout_up,BUY,216,0.0093,,,2026-09-01T08:04:09
+2026-08-31,ASPR,ma_golden_cross,BUY,153,0.0131,,,2026-09-01T08:04:09
