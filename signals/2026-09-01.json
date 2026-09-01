@@ -1,30 +1,60 @@
 [
   {
-    "ticker": "COIN",
+    "ticker": "SINI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 855,
-    "vol_ratio": 2.1,
-    "pct_chg": 6.21,
-    "note": "Volume 2.1x avg + price +6.21%",
+    "close": 12400,
+    "vol_ratio": 3.3,
+    "pct_chg": 16.43,
+    "note": "Volume 3.3x avg + price +16.43%",
     "history": {
       "tier": "high",
-      "edge_5d": 0.0807,
-      "win_5d": 0.688,
-      "n": 16
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
+    "ticker": "BUVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 775,
+    "vol_ratio": 2.3,
+    "pct_chg": 6.16,
+    "note": "Volume 2.3x avg + price +6.16%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.459,
+      "n": 37
     }
   },
   {
     "ticker": "BREN",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 3350,
+    "close": 3390,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
       "edge_5d": 0.067,
       "win_5d": 0.75,
       "n": 4
+    }
+  },
+  {
+    "ticker": "BUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 204,
+    "vol_ratio": 2.2,
+    "pct_chg": 6.25,
+    "note": "Volume 2.2x avg + price +6.25%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0205,
+      "win_5d": 0.536,
+      "n": 28
     }
   },
   {
@@ -44,10 +74,10 @@
     "ticker": "ESSA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 695,
-    "vol_ratio": 2.4,
-    "pct_chg": 6.92,
-    "note": "Volume 2.4x avg + price +6.92%",
+    "close": 690,
+    "vol_ratio": 3.5,
+    "pct_chg": 6.15,
+    "note": "Volume 3.5x avg + price +6.15%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0197,
