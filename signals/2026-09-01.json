@@ -1,0 +1,15 @@
+[
+  {
+    "ticker": "BREN",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 3340,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.067,
+      "win_5d": 0.75,
+      "n": 4
+    }
+  }
+]
