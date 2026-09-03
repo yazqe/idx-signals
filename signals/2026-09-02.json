@@ -3,7 +3,7 @@
     "ticker": "DEFI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 106,
+    "close": 107,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
@@ -16,10 +16,10 @@
     "ticker": "KAQI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 104,
-    "vol_ratio": 8.2,
-    "pct_chg": 10.64,
-    "note": "Volume 8.2x avg + price +10.64%",
+    "close": 101,
+    "vol_ratio": 9.3,
+    "pct_chg": 7.45,
+    "note": "Volume 9.3x avg + price +7.45%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0121,

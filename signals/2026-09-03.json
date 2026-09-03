@@ -1,0 +1,15 @@
+[
+  {
+    "ticker": "MINA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 276,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1078,
+      "win_5d": 0.6,
+      "n": 5
+    }
+  }
+]
