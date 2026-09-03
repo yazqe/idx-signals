@@ -1,9 +1,24 @@
 [
   {
+    "ticker": "SINI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 14750,
+    "vol_ratio": 2.2,
+    "pct_chg": 15.69,
+    "note": "Volume 2.2x avg + price +15.69%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1323,
+      "win_5d": 0.673,
+      "n": 52
+    }
+  },
+  {
     "ticker": "MINA",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 284,
+    "close": 280,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -16,10 +31,10 @@
     "ticker": "CBDK",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 4190,
-    "vol_ratio": 3.3,
-    "pct_chg": 9.69,
-    "note": "Volume 3.3x avg + price +9.69%",
+    "close": 4110,
+    "vol_ratio": 5.2,
+    "pct_chg": 7.59,
+    "note": "Volume 5.2x avg + price +7.59%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0336,
@@ -31,10 +46,10 @@
     "ticker": "SMDR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 348,
-    "vol_ratio": 5.3,
-    "pct_chg": 9.43,
-    "note": "Volume 5.3x avg + price +9.43%",
+    "close": 344,
+    "vol_ratio": 5.8,
+    "pct_chg": 8.18,
+    "note": "Volume 5.8x avg + price +8.18%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0053,
@@ -46,10 +61,10 @@
     "ticker": "PANI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 6325,
-    "vol_ratio": 2.9,
-    "pct_chg": 8.58,
-    "note": "Volume 2.9x avg + price +8.58%",
+    "close": 6100,
+    "vol_ratio": 4.3,
+    "pct_chg": 4.72,
+    "note": "Volume 4.3x avg + price +4.72%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0073,
