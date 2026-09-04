@@ -3,15 +3,30 @@
     "ticker": "IMPC",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 1495,
-    "vol_ratio": 2.8,
-    "pct_chg": 6.41,
-    "note": "Volume 2.8x avg + price +6.41%",
+    "close": 1510,
+    "vol_ratio": 3.9,
+    "pct_chg": 7.47,
+    "note": "Volume 3.9x avg + price +7.47%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1004,
       "win_5d": 0.667,
       "n": 12
+    }
+  },
+  {
+    "ticker": "TINS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4360,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.6,
+    "note": "Volume 2.4x avg + price +6.60%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0551,
+      "win_5d": 0.457,
+      "n": 35
     }
   }
 ]
