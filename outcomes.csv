@@ -521,3 +521,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-01,ESSA,vol_breakout_up,BUY,690,0.0145,,,2026-09-02T05:17:37
 2026-09-02,DEFI,ma_golden_cross,BUY,107,-0.0093,,,2026-09-03T05:17:45
 2026-09-02,KAQI,vol_breakout_up,BUY,101,0.0,,,2026-09-03T05:17:45
+2026-09-03,SINI,vol_breakout_up,BUY,14750,-0.0322,,,2026-09-04T05:17:23
+2026-09-03,MINA,ma_golden_cross,BUY,280,0.0071,,,2026-09-04T05:17:23
+2026-09-03,CBDK,vol_breakout_up,BUY,4110,-0.0049,,,2026-09-04T05:17:23
+2026-09-03,SMDR,vol_breakout_up,BUY,344,0.0058,,,2026-09-04T05:17:23
+2026-09-03,PANI,vol_breakout_up,BUY,6100,0.0082,,,2026-09-04T05:17:23
