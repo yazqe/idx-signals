@@ -1,18 +1,20 @@
 # Hermes Review — 2026‑09‑07  
 
 ## 1. Sanity Check (math + logic)  
-- **No picks supplied** – the document contains “No candidates today. Skipping Hermes.” Consequently there are no entry, stop‑loss, take‑profit, R/R, or conviction values to verify.  
+- No tickers are presented. Consequently, there is nothing to verify for R/R calculations, SL/TP placement, or conviction tier consistency.  
 
 ## 2. Contradiction Hunter  
-- **No content to contradict** – with zero stock recommendations, there are no internal contradictions, mismatched time‑frames, or tier‑conviction mismatches to flag.  
+1. The document states “**No qualifying BUY ideas found for today**” and then repeats “**None of the listed signals meet the inclusion criteria**.” Both statements are consistent; no internal contradictions are detected.  
 
 ## 3. Hidden Risks  
-- **Absence of risk assessment** – because no positions are proposed, sector concentration, liquidity, correlation, or timing risks cannot be evaluated. The only risk here is the *absence* of any actionable ideas, which leaves the reviewer without material to assess.  
+- **Opportunity risk**: By publishing a blanket “no‑buy” stance, the author may overlook short‑term momentum or mean‑reversion setups that could be captured with a minimal exposure (e.g., a 5 % scalp). The absence of a watch‑list leaves the portfolio exposed to missed upside.  
+- **Signal‑filter opacity**: The analysis references “negative tier without multi‑strategy confluence” but does not disclose the exact tier thresholds, filter logic, or the list of excluded signals. Readers cannot assess whether the filter is overly restrictive or whether a modest signal was dismissed without justification.  
+- **Liquidity & sector bias**: No positions are taken, but the author does not comment on the current market liquidity environment. If the market is thin, a “no‑trade” stance could be a defensive bias that may be sub‑optimal when liquidity improves.  
 
 ## 4. What the Author Got Right  
-- The author correctly avoided presenting speculative or unfounded trade ideas when none were available, thereby preventing the introduction of unfounded risk.  
+The author correctly applied a disciplined filter, avoiding entry into setups that lack multi‑strategy confluence, thereby preventing low‑probability trades and preserving capital.  
 
 ## 5. Critical Recommendations  
-1. **Supply at least one candidate** – future submissions must include a ranked list of tickers with explicit entry, SL, TP, calculated R/R, and a conviction rating.  
-2. **Provide the underlying calculations** – include the numeric steps that produce the R/R figure so the reviewer can verify the math.  
-3. **Reference data sources & time‑frames** – cite the chart intervals, indicator parameters, and any fundamental inputs that justify the entry/exit levels; this prevents “blind” recommendations and enables proper risk‑reward validation.
+1. **Document the exclusion criteria** – Provide a concise table showing the tier levels, the specific signals that failed the multi‑strategy confluence test, and the quantitative thresholds used. This transparency lets reviewers verify that the “no‑buy” conclusion is data‑driven, not arbitrary.  
+2. **Add a short‑term watch‑list** – Even when no high‑conviction entries exist, list 2–3 marginal candidates with a clear rationale for why they are excluded (e.g., insufficient confluence, unfavorable risk‑reward). This prepares the team to act quickly if conditions change.  
+3. **Include a market‑condition snapshot** – Briefly note key macro or sector‑level metrics (e.g., IDX volatility index, sector breadth, liquidity metrics). This contextualizes the “no‑buy” stance and helps assess whether the lack of ideas is due to market stagnation or overly tight filters.

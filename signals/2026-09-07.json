@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ticker": "SMDR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 364,
+    "vol_ratio": 2.6,
+    "pct_chg": 5.2,
+    "note": "Volume 2.6x avg + price +5.20%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0053,
+      "win_5d": 0.538,
+      "n": 26
+    }
+  }
+]
