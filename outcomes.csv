@@ -526,3 +526,5 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-03,CBDK,vol_breakout_up,BUY,4110,-0.0049,,,2026-09-04T05:17:23
 2026-09-03,SMDR,vol_breakout_up,BUY,344,0.0058,,,2026-09-04T05:17:23
 2026-09-03,PANI,vol_breakout_up,BUY,6100,0.0082,,,2026-09-04T05:17:23
+2026-09-04,IMPC,vol_breakout_up,BUY,1510,-0.0199,,,2026-09-07T05:17:25
+2026-09-04,TINS,vol_breakout_up,BUY,4360,-0.0046,,,2026-09-07T05:17:25
