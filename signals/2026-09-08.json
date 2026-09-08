@@ -4,9 +4,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 131,
-    "vol_ratio": 23.1,
+    "vol_ratio": 25.1,
     "pct_chg": 10.08,
-    "note": "Volume 23.1x avg + price +10.08%",
+    "note": "Volume 25.1x avg + price +10.08%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0622,
@@ -15,13 +15,88 @@
     }
   },
   {
+    "ticker": "MDKA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3110,
+    "vol_ratio": 2.5,
+    "pct_chg": 7.99,
+    "note": "Volume 2.5x avg + price +7.99%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0409,
+      "win_5d": 0.55,
+      "n": 20
+    }
+  },
+  {
+    "ticker": "RATU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4690,
+    "vol_ratio": 2.2,
+    "pct_chg": 4.22,
+    "note": "Volume 2.2x avg + price +4.22%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0384,
+      "win_5d": 0.4,
+      "n": 20
+    }
+  },
+  {
+    "ticker": "INKP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 9450,
+    "vol_ratio": 2.1,
+    "pct_chg": 4.13,
+    "note": "Volume 2.1x avg + price +4.13%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0347,
+      "win_5d": 0.643,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "ENRG",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1465,
+    "vol_ratio": 2.1,
+    "pct_chg": 7.33,
+    "note": "Volume 2.1x avg + price +7.33%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0264,
+      "win_5d": 0.467,
+      "n": 30
+    }
+  },
+  {
+    "ticker": "AMMN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 4660,
+    "vol_ratio": 2.5,
+    "pct_chg": 5.67,
+    "note": "Volume 2.5x avg + price +5.67%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0122,
+      "win_5d": 0.625,
+      "n": 8
+    }
+  },
+  {
     "ticker": "MBMA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 535,
-    "vol_ratio": 2.1,
-    "pct_chg": 4.9,
-    "note": "Volume 2.1x avg + price +4.90%",
+    "close": 550,
+    "vol_ratio": 2.7,
+    "pct_chg": 7.84,
+    "note": "Volume 2.7x avg + price +7.84%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0019,
