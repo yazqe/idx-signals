@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "ticker": "MINA",
+    "strategy": "ma_golden_cross",
+    "side": "BUY",
+    "close": 280,
+    "note": "20-SMA crossed above 50-SMA today (golden cross)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1078,
+      "win_5d": 0.6,
+      "n": 5
+    }
+  },
+  {
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 66,
+    "vol_ratio": 3.9,
+    "pct_chg": 3.12,
+    "note": "Volume 3.9x avg + price +3.12%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
+    }
+  },
+  {
+    "ticker": "BIPP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 71,
+    "vol_ratio": 3.4,
+    "pct_chg": 2.9,
+    "note": "Volume 3.4x avg + price +2.90%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0271,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  }
+]
