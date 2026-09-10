@@ -536,3 +536,11 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-08,ENRG,vol_breakout_up,BUY,1465,0.0068,,,2026-09-09T05:17:51
 2026-09-08,AMMN,vol_breakout_up,BUY,4660,0.0172,,,2026-09-09T05:17:51
 2026-09-08,MBMA,vol_breakout_up,BUY,550,0.0,,,2026-09-09T05:17:51
+2026-09-09,IMPC,vol_breakout_up,BUY,1785,-0.0252,,,2026-09-10T05:17:16
+2026-09-09,BIPI,vol_breakout_up,BUY,158,-0.019,,,2026-09-10T05:17:16
+2026-09-09,ASHA,vol_breakout_up,BUY,60,0.0,,,2026-09-10T05:17:16
+2026-09-09,INDY,vol_breakout_up,BUY,3200,-0.0219,,,2026-09-10T05:17:16
+2026-09-09,AMMN,vol_breakout_up,BUY,4890,0.0061,,,2026-09-10T05:17:16
+2026-09-09,NCKL,vol_breakout_up,BUY,995,0.0101,,,2026-09-10T05:17:16
+2026-09-09,ZATA,vol_breakout_up,BUY,72,-0.0139,,,2026-09-10T05:17:16
+2026-09-09,SMDR,vol_breakout_up,BUY,386,0.0104,,,2026-09-10T05:17:16
