@@ -544,3 +544,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-09,NCKL,vol_breakout_up,BUY,995,0.0101,,,2026-09-10T05:17:16
 2026-09-09,ZATA,vol_breakout_up,BUY,72,-0.0139,,,2026-09-10T05:17:16
 2026-09-09,SMDR,vol_breakout_up,BUY,386,0.0104,,,2026-09-10T05:17:16
+2026-09-10,RODA,vol_breakout_up,BUY,68,-0.0441,,,2026-09-11T05:17:13
