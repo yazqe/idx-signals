@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "AMMN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 5050,
+    "vol_ratio": 2.2,
+    "pct_chg": 3.91,
+    "note": "Volume 2.2x avg + price +3.91%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0122,
+      "win_5d": 0.625,
+      "n": 8
+    }
+  }
+]
