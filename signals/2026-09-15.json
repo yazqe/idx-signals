@@ -3,10 +3,10 @@
     "ticker": "DEFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 135,
-    "vol_ratio": 40.0,
-    "pct_chg": 31.07,
-    "note": "Volume 40.0x avg + price +31.07%",
+    "close": 139,
+    "vol_ratio": 62.4,
+    "pct_chg": 34.95,
+    "note": "Volume 62.4x avg + price +34.95%",
     "history": {
       "tier": "high",
       "edge_5d": 0.2152,
@@ -15,10 +15,25 @@
     }
   },
   {
+    "ticker": "BIPP",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 67,
+    "vol_ratio": 2.0,
+    "pct_chg": 4.69,
+    "note": "Volume 2.0x avg + price +4.69%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0271,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
     "ticker": "DEFI",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 135,
+    "close": 139,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
