@@ -1,9 +1,39 @@
 [
   {
+    "ticker": "KRYA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 71,
+    "vol_ratio": 3.5,
+    "pct_chg": 4.41,
+    "note": "Volume 3.5x avg + price +4.41%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1234,
+      "win_5d": 0.375,
+      "n": 32
+    }
+  },
+  {
+    "ticker": "RODA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 65,
+    "vol_ratio": 2.1,
+    "pct_chg": 3.17,
+    "note": "Volume 2.1x avg + price +3.17%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0369,
+      "win_5d": 0.54,
+      "n": 50
+    }
+  },
+  {
     "ticker": "IMPC",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 1665,
+    "close": 1710,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "low",
