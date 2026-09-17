@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "DIVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 159,
+    "vol_ratio": 6.0,
+    "pct_chg": 16.91,
+    "note": "Volume 6.0x avg + price +16.91%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0327,
+      "win_5d": 0.444,
+      "n": 36
+    }
+  }
+]
