@@ -552,3 +552,4 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-16,KRYA,vol_breakout_up,BUY,71,-0.0423,,,2026-09-17T05:17:55
 2026-09-16,RODA,vol_breakout_up,BUY,65,0.0308,,,2026-09-17T05:17:55
 2026-09-16,IMPC,ma_golden_cross,BUY,1710,-0.0088,,,2026-09-17T05:17:55
+2026-09-17,DIVA,vol_breakout_up,BUY,147,-0.0272,,,2026-09-18T05:17:23
