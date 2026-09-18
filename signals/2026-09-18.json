@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "MINA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 242,
+    "rsi": 29.9,
+    "note": "RSI 29.9 < 30 (oversold)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0401,
+      "win_5d": 0.5,
+      "n": 12
+    }
+  },
+  {
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
