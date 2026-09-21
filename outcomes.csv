@@ -553,3 +553,5 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-16,RODA,vol_breakout_up,BUY,65,0.0308,,,2026-09-17T05:17:55
 2026-09-16,IMPC,ma_golden_cross,BUY,1710,-0.0088,,,2026-09-17T05:17:55
 2026-09-17,DIVA,vol_breakout_up,BUY,147,-0.0272,,,2026-09-18T05:17:23
+2026-09-18,MINA,rsi_oversold,BUY,242,0.0083,,,2026-09-21T05:18:00
+2026-09-18,PANI,rsi_oversold,BUY,5300,-0.0142,,,2026-09-21T05:18:00
