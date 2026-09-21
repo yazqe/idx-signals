@@ -4,9 +4,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 135,
-    "vol_ratio": 2.5,
+    "vol_ratio": 3.3,
     "pct_chg": 6.3,
-    "note": "Volume 2.5x avg + price +6.30%",
+    "note": "Volume 3.3x avg + price +6.30%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1304,
@@ -18,10 +18,10 @@
     "ticker": "GTSI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 156,
-    "vol_ratio": 2.4,
-    "pct_chg": 6.12,
-    "note": "Volume 2.4x avg + price +6.12%",
+    "close": 160,
+    "vol_ratio": 3.7,
+    "pct_chg": 8.84,
+    "note": "Volume 3.7x avg + price +8.84%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0977,
@@ -30,13 +30,28 @@
     }
   },
   {
+    "ticker": "BUVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 680,
+    "vol_ratio": 2.4,
+    "pct_chg": 2.26,
+    "note": "Volume 2.4x avg + price +2.26%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0867,
+      "win_5d": 0.459,
+      "n": 37
+    }
+  },
+  {
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 840,
-    "vol_ratio": 2.9,
-    "pct_chg": 11.26,
-    "note": "Volume 2.9x avg + price +11.26%",
+    "close": 830,
+    "vol_ratio": 3.3,
+    "pct_chg": 9.93,
+    "note": "Volume 3.3x avg + price +9.93%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
@@ -45,12 +60,27 @@
     }
   },
   {
+    "ticker": "ASHA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 53,
+    "vol_ratio": 2.2,
+    "pct_chg": 3.92,
+    "note": "Volume 2.2x avg + price +3.92%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0586,
+      "win_5d": 0.571,
+      "n": 35
+    }
+  },
+  {
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 5250,
-    "rsi": 27.3,
-    "note": "RSI 27.3 < 30 (oversold)",
+    "close": 5200,
+    "rsi": 26.2,
+    "note": "RSI 26.2 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
