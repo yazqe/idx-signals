@@ -1,11 +1,56 @@
 [
   {
+    "ticker": "HUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 135,
+    "vol_ratio": 2.5,
+    "pct_chg": 6.3,
+    "note": "Volume 2.5x avg + price +6.30%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1304,
+      "win_5d": 0.419,
+      "n": 31
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 156,
+    "vol_ratio": 2.4,
+    "pct_chg": 6.12,
+    "note": "Volume 2.4x avg + price +6.12%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 840,
+    "vol_ratio": 2.9,
+    "pct_chg": 11.26,
+    "note": "Volume 2.9x avg + price +11.26%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 5275,
-    "rsi": 27.9,
-    "note": "RSI 27.9 < 30 (oversold)",
+    "close": 5250,
+    "rsi": 27.3,
+    "note": "RSI 27.3 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
