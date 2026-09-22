@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ticker": "PANI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 5025,
+    "rsi": 22.9,
+    "note": "RSI 22.9 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0141,
+      "win_5d": 0.556,
+      "n": 18
+    }
+  },
+  {
+    "ticker": "BNBR",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 83,
+    "rsi": 29.1,
+    "note": "RSI 29.1 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0048,
+      "win_5d": 0.263,
+      "n": 19
+    }
+  },
+  {
+    "ticker": "DEWA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 350,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0072,
+      "win_5d": 0.5,
+      "n": 10
+    }
+  }
+]
