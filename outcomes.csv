@@ -555,3 +555,9 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-17,DIVA,vol_breakout_up,BUY,147,-0.0272,,,2026-09-18T05:17:23
 2026-09-18,MINA,rsi_oversold,BUY,242,0.0083,,,2026-09-21T05:18:00
 2026-09-18,PANI,rsi_oversold,BUY,5300,-0.0142,,,2026-09-21T05:18:00
+2026-09-21,HUMI,vol_breakout_up,BUY,135,0.0,,,2026-09-22T05:17:24
+2026-09-21,GTSI,vol_breakout_up,BUY,160,-0.0188,,,2026-09-22T05:17:24
+2026-09-21,BUVA,vol_breakout_up,BUY,680,0.0,,,2026-09-22T05:17:24
+2026-09-21,COIN,vol_breakout_up,BUY,830,0.0602,,,2026-09-22T05:17:24
+2026-09-21,ASHA,vol_breakout_up,BUY,53,0.0,,,2026-09-22T05:17:24
+2026-09-21,PANI,rsi_oversold,BUY,5200,0.0048,,,2026-09-22T05:17:24
