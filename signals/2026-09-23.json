@@ -1,25 +1,40 @@
 [
   {
-    "ticker": "MINA",
+    "ticker": "ASPR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 151,
+    "vol_ratio": 2.2,
+    "pct_chg": 12.69,
+    "note": "Volume 2.2x avg + price +12.69%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.12,
+      "win_5d": 0.478,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "RAJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 236,
-    "rsi": 29.5,
-    "note": "RSI 29.5 < 30 (oversold)",
+    "close": 700,
+    "rsi": 29.4,
+    "note": "RSI 29.4 < 30 (oversold)",
     "history": {
       "tier": "medium",
-      "edge_5d": 0.0401,
-      "win_5d": 0.5,
-      "n": 12
+      "edge_5d": 0.0301,
+      "win_5d": 0.643,
+      "n": 14
     }
   },
   {
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 5000,
-    "rsi": 23.3,
-    "note": "RSI 23.3 < 30 (oversold)",
+    "close": 4990,
+    "rsi": 22.8,
+    "note": "RSI 22.8 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
@@ -28,45 +43,18 @@
     }
   },
   {
-    "ticker": "BNBR",
-    "strategy": "rsi_oversold",
+    "ticker": "ZATA",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 83,
-    "rsi": 29.1,
-    "note": "RSI 29.1 < 30 (oversold)",
+    "close": 71,
+    "vol_ratio": 6.0,
+    "pct_chg": 24.56,
+    "note": "Volume 6.0x avg + price +24.56%",
     "history": {
       "tier": "low",
-      "edge_5d": 0.0048,
-      "win_5d": 0.263,
-      "n": 19
-    }
-  },
-  {
-    "ticker": "DEWA",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 350,
-    "rsi": 29.4,
-    "note": "RSI 29.4 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0072,
-      "win_5d": 0.5,
-      "n": 10
-    }
-  },
-  {
-    "ticker": "BRPT",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 1565,
-    "rsi": 29.7,
-    "note": "RSI 29.7 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0204,
-      "win_5d": 0.333,
-      "n": 18
+      "edge_5d": 0.0052,
+      "win_5d": 0.387,
+      "n": 31
     }
   }
 ]
