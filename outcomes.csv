@@ -561,3 +561,9 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-09-21,COIN,vol_breakout_up,BUY,830,0.0602,,,2026-09-22T05:17:24
 2026-09-21,ASHA,vol_breakout_up,BUY,53,0.0,,,2026-09-22T05:17:24
 2026-09-21,PANI,rsi_oversold,BUY,5200,0.0048,,,2026-09-22T05:17:24
+2026-09-22,MINA,rsi_oversold,BUY,236,0.0,,,2026-09-23T05:18:23
+2026-09-22,RAJA,rsi_oversold,BUY,695,0.0216,,,2026-09-23T05:18:23
+2026-09-22,PANI,rsi_oversold,BUY,4960,0.004,,,2026-09-23T05:18:23
+2026-09-22,BNBR,rsi_oversold,BUY,82,0.0122,,,2026-09-23T05:18:23
+2026-09-22,DEWA,rsi_oversold,BUY,350,-0.0057,,,2026-09-23T05:18:23
+2026-09-22,BRPT,rsi_oversold,BUY,1550,0.0097,,,2026-09-23T05:18:23
