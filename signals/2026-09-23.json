@@ -3,10 +3,10 @@
     "ticker": "ASPR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 151,
-    "vol_ratio": 2.2,
-    "pct_chg": 12.69,
-    "note": "Volume 2.2x avg + price +12.69%",
+    "close": 146,
+    "vol_ratio": 2.6,
+    "pct_chg": 8.96,
+    "note": "Volume 2.6x avg + price +8.96%",
     "history": {
       "tier": "high",
       "edge_5d": 0.12,
@@ -15,26 +15,42 @@
     }
   },
   {
-    "ticker": "RAJA",
-    "strategy": "rsi_oversold",
+    "ticker": "BKSL",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 700,
-    "rsi": 29.4,
-    "note": "RSI 29.4 < 30 (oversold)",
+    "close": 68,
+    "vol_ratio": 2.1,
+    "pct_chg": 6.25,
+    "note": "Volume 2.1x avg + price +6.25%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0563,
+      "win_5d": 0.543,
+      "n": 46
+    }
+  },
+  {
+    "ticker": "MDKA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 3090,
+    "vol_ratio": 2.7,
+    "pct_chg": 9.19,
+    "note": "Volume 2.7x avg + price +9.19%",
     "history": {
       "tier": "medium",
-      "edge_5d": 0.0301,
-      "win_5d": 0.643,
-      "n": 14
+      "edge_5d": 0.0409,
+      "win_5d": 0.55,
+      "n": 20
     }
   },
   {
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 4990,
-    "rsi": 22.8,
-    "note": "RSI 22.8 < 30 (oversold)",
+    "close": 5100,
+    "rsi": 28.7,
+    "note": "RSI 28.7 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
@@ -46,10 +62,10 @@
     "ticker": "ZATA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 71,
-    "vol_ratio": 6.0,
-    "pct_chg": 24.56,
-    "note": "Volume 6.0x avg + price +24.56%",
+    "close": 63,
+    "vol_ratio": 9.5,
+    "pct_chg": 10.53,
+    "note": "Volume 9.5x avg + price +10.53%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0052,
