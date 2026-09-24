@@ -2,55 +2,46 @@
 - **Triggered:** vol_breakout_up  
 - **Conviction:** High  
 - **Historical edge:** 7.84% over 46 past trades (win rate 56.5%)  
-- **Entry zone:** 99 ± 1% (≈98‑100)  
-- **Stop loss:** -3% below close (≈96)  
-- **Take profit:** +6% above close (≈105)  
-- **Why:** Volume surged to 2× average with an 11.2% price jump, delivering the strongest historical edge.
-
-## BIPP — BUY (5-20d hold)  
-- **Triggered:** vol_breakout_up  
-- **Conviction:** Medium (high volume confluence)  
-- **Historical edge:** 2.71% over 34 past trades (win rate 50%)  
-- **Entry zone:** 81 ± 1% (≈80‑82)  
-- **Stop loss:** -3% below close (≈78)  
-- **Take profit:** +6% above close (≈86)  
-- **Why:** Extraordinary 14.8× volume breakout and a 24.6% price surge give a solid short‑term edge.
+- **Entry zone:** 112 – 114 (≈ ±1% of close 113)  
+- **Stop loss:** -3% (≈ 109.6)  
+- **Take profit:** +6% (≈ 119.8)  
+- **Why:** Massive volume surge (30.5× avg) with a 27% price jump signals a strong breakout.
 
 ## MINA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 4.01% over 12 past trades (win rate 50%)  
-- **Entry zone:** 234 ± 1% (≈232‑236)  
-- **Stop loss:** -3% below close (≈227)  
-- **Take profit:** +5% above close (≈246)  
-- **Why:** RSI at 29.6 signals oversold conditions with a respectable 4% 5‑day edge.
+- **Entry zone:** 232 – 236 (≈ ±1% of close 234)  
+- **Stop loss:** -3% (≈ 227)  
+- **Take profit:** +6% (≈ 248)  
+- **Why:** RSI just under 30 (29.6) suggests oversold conditions on a solid medium‑tier setup.
 
 ## RAJA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 695 ± 1% (≈688‑702)  
-- **Stop loss:** -3% below close (≈674)  
-- **Take profit:** +5% above close (≈730)  
-- **Why:** RSI 29.5 indicates oversold; the strategy shows a solid win‑rate and modest edge.
+- **Entry zone:** 683 – 697 (≈ ±1% of close 690)  
+- **Stop loss:** -3% (≈ 669)  
+- **Take profit:** +6% (≈ 731)  
+- **Why:** RSI 28.9 places the stock in oversold territory with a respectable win‑rate.
+
+## BIPP — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** Medium  
+- **Historical edge:** 2.71% over 34 past trades (win rate 50%)  
+- **Entry zone:** 86 – 88 (≈ ±1% of close 87)  
+- **Stop loss:** -3% (≈ 84.4)  
+- **Take profit:** +6% (≈ 92.2)  
+- **Why:** Volume 22× average and a 33.9% price surge indicate a powerful breakout despite modest edge.
 
 ## PANI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (but positive edge)  
+- **Conviction:** Low  
 - **Historical edge:** 1.41% over 18 past trades (win rate 55.6%)  
-- **Entry zone:** 5 050 ± 1% (≈5 000‑5 100)  
-- **Stop loss:** -4% below close (≈4 850)  
-- **Take profit:** +6% above close (≈5 350)  
-- **Why:** Despite a low tier, the RSI‑oversold signal still yields a positive edge and decent win‑rate.
-
-## BNBR — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low (speculative)  
-- **Historical edge:** 0.48% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 81 ± 1% (≈80‑82)  
-- **Stop loss:** -5% below close (≈77)  
-- **Take profit:** +4% above close (≈84)  
-- **Why:** Low‑tier oversold signal; included for breadth despite thin edge.
+- **Entry zone:** 4 940 – 5 040 (≈ ±1% of close 4 990)  
+- **Stop loss:** -3% (≈ 4 841)  
+- **Take profit:** +6% (≈ 5 290)  
+- **Why:** Low‑tier RSI‑oversold signal (25.8) with decent win‑rate, offering upside potential.
 
 ### Market Read  
-Today's buy list is dominated by strong volume breakouts (SDMU, BIPP) that dominate the risk‑reward profile, while a handful of RSI‑oversold alerts add breadth. Overall, the market shows heightened short‑term momentum, suggesting a bias toward quick‑turnaround longs over the next 5‑20 trading days.
+Today's list is dominated by volume‑driven breakouts (SDMU, BIPP) and a handful of RSI‑oversold alerts. The high‑tier vol breakout on SDMU stands out as the strongest candidate, while the low‑tier PANI still merits a watch due to its oversold status. Overall, the market shows heightened short‑term momentum, favoring quick‑turnover long positions over the next two‑weeks.

@@ -3,10 +3,10 @@
     "ticker": "SDMU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 99,
-    "vol_ratio": 2.0,
-    "pct_chg": 11.24,
-    "note": "Volume 2.0x avg + price +11.24%",
+    "close": 113,
+    "vol_ratio": 30.5,
+    "pct_chg": 26.97,
+    "note": "Volume 30.5x avg + price +26.97%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0784,
@@ -32,9 +32,9 @@
     "ticker": "RAJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 695,
-    "rsi": 29.5,
-    "note": "RSI 29.5 < 30 (oversold)",
+    "close": 690,
+    "rsi": 28.9,
+    "note": "RSI 28.9 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0301,
@@ -46,10 +46,10 @@
     "ticker": "BIPP",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 81,
-    "vol_ratio": 14.8,
-    "pct_chg": 24.62,
-    "note": "Volume 14.8x avg + price +24.62%",
+    "close": 87,
+    "vol_ratio": 22.0,
+    "pct_chg": 33.85,
+    "note": "Volume 22.0x avg + price +33.85%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0271,
@@ -61,28 +61,14 @@
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 5050,
-    "rsi": 26.9,
-    "note": "RSI 26.9 < 30 (oversold)",
+    "close": 4990,
+    "rsi": 25.8,
+    "note": "RSI 25.8 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
       "win_5d": 0.556,
       "n": 18
-    }
-  },
-  {
-    "ticker": "BNBR",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 81,
-    "rsi": 29.6,
-    "note": "RSI 29.6 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0048,
-      "win_5d": 0.263,
-      "n": 19
     }
   },
   {
