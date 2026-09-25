@@ -1,47 +1,47 @@
-## MINA — BUY (5‑20d hold)  
+## ESIP — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 4.01% over 12 past trades (win rate 50%)  
-- **Entry zone:** 230 ± 2% (≈ 225‑235)  
-- **Stop loss:** -3% below close  
-- **Take profit:** +6% above close  
-- **Why:** RSI 28 < 30 flags oversold pressure and the strategy has historically delivered a ~4% 5‑day edge.
+- **Historical edge:** 4.54% over 14 past trades (win rate 42.9%)  
+- **Entry zone:** 99 – 101 (≈ 100 ± 1%)  
+- **Stop loss:** -3% (≈ 97)  
+- **Take profit:** +6% (≈ 106)  
+- **Why:** RSI just slipped below 30, medium tier shows solid 5‑day edge.
 
-## RAJA — BUY (5‑20d hold)  
+## MINA — BUY (5-20d hold)  
+- **Triggered:** rsi_oversold  
+- **Conviction:** Medium  
+- **Historical edge:** 4.01% over 12 past trades (win rate 50.0%)  
+- **Entry zone:** 208 – 212 (≈ 210 ± 1%)  
+- **Stop loss:** -3% (≈ 203.5)  
+- **Take profit:** +6% (≈ 222.6)  
+- **Why:** Deep oversold reading (21.8) on a medium‑conviction ticker with a clean 5‑day edge.
+
+## RAJA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 690 ± 2% (≈ 676‑704)  
-- **Stop loss:** -3% below close  
-- **Take profit:** +6% above close  
-- **Why:** A sub‑30 RSI combined with a solid 3% 5‑day edge makes the signal attractive.
+- **Entry zone:** 672 – 678 (≈ 675 ± 1%)  
+- **Stop loss:** -3% (≈ 654)  
+- **Take profit:** +6% (≈ 716)  
+- **Why:** RSI 27 under 30, medium tier, strong win‑rate despite modest edge.
 
-## BIPP — BUY (5‑20d hold)  
-- **Triggered:** vol_breakout_up  
-- **Conviction:** Medium (high Sharpe for volume breakouts)  
-- **Historical edge:** 2.71% over 34 past trades (win rate 50%)  
-- **Entry zone:** 97 ± 2% (≈ 95‑99)  
-- **Stop loss:** -3% below close  
-- **Take profit:** +6% above close  
-- **Why:** Volume 3.8× average and an 11.5% price surge signal strong upward momentum with a proven 2.7% 5‑day edge.
-
-## PANI — BUY (5‑20d hold)  
+## PANI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (but included for breadth)  
+- **Conviction:** Low  
 - **Historical edge:** 1.41% over 18 past trades (win rate 55.6%)  
-- **Entry zone:** 4 960 ± 2% (≈ 4 861‑5 059)  
-- **Stop loss:** -3% below close  
-- **Take profit:** +5% above close  
-- **Why:** Deeply oversold RSI (25.2) offers a modest edge that may still play out on a rebound.
+- **Entry zone:** 4 900 – 4 940 (≈ 4 920 ± 1%)  
+- **Stop loss:** -4% (≈ 4 730)  
+- **Take profit:** +5% (≈ 5 166)  
+- **Why:** Low‑tier but still positive edge and >55% win‑rate; volume not needed for inclusion.
 
-## BNBR — BUY (5‑20d hold)  
+## BNBR — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (thin edge)  
+- **Conviction:** Low  
 - **Historical edge:** 0.48% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 81 ± 2% (≈ 79‑83)  
-- **Stop loss:** -3% below close  
-- **Take profit:** +5% above close  
-- **Why:** RSI just under 30 hints at a potential bounce despite a weak historical edge.
+- **Entry zone:** 73 – 75 (≈ 74 ± 1%)  
+- **Stop loss:** -4% (≈ 71)  
+- **Take profit:** +5% (≈ 78)  
+- **Why:** Despite a thin edge, the RSI is deep oversold and the low tier still meets the inclusive net‑casting rule.
 
 ### Market Read  
-Today's list is dominated by RSI‑oversold alerts, with two medium‑tier stocks (MINA, RAJA) offering the strongest 5‑day edges. BIPP stands out thanks to a high‑volume breakout, the only pure volume signal, giving it the best risk‑adjusted profile. Low‑tier PANI and BNBR are added for breadth; they carry modest upside potential but require tighter risk control. No negative‑tier tickers meet the 3‑strategy confluence threshold, so they are excluded.
+The market is in a modestly bearish‑to‑neutral phase, but several stocks have slipped into oversold territory, offering short‑to‑mid‑term upside. Medium‑conviction tickers (ESIP, MINA, RAJA) provide the strongest risk‑adjusted bets, while low‑tier PANI and BNBR add breadth for a diversified 5‑20‑day playbook.
