@@ -1,92 +1,74 @@
-## WIFI — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** High  
-- **Historical edge:** 9.3% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1720 ± 1% (≈ 1703 – 1747)  
-- **Stop loss:** -3% below close (≈ 1669)  
-- **Take profit:** +5% above close (≈ 1806)  
-- **Why:** RSI 29.8 just below 30 on a high‑tier ticker, strong 5‑day edge.
-
 ## WMUU — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
-- **Historical edge:** 8.2% over 13 past trades (win rate 53.8%)  
-- **Entry zone:** 43 ± 1% (≈ 42.6 – 44.4)  
+- **Historical edge:** 8.17% over 13 past trades (win rate 53.8%)  
+- **Entry zone:** 43 ± 0.5 (≈ 42.5‑43.5)  
 - **Stop loss:** -3% below close (≈ 41.7)  
-- **Take profit:** +5% above close (≈ 45.2)  
-- **Why:** Deeply oversold RSI 11.4 on a high‑tier stock.
+- **Take profit:** +6% above close (≈ 45.6)  
+- **Why:** RSI 11.4 deep‑oversold on a high‑conviction ticker with strong 5‑day edge.
 
 ## ESIP — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 4.5% over 14 past trades (win rate 42.9%)  
-- **Entry zone:** 96 ± 1% (≈ 95 – 97)  
-- **Stop loss:** -3% below close (≈ 93)  
-- **Take profit:** +5% above close (≈ 101)  
-- **Why:** RSI 26.8 signals oversold condition on a medium‑tier ticker.
+- **Historical edge:** 4.54% over 14 past trades (win rate 42.9%)  
+- **Entry zone:** 92 ± 0.5 (≈ 91.5‑92.5)  
+- **Stop loss:** -3% below close (≈ 89.2)  
+- **Take profit:** +6% above close (≈ 97.5)  
+- **Why:** RSI 24.8 signals oversold condition; medium tier with decent forward edge.
 
 ## MINA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 4.0% over 12 past trades (win rate 50%)  
-- **Entry zone:** 208 ± 1% (≈ 206 – 210)  
-- **Stop loss:** -3% below close (≈ 202)  
-- **Take profit:** +5% above close (≈ 218)  
-- **Why:** RSI 21.3, medium tier with decent 5‑day edge.
+- **Historical edge:** 4.01% over 12 past trades (win rate 50.0%)  
+- **Entry zone:** 210 ± 1 (≈ 209‑211)  
+- **Stop loss:** -3% below close (≈ 203.7)  
+- **Take profit:** +6% above close (≈ 222.6)  
+- **Why:** RSI 21.8 well below 30, medium tier, solid 5‑day expectancy.
 
 ## RAJA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 3.0% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 675 ± 1% (≈ 668 – 682)  
-- **Stop loss:** -3% below close (≈ 655)  
-- **Take profit:** +5% above close (≈ 709)  
-- **Why:** RSI 29.0 just under 30 on a medium‑tier stock with solid win rate.
+- **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)  
+- **Entry zone:** 670 ± 2 (≈ 668‑672)  
+- **Stop loss:** -3% below close (≈ 650)  
+- **Take profit:** +6% above close (≈ 710)  
+- **Why:** RSI 27.5 in oversold zone; medium tier with the highest win‑rate among peers.
 
 ## ASHA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 2.5% over 9 past trades (win rate 55.6%)  
-- **Entry zone:** 43 ± 1% (≈ 42.6 – 44.3)  
+- **Historical edge:** 2.46% over 9 past trades (win rate 55.6%)  
+- **Entry zone:** 43 ± 0.5 (≈ 42.5‑43.5)  
 - **Stop loss:** -3% below close (≈ 41.7)  
-- **Take profit:** +5% above close (≈ 45.2)  
-- **Why:** RSI 22.6, medium tier, modest edge but decent win rate.
+- **Take profit:** +6% above close (≈ 45.6)  
+- **Why:** RSI 22.6 indicates oversold; medium tier with respectable win‑rate.
 
 ## PANI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
-- **Historical edge:** 1.4% over 18 past trades (win rate 55.6%)  
-- **Entry zone:** 4830 ± 1% (≈ 4782 – 4878)  
-- **Stop loss:** -3% below close (≈ 4685)  
-- **Take profit:** +5% above close (≈ 5072)  
-- **Why:** Low‑tier but still oversold (RSI 22.9) with a positive win rate.
+- **Historical edge:** 1.41% over 18 past trades (win rate 55.6%)  
+- **Entry zone:** 4 760 ± 30 (≈ 4 730‑4 790)  
+- **Stop loss:** -3% below close (≈ 4 617)  
+- **Take profit:** +6% above close (≈ 5 046)  
+- **Why:** Low‑tier but RSI 21.8 deep oversold and volume‑driven bounce expected.
 
 ## GOTO — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
-- **Historical edge:** 0.6% over 11 past trades (win rate 36.4%)  
-- **Entry zone:** 43 ± 1% (≈ 42.6 – 44.3)  
+- **Historical edge:** 0.62% over 11 past trades (win rate 36.4%)  
+- **Entry zone:** 43 ± 0.5 (≈ 42.5‑43.5)  
 - **Stop loss:** -3% below close (≈ 41.7)  
-- **Take profit:** +5% above close (≈ 45.2)  
-- **Why:** Extremely low RSI (0.1) despite thin edge; low tier but confluence of extreme oversold.
+- **Take profit:** +6% above close (≈ 45.6)  
+- **Why:** Despite thin edge, RSI 0.1 is extreme; low tier but potential for rapid rebound.
 
 ## BNBR — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
-- **Historical edge:** 0.5% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 76 ± 1% (≈ 75 – 77)  
-- **Stop loss:** -3% below close (≈ 73.7)  
-- **Take profit:** +5% above close (≈ 79.8)  
-- **Why:** Low‑tier, barely oversold RSI 26.8; included for breadth.
-
-## NICL — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Negative-but-confluence  
-- **Historical edge:** -0.7% over 17 past trades (win rate 47.1%)  
-- **Entry zone:** 416 ± 1% (≈ 412 – 420)  
-- **Stop loss:** -3% below close (≈ 403)  
-- **Take profit:** +5% above close (≈ 437)  
-- **Why:** Despite negative tier, RSI 29.8 just under 30 offers a rare confluence; edge near zero, win rate ~50%.
+- **Historical edge:** 0.48% over 19 past trades (win rate 26.3%)  
+- **Entry zone:** 74 ± 1 (≈ 73‑75)  
+- **Stop loss:** -3% below close (≈ 71.8)  
+- **Take profit:** +6% above close (≈ 78.4)  
+- **Why:** Low‑tier, modest oversold signal; included for breadth of coverage.
 
 ### Market Read  
-Today's universe is dominated by RSI‑oversold signals, with two high‑conviction tickers (WIFI, WMUU) showing the strongest 5‑day edges. Medium‑tier names add breadth, while a few low‑tier stocks provide opportunistic tail‑risk plays. Overall bias leans bullish for the short‑to‑medium horizon.
+Today's universe is dominated by RSI‑oversold alerts, with one high‑conviction ticker (WMUU) and a cluster of medium‑tier names offering modest 5‑day edges. Low‑tier stocks add breadth but carry weaker forward expectations. Overall, the bias leans bullish for the short‑to‑medium horizon, though risk‑adjusted sizing is advised given the limited confluence beyond RSI.
