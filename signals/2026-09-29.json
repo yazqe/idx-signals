@@ -3,15 +3,29 @@
     "ticker": "ASPR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 148,
-    "vol_ratio": 5.1,
-    "pct_chg": 15.62,
-    "note": "Volume 5.1x avg + price +15.62%",
+    "close": 145,
+    "vol_ratio": 5.5,
+    "pct_chg": 13.28,
+    "note": "Volume 5.5x avg + price +13.28%",
     "history": {
       "tier": "high",
       "edge_5d": 0.12,
       "win_5d": 0.478,
       "n": 23
+    }
+  },
+  {
+    "ticker": "WIFI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 1695,
+    "rsi": 28.5,
+    "note": "RSI 28.5 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.093,
+      "win_5d": 0.7,
+      "n": 10
     }
   },
   {
@@ -60,9 +74,9 @@
     "ticker": "RAJA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 665,
-    "rsi": 28.1,
-    "note": "RSI 28.1 < 30 (oversold)",
+    "close": 660,
+    "rsi": 26.5,
+    "note": "RSI 26.5 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0301,
@@ -74,9 +88,9 @@
     "ticker": "ASHA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 39,
-    "rsi": 19.0,
-    "note": "RSI 19.0 < 30 (oversold)",
+    "close": 40,
+    "rsi": 19.8,
+    "note": "RSI 19.8 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0246,
@@ -88,14 +102,28 @@
     "ticker": "PANI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 4680,
-    "rsi": 20.6,
-    "note": "RSI 20.6 < 30 (oversold)",
+    "close": 4620,
+    "rsi": 19.7,
+    "note": "RSI 19.7 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0141,
       "win_5d": 0.556,
       "n": 18
+    }
+  },
+  {
+    "ticker": "BULL",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 346,
+    "rsi": 29.7,
+    "note": "RSI 29.7 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0123,
+      "win_5d": 0.545,
+      "n": 11
     }
   },
   {
@@ -110,6 +138,20 @@
       "edge_5d": 0.0062,
       "win_5d": 0.364,
       "n": 11
+    }
+  },
+  {
+    "ticker": "APLN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 110,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0049,
+      "win_5d": 0.5,
+      "n": 12
     }
   },
   {
@@ -130,9 +172,9 @@
     "ticker": "BKSL",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 56,
-    "rsi": 27.8,
-    "note": "RSI 27.8 < 30 (oversold)",
+    "close": 55,
+    "rsi": 25.2,
+    "note": "RSI 25.2 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0016,
@@ -144,9 +186,9 @@
     "ticker": "NICL",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 366,
-    "rsi": 20.9,
-    "note": "RSI 20.9 < 30 (oversold)",
+    "close": 368,
+    "rsi": 21.2,
+    "note": "RSI 21.2 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0065,
@@ -158,9 +200,9 @@
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1460,
-    "rsi": 27.0,
-    "note": "RSI 27.0 < 30 (oversold)",
+    "close": 1445,
+    "rsi": 26.1,
+    "note": "RSI 26.1 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
@@ -172,9 +214,9 @@
     "ticker": "EMTK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 414,
-    "rsi": 26.2,
-    "note": "RSI 26.2 < 30 (oversold)",
+    "close": 408,
+    "rsi": 22.9,
+    "note": "RSI 22.9 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0367,
@@ -186,9 +228,9 @@
     "ticker": "CDIA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 575,
-    "rsi": 29.4,
-    "note": "RSI 29.4 < 30 (oversold)",
+    "close": 570,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0373,
@@ -214,9 +256,9 @@
     "ticker": "KRYA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 47,
-    "rsi": 22.0,
-    "note": "RSI 22.0 < 30 (oversold)",
+    "close": 43,
+    "rsi": 17.2,
+    "note": "RSI 17.2 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0647,
