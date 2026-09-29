@@ -1,92 +1,86 @@
-## WIFI — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
+## ASPR — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
 - **Conviction:** High  
-- **Historical edge:** 9.3% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1 665 ± 0.5% (≈ 1 657 – 1 673)  
-- **Stop loss:** –2% (≈ 1 632)  
-- **Take profit:** +5% (≈ 1 748)  
-- **Why:** RSI 27 < 30 on a high‑tier ticker with strong 5‑day edge and solid win‑rate.
+- **Historical edge:** 12.0% over 23 past trades (win rate 47.8%)  
+- **Entry zone:** 148 ± 2 (≈146‑150)  
+- **Stop loss:** -3% (≈144)  
+- **Take profit:** +8% (≈160)  
+- **Why:** Volume 5.1× average and a 15.6% price surge signal a strong breakout.
 
 ## WMUU — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 8.2% over 13 past trades (win rate 53.8%)  
-- **Entry zone:** 37 ± 0.5% (≈ 36.8 – 37.2)  
-- **Stop loss:** –2% (≈ 36.3)  
-- **Take profit:** +5% (≈ 38.9)  
-- **Why:** Deeply oversold RSI (6.8) on a high‑tier stock, offering a clear mean‑reversion edge.
+- **Entry zone:** 37 ± 1 (≈36‑38)  
+- **Stop loss:** -3% (≈36)  
+- **Take profit:** +6% (≈39)  
+- **Why:** RSI 6.8 deep‑oversold, historically a reliable rebound trigger.
 
 ## ESIP — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 4.5% over 14 past trades (win rate 42.9%)  
-- **Entry zone:** 90 ± 0.5% (≈ 89.5 – 90.5)  
-- **Stop loss:** –2% (≈ 88.2)  
-- **Take profit:** +5% (≈ 94.5)  
-- **Why:** RSI 23.7 signals oversold condition; medium tier with modest but positive edge.
+- **Entry zone:** 95 ± 2 (≈93‑97)  
+- **Stop loss:** -3% (≈92)  
+- **Take profit:** +5% (≈100)  
+- **Why:** RSI 26.3 under 30 with modest edge; medium tier adds upside.
 
 ## MINA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 4.0% over 12 past trades (win rate 50%)  
-- **Entry zone:** 202 ± 0.5% (≈ 201 – 203)  
-- **Stop loss:** –2% (≈ 198)  
-- **Take profit:** +5% (≈ 212)  
-- **Why:** RSI 19.8, medium tier, solid win‑rate; price near support.
+- **Historical edge:** 4.0% over 12 past trades (win rate 50.0%)  
+- **Entry zone:** 206 ± 4 (≈202‑210)  
+- **Stop loss:** -3% (≈200)  
+- **Take profit:** +5% (≈216)  
+- **Why:** RSI 20.8 signals oversold condition; solid win‑rate for medium tier.
 
 ## RAJA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 3.0% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 645 ± 0.5% (≈ 642 – 648)  
-- **Stop loss:** –2% (≈ 632)  
-- **Take profit:** +5% (≈ 677)  
-- **Why:** Oversold RSI 23.8 with the highest win‑rate among medium‑tier peers.
+- **Entry zone:** 665 ± 10 (≈655‑675)  
+- **Stop loss:** -3% (≈645)  
+- **Take profit:** +5% (≈698)  
+- **Why:** Strong win‑rate despite modest edge; RSI 28.1 still below 30.
 
 ## ASHA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 2.5% over 9 past trades (win rate 55.6%)  
-- **Entry zone:** 37 ± 0.5% (≈ 36.8 – 37.2)  
-- **Stop loss:** –2% (≈ 36.3)  
-- **Take profit:** +5% (≈ 38.9)  
-- **Why:** RSI 17.6, medium tier, decent win‑rate; price poised for a bounce.
+- **Entry zone:** 39 ± 1 (≈38‑40)  
+- **Stop loss:** -3% (≈38)  
+- **Take profit:** +5% (≈41)  
+- **Why:** RSI 19.0 deep‑oversold; medium tier with decent win‑rate.
 
 ## PANI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
 - **Historical edge:** 1.4% over 18 past trades (win rate 55.6%)  
-- **Entry zone:** 4 670 ± 0.5% (≈ 4 650 – 4 690)  
-- **Stop loss:** –2% (≈ 4 575)  
-- **Take profit:** +5% (≈ 4 900)  
-- **Why:** Low‑tier but still positive edge and solid win‑rate; volume‑driven bounce plausible.
+- **Entry zone:** 4 680 ± 100 (≈4 580‑4 780)  
+- **Stop loss:** -4% (≈4 493)  
+- **Take profit:** +6% (≈4 960)  
+- **Why:** Low tier but still positive edge and win‑rate; RSI 20.6 suggests rebound.
 
 ## GOTO — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
 - **Historical edge:** 0.6% over 11 past trades (win rate 36.4%)  
-- **Entry zone:** 37 ± 0.5% (≈ 36.8 – 37.2)  
-- **Stop loss:** –2% (≈ 36.3)  
-- **Take profit:** +5% (≈ 38.9)  
-- **Why:** Extreme RSI 0 suggests severe oversoldness; low tier but still positive edge.
-
-## APLN — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low  
-- **Historical edge:** 0.5% over 12 past trades (win rate 50%)  
-- **Entry zone:** 108 ± 0.5% (≈ 107 – 109)  
-- **Stop loss:** –2% (≈ 105.6)  
-- **Take profit:** +5% (≈ 113.4)  
-- **Why:** Low‑tier with modest edge; RSI 26.2 hints at a short‑term rebound.
+- **Entry zone:** 37 ± 1 (≈36‑38)  
+- **Stop loss:** -4% (≈35.5)  
+- **Take profit:** +6% (≈39.2)  
+- **Why:** Extreme RSI 0 indicates severe oversold; low tier but still a potential bounce.
 
 ## BNBR — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Low  
 - **Historical edge:** 0.5% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 69 ± 0.5% (≈ 68.7 – 69.3)  
-- **Stop loss:** –2% (≈ 67.6)  
-- **Take profit:** +5% (≈ 72.5)  
-- **Why:** Despite low win‑rate, the sheer number of occurrences (19) gives a thin statistical edge.
+- **Entry zone:** 71 ± 2 (≈69‑73)  
+- **Stop loss:** -4% (≈68)  
+- **Take profit:** +6% (≈75)  
+- **Why:** Low tier with modest edge; RSI 21.8 still below 30.
 
-### Market Read  
-The market is currently in a risk‑on phase, with several sectors showing technical oversold pressure. While most signals are single‑strategy RSI oversold alerts, the high‑tier tickers (WIFI, WMUU) provide the strongest risk‑adjusted upside. Medium‑tier names add breadth, and a handful of low‑tier stocks offer opportunistic tail‑risk plays if volatility spikes. Overall, a diversified short‑to‑medium‑term long basket should capture the expected mean‑reversion rally.
+## NICL — BUY (5-20d hold)  
+- **Triggered:** rsi_oversold  
+- **Conviction:** Negative‑but‑confluence  
+- **Historical edge:** -0.7% over 17 past trades (win rate 47.1%)  
+- **Entry zone:** 366 ± 5
