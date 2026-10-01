@@ -2,118 +2,109 @@
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 9.3% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1 650 ± 8 (≈ 0.5%)  
-- **Stop loss:** -2% below close (≈ 1 617)  
-- **Take profit:** +5% above close (≈ 1 733)  
-- **Why:** RSI 26.1 signals strong oversold condition on a high‑tier ticker with solid 5‑day edge.
+- **Entry zone:** 1,635 ± 0.5% (≈ 1,620 – 1,650)  
+- **Stop loss:** -2% (≈ 1,603)  
+- **Take profit:** +5% (≈ 1,717)  
+- **Why:** RSI 25.3 signals strong oversold condition in a high‑conviction ticker.
 
 ## WMUU — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 8.2% over 13 past trades (win rate 53.8%)  
-- **Entry zone:** 34 ± 0.2  
+- **Entry zone:** 34 ± 0.5% (≈ 33.8 – 34.2)  
 - **Stop loss:** -2% (≈ 33.3)  
 - **Take profit:** +5% (≈ 35.7)  
-- **Why:** Deeply oversold RSI (10.7) on a high‑conviction stock; past performance shows decent upside.
+- **Why:** Deeply oversold RSI (10.7) on a high‑tier stock.
 
 ## KAQI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 8.0% over 5 past trades (win rate 60%)  
-- **Entry zone:** 78 ± 0.4  
-- **Stop loss:** -2% (≈ 76.4)  
-- **Take profit:** +5% (≈ 81.9)  
-- **Why:** RSI 25.7 places KAQI in oversold territory; high tier and respectable win rate justify a short‑to‑mid‑term bet.
+- **Entry zone:** 79 ± 0.5% (≈ 78.6 – 79.4)  
+- **Stop loss:** -2% (≈ 77.4)  
+- **Take profit:** +5% (≈ 82.9)  
+- **Why:** RSI 26.6 below 30 with solid high‑tier edge.
 
 ## ESIP — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 4.5% over 14 past trades (win rate 42.9%)  
-- **Entry zone:** 97 ± 0.5  
-- **Stop loss:** -2% (≈ 95.1)  
-- **Take profit:** +5% (≈ 101.9)  
-- **Why:** Medium‑tier oversold signal; modest edge but enough to merit inclusion.
+- **Entry zone:** 95 ± 0.5% (≈ 94.5 – 95.5)  
+- **Stop loss:** -2% (≈ 93.1)  
+- **Take profit:** +5% (≈ 99.8)  
+- **Why:** Medium‑tier oversold signal with decent win‑rate.
+
+## BRMS — BUY (5-20d hold)  
+- **Triggered:** rsi_oversold  
+- **Conviction:** Medium  
+- **Historical edge:** 4.1% over 14 past trades (win rate 71.4%)  
+- **Entry zone:** 555 ± 0.5% (≈ 552 – 558)  
+- **Stop loss:** -2% (≈ 544)  
+- **Take profit:** +5% (≈ 582)  
+- **Why:** Oversold RSI and strong medium‑tier win‑rate.
 
 ## MINA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 4.0% over 12 past trades (win rate 50%)  
-- **Entry zone:** 200 ± 1  
-- **Stop loss:** -2% (≈ 196)  
-- **Take profit:** +5% (≈ 210)  
-- **Why:** RSI 19.2 indicates clear oversoldness; medium tier with a balanced win record.
+- **Entry zone:** 202 ± 0.5% (≈ 201 – 203)  
+- **Stop loss:** -2% (≈ 198)  
+- **Take profit:** +5% (≈ 212)  
+- **Why:** Medium‑tier RSI oversold signal with balanced edge.
 
 ## RAJA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 3.0% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 665 ± 3.3  
-- **Stop loss:** -2% (≈ 652)  
-- **Take profit:** +5% (≈ 698)  
-- **Why:** Strong win‑rate despite modest edge; RSI 28.3 still below 30, suggesting upside.
+- **Entry zone:** 660 ± 0.5% (≈ 658 – 662)  
+- **Stop loss:** -2% (≈ 647)  
+- **Take profit:** +5% (≈ 693)  
+- **Why:** Medium‑tier oversold reading with respectable win‑rate.
+
+## ENRG — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** Medium (volume breakout)  
+- **Historical edge:** 2.6% over 30 past trades (win rate 46.7%)  
+- **Entry zone:** 1,410 ± 0.5% (≈ 1,405 – 1,415)  
+- **Stop loss:** -2% (≈ 1,380)  
+- **Take profit:** +5% (≈ 1,480)  
+- **Why:** Volume >2× average and price up >4% – the strongest Sharpe‑weighted signal.
 
 ## ASHA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 2.5% over 9 past trades (win rate 55.6%)  
-- **Entry zone:** 41 ± 0.2  
+- **Entry zone:** 41 ± 0.5% (≈ 40.8 – 41.2)  
 - **Stop loss:** -2% (≈ 40.2)  
-- **Take profit:** +5% (≈ 43.1)  
-- **Why:** Medium tier with decent win ratio; RSI 23.1 signals a buying opportunity.
+- **Take profit:** +5% (≈ 43)  
+- **Why:** Medium‑tier RSI oversold with modest edge.
 
 ## GJTL — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
 - **Historical edge:** 2.4% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1 215 ± 6 (≈ 0.5%)  
-- **Stop loss:** -2% (≈ 1 191)  
-- **Take profit:** +5% (≈ 1 276)  
-- **Why:** High win‑rate (70%) on a medium‑tier oversold signal; edge still positive.
+- **Entry zone:** 1,225 ± 0.5% (≈ 1,223 – 1,227)  
+- **Stop loss:** -2% (≈ 1,200)  
+- **Take profit:** +5% (≈ 1,286)  
+- **Why:** RSI just at the 30 threshold, medium tier, high win‑rate.
 
 ## CBDK — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low  
+- **Conviction:** Low (but edge >1%)  
 - **Historical edge:** 1.6% over 13 past trades (win rate 61.5%)  
-- **Entry zone:** 3 290 ± 16 (≈ 0.5%)  
-- **Stop loss:** -2% (≈ 3 224)  
-- **Take profit:** +5% (≈ 3 455)  
-- **Why:** Low tier but decent win rate and positive edge; RSI 29.1 just under 30.
+- **Entry zone:** 3,300 ± 0.5% (≈ 3,290 – 3,310)  
+- **Stop loss:** -2% (≈ 3,234)  
+- **Take profit:** +5% (≈ 3,465)  
+- **Why:** Low‑tier but still positive edge and decent win‑rate.
 
 ## PANI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low  
+- **Conviction:** Low (edge >1%)  
 - **Historical edge:** 1.4% over 18 past trades (win rate 55.6%)  
-- **Entry zone:** 4 450 ± 22 (≈ 0.5%)  
-- **Stop loss:** -2% (≈ 4 361)  
-- **Take profit:** +5% (≈ 4 673)  
-- **Why:** Low tier yet solid win percentage; RSI 17.5 deep oversold.
-
-## GOTO — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low  
-- **Historical edge:** 0.6% over 11 past trades (win rate 36.4%)  
-- **Entry zone:** 28 ± 0.1  
-- **Stop loss:** -2% (≈ 27.4)  
-- **Take profit:** +5% (≈ 29.4)  
-- **Why:** Very low edge but still oversold; inclusion for breadth of low‑tier opportunities.
-
-## APLN — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low  
-- **Historical edge:** 0.5% over 12 past trades (win rate 50%)  
-- **Entry zone:** 104 ± 0.5  
-- **Stop loss:** -2% (≈ 101.9)  
-- **Take profit:** +5% (≈ 109.2)  
-- **Why:** Minimal edge but RSI 25.6 suggests potential bounce; low tier but balanced win rate.
-
-## BNBR — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low  
-- **Historical edge:** 0.5% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 72 ± 0.4  
-- **Stop loss:** -2% (≈ 70.6)  
-- **Take profit:** +5% (≈ 75.6)  
-- **Why:** Edge barely positive; included to fill low‑tier list despite weak win record.
+- **Entry zone:** 4,450 ± 0.5% (≈ 4,440 – 4,460)  
+- **Stop loss:** -2% (≈ 4,361)  
+- **Take profit:** +5% (≈ 4,672)  
+- **Why:** Low‑tier but still positive edge; RSI deep oversold.
 
 ### Market Read  
-Oversold RSI signals dominate today, with three high‑conviction tickers (WIFI, WMUU, KAQI) offering the strongest 5‑day edges. Medium‑tier names add breadth, while a handful of low‑tier stocks provide optional upside for risk‑tolerant traders. No negative‑tier or multi‑strategy confluence appears, so the list leans toward the higher‑tier, higher‑edge candidates.
+Today's universe is dominated by strong RSI‑oversold signals across high‑ and medium‑conviction stocks, with ENRG providing the only volume‑breakout edge. The bulk of picks sit in the 2‑5% edge range, offering modest upside over a 5‑20‑day horizon while keeping risk limited. A broader net is warranted given the overall oversold bias, but watch for any rapid reversals that could erode the modest edges.
