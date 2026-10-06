@@ -17,9 +17,9 @@
     "ticker": "WMUU",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 33,
-    "rsi": 24.9,
-    "note": "RSI 24.9 < 30 (oversold)",
+    "close": 32,
+    "rsi": 21.4,
+    "note": "RSI 21.4 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0817,
@@ -45,29 +45,15 @@
     "ticker": "SMDR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 428,
-    "vol_ratio": 3.1,
-    "pct_chg": 7.54,
-    "note": "Volume 3.1x avg + price +7.54%",
+    "close": 424,
+    "vol_ratio": 3.6,
+    "pct_chg": 6.53,
+    "note": "Volume 3.6x avg + price +6.53%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0053,
       "win_5d": 0.538,
       "n": 26
-    }
-  },
-  {
-    "ticker": "NICL",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 370,
-    "rsi": 28.8,
-    "note": "RSI 28.8 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0065,
-      "win_5d": 0.471,
-      "n": 17
     }
   }
 ]
