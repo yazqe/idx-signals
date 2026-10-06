@@ -3,9 +3,9 @@
     "ticker": "WIFI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1465,
-    "rsi": 21.7,
-    "note": "RSI 21.7 < 30 (oversold)",
+    "close": 1450,
+    "rsi": 20.3,
+    "note": "RSI 20.3 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.093,
@@ -42,12 +42,27 @@
     }
   },
   {
+    "ticker": "SMDR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 428,
+    "vol_ratio": 3.1,
+    "pct_chg": 7.54,
+    "note": "Volume 3.1x avg + price +7.54%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0053,
+      "win_5d": 0.538,
+      "n": 26
+    }
+  },
+  {
     "ticker": "NICL",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 354,
-    "rsi": 21.5,
-    "note": "RSI 21.5 < 30 (oversold)",
+    "close": 370,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0065,
