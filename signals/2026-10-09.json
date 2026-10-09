@@ -1,11 +1,26 @@
 [
   {
+    "ticker": "ASPR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 157,
+    "vol_ratio": 2.8,
+    "pct_chg": 9.03,
+    "note": "Volume 2.8x avg + price +9.03%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.12,
+      "win_5d": 0.478,
+      "n": 23
+    }
+  },
+  {
     "ticker": "WIFI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1380,
-    "rsi": 17.9,
-    "note": "RSI 17.9 < 30 (oversold)",
+    "close": 1390,
+    "rsi": 18.3,
+    "note": "RSI 18.3 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.093,
@@ -17,9 +32,9 @@
     "ticker": "WMUU",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 30,
-    "rsi": 24.1,
-    "note": "RSI 24.1 < 30 (oversold)",
+    "close": 31,
+    "rsi": 27.3,
+    "note": "RSI 27.3 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0817,
@@ -31,14 +46,29 @@
     "ticker": "KOTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 123,
-    "rsi": 27.8,
-    "note": "RSI 27.8 < 30 (oversold)",
+    "close": 127,
+    "rsi": 28.9,
+    "note": "RSI 28.9 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0621,
       "win_5d": 0.583,
       "n": 12
+    }
+  },
+  {
+    "ticker": "ARCI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 1305,
+    "vol_ratio": 2.2,
+    "pct_chg": 5.24,
+    "note": "Volume 2.2x avg + price +5.24%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0453,
+      "win_5d": 0.541,
+      "n": 37
     }
   },
   {
@@ -53,20 +83,6 @@
       "edge_5d": 0.0062,
       "win_5d": 0.364,
       "n": 11
-    }
-  },
-  {
-    "ticker": "BNBR",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 71,
-    "rsi": 27.8,
-    "note": "RSI 27.8 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0048,
-      "win_5d": 0.263,
-      "n": 19
     }
   },
   {
@@ -87,9 +103,9 @@
     "ticker": "EMTK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 382,
-    "rsi": 28.9,
-    "note": "RSI 28.9 < 30 (oversold)",
+    "close": 384,
+    "rsi": 29.9,
+    "note": "RSI 29.9 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0367,

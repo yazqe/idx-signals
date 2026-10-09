@@ -1,47 +1,56 @@
+## ASPR — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 12.0% over 23 past trades (win rate 47.8%)  
+- **Entry zone:** 155 – 159 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 149)  
+- **Take profit:** +10% above close (≈ 173)  
+- **Why:** Volume surged to 2.8× average and price jumped 9%, the strongest breakout in the list.
+
 ## WIFI — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
-- **Historical edge:** 9.3% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1380 ± 1% (≈ 1366 – 1394)  
-- **Stop loss:** -3% below close (≈ 1338)  
-- **Take profit:** +6% above close (≈ 1463)  
-- **Why:** RSI 17.9 signals deep oversold condition with a strong high‑tier historical edge.
+- **Historical edge:** 9.3% over 10 past trades (win rate 70.0%)  
+- **Entry zone:** 1380 – 1400 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 1320)  
+- **Take profit:** +10% above close (≈ 1529)  
+- **Why:** RSI at 18.3 signals deep oversold conditions with a solid win record.
 
 ## WMUU — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 8.2% over 13 past trades (win rate 53.8%)  
-- **Entry zone:** 30 ± 1% (≈ 29.7 – 30.3)  
-- **Stop loss:** -3% below close (≈ 29.1)  
-- **Take profit:** +6% above close (≈ 31.8)  
-- **Why:** RSI 24.1 well below 30, matching a high‑tier edge despite modest win rate.
+- **Entry zone:** 30 – 32 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 29.5)  
+- **Take profit:** +10% above close (≈ 34.1)  
+- **Why:** RSI 27.3 sits just below 30, offering a modest but reliable rebound pattern.
 
 ## KOTA — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
 - **Historical edge:** 6.2% over 12 past trades (win rate 58.3%)  
-- **Entry zone:** 123 ± 1% (≈ 121.8 – 124.2)  
-- **Stop loss:** -3% below close (≈ 119.2)  
-- **Take profit:** +6% above close (≈ 130.4)  
-- **Why:** RSI 27.8 signals oversold; high‑tier record justifies a bullish stance.
+- **Entry zone:** 125 – 129 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 120.7)  
+- **Take profit:** +10% above close (≈ 139.7)  
+- **Why:** RSI 28.9 indicates oversold status; high‑tier edge justifies a short‑term play.
+
+## ARCI — BUY (5-20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** Medium  
+- **Historical edge:** 4.5% over 37 past trades (win rate 54.1%)  
+- **Entry zone:** 1300 – 1310 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 1240)  
+- **Take profit:** +10% above close (≈ 1435)  
+- **Why:** Volume 2.2× average with a 5.2% price rise gives a solid momentum signal despite a medium tier.
 
 ## GOTO — BUY (5-20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for low‑tier confluence)  
+- **Conviction:** Low (included for deep oversold RSI)  
 - **Historical edge:** 0.6% over 11 past trades (win rate 36.4%)  
-- **Entry zone:** 29 ± 1% (≈ 28.7 – 29.3)  
-- **Stop loss:** -3% below close (≈ 28.1)  
-- **Take profit:** +6% above close (≈ 30.7)  
-- **Why:** RSI 16.5 is deep oversold; despite thin edge, the signal may capture a short‑term bounce.
-
-## BNBR — BUY (5-20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for low‑tier confluence)  
-- **Historical edge:** 0.5% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 71 ± 1% (≈ 70.3 – 71.7)  
-- **Stop loss:** -3% below close (≈ 68.9)  
-- **Take profit:** +6% above close (≈ 75.3)  
-- **Why:** RSI 27.8 flags oversold; low‑tier edge still merits a speculative play.
+- **Entry zone:** 28 – 30 (≈ ±1% of close)  
+- **Stop loss:** -5% below close (≈ 27.5)  
+- **Take profit:** +10% above close (≈ 33)  
+- **Why:** RSI 16.5 is well below 30, offering a speculative rebound despite thin edge.
 
 ### Market Read  
-Today's RSI‑oversold landscape highlights three high‑conviction tickers (WIFI, WMUU, KOTA) with solid 5‑day edges, while two low‑tier names (GOTO, BNBR) offer speculative upside. Volume data is absent, so risk‑adjusted stops are tight. Overall bias remains bullish on oversold equities pending broader market direction.
+Today's landscape is dominated by strong volume breakouts (ASPR, ARCI) and clear oversold RSI signals (WIFI, WMUU, KOTA). The high‑tier oversold stocks provide the best risk‑adjusted upside, while the medium‑tier volume breakout ARCI adds breadth. Low‑tier GOTO is a marginal play, included for completeness. Overall, momentum and mean‑reversion cues align for a short‑to‑medium term bullish bias.
