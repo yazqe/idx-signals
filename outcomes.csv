@@ -703,3 +703,10 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-10-07,WIFI,rsi_oversold,BUY,1395,0.0036,,,2026-10-08T05:18:27
 2026-10-07,WMUU,rsi_oversold,BUY,32,0.0,,,2026-10-08T05:18:27
 2026-10-07,GOTO,rsi_oversold,BUY,30,0.0,,,2026-10-08T05:18:27
+2026-10-08,WIFI,rsi_oversold,BUY,1350,0.0074,,,2026-10-09T05:18:39
+2026-10-08,WMUU,rsi_oversold,BUY,29,-0.0345,,,2026-10-09T05:18:39
+2026-10-08,BREN,rsi_oversold,BUY,2670,0.0,,,2026-10-09T05:18:39
+2026-10-08,GOTO,rsi_oversold,BUY,29,0.0,,,2026-10-09T05:18:39
+2026-10-08,BNBR,rsi_oversold,BUY,72,-0.0417,,,2026-10-09T05:18:39
+2026-10-08,NICL,rsi_oversold,BUY,360,0.0,,,2026-10-09T05:18:39
+2026-10-08,EMTK,rsi_oversold,BUY,384,-0.0104,,,2026-10-09T05:18:39
