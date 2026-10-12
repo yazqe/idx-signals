@@ -1,46 +1,48 @@
 # Hermes Review — 2026‑10‑12  
 
-## 1. Sanity Check (math + logic)  
+## 1. Sanity Check (math + logic)
 
-- **WIFI**: No explicit R/R figure is provided, yet the implied R/R = (1463‑1380)/(1380‑1338) ≈ **1.98 : 1**. The author never states this, violating the “R/R math” requirement. The SL is a flat **‑3 %** move, not anchored to a technical support level (e.g., a recent swing low or ATR‑based stop). TP is a flat **+6 %** target, also not tied to a visible resistance zone.  
-- **WMUU**: Implied R/R = (31.8‑30)/(30‑29.1) ≈ **2.00 : 1**. Again, no R/R is quoted. SL = **‑3 %** with no justification beyond a generic rule‑of‑thumb. TP = **+6 %** with no resistance reference.  
-- **KOTA**: Implied R/R = (134.5‑127)/(127‑123) ≈ **1.88 : 1**. Same issues: SL is a blunt **‑3 %** stop, not tied to a price structure; TP is a flat **+6 %** without a resistance anchor.  
-- **GOTO**: Implied R/R = (30.7‑29)/(29‑28.1) ≈ **1.89 : 1**. The author labels conviction as **Low**, yet still presents the same mechanical SL/TP framework as the high‑conviction picks, which is inconsistent with the “conviction tier” expectation.  
+- **WIFI**: R/R = (1.06 × Entry – Entry) / (Entry – 0.97 × Entry) = 2.0 → mathematically correct, but **SL is a flat –3 %** with no reference to a support level. **TP (+6 %)** is not tied to any identified resistance. Conviction “High” rests solely on RSI‑oversold; thin evidential base → **tier inflation**.  
+- **WMUU**: R/R = 2.0 (clean). **SL –3 %** again arbitrary; no structural stop. **TP +6 %** unsupported. Conviction “High” despite a **53.8 % win‑rate** (only marginally better than random) → **tier inflation**.  
+- **KOTA**: R/R = 2.0 (clean). Same **arbitrary SL/TP** issue. Conviction “High” with **58.3 % win‑rate** and modest 6.2 % edge → **tier inflation**.  
+- **MINA**: R/R = 2.0 (clean). **SL –3 %** not anchored to a price level; **TP +6 %** unsubstantiated. Conviction “Medium” while edge is only **4.0 %** and win‑rate **50 %** → **tier deflation** (medium tier not justified).  
+- **BREN**: R/R = 2.0 (clean). Same SL/TP weakness. Conviction “Medium” with **3.3 % edge** and **66.7 % win‑rate** – edge too thin for a medium tier → **tier inflation**.  
+- **PTRO**: R/R = 2.0 (clean). **SL/TP** still arbitrary. Conviction “Low” but edge **1.8 %** and win‑rate **63.6 %** – low tier despite decent win‑rate, inconsistent labeling.  
+- **TPIA**: R/R = 2.0 (clean). Same SL/TP problem. Low conviction with **1.5 % edge** and **52.6 % win‑rate** – borderline viable but still **arbitrary stop placement**.  
+- **CUAN**: R/R = 2.0 (clean). SL/TP arbitrary. Low conviction, edge **1.2 %**, win‑rate **57.1 %** – thin edge, risk of slippage.  
+- **GOTO**: R/R = 2.0 (clean). SL/TP arbitrary. Low conviction, edge **0.6 %**, win‑rate **36.4 %** – **major red flag**; edge far below noise level, SL/TP not justified.  
+- **BNBR**: R/R = 2.0 (clean). SL/TP arbitrary. Low conviction, edge **0.5 %**, win‑rate **26.3 %** – **unacceptable risk/reward**; SL/TP not based on market structure.  
 
-**Overall**: All four picks are mathematically consistent in the sense that the implied R/R hovers around 2:1, but the analysis **fails to disclose** the R/R figure, and the stop‑loss / take‑profit levels are **arbitrarily set at ±3 % / +6 %** rather than being anchored to market structure (support, resistance, ATR, or volatility‑adjusted levels). This constitutes a **sanity‑check failure** for each ticker.  
+**Summary**: All picks mathematically yield a 2:1 R/R, but **SL and TP are purely percentage‑based**, lacking support/resistance justification. Conviction tiers are frequently mismatched to the underlying win‑rate/edge, resulting in tier inflation for several “high” picks and tier deflation for some “medium” picks.
 
-## 2. Contradiction Hunter  
+---
 
-1. **Conviction vs. methodology** – The author assigns **“High” conviction** to WIFI, WMUU, and KOTA **solely on an RSI‑oversold trigger**, yet provides **no additional confluence** (e.g., volume surge, trend‑line bounce, or multi‑time‑frame confirmation). Meanwhile, GOTO is labeled **“Low” conviction** but is still presented alongside the high‑conviction picks, implying the same trade‑size and risk profile. This creates a **conviction inconsistency**: a low‑confidence signal is treated identically to high‑confidence signals.  
+## 2. Contradiction Hunter
 
-2. **Uniform SL/TP rule vs. ticker volatility** – The analysis applies a **fixed –3 % / +6 %** rule to all four stocks, ignoring the fact that **different securities have vastly different volatility profiles**. For a low‑priced, high‑beta ticker (e.g., WMUU at ~30 IDR), a 3 % stop may be too tight, while for a higher‑priced, lower‑beta ticker (WIFI at ~1,380 IDR) a 3 % stop may be overly wide. This uniformity contradicts prudent risk‑adjusted stop placement.  
+1. **“High” conviction vs. weak win‑rate** – WMUU is labeled *High* yet its historical win‑rate is **53.8 %**, barely above a coin‑flip, contradicting the implied confidence.  
+2. **Low‑tier picks with positive edge** – PTRO, TPIA, CUAN are marked *Low* despite **win‑rates >60 %** (PTRO 63.6 %). The author’s own data would justify at least a *Medium* tier, creating an internal inconsistency.  
+3. **GOTO’s inclusion** – The author states “low tier but potential for quick bounce” while simultaneously noting a **36.4 % win‑rate** and a **0.6 % edge**; the narrative conflicts with the risk‑averse stance implied elsewhere (e.g., “high‑conviction” picks).  
 
-## 3. Hidden Risks  
+---
 
-- **Sector concentration** – All four symbols are **RSI‑oversold picks**, which often cluster in **cyclical or momentum‑sensitive sectors** (e.g., consumer discretionary, small‑cap tech). If the underlying sector experiences a macro‑shift (e.g., a sudden risk‑off), the entire basket could be hit simultaneously, inflating sector‑specific VaR.  
+## 3. Hidden Risks
 
-- **Liquidity risk** – No volume data is supplied. Assuming any of these are **thinly traded small‑caps**, a **15 %‑20 % position** could easily move the market, causing slippage on entry/exit. The analysis does not screen for average daily volume relative to the intended position size.  
+- **Sector concentration**: All ten tickers are drawn from the same *RSI‑oversold* filter, likely clustering in similar low‑price, high‑volatility segments (many appear to be small‑cap or commodity‑linked stocks). This creates a hidden sector/strategy concentration risk – a sector‑wide reversal would hit the entire basket.  
+- **Liquidity risk**: Several tickers (e.g., **GOTO**, **BNBR**) trade at low absolute price levels and are likely thinly traded. Position sizing based on a flat 2:1 R/R could easily exceed daily volume, raising slippage risk.  
+- **Correlation risk**: All picks share the same trigger (RSI oversold) and similar price‑movement expectations (5‑day rebound). Their price paths are highly correlated, eroding true diversification.  
+- **Timing / chase risk**: The analysis does not check whether any of the stocks have already rallied >15 % today. If any have already made a bounce, entering at the top of the entry band could lead to immediate pull‑back.  
+- **Stale data / indicator overlap**: The entire framework relies solely on RSI, ignoring other momentum, volume, or macro‑fundamental signals. RSI alone can generate false‑positive oversold conditions, especially in a broadly bearish market. No cross‑validation (e.g., MACD, OBV) is presented, inflating confidence.  
 
-- **Correlation risk** – All four picks are generated from the **same RSI‑oversold filter**, meaning they are **highly correlated** in signal generation. This creates a false sense of diversification; a single reversal in market sentiment could invalidate the entire set simultaneously.  
+---
 
-- **Timing / chase risk** – If any of these stocks have already **gapped up >10 %** earlier in the session (common for oversold rebounds), the remaining upside may be limited, while the downside risk (gap‑down at open) is **under‑estimated**. The analysis does not check recent price action to avoid “chasing” a move that may already be priced in.  
+## 4. What the Author Got Right
 
-- **Stale data / over‑fitting** – The “historical edge” percentages (e.g., 9.3 % for WIFI) are **aggregated over the last 10‑13 trades** without specifying the time horizon of those trades. If those trades span a **different market regime** (e.g., pre‑COVID vs. post‑COVID), the edge may be **stale** and not predictive of current dynamics.  
+The author correctly identified that a **sub‑5 % RSI reading** historically correlates with short‑term rebounds for a subset of Indonesian equities, and they quantified the historical edge and win‑rate for each ticker, providing a transparent performance baseline.
 
-- **Indicator overlap** – The entire screen relies on a **single indicator (RSI oversold)**. There is **no independent confirmation** (e.g., moving‑average cross, volume spike, or macro‑fundamental catalyst). This creates a **false confluence** effect, inflating confidence without true multi‑signal support.  
+---
 
-## 4. What the Author Got Right  
+## 5. Critical Recommendations
 
-The author correctly identifies that **deeply oversold RSI levels (below 30)** can signal short‑term mean‑reversion potential, and the back‑tested “historical edge” figures (e.g., 9.3 % for WIFI) suggest that, historically, such oversold signals have delivered a modest positive expectancy for the selected tickers.  
-
-## 5. Critical Recommendations  
-
-1. **Explicit R/R disclosure & structure‑based stops** – For each ticker, calculate and **state the exact R/R ratio** (e.g., “2.0 : 1”). Replace the flat **‑3 %** stop with a **support‑based stop** (e.g., recent swing low, ATR‑based level, or a key moving‑average). Align TP with a **visible resistance zone** (previous swing high, Fibonacci extension, etc.).  
-
-2. **Adjust SL/TP to individual volatility** – Use each stock’s **average true range (ATR)** or **30‑day volatility** to size stops and targets proportionally (e.g., 1.5 × ATR for stop, 2 × ATR for target). This prevents over‑tight stops on volatile stocks (WMUU) and over‑wide stops on low‑volatility stocks (WIFI).  
-
-3. **Diversify signal generation** – Augment the RSI‑oversold filter with at least **one additional, independent signal** (e.g., volume surge, bullish candlestick pattern, or multi‑time‑frame confirmation). This reduces correlation risk across the four picks and ensures that each trade has a **distinct confluence** rather than a blanket RSI trigger.  
-
----  
-
-*End of review.*
+1. **Replace flat percentage stops with structure‑based SLs** – locate the nearest technical support (e.g., prior swing low, moving average, or ATR‑based band) for each ticker and set the stop just below that level. This will align risk with market reality and prevent arbitrary 3 % cuts.  
+2. **Re‑grade conviction tiers** – Align the conviction label to the empirical win‑rate/edge (e.g., *High* only for win‑rates >65 % and edge >5 %). Downgrade WMUU, BREN, and GOTO to reflect their weaker statistical backing, and upgrade PTRO/TPIA if you wish to keep them.  
+3. **Trim the low‑edge, low‑win‑rate picks** – Remove **GOTO** and **BNBR** (edges <1 % and win‑rates <30 %). Their risk‑reward profile does not meet a sensible threshold for a 5‑20 day trade, and they inflate portfolio‑wide downside risk. Consider replacing them with higher‑edge, higher‑win‑rate candidates or a non‑RSI filter.
