@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "WIFI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 1380,
+    "rsi": 18.5,
+    "note": "RSI 18.5 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.093,
+      "win_5d": 0.7,
+      "n": 10
+    }
+  },
+  {
+    "ticker": "WMUU",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 30,
+    "rsi": 24.1,
+    "note": "RSI 24.1 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0817,
+      "win_5d": 0.538,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "KOTA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 127,
+    "rsi": 28.8,
+    "note": "RSI 28.8 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0621,
+      "win_5d": 0.583,
+      "n": 12
+    }
+  },
+  {
+    "ticker": "GOTO",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 29,
+    "rsi": 16.5,
+    "note": "RSI 16.5 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0062,
+      "win_5d": 0.364,
+      "n": 11
+    }
+  },
+  {
+    "ticker": "NICL",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 360,
+    "rsi": 29.4,
+    "note": "RSI 29.4 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0065,
+      "win_5d": 0.471,
+      "n": 17
+    }
+  }
+]
