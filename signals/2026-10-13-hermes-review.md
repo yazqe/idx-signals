@@ -1,69 +1,75 @@
 # Hermes Review — 2026‑10‑13  
 
-## 1. Sanity Check (math + logic)
+## 1. Sanity Check (math + logic)  
 
-- **WIFI** – R/R not disclosed. With a +5 % TP and ‑2 % SL the theoretical R/R = 2.5×. The author never states this, leaving the risk‑reward unclear.  
-- **WMUU** – Same issue: implied R/R = 2.5 but not reported.  
-- **KOTA** – Same issue; R/R = 2.5 not mentioned.  
-- **BREN** – Implied R/R = 2.5; the “medium” conviction is not justified by the modest 3.3 % edge.  
-- **PTRO** – Implied R/R = 2.5; “low” conviction is inconsistent with a 5 % TP on a 2 % SL – the edge (1.8 %) is far smaller than the risk taken.  
-- **TPIA** – Implied R/R = 2.5; again no explicit R/R.  
-- **CUAN** – Implied R/R = 2.5; no R/R disclosed.  
-- **GOTO** – Implied R/R = 2.5; win‑rate only 36.4 % – a “low” conviction is at odds with a 5 % TP that is more than double the SL, yet the edge is only 0.62 %.  
-- **BNBR** – Implied R/R = 2.5; win‑rate 26.3 % – recommending a BUY despite a sub‑30 % success rate is a glaring inconsistency.  
+- **WIFI**: ✓ clean (RR ≈ 2.0, SL = –3 % of close, TP = +6 %).  
+- **WMUU**: **⚠️** RR ≈ 2.0 but win‑rate = 53.8 % – far below “high” conviction threshold; the SL is a flat –3 % rather than volatility‑based, making the trade overly tight.  
+- **KOTA**: ✓ clean (RR ≈ 2.0, win‑rate = 58.3 % – still modest for a “high” conviction label).  
+- **BREN**: ✓ clean (RR ≈ 2.0, but edge = 3.3 % with a **high** win‑rate = 66.7 % – mismatch: a *medium* conviction would be more appropriate given the thin edge.  
+- **RAJA**: ✓ clean (RR ≈ 2.0, edge = 3.0 % but win‑rate = 64.3 % – again a *medium* label fits better than “medium” (acceptable).  
+- **PTRO**: **⚠️** Conviction *low* yet win‑rate = 63.6 % (relatively strong) and edge = 1.8 % – the low‑conviction tag is inconsistent with the win‑rate evidence.  
+- **TPIA**: **⚠️** Low conviction, win‑rate = 52.6 % (just above break‑even) but edge = 1.5 % – the edge is marginal; a tighter SL or higher TP would be needed to justify the trade.  
+- **CUAN**: ✓ clean (RR ≈ 2.1, edge = 1.2 % with win‑rate = 57.1 % – low edge but acceptable win‑rate; still a thin margin.  
+- **GOTO**: **⚠️** Low conviction, win‑rate = 36.4 % (well below 50 %) while edge = 0.6 % – the signal is weak; recommending a BUY is contradictory to the poor win‑rate.  
+- **BNBR**: **⚠️** Low conviction, win‑rate = 26.3 % (very poor) with edge = 0.5 % – the trade is fundamentally unsound; SL/TP are arbitrary and the win‑rate suggests a net‑loss expectation.  
+- **ESIP**: **⚠️** Conviction *high* but win‑rate = 45.8 % (below 50 %) despite a “massive volume breakout” claim; the RR is 2:1, yet the edge (6.2 %) is modest and the win‑rate contradicts the “high‑Sharpe” narrative.  
 
-**SL placement** – All stops are set at a flat ‑2 % below the current close, regardless of nearby support, trend‑line, or volatility‑adjusted ATR. This is an arbitrary percentage rather than a structure‑based level.  
+**SL placement** – All stops are a flat –3 % regardless of each stock’s volatility. For many of these tickers (e.g., WMUU, GOTO, BNBR) a 3 % stop is **arbitrarily tight** and will likely be hit on normal intraday swings.  
 
-**TP placement** – All targets are a flat +5 % above the close, with no reference to identified resistance, Fibonacci extensions, or historical swing highs. The uniform 5 % target ignores the differing price dynamics of each ticker.  
+**TP placement** – All targets are a flat +6 % above the close, with no reference to actual resistance levels, trend lines, or Fibonacci extensions. This uniform approach ignores price‑action context.  
 
-**Tier consistency** – The three “high‑conviction” picks (WIFI, WMUU, KOTA) are justified only by an RSI‑oversold signal and a historical edge that, while positive, is modest (9.3 %, 8.2 %, 6.2 %). No additional confluence (volume surge, chart pattern, macro catalyst) is presented, suggesting tier inflation. Conversely, “low‑conviction” picks such as GOTO (win‑rate 36.4 %) and BNBR (win‑rate 26.3 %) are still given a BUY recommendation, which is a tier deflation (low conviction but still a full‑blown recommendation).  
-
-**Overall** – No ticker passes a clean sanity check; each suffers from missing R/R disclosure, arbitrary stop‑loss/target levels, and mismatched conviction tiers.
-
----
-
-## 2. Contradiction Hunter
-
-1. **BNBR – “Low” conviction vs. 26.3 % win‑rate**  
-   > *Quote*: “Low tier but still qualifies for a speculative short‑term play.”  
-   > *Why contradictory*: A win‑rate below 30 % is statistically worse than random guessing on a binary outcome; labeling it “low tier” yet still recommending a BUY creates a mixed signal about risk tolerance.
-
-2. **GOTO – “Low” conviction vs. 0.62 % edge & 36.4 % win‑rate**  
-   > *Quote*: “Deeply oversold RSI 14.7; despite thin edge, confluence of extreme RSI merits a watch.”  
-   > *Why contradictory*: The author calls the signal “merits a watch” (implying a potential entry) while simultaneously assigning a “low” conviction, yet still provides a full‑blown entry/SL/TP plan. The low win‑rate should have prompted a “avoid” label, not a BUY.
-
-3. **Overall bias vs. individual risk**  
-   > *Quote*: “Overall bias remains bullish for the next 1‑3 weeks, but risk‑adjusted stops are essential given the thin edges on many low‑tier names.”  
-   > *Why contradictory*: The bullish macro bias is presented as a blanket endorsement, yet the analysis fails to reconcile that bias with the weak statistical edges of the low‑tier picks, creating a mismatch between market outlook and individual trade justification.
+**Tier consistency** – Several picks suffer tier inflation (WIFI, WMUU, KOTA labelled “high” despite modest win‑rates) or tier deflation (PTRO, ESIP labelled “low” despite relatively strong win‑rates).  
 
 ---
 
-## 3. Hidden Risks
+## 2. Contradiction Hunter  
 
-- **Sector concentration** – Six of the nine picks (WIFI, WMUU, KOTA, PTRO, TPIA, GOTO) belong to the **technology / consumer‑electronics** cluster (small‑cap, high‑beta, often tied to the same supply‑chain dynamics). A sector‑specific shock (e.g., a sudden tech‑sector sell‑off or regulatory change) could wipe out the majority of the portfolio in one move.  
+1. **WMUU – “High” conviction vs. 53.8 % win‑rate**  
+   > *Quote*: “Conviction: High … Historical edge: 8.2% … win rate 53.8%”  
+   > *Why contradictory*: A win‑rate barely above random (≈50 %) does not justify a high conviction label; the author’s confidence is not supported by the data.  
 
-- **Liquidity risk** – All nine tickers are **small‑cap** with average daily volume < 200 k shares. Assuming a 5 % position size per ticker (typical for a retail portfolio) could easily exceed 10 % of daily volume, leading to slippage and difficulty exiting at the pre‑set SL/TP levels.  
+2. **ESIP – “high‑Sharpe, volume‑driven edge” vs. 45.8 % win‑rate**  
+   > *Quote*: “Why: Massive volume breakout … the strongest volume‑based signal.”  
+   > *Why contradictory*: A win‑rate below 50 % means the strategy is losing more than winning; claiming a high‑Sharpe edge without a positive expectancy is inconsistent.  
 
-- **Correlation risk** – The high‑conviction picks (WIFI, WMUU, KOTA) have historically high correlation (> 0.75) on a 5‑day horizon, driven by the same macro‑level “oversold” bounce. This creates hidden concentration: the portfolio is not diversified across independent drivers but rather stacked on a single RSI‑rebound effect.  
+3. **GOTO – “Buy” despite 36.4 % win‑rate**  
+   > *Quote*: “Conviction: Low … win rate 36.4% … Take profit +6%.”  
+   > *Why contradictory*: A sub‑50 % win‑rate indicates a negative expectancy; recommending a long position contradicts the statistical evidence.  
 
-- **Timing / chase risk** – If any of the entry zones are already **> 10 % above** the previous day’s close (common for small caps that have already rallied on the oversold signal), the trade becomes a **late‑entry chase**. A 2 % SL on a stock that has already moved 12 % upward leaves little room for a pull‑back, increasing the probability of a stop‑out on normal volatility.  
-
-- **Stale data / regime shift** – The entire methodology hinges on a **single‑indicator (RSI‑oversold)** without checking whether the RSI‑rebound regime is still valid. Recent market data (last 30 days) show a **flattening of the RSI‑rebound edge** for Indonesian small caps, suggesting the historical edge may be overstated.  
-
-- **Indicator overlap** – All signals are derived from the **same RSI threshold**; there is no independent confirmation (e.g., volume spike, MACD crossover, or fundamental catalyst). The apparent “confluence” is illusory, inflating confidence while the underlying signal set is singular.  
-
----
-
-## 4. What the Author Got Right
-
-The author correctly identified that a **sub‑30 % RSI** can act as a short‑term contrarian signal in a market that has been trending higher, and they quantified a **historical edge** for each ticker, providing a transparent win‑rate that allows the reader to gauge expected performance.  
+4. **BNBR – “Buy” despite 26.3 % win‑rate**  
+   > *Quote*: “Conviction: Low … win rate 26.3% … Historical edge 0.5%.”  
+   > *Why contradictory*: The win‑rate suggests a 3‑to‑1 loss expectation; the recommendation to buy is at odds with the underlying performance.  
 
 ---
 
-## 5. Critical Recommendations
+## 3. Hidden Risks  
 
-1. **Re‑calibrate SL/TP to structural levels** – Replace the flat ‑2 % stop with a volatility‑adjusted ATR‑based stop (e.g., 1.5 × ATR) and set TP at the nearest **technical resistance** (previous swing high, Fibonacci extension, or volume‑profile high). This will align risk with market reality and prevent arbitrary stop‑outs.  
+- **Sector concentration** – Six of the eleven picks (WIFI, WMUU, KOTA, PTRO, TPIA, ESIP) belong to the **technology / consumer‑electronics** cluster, creating a hidden sector bias. A sector‑wide shock (e.g., regulatory change or macro‑rate move) could wipe out a large portion of the portfolio.  
 
-2. **Prune low‑edge, low‑win‑rate picks** – Remove **BNBR** (26.3 % win) and **GOTO** (36.4 % win) from the BUY list, or downgrade them to “watch only”. Their expected return does not justify the risk, especially given the thin edge and poor win‑rate.  
+- **Liquidity risk** – Several low‑tier tickers (BNBR, GOTO, PTRO) are known thin‑volume stocks on IDX. Entering a 5‑20 day position with a flat –3 % stop could lead to slippage or inability to fill at the intended price, especially if the stop is triggered on a low‑liquidity day.  
 
-3. **Diversify away from the RSI‑only bias** – Add at least **two non‑RSI‑based** candidates (e.g., a momentum breakout, a value‑oriented undervalued large‑cap, or a sector‑neutral dividend payer) to reduce correlation risk and avoid over‑exposure to a single technical signal. This will improve the portfolio’s risk‑adjusted profile and protect against a regime shift that weakens RSI‑rebound efficacy.
+- **Correlation risk** – All high‑tier picks are based on the *same* RSI‑oversold signal. This creates a false sense of diversification; the underlying driver (RSI reversal) is highly correlated across the basket, amplifying draw‑down risk if the oversold rebound fails.  
+
+- **Timing / chase risk** – The analysis does not check whether any of the stocks have already rallied > 15 % today. If a ticker has already made a sizable bounce, the remaining upside to the +6 % target may be limited, while the 3 % stop remains vulnerable to a quick retrace.  
+
+- **Stale data / regime shift** – RSI thresholds (≤30) are static; the author does not adjust for recent volatility regime changes (e.g., a high‑volatility month). In a regime where price swings are larger, a 3 % stop becomes too tight, turning a statistically positive edge into a loss‑making rule.  
+
+- **Indicator overlap** – The entire list (except ESIP) relies solely on RSI oversold. The lack of multi‑indicator confirmation (e.g., volume, trend, macro) means the signal strength is over‑estimated; the apparent “confluence” is illusory.  
+
+---
+
+## 4. What the Author Got Right  
+
+The author correctly identified that **ESIP** exhibits a genuine volume breakout, with a 47.6× surge and a measurable price jump, which historically delivered a 6.2 % edge. Highlighting a volume‑driven signal rather than a pure RSI reversal adds a solid, data‑backed edge to the list.  
+
+---
+
+## 5. Critical Recommendations  
+
+1. **Re‑scale stop‑losses to volatility** – Replace the flat –3 % stop with a volatility‑adjusted stop (e.g., 1.5 × ATR) for each ticker. This will prevent premature stop‑outs on normal price noise, especially for high‑beta stocks.  
+
+2. **Trim or re‑classify low‑conviction, low‑win‑rate picks** – Remove **BNBR**, **GOTO**, and **PTRO** (or downgrade them to “avoid”) until a stronger edge or higher win‑rate is demonstrated. Their current win‑rates (< 40 %) make them net‑negative expectancy trades.  
+
+3. **Diversify sector exposure** – Limit the technology/consumer cluster to a maximum of 30 % of the total allocated capital. Add at least two picks from unrelated sectors (e.g., utilities, financials) that also meet a robust multi‑indicator entry criteria.  
+
+---
