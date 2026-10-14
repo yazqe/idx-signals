@@ -2,72 +2,67 @@
 
 ## 1. Sanity Check (math + logic)  
 
-- **WIFI**: (TP‑Entry)/(Entry‑SL) ≈ (1 425‑1 345)/(1 345‑1 305) = 80/40 = 2.0 → R/R **≈2.0** (not stated).  
-- **WMUU**: R/R ≈ (29.7‑28)/(28‑27.2) = 1.7/0.8 ≈ 2.12 (unstated).  
-- **KOTA**: R/R ≈ (125‑118)/(118‑114.5) = 7/3.5 ≈ 2.0 (unstated).  
-- **BREN**: R/R ≈ (2 533‑2 390)/(2 390‑2 318) = 143/72 ≈ 2.0 (unstated).  
-- **RAJA**: R/R ≈ (636‑600)/(600‑582) = 36/18 = 2.0 (unstated).  
-- **PTRO**: R/R ≈ (4 295‑4 090)/(4 090‑3 967) = 205/123 ≈ 1.67 (unstated).  
-- **TPIA**: R/R ≈ (1 564‑1 490)/(1 490‑1 445) = 74/45 ≈ 1.64 (unstated).  
-- **CUAN**: R/R ≈ (688‑655)/(655‑635) = 33/20 ≈ 1.65 (unstated).  
-- **GOTO**: R/R ≈ (29.4‑28)/(28‑27.2) = 1.4/0.8 ≈ 1.75 (unstated).  
-- **BNBR**: R/R ≈ (68‑65)/(65‑63) = 3/2 ≈ 1.5 (unstated).  
+- **WIFI:** (TP‑Entry)/(Entry‑SL) = (1 468‑1 385)/(1 385‑1 343) ≈ **1.98** – matches a ~2 :1 R/R, but the author never states the ratio.  
+- **WMUU:** R/R ≈ **2.00** – clean mathematically.  
+- **SDMU:** R/R ≈ **2.00** – clean.  
+- **BRPT:** R/R ≈ **1.98** – clean.  
+- **KOTA:** R/R ≈ **1.75** – clean.  
+- **CBDK:** R/R ≈ **1.99** – clean.  
+- **BREN:** R/R ≈ **1.99** – clean.  
+- **PTRO:** R/R ≈ **1.67** – clean.  
+- **CUAN:** R/R ≈ **1.62** – clean.  
+- **GOTO:** R/R ≈ **1.75** – clean.  
+- **BNBR:** R/R ≈ **1.65** – clean.  
 
-**SL placement** – All stops are a flat “‑3 %” (or ‑3 % for low‑tier picks) regardless of actual support levels. No reference to price‑structure (trend‑line, VWAP, prior low) → **arbitrary**.  
+**SL placement:** All stops are a flat **‑3 %** (or ‑5 % for the low‑tier list) regardless of each stock’s recent volatility, ATR, or support level. This is an arbitrary rule‑of‑thumb; many of the securities (e.g., low‑priced, thin‑float stocks) could be stopped out by normal intraday noise, inflating turnover without a structural stop.  
 
-**TP placement** – All targets are a flat “+6 %” (or +5 % for low‑tier) with no mention of resistance, prior swing‑high, or profit‑taking rule. → **unjustified**.  
+**TP placement:** Take‑profits are uniformly **+6 %** (or +5 % for low‑tier picks). No reference is made to actual resistance zones, prior swing highs, or Fibonacci/price‑action levels. The uniform TP creates a mechanical R/R that may not reflect the true upside potential.  
 
-**Tier consistency** – Conviction stars are assigned solely on RSI‑oversold plus a historical edge figure.  
-- High conviction given to WIFI, WMUU, KOTA despite *only* RSI evidence (no multi‑TF or volume confirmation).  
-- Medium conviction to BREN, RAJA despite *lower* edge (3.3 % & 3.0 %) than some low‑conviction picks (e.g., PTRO 1.8 %).  
-- Low conviction still applied to BNBR with a **26.3 % win‑rate** – the win‑rate is *worse* than many higher‑tier names, yet it receives a “Buy” label. → **tier inflation**.  
+**Tier consistency:**  
+- High conviction is awarded to **WIFI, WMUU, SDMU, BRPT, KOTA** despite win‑rates ranging from 56 % to 70 % and historical edges from 6.2 % to 9.3 %. The “high” label is not justified by the modest win‑rate or by any forward‑looking catalyst.  
+- Medium conviction is given to **CBDK (40 % win, 3.4 % edge)** and **BREN (66.7 % win, 3.3 % edge)** – a mismatch; BREN’s win‑rate is higher than many “high” picks, yet it is downgraded.  
+- Low conviction is attached to **PTRO, CUAN, GOTO, BNBR** even though PTRO’s win‑rate (63.6 %) exceeds the medium‑tier average. The tiering appears inconsistent with the underlying performance metrics.  
 
-**Overall**: No pick passes a clean‑math check because R/R is never disclosed, SL/TP are percentage‑only, and conviction levels are not matched to the strength of the underlying edge.
+**Overall:** All picks are mathematically tidy, but the stop‑loss / take‑profit logic is mechanical and ignores price‑action context; conviction tiers are not aligned with win‑rate or edge magnitude.  
 
 ---
 
 ## 2. Contradiction Hunter  
 
-1. **“High conviction” vs. single‑indicator basis** –  
-   > *“High conviction”* for WIFI, WMUU, KOTA is justified by “solid edge and win‑rate,” yet the only trigger cited is *rsi_oversold* (no trend, volume, or multi‑timeframe confirmation). This contradicts the implied need for robust evidence behind a high‑conviction rating.  
+1. **Conviction vs win‑rate mismatch** – “High” conviction is applied to SDMU (56.5 % win) while “Low” conviction is applied to PTRO (63.6 % win). The analysis simultaneously claims a “solid base of ~7 % average 5‑day edge” yet includes BNBR with a **0.48 %** edge and a **26.3 %** win‑rate, contradicting the “solid base” narrative.  
 
-2. **Medium‑tier BREN vs. low‑tier PTRO** –  
-   > BREN is labeled *Medium* with a 3.3 % edge and 66.7 % win‑rate, while PTRO is *Low* with a *higher* edge of 1.8 % but a *lower* win‑rate of 63.6 %. The tier assignment is inconsistent with the quantitative metrics presented.  
+2. **Uniform TP/SL vs stated risk‑reward** – The author never states the R/R explicitly, yet the uniform ±3 % SL and +6 % TP imply a ~2 :1 R/R for every trade. This contradicts the claim that each signal carries a *different* historical edge (e.g., 9.3 % vs 0.48 %).  
 
-3. **Overall bullish bias vs. inclusion of weak‑win‑rate stocks** –  
-   > The market read states “bias leans bullish on oversold equities,” yet the list includes BNBR (win‑rate **26.3 %**) and GOTO (win‑rate **36.4 %**). Presenting a bullish stance while simultaneously recommending stocks with sub‑50 % success rates is contradictory.  
-
-4. **Stop‑loss uniformity vs. price volatility** –  
-   > All stops are set at a flat ‑3 % (or ‑3 % for low‑tier) regardless of each stock’s recent volatility. For a high‑beta ticker like PTRO, a ‑3 % stop may be *too tight*; for a low‑beta like BREN, it may be *too loose*. The uniform SL policy contradicts the implied risk‑adjusted approach.  
+3. **Medium‑tier label for CBDK despite low win‑rate** – CBDK is given a “Medium” conviction while its win‑rate is **40 %**, lower than many “Low” picks (e.g., GOTO at 36.4 %). The internal logic of tier assignment is inconsistent.  
 
 ---
 
 ## 3. Hidden Risks  
 
-- **Sector concentration** – Six of the ten picks (WIFI, WMUU, KOTA, BREN, RAJA, BNBR) belong to the **consumer‑goods / basic‑materials** cluster, creating a de‑facto sector tilt. A sector‑wide reversal would wipe out a large chunk of the portfolio.  
+- **Sector concentration:** Several tickers (WIFI, WMUU, SDMU, BRPT) belong to the **technology / consumer‑electronics** niche on IDX, creating a hidden sector bias. A sector‑wide pull‑back would simultaneously hit multiple positions, inflating portfolio VaR.  
 
-- **Liquidity risk** – Several low‑tier symbols (PTRO, TPIA, GOTO, BNBR) trade **< 200 k shares/day** on average volume. Position sizing at a 5 % portfolio weight would easily exceed 10 % of daily volume, inviting slippage and execution risk.  
+- **Liquidity risk:** Many of the low‑price stocks (e.g., BNBR at IDR 66, GOTO at IDR 27) have **average daily volume < 100 k shares**. Entering a 5 % portfolio allocation on such thinly‑traded instruments could cause slippage and price impact, especially with a fixed ‑3 % stop that may be triggered by normal market noise.  
 
-- **Correlation of signals** – Every pick is based on the *same* RSI‑oversold trigger. This creates a **false sense of diversification**; the portfolio is effectively a single‑signal bet.  
+- **Correlation of signals:** The entire list is built on **RSI‑oversold** or **volume‑breakout** triggers. These are not independent signals; a market‑wide oversold condition will generate multiple entries, leading to a false sense of diversification.  
 
-- **Timing / chase risk** – If any of these stocks have already rallied > 15 % today (common for oversold reversals), the entry zone (±1 %) may be *already past* the optimal entry, turning the trade into a chase with limited upside.  
+- **Timing / chase risk:** All entries are placed **after** a sharp price move (e.g., SDMU up >4 % on volume breakout). The price may have already captured the bulk of the move, leaving limited upside while the stop is still ‑3 % away, increasing the chance of a stop‑out on a normal pull‑back.  
 
-- **Stale data / regime shift** – RSI thresholds (30/70) were calibrated in a **high‑volatility regime**. Recent macro‑driven low‑volatility periods (e.g., post‑COVID stability) can render RSI less predictive, making the edge **stale**.  
+- **Stale data / regime shift:** The analysis relies on historical edge percentages calculated over a *fixed* number of past trades (e.g., 10‑13 trades). No mention is made of recent macro‑regime changes (e.g., tightening monetary policy, upcoming earnings season) that could render the past edge obsolete.  
 
-- **Indicator overlap** – RSI, historical edge, and win‑rate are *not independent*; a high win‑rate often stems from the same oversold bias that drives the edge estimate. No orthogonal filters (e.g., MACD, volume spike, earnings catalyst) are applied, inflating the perceived robustness.  
+- **Indicator overlap:** RSI oversold and volume breakout are both **momentum‑type** indicators; they often fire together in a volatile market, providing little additional information. The apparent “confluence” is therefore weak.  
 
 ---
 
 ## 4. What the Author Got Right  
 
-The author correctly identified that a **sub‑30 RSI** can signal short‑term mean‑reversion potential, and they quantified a *historical edge* and *win‑rate* for each ticker, providing a transparent performance‑backed metric rather than a purely anecdotal claim.  
+The author correctly identified that a **systematic RSI‑oversold** rule can generate a statistically positive edge (average 7 % 5‑day return) when applied consistently, and the back‑tested win‑rates (70 % for WIFI, 63.6 % for PTRO) demonstrate that the signal is not pure noise.  
 
 ---
 
 ## 5. Critical Recommendations  
 
-1. **Replace flat % stops/targets with structure‑based levels** – Anchor SL at the nearest *support* (e.g., prior swing low, VWAP, or ATR‑based volatility band) and set TP at the *next resistance* or a risk‑adjusted multiple (e.g., 2×R). This will align risk‑reward to actual market geometry.  
+1. **Re‑calibrate stop‑loss levels** – Replace the flat ‑3 % stop with a volatility‑adjusted stop (e.g., 1.5 × ATR) or a structural support level. This will prevent premature exits on normal price swings, especially for low‑price, high‑volatility stocks.  
 
-2. **Re‑rank conviction tiers using a multi‑factor scorecard** – Combine RSI signal strength with *trend direction*, *volume confirmation*, *sector momentum*, and *volatility‑adjusted R/R*. Downgrade any high‑conviction pick that lacks corroborating factors, and uplift low‑conviction picks that meet a robust multi‑signal threshold.  
+2. **Align conviction tiers to objective metrics** – Redefine “High/Medium/Low” conviction based on a composite score (win‑rate ≥ 60 % + edge ≥ 5 % → High, etc.). Re‑rank CBDK, BREN, PTRO, and BNBR accordingly to avoid tier inflation/deflation.  
 
-3. **Trim the watchlist to a maximum of 4‑5 stocks and enforce sector caps** – Limit any single sector to ≤ 20 % of total exposure and drop the weakest‑performing or lowest‑win‑rate symbols (e.g., BNBR, GOTO). This reduces sector‑specific tail risk and prevents over‑concentration on a single RSI‑based signal.
+3. **Diversify signal sources** – Introduce at least one additional, non‑momentum filter (e.g., earnings surprise, sector‑relative strength, or macro‑trend) to break the heavy reliance on RSI/volume. This will reduce correlation risk and improve the robustness of the trade set.
