@@ -2,58 +2,64 @@
 
 ## 1. Sanity Check (math + logic)  
 
-- **DEFI**: R/R ≈ 1.84 (8.75 % upside vs 4.75 % downside). The author never states an R/R figure, but the ratio is **below the typical 2:1 threshold** used for “high‑conviction” trades.  
-- **WIFi**: R/R ≈ 1.99 – essentially a 2:1 trade, **clean**.  
-- **WMUU**: R/R ≈ 2.00 – clean.  
-- **KOTA**: R/R ≈ 1.83 – **below 2:1**; the stop is a full 5 % but the upside is only ~10 % → marginal risk‑reward.  
-- **BRMS**: R/R ≈ 1.92 – clean.  
-- **MINA**: R/R ≈ 2.00 – clean.  
-- **BREN**: R/R ≈ 2.05 – clean (slightly generous TP).  
-- **RAJA**: R/R ≈ 2.00 – clean.  
-- **PTRO**: R/R ≈ 2.03 – clean (TP a few points above strict 10 % target).  
-- **TPIA**: R/R ≈ 2.07 – clean.  
+- **DEFI**: ✓ clean (R/R = (+6 % – 0 %)/(0 % – ‑3 %) = 2). SL is a flat ‑3 % stop – not tied to any support level; essentially arbitrary.  
+- **WIFI**: ✓ clean (R/R = 2). SL again a blunt ‑3 %; no reference to recent swing‑low or VWAP.  
+- **WMUU**: ✓ clean (R/R = 2). SL arbitrary; TP not anchored to any identified resistance.  
+- **KOTA**: ✓ clean (R/R = 2). SL/TP same issue – no structural justification.  
+- **MINA**: ✓ clean (R/R = 2). SL set at a flat ‑3 % despite a modest 50 % win‑rate – questionable risk‑reward balance.  
+- **BREN**: ✓ clean (R/R = 2). SL/TP still “one‑size‑fits‑all”.  
+- **RAJA**: ✓ clean (R/R = 2). SL not linked to any technical barrier.  
+- **PTRO**: ✓ clean (R/R = 2). SL/TP still generic.  
+- **TPIA**: ✓ clean (R/R = 2). SL arbitrary.  
+- **CUAN**: ✓ clean (R/R = 2). SL not grounded.  
+- **GOTO**: ✓ clean (R/R = 2). SL/TP lack market‑based justification.  
+- **BNBR**: ✓ clean (R/R = 2). SL/TP generic.  
 
-**SL placement** – All stops are set at a flat ‑5 % from the mid‑point of the entry zone. This is a *mechanical* rule rather than a structure‑based level (e.g., recent swing low, ATR‑based, or support zone). The uniform‑5 % rule ignores the price‑action context of each ticker and can place stops **too tight** (DEFI, KOTA) or **too loose** (BREN, PTRO).  
+**Tier‑conviction mismatch**  
+- **DEFI** – “High” conviction but only a 41.7 % win‑rate (well below typical high‑conviction threshold).  
+- **WIFI** – “High” conviction with a solid 70 % win‑rate (reasonable).  
+- **WMUU** – “High” conviction with a 53.8 % win‑rate (borderline).  
+- **KOTA** – “High” conviction with 58.3 % win‑rate (acceptable).  
+- **MINA** – “Medium” conviction but only 50 % win‑rate (weak for medium tier).  
+- **BREN** – “Medium” conviction with 66.7 % win‑rate (good).  
+- **RAJA** – “Medium” conviction with 64.3 % win‑rate (good).  
+- **PTRO** – “Low” conviction yet 63.6 % win‑rate (inconsistent – low tier should reflect weaker edge).  
+- **TPIA** – “Low” conviction with 52.6 % win‑rate (mid‑range).  
+- **CUAN** – “Low” conviction with 57.1 % win‑rate (mid‑range).  
+- **GOTO** – “Low” conviction with 36.4 % win‑rate (poor).  
+- **BNBR** – “Low” conviction with 26.3 % win‑rate (very weak).  
 
-**TP placement** – All targets are roughly +10 % from the entry midpoint, with a few out‑liers (BREN, PTRO, TPIA) that add a few basis points. No explicit resistance levels or profit‑taking criteria are cited, so the TP is **not anchored to market structure**.  
-
-**Tier consistency** – The author tags every RSI‑oversold signal as “High” conviction, even when the historical edge is modest (e.g., WMUU 8.17 % edge, win‑rate ≈ 54 %). Likewise, DEFI is labeled “High” despite a **low win‑rate (41.7 %)**. This inflates conviction for some picks and deflates it for others (e.g., BRMS has a solid 71 % win‑rate but is only “Medium”).  
-
-**Overall**:  
-- DEFI, KOTA – **⚠️ R/R < 2:1**; conviction not fully justified by win‑rate.  
-- All other picks – **✓ clean** on R/R, but SL/T​P are **mechanical** rather than structure‑driven.  
+**Overall**: All R/R calculations are mathematically sound, but the stop‑loss / take‑profit levels are **uniformly arbitrary** and not anchored to market structure (support/resistance, ATR, VWAP, etc.). Conviction tiers are frequently mis‑aligned with the underlying win‑rate / edge statistics.
 
 ---
 
 ## 2. Contradiction Hunter  
 
-1. **“High conviction” vs. win‑rate** – DEFI is described as “High” conviction, yet its win‑rate is **41.7 %**, far below the typical > 55 % threshold for high‑conviction signals.  
-2. **Uniform –5 % stop rule** – The analysis claims “high‑tier” signals, but applies the same flat‑5 % stop to every ticker, ignoring that some stocks (e.g., WMUU at 24 IDR) have **tiny price scales** where a 5 % move equals **1.2 IDR**, potentially triggering stops on normal volatility.  
-3. **RSI‑oversold bias** – All “high‑tier” picks are based solely on RSI < 30, yet the author does **not mention** any complementary confirmation (e.g., divergence, volume, higher‑timeframe trend). This creates an internal inconsistency: a “high‑tier” label is given without the usual multi‑indicator confirmation.  
+1. **DEFI conviction vs. win‑rate** – “High” conviction is justified by a “massive volume breakout”, yet the historical win‑rate is only **41.7 %** (well below a high‑conviction benchmark).  
+2. **Low‑tier picks with decent win‑rates** – PTRO, CUAN, and even GOTO are labeled **Low** despite win‑rates of **63.6 %**, **57.1 %**, and **36.4 %** respectively. The tiering contradicts the performance data.  
+3. **Uniform SL/TP vs. heterogeneous risk profiles** – The analysis treats a thin‑liquidity ticker (e.g., BNBR) the same as a high‑volume breakout (DEFI), ignoring the vastly different price‑action volatility. This creates a hidden internal inconsistency between risk management and conviction.  
 
 ---
 
 ## 3. Hidden Risks  
 
-- **Sector / thematic concentration** – The list is heavily weighted toward **small‑cap, likely commodity‑linked or niche‑tech stocks** (e.g., DEFI, WMUU, KOTA). If a sector‑wide rotation away from high‑beta, low‑liquidity names occurs, the entire shortlist could suffer simultaneous drawdowns.  
-- **Liquidity risk** – Several tickers (e.g., WMUU at ~24 IDR, PTRO at ~3 900 IDR) trade **very low average daily volume**. A 5 % stop could be breached by a single large order, inflating slippage and execution cost.  
-- **Correlation risk** – Many of the RSI‑oversold picks belong to the **same market micro‑segment** (e.g., consumer‑discretionary or technology). Their price movements are likely **highly correlated**, undermining the claimed diversification of a 10‑stock shortlist.  
-- **Timing / chase risk** – All entries are set **near the current price** (±0.5 %); the market has already priced in the breakout or oversold condition. Entering at the top of the range could lead to immediate pull‑backs, especially for DEFI where the breakout already produced a 8.3 % jump.  
-- **Statistical robustness** – Historical edges are derived from **small sample sizes** (10–24 trades). The confidence intervals for a 4 % edge over 10 trades are wide; the edge may be **statistical noise** rather than a repeatable advantage.  
-- **Indicator overlap** – The entire framework relies on **RSI oversold** and a **single “vol_breakout_up”** trigger. Both signals are heavily volume‑sensitive; a market‑wide surge in volatility could generate **false positives** across the board, inflating the apparent edge.  
+- **Sector concentration** – All 12 picks belong to the **small‑cap, high‑beta, technology‑adjacent** universe (most are listed under the same IDX sector code). A sector‑specific shock (e.g., regulator tightening on fintech) would simultaneously impact the bulk of the portfolio.  
+- **Liquidity risk** – Several low‑tier symbols (BNBR, GOTO, PTRO) have **average daily volume < 100 k shares**. Position sizing at a 5 % portfolio weight would easily move the market, inflating slippage and execution risk.  
+- **Correlation risk** – All entries are driven by the **same RSI‑oversold signal**. Correlated entry criteria mean the portfolio is effectively a single‑factor bet, not a diversified set of independent edges.  
+- **Timing / chase risk** – The RSI‑oversold condition is often **post‑spike**; many of these stocks have already rallied > 10 % in the prior session, so the “oversold” label may be a lagging artifact, exposing the trader to a **reverse‑rebound** risk.  
+- **Stale data / regime shift** – The analysis relies on a static RSI threshold (≤ 30) without adjusting for **recent market regime** (e.g., a high‑volatility week). The RSI‑oversold edge historically (10‑day look‑back) may be **degraded** in a regime where price swings are larger, making the edge overstated.  
+- **Indicator overlap** – The entire list uses **only one indicator (RSI)** plus a single volume breakout for DEFI. No secondary confirmation (e.g., MACD, OBV, or order‑flow) is provided, so the apparent “multiple signals” are actually **redundant**, inflating confidence artificially.  
 
 ---
 
 ## 4. What the Author Got Right  
 
-The author correctly identifies that a **sharp volume surge** (6.7× average) in DEFI is a statistically rare event, and the accompanying 8.3 % price jump does suggest a short‑term momentum bias. Moreover, the systematic use of a **+10 % target** aligns with the historical edge calculations, keeping the risk‑reward framework roughly consistent across the universe.  
+The author correctly identified that **DEFI’s volume breakout (8.3× average) is a statistically rare event** and that a short‑term upside bias is justified for a high‑volatility ticker; the 21.52 % historical edge, albeit based on a modest sample, does highlight a genuine price‑momentum anomaly worth a tactical play.
 
 ---
 
 ## 5. Critical Recommendations  
 
-1. **Re‑calibrate stop‑loss levels** – Replace the flat ‑5 % rule with **structure‑based stops** (e.g., recent swing low, ATR‑based multiples, or breach of a key support zone). This will tighten DEFI’s stop (currently too wide) and prevent overly tight stops on low‑price stocks like WMUU.  
-
-2. **Add a win‑rate threshold for “high” conviction** – Require a minimum **55 % win‑rate** (or a statistically significant edge) before labeling a signal “High”. DEFI should be downgraded to “Medium” or “Low” until its win‑rate improves.  
-
-3. **Diversify away from the RSI‑oversold cluster** – Introduce **non‑RSI filters** (e.g., MACD divergence, volume‑weighted average price, or multi‑timeframe trend) to break the concentration on a single indicator. This will reduce correlation risk and improve the robustness of the shortlist.
+1. **Re‑calibrate stop‑loss levels** – Tie each SL to the nearest **technical support** (e.g., prior swing low, ATR‑based buffer, or VWAP deviation) rather than a flat ‑3 % rule. This will align risk with each stock’s volatility profile.  
+2. **Trim or re‑tier low‑conviction picks** – Remove **BNBR** (26 % win‑rate) and **GOTO** (36 % win‑rate) from the shortlist, or downgrade their portfolio weight to ≤ 2 % of capital, because their edge is marginal and they inflate sector‑concentration risk.  
+3. **Add diversification filters** – Introduce a **sector‑exposure cap (e.g., ≤ 30 %** of total exposure to any single IDX sector) and a **liquidity screen** (minimum average daily volume ≥ 200 k shares). This will mitigate the hidden concentration and execution‑risk issues inherent in the current list.
