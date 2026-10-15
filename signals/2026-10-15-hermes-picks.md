@@ -1,92 +1,92 @@
-## WIFI — BUY (5‑20d hold)  
+## DEFI — BUY (5‑20d hold)  
+- **Triggered:** vol_breakout_up  
+- **Conviction:** High  
+- **Historical edge:** 21.52% over 24 past trades (win rate 41.7%)  
+- **Entry zone:** 90.5 – 92.0 (≈ ±0.5% around close 91)  
+- **Stop loss:** –5% (≈ 86.5)  
+- **Take profit:** +10% (≈ 100)  
+- **Why:** Massive volume surge (6.7× avg) with an 8.3% price jump signals a strong short‑term thrust.
+
+## WIFi — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
-- **Historical edge:** 9.3% over 10 past trades (win rate 70%)  
-- **Entry zone:** 1330 – 1350 (≈ ±0.7% around close)  
-- **Stop loss:** -3% (≈ 1300)  
-- **Take profit:** +5% (≈ 1407)  
-- **Why:** RSI 25.1 signals strong oversold pressure on a high‑conviction ticker with solid 5‑day edge.
+- **Historical edge:** 9.30% over 10 past trades (win rate 70.0%)  
+- **Entry zone:** 1285 – 1295 (≈ ±0.4%)  
+- **Stop loss:** –5% (≈ 1225)  
+- **Take profit:** +10% (≈ 1419)  
+- **Why:** RSI 23.2 well below 30, high‑tier oversold with solid edge.
 
 ## WMUU — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
-- **Historical edge:** 8.2% over 13 past trades (win rate 53.8%)  
-- **Entry zone:** 24.8 – 25.2  
-- **Stop loss:** -3% (≈ 24.3)  
-- **Take profit:** +5% (≈ 26.3)  
-- **Why:** Deeply oversold (RSI 19.1) on a high‑tier stock; past signal delivers a respectable edge.
+- **Historical edge:** 8.17% over 13 past trades (win rate 53.8%)  
+- **Entry zone:** 23.8 – 24.2 (≈ ±0.8%)  
+- **Stop loss:** –5% (≈ 22.8)  
+- **Take profit:** +10% (≈ 26.4)  
+- **Why:** Deeply oversold RSI 18.3, high‑tier signal.
 
 ## KOTA — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** High  
-- **Historical edge:** 6.2% over 12 past trades (win rate 58.3%)  
-- **Entry zone:** 112 – 114  
-- **Stop loss:** -3% (≈ 109.6)  
-- **Take profit:** +5% (≈ 118.7)  
-- **Why:** RSI 25.8 places KOTA in oversold territory with a proven high‑tier edge.
+- **Historical edge:** 6.21% over 12 past trades (win rate 58.3%)  
+- **Entry zone:** 107 – 109 (≈ ±0.9%)  
+- **Stop loss:** –5% (≈ 102)  
+- **Take profit:** +10% (≈ 119)  
+- **Why:** RSI 24.5, high‑tier oversold with decent forward return.
+
+## BRMS — BUY (5‑20d hold)  
+- **Triggered:** rsi_oversold  
+- **Conviction:** Medium  
+- **Historical edge:** 4.12% over 14 past trades (win rate 71.4%)  
+- **Entry zone:** 503 – 507 (≈ ±0.8%)  
+- **Stop loss:** –5% (≈ 479)  
+- **Take profit:** +10% (≈ 555)  
+- **Why:** Medium‑tier oversold, modest edge but strong win‑rate.
+
+## MINA — BUY (5‑20d hold)  
+- **Triggered:** rsi_oversold  
+- **Conviction:** Medium  
+- **Historical edge:** 4.01% over 12 past trades (win rate 50.0%)  
+- **Entry zone:** 179 – 181 (≈ ±0.6%)  
+- **Stop loss:** –5% (≈ 171)  
+- **Take profit:** +10% (≈ 198)  
+- **Why:** RSI 27.3, medium tier with positive edge.
 
 ## BREN — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 3.3% over 21 past trades (win rate 66.7%)  
-- **Entry zone:** 2300 – 2340  
-- **Stop loss:** -3% (≈ 2250)  
-- **Take profit:** +5% (≈ 2436)  
-- **Why:** Medium‑tier but solid win‑rate; RSI 23.4 still well below 30, suggesting upside.
+- **Historical edge:** 3.33% over 21 past trades (win rate 66.7%)  
+- **Entry zone:** 2125 – 2135 (≈ ±0.5%)  
+- **Stop loss:** –5% (≈ 2025)  
+- **Take profit:** +10% (≈ 2345)  
+- **Why:** RSI 19.9, medium tier, decent win‑rate.
 
 ## RAJA — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
 - **Conviction:** Medium  
-- **Historical edge:** 3.0% over 14 past trades (win rate 64.3%)  
-- **Entry zone:** 580 – 590  
-- **Stop loss:** -3% (≈ 567)  
-- **Take profit:** +5% (≈ 614)  
-- **Why:** RSI 28.2 signals oversold condition; medium tier with decent edge.
+- **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)  
+- **Entry zone:** 554 – 556 (≈ ±0.4%)  
+- **Stop loss:** –5% (≈ 527)  
+- **Take profit:** +10% (≈ 611)  
+- **Why:** RSI 25.1, medium tier, solid win‑rate.
 
 ## PTRO — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for positive edge)  
-- **Historical edge:** 1.8% over 11 past trades (win rate 63.6%)  
-- **Entry zone:** 4080 – 4100  
-- **Stop loss:** -3% (≈ 3967)  
-- **Take profit:** +5% (≈ 4295)  
-- **Why:** Despite low tier, PTRO shows a positive 5‑day edge and a respectable win‑rate.
+- **Conviction:** Low (included for top‑ranked low‑edge)  
+- **Historical edge:** 1.80% over 11 past trades (win rate 63.6%)  
+- **Entry zone:** 3915 – 3925 (≈ ±0.3%)  
+- **Stop loss:** –5% (≈ 3725)  
+- **Take profit:** +10% (≈ 4315)  
+- **Why:** Highest low‑tier edge among low‑tier oversold signals.
 
 ## TPIA — BUY (5‑20d hold)  
 - **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for positive edge)  
-- **Historical edge:** 1.5% over 19 past trades (win rate 52.6%)  
-- **Entry zone:** 1475 – 1495  
-- **Stop loss:** -3% (≈ 1440)  
-- **Take profit:** +5% (≈ 1560)  
-- **Why:** Low tier but still positive edge; RSI 25.1 suggests upside potential.
-
-## CUAN — BUY (5‑20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for positive edge)  
-- **Historical edge:** 1.2% over 21 past trades (win rate 57.1%)  
-- **Entry zone:** 650 – 660  
-- **Stop loss:** -3% (≈ 635)  
-- **Take profit:** +5% (≈ 688)  
-- **Why:** Low tier yet a decent win‑rate and modest edge; RSI 24.8 points to oversold status.
-
-## GOTO — BUY (5‑20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for positive edge)  
-- **Historical edge:** 0.6% over 11 past trades (win rate 36.4%)  
-- **Entry zone:** 26.8 – 27.2  
-- **Stop loss:** -3% (≈ 26.2)  
-- **Take profit:** +5% (≈ 28.4)  
-- **Why:** Though low tier, GOTO’s RSI 18.5 is deep oversold; edge, albeit small, is positive.
-
-## BNBR — BUY (5‑20d hold)  
-- **Triggered:** rsi_oversold  
-- **Conviction:** Low (included for positive edge)  
-- **Historical edge:** 0.5% over 19 past trades (win rate 26.3%)  
-- **Entry zone:** 61 – 63  
-- **Stop loss:** -3% (≈ 60)  
-- **Take profit:** +5% (≈ 65)  
-- **Why:** Low tier but still oversold (RSI 21.3) and shows a tiny positive edge; worth a small‑risk play.
+- **Conviction:** Low (included for top‑ranked low‑edge)  
+- **Historical edge:** 1.53% over 19 past trades (win rate 52.6%)  
+- **Entry zone:** 1405 – 1415 (≈ ±0.3%)  
+- **Stop loss:** –5% (≈ 1340)  
+- **Take profit:** +10% (≈ 1555)  
+- **Why:** Second‑best low‑tier edge; still positive forward return.
 
 ### Market Read  
-Today's RSI‑oversold screen lights up a handful of high‑conviction names (WIFI, WMUU, KOTA) with proven 5‑day edges, while a few medium‑tier stocks (BREN, RAJA) add depth. To fill the shortlist, we also capture low‑tier tickers that still exhibit positive historical edges, giving a broader net for short‑to‑medium‑term upside. No volume‑breakout signals appear, so risk management (tight stops, modest targets) is essential.
+Today's universe is dominated by a single high‑conviction volume breakout (DEFI) and a cluster of high‑tier RSI‑oversold stocks, providing a clear short‑term bias toward buying. Medium‑tier oversold names add depth, while the two strongest low‑tier oversold tickers (PTRO, TPIA) round out the list, giving a diversified 10‑stock shortlist for a 5‑20‑day horizon.
