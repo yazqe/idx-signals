@@ -2,60 +2,49 @@
 
 ## 1. Sanity Check (math + logic)
 
-- **TINS**: ✓ clean  
+- **BNBR**: ✓ clean  
 - **WIFI**: ✓ clean  
 - **WMUU**: ✓ clean  
+- **KAQI**: ✓ clean  
+- **PACK**: ✓ clean  
+- **DEWA**: ✓ clean  
+- **RAJA**: ✗ R/R math error — stated combined edge “~10.5%” implies TP = 10.5% above entry, but TP is set at +14%. R/R = (14)/(7) = 2.0, not 10.5. 10.5% is the *expected return*, not R/R. Mislabeling risk-reward as expected return is dangerous.  
 - **BUVA**: ✓ clean  
 - **KOTA**: ✓ clean  
 - **BRMS**: ✓ clean  
 - **MINA**: ✓ clean  
+- **GTSI**: ✓ clean  
 - **BREN**: ✓ clean  
-- **RAJA**: ✓ clean  
-- **GJTL**: ✓ clean  
-- **PTRO**: ✓ clean  
-- **INKP**: ✓ clean  
-- **ASHA**: ✓ clean  
-- **ESSA**: ✓ clean  
-- **TPIA**: ✓ clean  
-
-**SL placement**: All stop losses are set at a flat -7% or -8% below close. No structural support levels, Fibonacci zones, or prior swing lows referenced. This is arbitrary percentage-based SL, not price-action-based. High risk of being stopped out by normal volatility, especially in low-liquidity names like ASHA or WMUU.
-
-**TP placement**: All take profits are arbitrary % targets (+8% to +15%) with no reference to prior resistance, volume clusters, or order flow zones. For example, TINS at +15% from 3500 = 4025 — but no mention of prior highs near 4000 or institutional sell zones. TP is a guess, not a level.
-
-**Tier consistency**: Conviction tiers are wildly inflated. TINS and WIFI have win rates of 88.9% and 70% with n=9 and n=10 — statistically insignificant for “High” conviction. BUVA has 90% win rate with n=10 — same issue. Meanwhile, BREN with n=21 and 66.7% win rate is “Medium” — inconsistent. Conviction is being assigned based on win rate alone, ignoring sample size. This is tier inflation. A 90% win rate over 10 trades is not “high conviction” — it’s noise with high variance.
+- **BUMI**: ✓ clean  
+- **PTRO**: ✗ SL placement arbitrary — SL at -8% below close, but entry zone is 2980–3050 (2.3% range). SL is placed at 2784–2814, which is 6.5–7.8% below *entry*, not “below close.” If close is 3050, SL = 2806 (8% down). But if entry is 2980, SL = 2742 (8% down). SL is not anchored to a structural level (e.g., prior swing low, VWAP, volume node) — it’s a flat %, ignoring price context.  
+- **All picks**: ✗ SL consistently set at -7% or -8% — no variation based on volatility, ATR, or support structure. This is a mechanical, arbitrary rule, not risk management.  
+- **All picks**: ✗ TP set as fixed % above entry — no reference to resistance, prior highs, Fibonacci, or volume clusters. TP is arbitrary, not technical.  
+- **All picks**: ✗ Conviction tier inflated — 5+ picks with conviction “High” based on RSI oversold alone, with n < 15 (KAQI: n=5, BUVA: n=10, PTRO: n=11). Conviction “High” requires robust statistical and structural evidence — this is data mining with small samples. Tier inflation is rampant.  
+- **All picks**: ✗ Historical edge claims are misleading — “edge” is not defined. Is it mean return? Sharpe? Profit factor? No methodology disclosed. 12.67% “edge” over 36 trades? That’s an average return, not an edge. Edge implies statistical advantage over random. No baseline comparison (e.g., buy-and-hold) provided.  
 
 ## 2. Contradiction Hunter
 
-1. **“No negative-tier tickers meet 3-strategy confluence threshold — avoid them despite deep RSI”** — yet ALL 15 picks are triggered *only* by RSI oversold. No other indicators (SMC, DA8, Markov) are mentioned in any pick’s rationale. Contradiction: Claiming “3-strategy confluence” is required to avoid negatives, but all positives are based on *one* indicator. This invalidates the entire filtering logic.
-
-2. **“Volume and price action confirm exhaustion in key names like TINS and WIFI”** — yet no volume data, volume profile, or OBV analysis is presented for any ticker. Contradiction: Asserting “volume confirms” without providing any volume metrics or comparisons to average volume.
-
-3. **“High-conviction candidates concentrated in mid- to small-cap names”** — yet TINS (3500), BREN (1800), PTRO (2900), INKP (6700) are all high-priced stocks (not small-cap). INKP is ~IDR 6.7K — likely large-cap. Contradiction: Mislabeling high-priced stocks as “small-cap” to justify higher position sizing. Inconsistent with IDX market cap definitions.
-
-4. **“Low price allows for high position sizing with low capital risk”** (ASHA, WMUU) — yet SL is fixed at -8% regardless of price. A 15% position in WMUU at IDR 20 with 8% SL = 1.2% capital risk. A 15% position in INKP at IDR 6700 with 7% SL = 1.05% capital risk. Contradiction: Claiming low price = low capital risk, but risk per trade is nearly identical across all positions. Position sizing logic is incoherent.
+1. **Location**: “Volume-driven RSI oversold confluences are dominating today’s buy signals... Vol_breakout_up remains the most reliable standalone signal for 20d holds.” — **Contradiction**: BNBR and WIFI are listed as top picks due to “dual trigger” (vol + RSI), yet the Market Read claims vol_breakout_up alone is “most reliable.” Why then include RSI in 12/14 picks? If vol alone is most reliable, why not pick 10 vol-only trades? Contradictory prioritization.  
+2. **Location**: “Negative RSI signals remain dangerous — avoid them unless triple-triggered.” — **Contradiction**: 12 of 14 picks are triggered by RSI oversold alone (no volume, no other indicator). Yet author says RSI alone is dangerous unless triple-triggered. This is a direct contradiction — author is recommending the exact thing they warn against.  
+3. **Location**: RAJA entry: “strongest confluence among medium-tier tickers” — **Contradiction**: RAJA has dual triggers (vol + RSI), same as BNBR and WIFI, yet RAJA is downgraded to “Medium confluence” while BNBR/WIFI are “High.” No justification given for differential treatment. Arbitrary tiering.  
+4. **Location**: BUVA: “Exceptional 90% win rate on RSI oversold — highest in dataset” — **Contradiction**: PTRO has 63.6% win rate with RSI 15.5 (“extreme oversold”), yet BUVA’s 90% win rate is based on only 10 trades. PTRO’s RSI is more extreme, yet lower conviction. Inconsistent logic: extreme RSI should warrant higher conviction, not lower.  
+5. **Location**: PTRO: “high price but strong reversal history justifies inclusion” — **Contradiction**: BREN (price 1930–1970) also has “high price” and “institutional interest,” yet is rated Medium. PTRO priced 3x higher than BREN, yet same conviction logic applied inconsistently.  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: 8 of 15 picks (TINS, WIFI, WMUU, BUVA, KOTA, GJTL, ASHA, ESSA) are in consumer goods, retail, or basic materials — sectors highly correlated to domestic consumption and Rupiah volatility. If BCA or BBRI (banking sector) sells off, these stocks often follow due to liquidity crunch. Portfolio is not diversified — ~53% exposure to consumer cyclicals. Single-day VaR if sector drops 5%: ~2.7% portfolio loss.
-
-- **Liquidity risk**: INKP (IDR 6.7K) and PTRO (IDR 2.9K) have high prices but low average daily volume (IDX data: INKP avg volume ~1.2M shares, PTRO ~800K). Proposed position sizing (e.g., 15% of portfolio) could cause slippage >2% on entry/exit. Not viable for institutional-sized trades.
-
-- **Correlation**: TINS, WIFI, BUVA, ASHA, and WMUU are all part of the same conglomerate group (Sinar Mas Group) or have overlapping ownership via PT. Djarum or Bimantara. These are not independent positions — they’re correlated by parent company exposure. Over-concentration disguised as diversification.
-
-- **Timing**: TINS closed at 3480 on 6/14 — up 12% in 3 days. WIFI up 9% in 2 days. Entering on oversold RSI after a sharp run = chasing. High risk of gap-down at next open if profit-taking hits.
-
-- **Stale data**: “Historical edge” calculations imply backtested RSI oversold strategy. But no training window is disclosed. If the training period was 2020–2022 (post-pandemic liquidity), and current regime is 2024 (high rates, FX intervention), the edge is likely dead. RSI mean-reversion fails in trending markets — which IDX has been since Q1 2024.
-
-- **Indicator overlap**: All signals are RSI oversold. No true confluence. “SMC + DA8 + Markov” referenced in Market Read but never applied to any pick. False confluence. All 15 trades are 100% RSI-dependent. This is not a multi-indicator system — it’s a single-indicator system with inflated claims.
+- **Sector concentration**: 11/14 picks (79%) are in non-financial sectors with high retail participation (mining, materials, consumer goods). No bank or utility exposure. If commodity prices (coal, metals) reverse — which drives BNBR, WIFI, PACK, BUMI — entire portfolio could drop 15–25% in one day. Single-day VaR >20% likely.  
+- **Liquidity risk**: PTRO (2980–3050) has avg daily volume likely <500k shares (typical for IDX high-price stocks). Proposed position size not stated, but if >10k shares traded, slippage >3% likely on entry/exit.  
+- **Correlation**: BNBR, WIFI, PACK, BUMI all exposed to coal/mining. KAQI and WMUU are in materials. BUVA and KOTA are consumer discretionary with overlapping retail buyer base. These are not diversified — they’re a single commodity/retail sentiment bet disguised as diversification.  
+- **Timing**: BNBR closed at 54 (top of entry zone). WIFI closed at 1120 (top of entry). PTRO closed at 3050 (top of entry). All are trading at upper bounds of entry zones — high risk of gap-down if market pauses.  
+- **Stale data**: “Historical edge” claims — no training window disclosed. If training data includes 2021–2022 (post-pandemic liquidity surge), and current regime is 2024 (tightening, lower volatility), the edge is stale. RSI oversold signals have lower win rates in low-vol regimes.  
+- **Indicator overlap**: RSI oversold is the trigger for 12/14 picks. Vol_breakout_up is only in 5. “Confluence” is a lie — 85% of signals are the same indicator (RSI). False confluence. SMC, DA8, Markov not even mentioned in triggers — irrelevant to this analysis.  
 
 ## 4. What the Author Got Right
 
-The author correctly identified that RSI oversold conditions are widespread and that mean-reversion is the dominant short-term dynamic in IDX today — a valid observation in a market with high retail participation and low institutional momentum.
+The author correctly identified that RSI oversold + volume surge can generate short-term mean-reversion edges in IDX mid-caps — and the historical win rates (where n>20) do show marginal statistical edge over random. The focus on volume as a filter is valid.
 
 ## 5. Critical Recommendations
 
-1. **Reduce all RSI-only picks to 3% max position size** — because RSI oversold is a single, non-robust signal with no structural confirmation. Current 15% positions in TINS or INKP are dangerously overexposed to a single indicator’s failure.
-
-2. **Replace flat % SLs with structural SLs** — place SLs below the most recent swing low or 20-day EMA. For example, TINS’s recent swing low is 3280 — not 3220 (-8%). This reduces whipsaw risk and aligns with price action.
-
-3. **Disclose training window and sector exposure** — before any trade, state: “RSI oversold strategy trained on 2020–2022 data” and “Portfolio sector exposure: Consumer Goods 53%”. Transparency is non-negotiable for risk review.
+1. **Reduce all RSI-only picks to Medium conviction** — KAQI (n=5), BUVA (n=10), PTRO (n=11), GTSI (n=15) — their “High” conviction is statistically indefensible. Downgrade to Medium or Low.  
+2. **Replace flat % SL/TP with structural levels** — SL must be below nearest swing low or 20-day ATR. TP must align with prior resistance or 1.618 Fibonacci extension. Arbitrary 7–8% SL is gambling, not trading.  
+3. **Cap sector exposure at 40%** — BNBR, WIFI, PACK, BUMI, KAQI, WMUU are all mining/materials. Reduce total allocation to these 6 to ≤40% of portfolio. Add at least 2 non-correlated picks (e.g., bank, telco) to reduce single-sector VaR.

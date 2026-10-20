@@ -1,137 +1,137 @@
-## TINS — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
+## BNBR — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up, rsi_oversold
 - **Conviction:** High
-- **Historical edge:** 9.82% over 9 past trades (win rate 88.9%)
-- **Entry zone:** 3460–3500
+- **Historical edge:** 12.67% over 36 past trades (win rate 58.3%)
+- **Entry zone:** 50–54
 - **Stop loss:** -8% below close
 - **Take profit:** +15% above close
-- **Why:** Strongest historical edge and win rate among all signals; oversold RSI at 27.4 with high conviction and clean technical setup.
+- **Why:** Dual trigger with 4.2x volume surge and RSI 21.2 — strongest confluence in dataset with high historical edge and win rate.
 
 ## WIFI — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
+- **Triggered:** vol_breakout_up, rsi_oversold
 - **Conviction:** High
-- **Historical edge:** 9.3% over 10 past trades (win rate 70%)
-- **Entry zone:** 970–990
-- **Stop loss:** -8% below close
-- **Take profit:** +15% above close
-- **Why:** Extreme RSI (15.0) signals deep oversold condition; high win rate and solid historical edge despite lower n than TINS.
+- **Historical edge:** 10.43% over 24 past trades (win rate 50.0%)
+- **Entry zone:** 1090–1120
+- **Stop loss:** -7% below close
+- **Take profit:** +18% above close
+- **Why:** 8.78% price surge on 2.1x volume + RSI 25.0 — rare double high-tier signal with strong momentum.
 
 ## WMUU — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 8.17% over 13 past trades (win rate 53.8%)
-- **Entry zone:** 19–21
+- **Entry zone:** 23–25
 - **Stop loss:** -8% below close
+- **Take profit:** +14% above close
+- **Why:** Clean RSI oversold with solid historical edge; low float likely amplifies move potential.
+
+## KAQI — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** High
+- **Historical edge:** 7.96% over 5 past trades (win rate 60.0%)
+- **Entry zone:** 67–70
+- **Stop loss:** -8% below close
+- **Take profit:** +13% above close
+- **Why:** Strong win rate despite small n; RSI 26.3 suggests deep oversold with reversal potential.
+
+## PACK — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** High
+- **Historical edge:** 7.58% over 44 past trades (win rate 50.0%)
+- **Entry zone:** 330–340
+- **Stop loss:** -7% below close
 - **Take profit:** +12% above close
-- **Why:** High tier with strong historical performance; low price point increases leverage potential on rebound.
+- **Why:** High n volume breakout with consistent 5d edge — reliable momentum play.
+
+## DEWA — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up, rsi_oversold
+- **Conviction:** Medium → High confluence
+- **Historical edge:** 3.18% over 33 past trades (win rate 48.5%)
+- **Entry zone:** 255–265
+- **Stop loss:** -7% below close
+- **Take profit:** +11% above close
+- **Why:** Dual signal with 3.5x volume and RSI 28.8 — rare convergence that overrides negative RSI history on its own.
+
+## RAJA — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up, rsi_oversold
+- **Conviction:** High → Medium confluence
+- **Historical edge:** 7.46% (vol) + 3.01% (RSI) — combined edge ~10.5%
+- **Entry zone:** 460–480
+- **Stop loss:** -7% below close
+- **Take profit:** +14% above close
+- **Why:** Rare dual trigger on high-volume breakout with RSI 22.0 — strongest confluence among medium-tier tickers.
 
 ## BUVA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** High
-- **Historical edge:** 6.38% over 10 past trades (win rate 90%)
-- **Entry zone:** 344–348
-- **Stop loss:** -7% below close
-- **Take profit:** +12% above close
-- **Why:** Highest win rate in dataset; RSI at 29.0 suggests near-term exhaustion with high probability of mean reversion.
+- **Historical edge:** 6.38% over 10 past trades (win rate 90.0%)
+- **Entry zone:** 340–350
+- **Stop loss:** -8% below close
+- **Take profit:** +13% above close
+- **Why:** Exceptional 90% win rate on RSI oversold — highest in dataset; low n but high conviction.
 
 ## KOTA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 6.21% over 12 past trades (win rate 58.3%)
-- **Entry zone:** 85–89
+- **Entry zone:** 98–102
 - **Stop loss:** -8% below close
 - **Take profit:** +12% above close
-- **Why:** Strong RSI (19.7) and consistent historical performance; low price supports high position sizing.
+- **Why:** Solid RSI 29.4 with above-average win rate — low price point increases retail participation potential.
 
 ## BRMS — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 4.12% over 14 past trades (win rate 71.4%)
-- **Entry zone:** 408–416
+- **Entry zone:** 430–445
 - **Stop loss:** -7% below close
 - **Take profit:** +10% above close
-- **Why:** High win rate and solid edge; price action shows clean oversold bounce potential with institutional interest.
+- **Why:** Highest win rate among medium-tier RSI signals — strong reversal reliability despite modest edge.
 
 ## MINA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
-- **Historical edge:** 4.01% over 12 past trades (win rate 50%)
-- **Entry zone:** 140–144
-- **Stop loss:** -7% below close
+- **Historical edge:** 4.01% over 12 past trades (win rate 50.0%)
+- **Entry zone:** 145–155
+- **Stop loss:** -8% below close
+- **Take profit:** +11% above close
+- **Why:** RSI 22.1 with clean 50% win rate — undervalued relative to peers with similar RSI.
+
+## GTSI — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Medium
+- **Historical edge:** 3.52% over 15 past trades (win rate 46.7%)
+- **Entry zone:** 94–98
+- **Stop loss:** -8% below close
 - **Take profit:** +10% above close
-- **Why:** Strong RSI (19.1) and consistent medium-tier performance; volume likely supporting reversal.
+- **Why:** Consistent RSI oversold pattern with moderate edge — low volatility makes it ideal for 5-20d hold.
 
 ## BREN — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 3.33% over 21 past trades (win rate 66.7%)
-- **Entry zone:** 1800–1820
+- **Entry zone:** 1930–1970
+- **Stop loss:** -7% below close
+- **Take profit:** +10% above close
+- **Why:** High win rate on RSI oversold despite high price — institutional interest likely supports bounce.
+
+## BUMI — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** Medium
+- **Historical edge:** 2.05% over 28 past trades (win rate 53.6%)
+- **Entry zone:** 132–138
 - **Stop loss:** -7% below close
 - **Take profit:** +9% above close
-- **Why:** Largest sample size in medium tier with high win rate; reliable signal for mean-reversion plays.
-
-## RAJA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Medium
-- **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)
-- **Entry zone:** 434–442
-- **Stop loss:** -7% below close
-- **Take profit:** +9% above close
-- **Why:** Clean oversold RSI (17.0) with strong historical reliability; moderate price supports scalable entry.
-
-## GJTL — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Medium
-- **Historical edge:** 2.43% over 10 past trades (win rate 70%)
-- **Entry zone:** 1090–1100
-- **Stop loss:** -7% below close
-- **Take profit:** +8% above close
-- **Why:** High win rate and solid edge; price near 20-day support with RSI confirming reversal signal.
+- **Why:** 8% price move on 3.2x volume — volume-driven momentum with decent historical reliability.
 
 ## PTRO — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.8% over 11 past trades (win rate 63.6%)
-- **Entry zone:** 2900–2940
-- **Stop loss:** -7% below close
-- **Take profit:** +10% above close
-- **Why:** Deep RSI (14.8) with above-average win rate; high close price suggests institutional accumulation.
-
-## INKP — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 1.81% over 18 past trades (win rate 44.4%)
-- **Entry zone:** 6600–6700
-- **Stop loss:** -7% below close
-- **Take profit:** +8% above close
-- **Why:** Oversold RSI (28.3) with high volume likely; low edge but high liquidity and recent price stability.
-
-## ASHA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Medium
-- **Historical edge:** 2.46% over 9 past trades (win rate 55.6%)
-- **Entry zone:** 35–37
+- **Entry zone:** 2980–3050
 - **Stop loss:** -8% below close
-- **Take profit:** +9% above close
-- **Why:** Clean oversold bounce with moderate win rate; low price allows for high position sizing with low capital risk.
-
-## ESSA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 1.68% over 18 past trades (win rate 44.4%)
-- **Entry zone:** 480–488
-- **Stop loss:** -7% below close
-- **Take profit:** +8% above close
-- **Why:** RSI at 25.6 with consistent historical performance; recent volume surge suggests accumulation.
-
-## TPIA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 1.53% over 19 past trades (win rate 52.6%)
-- **Entry zone:** 1120–1130
-- **Stop loss:** -7% below close
-- **Take profit:** +9% above close
-- **Why:** Deep RSI (14.5) with high n and above-average win rate; strong candidate for mean-reversion bounce.
+- **Take profit:** +10% above close
+- **Why:** RSI 15.5 is extreme oversold with 63.6% win rate — high price but strong reversal history justifies inclusion.
 
 ### Market Read
-Oversold RSI signals are widespread across IDX, with high-conviction candidates concentrated in mid- to small-cap names. Volume and price action confirm exhaustion in key names like TINS and WIFI. No negative-tier tickers meet 3-strategy confluence threshold — avoid them despite deep RSI. Vol breakout signals absent today; rely on RSI-driven mean reversion.
+Volume-driven RSI oversold confluences are dominating today’s buy signals, especially BNBR and WIFI. The market is showing early signs of institutional accumulation in mid-cap names with volume spikes. Negative RSI signals remain dangerous — avoid them unless triple-triggered. Vol_breakout_up remains the most reliable standalone signal for 20d holds.
