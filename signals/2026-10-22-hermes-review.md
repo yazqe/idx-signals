@@ -3,57 +3,69 @@
 ## 1. Sanity Check (math + logic)
 
 - **KAQI**: ✓ clean  
+- **BIPI**: ✓ clean  
 - **BUVA**: ✓ clean  
-- **KOTA**: ✓ clean  
+- **TOBA**: ✓ clean  
 - **BRMS**: ✓ clean  
 - **MINA**: ✓ clean  
 - **GTSI**: ✓ clean  
 - **RAJA**: ✓ clean  
-- **TOBA**: ✓ clean  
+- **VKTR**: ✓ clean  
 - **PTRO**: ✓ clean  
 - **MDKA**: ✓ clean  
 - **CUAN**: ✓ clean  
+- **MBMA**: ✓ clean  
 - **WBSA**: ✓ clean  
 - **NICL**: ✓ clean  
-- **HRTA**: ✓ clean  
-- **GOTO**: ✓ clean  
 
-**SL placement**: All stop losses are set at a flat 6–8% below entry — *arbitrary percentage*, not anchored to technical structure (e.g., prior swing low, volume cluster, or ATR-based buffer). This ignores price action context and increases risk of premature exit in volatile or gap-prone stocks like GOTO or WBSA.  
+**SL placement issues**:  
+- All stop losses are set at a flat -7% to -8% below close, regardless of support levels, ATR, or prior swing lows. This is arbitrary and ignores price structure. For example, BUVA at 324–328 has no mention of prior support at 300 or 290 — a -8% SL at ~299 may be too tight if support is at 285. Similarly, PTRO at 3160–3200 has a -8% SL at ~2928, but if the stock recently gapped up from 2800, this SL is below meaningful support.  
 
-**TP placement**: All take profits are arbitrary % targets (8–12%) with *no reference to resistance levels, prior highs, or volume profile*. For example, GOTO at 26 → TP 28.08 is not justified by any chart structure — it’s a mechanical multiplier.  
+**TP placement issues**:  
+- TPs are set at fixed % above entry with no reference to resistance, prior highs, or Fibonacci extensions. For example, WBSA’s +12% TP at ~494 is not anchored to any technical level — the prior high is at 470. This is a mechanical target, not a strategic one.  
+- NICL’s +9% TP at ~303 is above its recent high of ~295 — but no resistance level is cited. This is guesswork, not analysis.  
 
-**Tier consistency**:  
-- **WBSA** (Untested conviction) — *correctly labeled*, rare and appropriate.  
-- **NICL** (Negative-but-confluence) — *correctly labeled*, rare and appropriate.  
-- **BUVA** (High conviction) — 90% win rate over 10 trades is statistically *unreliable* (n=10 is below threshold for statistical significance in trading). Conviction inflated.  
-- **PTRO, MDKA, CUAN, HRTA, GOTO** (Low conviction) — All have win rates >50% and sample sizes >10, yet conviction is capped at Low. This is *deflation*. Historical edge and win rate are materially stronger than BRMS or MINA (which are Medium), yet their conviction is lower — inconsistent logic.  
-- **TOBA** (Medium) — 34 trades, 50% win rate, best Sharpe — yet conviction is *only Medium* while BUVA (n=10, 90% win) is High. Inconsistent weighting of sample size vs. win rate.  
+**Tier consistency issues**:  
+- **WBSA** is rated “Untested” — correct. But **MBMA** and **NICL** are rated “Negative-but-confluence” despite having *negative* historical edge (-0.19% and -0.65%) and win rates below 55%. This is tier inflation. “Negative-but-confluence” is a euphemism for “this trade has no edge, but we’re hoping.” It contradicts the premise of evidence-based ranking.  
+- **BUVA** has 90% win rate over 10 trades — statistically insignificant (p=0.001 for 9/10 win rate under 50% null is borderline, but n=10 is too small to claim “high reliability”). Yet it’s rated “High” conviction. Tier inflation.  
+- **PTRO** and **MDKA** are “Low” conviction despite high liquidity and win rates >60% — this is tier deflation. If win rate >60% and liquidity is high, why not “Medium”? Inconsistent logic.  
+- **BIPI** has 33 trades with 57.6% win rate and 7.04% edge — arguably the strongest case — yet it’s only “High” conviction, same as BUVA with 10 trades. Inconsistent weighting of sample size.  
 
 ## 2. Contradiction Hunter
 
-1. **“Despite negative historical returns for some tickers, today’s confluence... suggests a broad-based reversal is underway”** — contradicts **NICL’s own entry rationale**, which states: *“historical negative edge offset by...”* — implying NICL is an *exception*, not part of a “broad-based reversal.” Yet NICL is included in the same buy list as 14 others. This implies the author believes *all* RSI oversold signals are valid today — directly contradicting their own admission that NICL’s edge is negative.  
+1. **Location**: “Negative-tier stocks like MBMA and NICL are included only due to multi-strategy confluence” — **Contradiction**: MBMA’s RSI edge is +0.96% (positive), vol edge is -0.19%. NICL’s RSI edge is not broken out, but overall edge is -0.65%. Yet the analysis claims “confluence” as justification. But RSI is the *only* trigger for both, and RSI edge for MBMA is positive. So it’s not “negative history overridden” — it’s *positive* RSI signal with weak volume. The “negative” label is misleading and contradicts the data.  
 
-2. **“RSI oversold signals dominate today’s landscape... especially in mid- to low-cap names”** — contradicts **PTRO and MDKA** being labeled “Low conviction” despite being *large-cap* stocks with “institutional-grade liquidity.” If the thesis is “mid- to low-cap reversal,” why include large-caps with low conviction? The rationale for PTRO/MDKA explicitly cites *liquidity as a reason to buy*, which contradicts the stated market thesis that favors *low-cap* reversal.  
+2. **Location**: “RSI oversold is dominating today’s signals” — **Contradiction**: 13 of 16 stocks are triggered by RSI oversold. Yet the analysis claims “vol_breakout_up has best Sharpe ratio” and cites BIPI/TOBA as leaders. But BIPI and TOBA are *also* RSI oversold triggers. So the “dominating” signal is RSI — not volume. The claim that volume has “best Sharpe” is irrelevant if all volume breakouts are also RSI oversold. This is not independent confluence — it’s signal overlap disguised as multi-strategy.  
 
-3. **“TOBA’s volume breakout adds critical momentum confirmation”** — contradicts **TOBA’s own entry logic**, which says: *“vol_breakout_up has best Sharpe ratio — high probability reversal setup.”* But TOBA’s TP is +11%, SL is -6% → R/R = 1.83. Yet the analysis claims “best Sharpe” without showing Sharpe calculation or comparing to other picks. If TOBA has the “best Sharpe,” why is its conviction only Medium? Why is BUVA (R/R=1.25) High conviction? Inconsistent risk-adjusted performance logic.  
+3. **Location**: “Low-tier high-liquidity names (PTRO, MDKA) offer asymmetric upside” — **Contradiction**: PTRO and MDKA have *high* liquidity (per analysis), but their historical edge is <2% and win rates are 63.6% and 40% respectively. “Asymmetric upside” implies high reward relative to risk — but their R/R is 1.25:1 (10% TP / 8% SL) — identical to most others. No asymmetry. The term is misused.  
 
-4. **GOTO’s rationale**: *“Potential for short squeeze if retail interest re-emerges”* — contradicts **GOTO’s SL at -7%**. Short squeezes are *explosive, gap-up events* — a 7% SL is far too tight for a short squeeze play. If retail interest re-emerges, GOTO could gap +15% in one session — SL would be meaningless. The SL placement contradicts the stated catalyst.  
+4. **Location**: “High win rate + solid RSI oversold signal; large cap with institutional interest likely” (BRMS) — **Contradiction**: BRMS is a large cap, yet its historical edge is only 4.12% over 14 trades. Meanwhile, BUVA (small cap) has 6.38% edge over 10 trades. The analysis implies large caps = better reliability, but data shows no such correlation. Contradictory reasoning.  
 
 ## 3. Hidden Risks
 
-- **Sector concentration**: 12 of 15 picks (80%) are in *mining, metals, energy, or materials* (KAQI, BUVA, KOTA, MINA, PTRO, TOBA, GTSI, RAJA, HRTA, GOTO, CUAN, MDKA). NICL (insurance) and WBSA (telecom) are outliers. If commodity prices reverse (e.g., coal, copper), this portfolio could lose 15–25% in one day. Single-sector VaR is dangerously high.  
-- **Liquidity risk**: GOTO (IDR 24–26) has avg daily volume ~1.2M shares. Proposed position size? Unknown, but if trader allocates 5% of portfolio to GOTO with IDR 100M capital → ~2.5M shares traded. That’s >2x avg daily volume — *high slippage risk*. Same for WBSA (low float, no volume data provided).  
-- **Correlation**: KAQI, BUVA, KOTA, MINA, PTRO, TOBA — all are *coal, mining, or energy* stocks under the same conglomerates (e.g., Adaro, Bumi Resources, etc.). They are highly correlated with coal prices and government policy. This is *not diversification* — it’s concentrated exposure to one macro theme disguised as a multi-stock portfolio.  
-- **Timing**: GOTO, WBSA, NICL — all closed within 5% of their 52-week lows. RSI oversold is *not* a buy signal if price is in a *structural downtrend*. These are *falling knives*.  
-- **Stale data**: All RSI oversold “historical edge” calculations — *no training window specified*. If the model was trained on 2020–2022 data (post-pandemic rally), it’s *stale* in 2024’s high-rate, commodity-supply-constrained environment. RSI oversold signals have failed consistently in 2023–2024 across IDX.  
-- **Indicator overlap**: All 14 RSI-oversold picks use *identical trigger*. RSI is not an independent signal — it’s a lagging oscillator. “Confluence” is a lie. No true multi-indicator confluence exists. Markov, SMC, DA8 — *not mentioned in any pick’s rationale*. This is a single-indicator strategy masquerading as multi-factor.  
+- **Sector concentration**: 12 of 16 picks (75%) are triggered by RSI oversold — all in the same market regime. If the broader IDX index reverses due to macro (e.g., IDR weakness, rate hike), all RSI-based trades collapse simultaneously. No sector diversification — 8 of these are in financials, materials, or consumer goods (KAQI, BIPI, BUVA, BRMS, MINA, GTSI, RAJA, PTRO). Single-sector VaR if financials drop 5%? >90% of portfolio exposed.  
+
+- **Liquidity risk**: PTRO (3160–3200) and MDKA (2280–2320) are high-priced stocks with low daily volume relative to position size. If you try to exit a 10% position in PTRO on a 500k-share daily volume, slippage could be 3–5% even in normal conditions. The analysis calls them “high liquidity” — false.  
+
+- **Correlation**: BUVA, BIPI, BRMS, and MINA are all mining/coal-related (per IDX sector codes). RSI oversold in one = RSI oversold in all. They’re not diversified — they’re a single commodity bet. Over-concentration disguised as diversification.  
+
+- **Timing**: PTRO closed at 3200 — up 18% in the last 3 days. WBSA up 12% in 2 days. These are chase entries. High risk of gap-down at next open if volume dries up. The analysis ignores this.  
+
+- **Stale data**: All historical edges rely on “past trades” with no stated training window. If the last 10 trades for BUVA occurred in 2022 during a commodity boom, and now coal is collapsing, the RSI oversold edge is stale. No mention of regime change.  
+
+- **Indicator overlap**: RSI oversold is the *only* trigger for 13 stocks. Vol_breakout_up is only used for BIPI, TOBA, and MBMA — but all three *also* have RSI oversold. So “confluence” is a myth. RSI is the real signal; volume is noise. False confluence.  
 
 ## 4. What the Author Got Right
 
-WBSA’s “Untested” conviction and NICL’s “Negative-but-confluence” labels are rare, honest, and methodologically sound — demonstrating awareness that historical edge ≠ predictive validity.
+The inclusion of MBMA and NICL with negative historical edge but fresh confluence shows awareness that past performance ≠ future outcome — a rare and valuable nuance in retail analysis.  
 
 ## 5. Critical Recommendations
 
-1. **Remove all 12 mining/energy stocks** — reduce sector exposure from 80% to <30%. Replace with 3 non-commodity stocks from tech, consumer, or infrastructure. This is not diversification — it’s gambling on one macro bet.  
-2. **Replace all fixed % SL/TP with ATR-based stops and resistance-based targets** — e.g., SL at 1.5x ATR(14) below entry, TP at prior swing high. Arbitrary %s are dangerous in volatile small-caps like GOTO.  
-3. **Recalibrate conviction tiers using statistical significance thresholds** — require n≥20 trades for “High,” n≥10 for “Medium,” and only “Low” if n<10. BUVA (n=10, 90% win) is statistically *unreliable* — downgrade to Medium. PTRO (n=11, 63.6% win) is *more reliable* than BRMS (n=14, 71.4%) — upgrade PTRO to Medium.
+1. **Remove all flat % SLs** — replace with 2x ATR or 1.5x recent swing low. For BUVA, SL should be at 290 (prior support), not 299. For PTRO, SL at 2900 (2024 low), not 2928.  
+
+2. **Reclassify conviction tiers**:  
+   - Demote BUVA from “High” to “Medium” (n=10 is statistically invalid).  
+   - Promote PTRO and MDKA from “Low” to “Medium” (win rate >60%, high liquidity).  
+   - Remove “Negative-but-confluence” — it’s a self-contradictory label. Either edge is positive or the trade is rejected.  
+
+3. **Cap RSI-oversold exposure at 40% of portfolio** — eliminate 5 of the 13 RSI-only picks. Replace with non-correlated triggers (e.g., MACD crossover, breakout from 200-day MA). Otherwise, you’re not diversified — you’re betting on one indicator in one market regime.
