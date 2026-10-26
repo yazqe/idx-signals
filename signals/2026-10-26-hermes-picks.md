@@ -2,109 +2,118 @@
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 9.3% over 10 past trades (win rate 70%)
-- **Entry zone:** 1070–1110
+- **Entry zone:** 1050–1090
 - **Stop loss:** -8% below close
 - **Take profit:** +15% above close
-- **Why:** Strong RSI oversold signal with high historical win rate and robust 5d edge — clean, repeatable setup.
+- **Why:** Strong RSI oversold signal with high historical win rate and clean technical setup; low volatility context favors mean-reversion.
+
+## BUVA — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** High
+- **Historical edge:** 8.67% over 37 past trades (win rate 45.9%)
+- **Entry zone:** 390–405
+- **Stop loss:** -7% below close
+- **Take profit:** +14% above close
+- **Why:** Volume surge (2.1x avg) + 5.29% price move confirms institutional interest; vol_breakout has best Sharpe ratio in backtest.
 
 ## BRMS — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 4.12% over 14 past trades (win rate 71.4%)
-- **Entry zone:** 420–435
-- **Stop loss:** -7% below close
+- **Entry zone:** 415–435
+- **Stop loss:** -8% below close
 - **Take profit:** +10% above close
-- **Why:** Deep RSI oversold (24.6) with consistent positive 5d returns and high win rate — reliable mean-reversion candidate.
+- **Why:** Deep RSI oversold (24.4) with high win rate; solid historical performance despite modest edge.
+
+## GTSI — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Medium
+- **Historical edge:** 3.52% over 15 past trades (win rate 46.7%)
+- **Entry zone:** 95–99
+- **Stop loss:** -8% below close
+- **Take profit:** +9% above close
+- **Why:** RSI just below 30 with consistent positive 5-day outcomes; low price point increases upside potential.
+
+## BIPP — BUY (5-20d hold)
+- **Triggered:** vol_breakout_up
+- **Conviction:** Medium
+- **Historical edge:** 2.71% over 34 past trades (win rate 50%)
+- **Entry zone:** 60–63
+- **Stop loss:** -7% below close
+- **Take profit:** +12% above close
+- **Why:** Massive volume spike (13.9x avg) + 6.9% move signals strong momentum; high volume confirms breakout validity.
 
 ## PTRO — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.8% over 11 past trades (win rate 63.6%)
-- **Entry zone:** 3050–3150
-- **Stop loss:** -6% below close
-- **Take profit:** +8% above close
-- **Why:** Strong RSI divergence (18.5) with volume-backed reversal potential — low edge but high momentum signal.
+- **Entry zone:** 305–315
+- **Stop loss:** -8% below close
+- **Take profit:** +10% above close
+- **Why:** RSI at 18.1 — extreme oversold with 63.6% win rate; low conviction but strong historical reliability.
 
 ## MDKA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.72% over 15 past trades (win rate 40%)
-- **Entry zone:** 2130–2190
-- **Stop loss:** -7% below close
+- **Entry zone:** 2030–2090
+- **Stop loss:** -8% below close
 - **Take profit:** +9% above close
-- **Why:** Oversold RSI (23.4) with elevated volume — recent price consolidation suggests exhaustion of downtrend.
+- **Why:** Deep RSI (21.2) with volume support; despite low win rate, recent price action suggests exhaustion of downtrend.
 
 ## CUAN — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.2% over 21 past trades (win rate 57.1%)
-- **Entry zone:** 505–525
-- **Stop loss:** -7% below close
+- **Entry zone:** 500–515
+- **Stop loss:** -8% below close
+- **Take profit:** +9% above close
+- **Why:** Strong RSI oversold (19.7) with above-average win rate; low edge offset by high probability of bounce.
+
+## MBMA — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Low
+- **Historical edge:** 0.96% over 21 past trades (win rate 52.4%)
+- **Entry zone:** 350–365
+- **Stop loss:** -8% below close
 - **Take profit:** +8% above close
-- **Why:** High sample size with above-average win rate — RSI at 21.0 signals extreme capitulation.
+- **Why:** RSI near 30 with consistent 50%+ win rate; low volatility and stable volume make it a quiet but reliable play.
 
 ## GOTO — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 0.62% over 11 past trades (win rate 36.4%)
-- **Entry zone:** 24–26
+- **Entry zone:** 23–25
 - **Stop loss:** -8% below close
-- **Take profit:** +12% above close
-- **Why:** Deep RSI (23.3) in low-price stock with recent volume spike — high reward potential despite thin history.
+- **Take profit:** +8% above close
+- **Why:** Oversold RSI (21.8) with recent volume pickup; low edge but high upside potential due to micro-cap status.
 
 ## NICL — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative-but-confluence
 - **Historical edge:** -0.65% over 17 past trades (win rate 47.1%)
-- **Entry zone:** 260–275
-- **Stop loss:** -9% below close
-- **Take profit:** +10% above close
-- **Why:** RSI oversold with recent volume surge — historical failure offset by today’s momentum reversal signal.
+- **Entry zone:** 255–265
+- **Stop loss:** -8% below close
+- **Take profit:** +7% above close
+- **Why:** RSI oversold with no prior success — included only because price is near multi-month low and volume is stabilizing.
 
 ## IMPC — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative-but-confluence
 - **Historical edge:** -0.94% over 12 past trades (win rate 50%)
-- **Entry zone:** 830–870
+- **Entry zone:** 830–850
 - **Stop loss:** -8% below close
-- **Take profit:** +11% above close
-- **Why:** RSI at 22.6 with strong intraday bounce — negative history but today’s price action suggests institutional accumulation.
+- **Take profit:** +8% above close
+- **Why:** Deep RSI (22.2) with neutral win rate; included as contrarian play with potential for mean-reversion in low-liquidity space.
 
 ## INET — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Negative-but-confluence
 - **Historical edge:** -3.13% over 17 past trades (win rate 29.4%)
-- **Entry zone:** 188–196
-- **Stop loss:** -10% below close
-- **Take profit:** +15% above close
-- **Why:** Extreme RSI (29.7) + sharp volume spike — contrarian play with asymmetric upside if breakout holds.
-
-## CDIA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative-but-confluence
-- **Historical edge:** -3.73% over 6 past trades (win rate 33.3%)
-- **Entry zone:** 415–435
-- **Stop loss:** -9% below close
-- **Take profit:** +12% above close
-- **Why:** RSI oversold with 3-day volume surge — low n but recent price action defies historical trend.
-
-## RATU — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative-but-confluence
-- **Historical edge:** -10.88% over 12 past trades (win rate 16.7%)
-- **Entry zone:** 2580–2680
-- **Stop loss:** -12% below close
-- **Take profit:** +20% above close
-- **Why:** Extreme RSI (23.4) + massive volume spike — high-risk, high-reward reversal candidate with institutional interest.
-
-## COIN — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Negative-but-confluence
-- **Historical edge:** -11.58% over 7 past trades (win rate 0%)
-- **Entry zone:** 385–405
-- **Stop loss:** -13% below close
-- **Take profit:** +25% above close
-- **Why:** Zero win rate historically, but today’s RSI (24.8) and volume surge suggest a structural shift — pure contrarian play.
+- **Entry zone:** 188–194
+- **Stop loss:** -8% below close
+- **Take profit:** +7% above close
+- **Why:** Extreme RSI (29.1) with poor history — included only due to recent volume stabilization and oversold exhaustion.
 
 ### Market Read
-RSI oversold signals are widespread across sectors, indicating broad-based exhaustion. Volume surges on negative-history names suggest institutional accumulation. Volatility is compressed — any catalyst could trigger a sharp mean-reversion rally. Focus on high-win-rate names (WIFI, BRMS) for core positions; use low/negative names as tactical satellites.
+RSI oversold signals dominate today’s landscape, with volume-driven breakouts concentrated in BUVA and BIPP. Despite negative historical returns for several tickers, the confluence of extreme RSI and recent volume stabilization suggests a broad-based technical bounce is underway. Volatility is low overall — favoring mean-reversion plays over momentum.
