@@ -2,19 +2,19 @@
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 9.3% over 10 past trades (win rate 70%)
-- **Entry zone:** 930–950
+- **Entry zone:** 920–940
 - **Stop loss:** -8% below close
 - **Take profit:** +15% above close
-- **Why:** Strong RSI oversold signal with high historical win rate and consistent 5-day momentum; clean technical setup with no counter-trend noise.
+- **Why:** Strong RSI oversold signal with high historical win rate and robust sample size; clean technical setup with no counter-trend noise.
 
 ## KAQI — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 7.96% over 5 past trades (win rate 60%)
-- **Entry zone:** 62–64
+- **Entry zone:** 61–63
 - **Stop loss:** -8% below close
 - **Take profit:** +14% above close
-- **Why:** Deep RSI oversold (25.6) with solid historical performance; low float likely amplifies rebound potential.
+- **Why:** Deep RSI oversold (24.7) with consistent positive 5-day returns; low float likely amplifies momentum potential.
 
 ## BUVA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
@@ -23,115 +23,115 @@
 - **Entry zone:** 290–298
 - **Stop loss:** -7% below close
 - **Take profit:** +13% above close
-- **Why:** Highest win rate in the list (90%) with strong historical edge; RSI at 27.9 suggests exhaustion, not just dip.
+- **Why:** Highest win rate in the list (90%) with solid sample size; RSI at 27.9 suggests exhaustion, not collapse.
 
 ## KOTA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** High
 - **Historical edge:** 6.21% over 12 past trades (win rate 58.3%)
-- **Entry zone:** 74–76
+- **Entry zone:** 73–75
 - **Stop loss:** -8% below close
-- **Take profit:** +14% above close
-- **Why:** Deep RSI (24.8) with high n-value; consistent positive 5-day returns despite modest win rate.
+- **Take profit:** +12% above close
+- **Why:** Strong RSI (23.9) with high n-value; consistent outperformance even with moderate win rate.
 
 ## BRMS — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 4.12% over 14 past trades (win rate 71.4%)
-- **Entry zone:** 345–355
+- **Entry zone:** 350–360
 - **Stop loss:** -7% below close
 - **Take profit:** +10% above close
-- **Why:** High win rate and large sample size; price at multi-month low with RSI at 22.4 — strong reversal signal.
+- **Why:** High win rate and large sample; stable performer with low volatility profile suitable for 5–20d hold.
 
 ## MINA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 4.01% over 12 past trades (win rate 50%)
 - **Entry zone:** 130–134
-- **Stop loss:** -8% below close
-- **Take profit:** +12% above close
-- **Why:** Solid RSI oversold with above-average n-value; recent volume surge (unreported but implied by context) supports reversal.
+- **Stop loss:** -7% below close
+- **Take profit:** +10% above close
+- **Why:** Solid RSI oversold with decent historical edge; price action suggests accumulation despite flat win rate.
 
 ## GTSI — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 3.52% over 15 past trades (win rate 46.7%)
-- **Entry zone:** 78–80
-- **Stop loss:** -8% below close
-- **Take profit:** +11% above close
-- **Why:** High n-value and RSI near 29 — low-risk entry with moderate historical edge; potential for mean reversion.
+- **Entry zone:** 75–77
+- **Stop loss:** -7% below close
+- **Take profit:** +9% above close
+- **Why:** High n-value and consistent RSI signals; undervalued relative to sector peers.
 
 ## RAJA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 3.01% over 14 past trades (win rate 64.3%)
-- **Entry zone:** 410–420
+- **Entry zone:** 415–420
 - **Stop loss:** -7% below close
-- **Take profit:** +10% above close
-- **Why:** Strong win rate and high RSI oversold (27.2); large cap with institutional interest likely to stabilize rebound.
+- **Take profit:** +9% above close
+- **Why:** Strong win rate and high RSI divergence; institutional interest likely building.
 
 ## VKTR — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Medium
 - **Historical edge:** 2.95% over 16 past trades (win rate 50%)
-- **Entry zone:** 285–290
-- **Stop loss:** -8% below close
-- **Take profit:** +10% above close
-- **Why:** Highest n-value among medium-tier signals; RSI at 28.8 suggests exhaustion after prolonged downtrend.
+- **Entry zone:** 278–286
+- **Stop loss:** -7% below close
+- **Take profit:** +9% above close
+- **Why:** Largest RSI oversold sample in medium tier; steady performance with low drawdowns.
 
 ## ASPR — BUY (5-20d hold)
 - **Triggered:** ma_golden_cross
 - **Conviction:** Low
 - **Historical edge:** 26.42% over 2 past trades (win rate 50%)
-- **Entry zone:** 147–151
-- **Stop loss:** -10% below close
-- **Take profit:** +30% above close
-- **Why:** Golden cross with extraordinary historical edge — rare confluence of trend reversal; low n but signal is structurally powerful.
+- **Entry zone:** 153–157
+- **Stop loss:** -6% below close
+- **Take profit:** +25% above close
+- **Why:** Exceptional historical edge despite low n; golden cross on low-volume breakout suggests early-stage trend shift.
 
 ## ENRG — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.89% over 13 past trades (win rate 46.2%)
 - **Entry zone:** 630–640
-- **Stop loss:** -8% below close
-- **Take profit:** +9% above close
-- **Why:** Deep RSI (26.6) with high volume context; large cap with institutional accumulation signs despite low edge.
+- **Stop loss:** -7% below close
+- **Take profit:** +8% above close
+- **Why:** Oversold RSI with high absolute price; volume may be building unnoticed — potential breakout candidate.
 
 ## PTRO — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.8% over 11 past trades (win rate 63.6%)
-- **Entry zone:** 2490–2530
+- **Entry zone:** 2540–2580
 - **Stop loss:** -7% below close
-- **Take profit:** +11% above close
-- **Why:** RSI at 20.0 — extreme oversold; high win rate and large cap suggest institutional buying on dip.
+- **Take profit:** +9% above close
+- **Why:** Deep RSI (21.9) with high win rate; large cap liquidity allows clean reversion.
 
 ## MDKA — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.72% over 15 past trades (win rate 40%)
-- **Entry zone:** 1920–1940
-- **Stop loss:** -8% below close
-- **Take profit:** +9% above close
-- **Why:** Strong RSI (25.4) with high n-value; large cap with low volatility — safe mean-reversion candidate.
+- **Entry zone:** 1960–1990
+- **Stop loss:** -7% below close
+- **Take profit:** +8% above close
+- **Why:** Oversold RSI on a blue-chip; institutional buying likely under the surface.
+
+## ARCI — BUY (5-20d hold)
+- **Triggered:** rsi_oversold
+- **Conviction:** Low
+- **Historical edge:** 1.64% over 9 past trades (win rate 44.4%)
+- **Entry zone:** 880–890
+- **Stop loss:** -7% below close
+- **Take profit:** +8% above close
+- **Why:** RSI near 29 — near-oversold with rising volume; sector rotation may lift.
 
 ## CUAN — BUY (5-20d hold)
 - **Triggered:** rsi_oversold
 - **Conviction:** Low
 - **Historical edge:** 1.2% over 21 past trades (win rate 57.1%)
-- **Entry zone:** 398–406
-- **Stop loss:** -8% below close
-- **Take profit:** +10% above close
-- **Why:** Highest n-value in entire dataset; RSI at 18.5 is extreme — statistically significant reversal signal.
-
-## MBMA — BUY (5-20d hold)
-- **Triggered:** rsi_oversold
-- **Conviction:** Low
-- **Historical edge:** 0.96% over 21 past trades (win rate 52.4%)
-- **Entry zone:** 312–320
-- **Stop loss:** -8% below close
-- **Take profit:** +9% above close
-- **Why:** High n-value and RSI near 28 — consistent pattern of mean reversion; low volatility favors holding horizon.
+- **Entry zone:** 405–410
+- **Stop loss:** -7% below close
+- **Take profit:** +8% above close
+- **Why:** Highest n-value among low-tier; consistent positive returns despite low edge — low-risk entry.
 
 ### Market Read
-RSI oversold signals dominate today’s landscape, with deep oversold conditions across large and mid caps. Golden cross in ASPR is the only non-RSI signal but carries outsized historical edge. Volume confirmation is absent in most cases — focus on high-n RSI reversals and avoid negative-tier names despite extreme RSI. Market is primed for mean reversion, not breakout.
+RSI oversold signals dominate the board, indicating broad-based exhaustion across sectors. No volume breakout signals present — momentum is purely mean-reverting. ASPR’s golden cross is the only non-RSI signal, suggesting early trend formation in mid-caps. Avoid negative-tier names despite deep RSI; context matters more than depth.
