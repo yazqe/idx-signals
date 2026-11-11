@@ -1,26 +1,11 @@
 [
   {
-    "ticker": "ASPR",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 170,
-    "vol_ratio": 3.0,
-    "pct_chg": 3.66,
-    "note": "Volume 3.0x avg + price +3.66%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.12,
-      "win_5d": 0.478,
-      "n": 23
-    }
-  },
-  {
     "ticker": "WIFI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 790,
-    "rsi": 25.9,
-    "note": "RSI 25.9 < 30 (oversold)",
+    "close": 775,
+    "rsi": 25.3,
+    "note": "RSI 25.3 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.093,
@@ -29,27 +14,12 @@
     }
   },
   {
-    "ticker": "BUVA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 318,
-    "vol_ratio": 4.8,
-    "pct_chg": 6,
-    "note": "Volume 4.8x avg + price +6.00%",
-    "history": {
-      "tier": "high",
-      "edge_5d": 0.0867,
-      "win_5d": 0.459,
-      "n": 37
-    }
-  },
-  {
     "ticker": "KAQI",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 56,
-    "rsi": 27.2,
-    "note": "RSI 27.2 < 30 (oversold)",
+    "close": 55,
+    "rsi": 24.2,
+    "note": "RSI 24.2 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0796,
@@ -61,10 +31,10 @@
     "ticker": "RAJA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 540,
-    "vol_ratio": 5.3,
-    "pct_chg": 15.88,
-    "note": "Volume 5.3x avg + price +15.88%",
+    "close": 510,
+    "vol_ratio": 6.8,
+    "pct_chg": 9.44,
+    "note": "Volume 6.8x avg + price +9.44%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0746,
@@ -76,10 +46,10 @@
     "ticker": "MINA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 163,
-    "vol_ratio": 12.3,
-    "pct_chg": 10.14,
-    "note": "Volume 12.3x avg + price +10.14%",
+    "close": 153,
+    "vol_ratio": 13.6,
+    "pct_chg": 3.38,
+    "note": "Volume 13.6x avg + price +3.38%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0708,
@@ -88,12 +58,27 @@
     }
   },
   {
+    "ticker": "BIPI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 81,
+    "vol_ratio": 2.9,
+    "pct_chg": 2.53,
+    "note": "Volume 2.9x avg + price +2.53%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0704,
+      "win_5d": 0.576,
+      "n": 33
+    }
+  },
+  {
     "ticker": "KOTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 55,
-    "rsi": 20.6,
-    "note": "RSI 20.6 < 30 (oversold)",
+    "close": 53,
+    "rsi": 19.0,
+    "note": "RSI 19.0 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0621,
@@ -102,12 +87,27 @@
     }
   },
   {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 36,
+    "vol_ratio": 4.5,
+    "pct_chg": 33.33,
+    "note": "Volume 4.5x avg + price +33.33%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
     "ticker": "BRMS",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 296,
-    "rsi": 22.4,
-    "note": "RSI 22.4 < 30 (oversold)",
+    "close": 292,
+    "rsi": 22.0,
+    "note": "RSI 22.0 < 30 (oversold)",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0412,
@@ -119,10 +119,10 @@
     "ticker": "RATU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 2390,
-    "vol_ratio": 6.0,
-    "pct_chg": 7.17,
-    "note": "Volume 6.0x avg + price +7.17%",
+    "close": 2340,
+    "vol_ratio": 6.8,
+    "pct_chg": 4.93,
+    "note": "Volume 6.8x avg + price +4.93%",
     "history": {
       "tier": "medium",
       "edge_5d": 0.0384,
@@ -131,12 +131,40 @@
     }
   },
   {
+    "ticker": "GTSI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 67,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0352,
+      "win_5d": 0.467,
+      "n": 15
+    }
+  },
+  {
+    "ticker": "PTRO",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2250,
+    "rsi": 29.6,
+    "note": "RSI 29.6 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.018,
+      "win_5d": 0.636,
+      "n": 11
+    }
+  },
+  {
     "ticker": "CUAN",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 384,
-    "rsi": 25.8,
-    "note": "RSI 25.8 < 30 (oversold)",
+    "close": 366,
+    "rsi": 23.5,
+    "note": "RSI 23.5 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.012,
@@ -148,10 +176,10 @@
     "ticker": "BULL",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 248,
-    "vol_ratio": 3.2,
-    "pct_chg": 12.73,
-    "note": "Volume 3.2x avg + price +12.73%",
+    "close": 230,
+    "vol_ratio": 3.7,
+    "pct_chg": 4.55,
+    "note": "Volume 3.7x avg + price +4.55%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0113,
@@ -177,9 +205,9 @@
     "ticker": "WBSA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 336,
-    "rsi": 24.1,
-    "note": "RSI 24.1 < 30 (oversold)",
+    "close": 332,
+    "rsi": 22.9,
+    "note": "RSI 22.9 < 30 (oversold)",
     "history": {
       "tier": "untested",
       "edge_5d": null,
@@ -187,12 +215,26 @@
     }
   },
   {
+    "ticker": "BKSL",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 37,
+    "rsi": 29.4,
+    "note": "RSI 29.4 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0016,
+      "win_5d": 0.385,
+      "n": 13
+    }
+  },
+  {
     "ticker": "NICL",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 224,
-    "rsi": 29.7,
-    "note": "RSI 29.7 < 30 (oversold)",
+    "close": 222,
+    "rsi": 29.2,
+    "note": "RSI 29.2 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0065,
@@ -204,9 +246,9 @@
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 775,
-    "rsi": 24.1,
-    "note": "RSI 24.1 < 30 (oversold)",
+    "close": 765,
+    "rsi": 23.8,
+    "note": "RSI 23.8 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
@@ -218,9 +260,9 @@
     "ticker": "COIN",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 290,
-    "rsi": 27.4,
-    "note": "RSI 27.4 < 30 (oversold)",
+    "close": 286,
+    "rsi": 27.1,
+    "note": "RSI 27.1 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.1158,
