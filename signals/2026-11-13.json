@@ -1,0 +1,85 @@
+[
+  {
+    "ticker": "WIFI",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 750,
+    "rsi": 25.2,
+    "note": "RSI 25.2 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.093,
+      "win_5d": 0.7,
+      "n": 10
+    }
+  },
+  {
+    "ticker": "KOTA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 56,
+    "rsi": 23.6,
+    "note": "RSI 23.6 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0621,
+      "win_5d": 0.583,
+      "n": 12
+    }
+  },
+  {
+    "ticker": "BRMS",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 298,
+    "rsi": 23.1,
+    "note": "RSI 23.1 < 30 (oversold)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0412,
+      "win_5d": 0.714,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "CUAN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 386,
+    "rsi": 29.7,
+    "note": "RSI 29.7 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.012,
+      "win_5d": 0.571,
+      "n": 21
+    }
+  },
+  {
+    "ticker": "WBSA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 350,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
+    "ticker": "BRPT",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 730,
+    "rsi": 22.7,
+    "note": "RSI 22.7 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0204,
+      "win_5d": 0.333,
+      "n": 18
+    }
+  }
+]
