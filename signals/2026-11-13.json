@@ -3,10 +3,10 @@
     "ticker": "KRYA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 42,
-    "vol_ratio": 2.4,
-    "pct_chg": 2.44,
-    "note": "Volume 2.4x avg + price +2.44%",
+    "close": 43,
+    "vol_ratio": 2.8,
+    "pct_chg": 4.88,
+    "note": "Volume 2.8x avg + price +4.88%",
     "history": {
       "tier": "high",
       "edge_5d": 0.1234,
@@ -15,13 +15,58 @@
     }
   },
   {
+    "ticker": "WIFI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 860,
+    "vol_ratio": 3.0,
+    "pct_chg": 16.22,
+    "note": "Volume 3.0x avg + price +16.22%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1043,
+      "win_5d": 0.5,
+      "n": 24
+    }
+  },
+  {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 380,
+    "vol_ratio": 2.7,
+    "pct_chg": 20.25,
+    "note": "Volume 2.7x avg + price +20.25%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
+    "ticker": "BRPT",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 785,
+    "vol_ratio": 2.5,
+    "pct_chg": 4.67,
+    "note": "Volume 2.5x avg + price +4.67%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0779,
+      "win_5d": 0.625,
+      "n": 32
+    }
+  },
+  {
     "ticker": "VKTR",
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 354,
-    "vol_ratio": 3.5,
+    "vol_ratio": 4.6,
     "pct_chg": 10.62,
-    "note": "Volume 3.5x avg + price +10.62%",
+    "note": "Volume 4.6x avg + price +10.62%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0686,
@@ -34,9 +79,9 @@
     "strategy": "vol_breakout_up",
     "side": "BUY",
     "close": 92,
-    "vol_ratio": 13.0,
+    "vol_ratio": 17.0,
     "pct_chg": 27.78,
-    "note": "Volume 13.0x avg + price +27.78%",
+    "note": "Volume 17.0x avg + price +27.78%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0622,
@@ -48,9 +93,9 @@
     "ticker": "KOTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 55,
-    "rsi": 23.2,
-    "note": "RSI 23.2 < 30 (oversold)",
+    "close": 56,
+    "rsi": 23.6,
+    "note": "RSI 23.6 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0621,
@@ -59,27 +104,43 @@
     }
   },
   {
-    "ticker": "BRMS",
-    "strategy": "rsi_oversold",
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 308,
-    "rsi": 26.2,
-    "note": "RSI 26.2 < 30 (oversold)",
+    "close": 49,
+    "vol_ratio": 4.7,
+    "pct_chg": 32.43,
+    "note": "Volume 4.7x avg + price +32.43%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
+    "ticker": "BRMS",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 336,
+    "vol_ratio": 2.6,
+    "pct_chg": 12,
+    "note": "Volume 2.6x avg + price +12.00%",
     "history": {
       "tier": "medium",
-      "edge_5d": 0.0412,
-      "win_5d": 0.714,
-      "n": 14
+      "edge_5d": 0.0332,
+      "win_5d": 0.5,
+      "n": 26
     }
   },
   {
     "ticker": "ESSA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 540,
-    "vol_ratio": 2.7,
-    "pct_chg": 10.66,
-    "note": "Volume 2.7x avg + price +10.66%",
+    "close": 535,
+    "vol_ratio": 3.6,
+    "pct_chg": 9.63,
+    "note": "Volume 3.6x avg + price +9.63%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0197,
@@ -91,9 +152,9 @@
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 750,
-    "rsi": 23.3,
-    "note": "RSI 23.3 < 30 (oversold)",
+    "close": 785,
+    "rsi": 26.8,
+    "note": "RSI 26.8 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
