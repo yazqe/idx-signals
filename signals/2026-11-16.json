@@ -1,11 +1,26 @@
 [
   {
+    "ticker": "COIN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 474,
+    "vol_ratio": 6.9,
+    "pct_chg": 20.3,
+    "note": "Volume 6.9x avg + price +20.30%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0807,
+      "win_5d": 0.688,
+      "n": 16
+    }
+  },
+  {
     "ticker": "KOTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 54,
-    "rsi": 22.8,
-    "note": "RSI 22.8 < 30 (oversold)",
+    "close": 57,
+    "rsi": 24.9,
+    "note": "RSI 24.9 < 30 (oversold)",
     "history": {
       "tier": "high",
       "edge_5d": 0.0621,
@@ -14,12 +29,27 @@
     }
   },
   {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 51,
+    "vol_ratio": 3.2,
+    "pct_chg": 4.08,
+    "note": "Volume 3.2x avg + price +4.08%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 790,
-    "rsi": 28.1,
-    "note": "RSI 28.1 < 30 (oversold)",
+    "close": 765,
+    "rsi": 27.2,
+    "note": "RSI 27.2 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
