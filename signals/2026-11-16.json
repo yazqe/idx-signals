@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "KOTA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 54,
+    "rsi": 22.8,
+    "note": "RSI 22.8 < 30 (oversold)",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0621,
+      "win_5d": 0.583,
+      "n": 12
+    }
+  },
+  {
+    "ticker": "BRPT",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 790,
+    "rsi": 28.1,
+    "note": "RSI 28.1 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0204,
+      "win_5d": 0.333,
+      "n": 18
+    }
+  }
+]
