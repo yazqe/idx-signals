@@ -3,10 +3,10 @@
     "ticker": "COIN",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 474,
-    "vol_ratio": 6.9,
-    "pct_chg": 20.3,
-    "note": "Volume 6.9x avg + price +20.30%",
+    "close": 478,
+    "vol_ratio": 10.6,
+    "pct_chg": 21.32,
+    "note": "Volume 10.6x avg + price +21.32%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0807,
@@ -16,26 +16,27 @@
   },
   {
     "ticker": "KOTA",
-    "strategy": "rsi_oversold",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 57,
-    "rsi": 24.9,
-    "note": "RSI 24.9 < 30 (oversold)",
+    "close": 68,
+    "vol_ratio": 3.4,
+    "pct_chg": 21.43,
+    "note": "Volume 3.4x avg + price +21.43%",
     "history": {
       "tier": "high",
-      "edge_5d": 0.0621,
-      "win_5d": 0.583,
-      "n": 12
+      "edge_5d": 0.0711,
+      "win_5d": 0.511,
+      "n": 45
     }
   },
   {
     "ticker": "WMUU",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 51,
-    "vol_ratio": 3.2,
-    "pct_chg": 4.08,
-    "note": "Volume 3.2x avg + price +4.08%",
+    "close": 55,
+    "vol_ratio": 7.2,
+    "pct_chg": 12.24,
+    "note": "Volume 7.2x avg + price +12.24%",
     "history": {
       "tier": "high",
       "edge_5d": 0.0604,
@@ -44,17 +45,45 @@
     }
   },
   {
+    "ticker": "WBSA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 416,
+    "vol_ratio": 2.3,
+    "pct_chg": 11.23,
+    "note": "Volume 2.3x avg + price +11.23%",
+    "history": {
+      "tier": "untested",
+      "edge_5d": null,
+      "n": 0
+    }
+  },
+  {
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 765,
-    "rsi": 27.2,
-    "note": "RSI 27.2 < 30 (oversold)",
+    "close": 750,
+    "rsi": 26.7,
+    "note": "RSI 26.7 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
       "win_5d": 0.333,
       "n": 18
+    }
+  },
+  {
+    "ticker": "EMAS",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 4900,
+    "rsi": 29.9,
+    "note": "RSI 29.9 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0649,
+      "win_5d": 0.0,
+      "n": 4
     }
   }
 ]
