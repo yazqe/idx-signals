@@ -1391,3 +1391,9 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-11-13,BRMS,vol_breakout_up,BUY,336,0.0,,,2026-11-16T05:17:28
 2026-11-13,ESSA,vol_breakout_up,BUY,535,0.028,,,2026-11-16T05:17:28
 2026-11-13,BRPT,rsi_oversold,BUY,785,0.0,,,2026-11-16T05:17:28
+2026-11-16,COIN,vol_breakout_up,BUY,478,0.1297,,,2026-11-17T05:17:20
+2026-11-16,KOTA,vol_breakout_up,BUY,68,0.0147,,,2026-11-17T05:17:20
+2026-11-16,WMUU,vol_breakout_up,BUY,55,0.0182,,,2026-11-17T05:17:20
+2026-11-16,WBSA,vol_breakout_up,BUY,416,0.0048,,,2026-11-17T05:17:20
+2026-11-16,BRPT,rsi_oversold,BUY,750,-0.02,,,2026-11-17T05:17:20
+2026-11-16,EMAS,rsi_oversold,BUY,4900,0.0082,,,2026-11-17T05:17:20
