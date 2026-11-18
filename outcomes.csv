@@ -1397,3 +1397,7 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-11-16,WBSA,vol_breakout_up,BUY,416,0.0048,,,2026-11-17T05:17:20
 2026-11-16,BRPT,rsi_oversold,BUY,750,-0.02,,,2026-11-17T05:17:20
 2026-11-16,EMAS,rsi_oversold,BUY,4900,0.0082,,,2026-11-17T05:17:20
+2026-11-17,DEFI,vol_breakout_up,BUY,81,-0.0741,,,2026-11-18T05:17:20
+2026-11-17,ASHA,vol_breakout_up,BUY,36,-0.0278,,,2026-11-18T05:17:20
+2026-11-17,BIPP,vol_breakout_up,BUY,56,-0.0357,,,2026-11-18T05:17:20
+2026-11-17,BRPT,rsi_oversold,BUY,710,0.0,,,2026-11-18T05:17:20
