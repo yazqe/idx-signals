@@ -1,11 +1,41 @@
 [
   {
+    "ticker": "HUMI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 93,
+    "vol_ratio": 9.5,
+    "pct_chg": 13.41,
+    "note": "Volume 9.5x avg + price +13.41%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.1304,
+      "win_5d": 0.419,
+      "n": 31
+    }
+  },
+  {
+    "ticker": "GTSI",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 84,
+    "vol_ratio": 7.8,
+    "pct_chg": 13.51,
+    "note": "Volume 7.8x avg + price +13.51%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0977,
+      "win_5d": 0.486,
+      "n": 37
+    }
+  },
+  {
     "ticker": "BRPT",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 710,
-    "rsi": 25.3,
-    "note": "RSI 25.3 < 30 (oversold)",
+    "close": 700,
+    "rsi": 24.9,
+    "note": "RSI 24.9 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0204,
