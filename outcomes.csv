@@ -1401,3 +1401,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-11-17,ASHA,vol_breakout_up,BUY,36,-0.0278,,,2026-11-18T05:17:20
 2026-11-17,BIPP,vol_breakout_up,BUY,56,-0.0357,,,2026-11-18T05:17:20
 2026-11-17,BRPT,rsi_oversold,BUY,710,0.0,,,2026-11-18T05:17:20
+2026-11-18,CBDK,rsi_oversold,BUY,2550,-0.0078,,,2026-11-19T05:17:17
+2026-11-18,CUAN,rsi_oversold,BUY,362,-0.011,,,2026-11-19T05:17:17
+2026-11-18,BRPT,rsi_oversold,BUY,680,-0.0074,,,2026-11-19T05:17:17

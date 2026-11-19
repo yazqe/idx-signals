@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "BRMS",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 284,
+    "rsi": 29.3,
+    "note": "RSI 29.3 < 30 (oversold)",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0412,
+      "win_5d": 0.714,
+      "n": 14
+    }
+  },
+  {
+    "ticker": "CBDK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2530,
+    "rsi": 29.1,
+    "note": "RSI 29.1 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0155,
+      "win_5d": 0.615,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "CUAN",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 358,
+    "rsi": 29.4,
+    "note": "RSI 29.4 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.012,
+      "win_5d": 0.571,
+      "n": 21
+    }
+  },
+  {
+    "ticker": "BRPT",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 675,
+    "rsi": 24.1,
+    "note": "RSI 24.1 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0204,
+      "win_5d": 0.333,
+      "n": 18
+    }
+  },
+  {
+    "ticker": "EMAS",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 4730,
+    "rsi": 29.6,
+    "note": "RSI 29.6 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0649,
+      "win_5d": 0.0,
+      "n": 4
+    }
+  }
+]
