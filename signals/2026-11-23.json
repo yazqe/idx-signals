@@ -1,9 +1,39 @@
 [
   {
+    "ticker": "ASPR",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 212,
+    "vol_ratio": 3.6,
+    "pct_chg": 14.59,
+    "note": "Volume 3.6x avg + price +14.59%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.12,
+      "win_5d": 0.478,
+      "n": 23
+    }
+  },
+  {
+    "ticker": "CUAN",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 390,
+    "vol_ratio": 2.1,
+    "pct_chg": 21.88,
+    "note": "Volume 2.1x avg + price +21.88%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.07,
+      "win_5d": 0.586,
+      "n": 29
+    }
+  },
+  {
     "ticker": "WMUU",
     "strategy": "ma_golden_cross",
     "side": "BUY",
-    "close": 41,
+    "close": 43,
     "note": "20-SMA crossed above 50-SMA today (golden cross)",
     "history": {
       "tier": "high",
@@ -13,40 +43,12 @@
     }
   },
   {
-    "ticker": "BRMS",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 282,
-    "rsi": 29.8,
-    "note": "RSI 29.8 < 30 (oversold)",
-    "history": {
-      "tier": "medium",
-      "edge_5d": 0.0412,
-      "win_5d": 0.714,
-      "n": 14
-    }
-  },
-  {
-    "ticker": "ENRG",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 515,
-    "rsi": 29.1,
-    "note": "RSI 29.1 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0189,
-      "win_5d": 0.462,
-      "n": 13
-    }
-  },
-  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 2390,
-    "rsi": 25.2,
-    "note": "RSI 25.2 < 30 (oversold)",
+    "close": 2460,
+    "rsi": 27.6,
+    "note": "RSI 27.6 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
@@ -55,87 +57,48 @@
     }
   },
   {
-    "ticker": "PANI",
-    "strategy": "rsi_oversold",
+    "ticker": "CDIA",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 3350,
-    "rsi": 29.7,
-    "note": "RSI 29.7 < 30 (oversold)",
+    "close": 386,
+    "vol_ratio": 5.6,
+    "pct_chg": 24.52,
+    "note": "Volume 5.6x avg + price +24.52%",
     "history": {
       "tier": "low",
-      "edge_5d": 0.0141,
-      "win_5d": 0.556,
-      "n": 18
-    }
-  },
-  {
-    "ticker": "INDY",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 1495,
-    "rsi": 28.8,
-    "note": "RSI 28.8 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0121,
-      "win_5d": 0.643,
-      "n": 14
-    }
-  },
-  {
-    "ticker": "CUAN",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 324,
-    "rsi": 26.7,
-    "note": "RSI 26.7 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.012,
-      "win_5d": 0.571,
-      "n": 21
-    }
-  },
-  {
-    "ticker": "BRPT",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 635,
-    "rsi": 23.6,
-    "note": "RSI 23.6 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0204,
-      "win_5d": 0.333,
-      "n": 18
-    }
-  },
-  {
-    "ticker": "EMTK",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 264,
-    "rsi": 29.2,
-    "note": "RSI 29.2 < 30 (oversold)",
-    "history": {
-      "tier": "negative",
-      "edge_5d": -0.0367,
-      "win_5d": 0.2,
+      "edge_5d": 0.0079,
+      "win_5d": 0.3,
       "n": 10
     }
   },
   {
-    "ticker": "EMAS",
-    "strategy": "rsi_oversold",
+    "ticker": "MBMA",
+    "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 4420,
-    "rsi": 26.3,
-    "note": "RSI 26.3 < 30 (oversold)",
+    "close": 364,
+    "vol_ratio": 2.2,
+    "pct_chg": 5.81,
+    "note": "Volume 2.2x avg + price +5.81%",
     "history": {
       "tier": "negative",
-      "edge_5d": -0.0649,
-      "win_5d": 0.0,
-      "n": 4
+      "edge_5d": -0.0019,
+      "win_5d": 0.542,
+      "n": 24
+    }
+  },
+  {
+    "ticker": "DIVA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 102,
+    "vol_ratio": 11.5,
+    "pct_chg": 9.68,
+    "note": "Volume 11.5x avg + price +9.68%",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0327,
+      "win_5d": 0.444,
+      "n": 36
     }
   }
 ]
