@@ -3,10 +3,10 @@
     "ticker": "DEFI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 77,
-    "vol_ratio": 5.1,
-    "pct_chg": 5.48,
-    "note": "Volume 5.1x avg + price +5.48%",
+    "close": 76,
+    "vol_ratio": 5.4,
+    "pct_chg": 4.11,
+    "note": "Volume 5.4x avg + price +4.11%",
     "history": {
       "tier": "high",
       "edge_5d": 0.2152,
@@ -15,12 +15,27 @@
     }
   },
   {
+    "ticker": "WMUU",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 51,
+    "vol_ratio": 2.0,
+    "pct_chg": 24.39,
+    "note": "Volume 2.0x avg + price +24.39%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0604,
+      "win_5d": 0.517,
+      "n": 29
+    }
+  },
+  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 2430,
-    "rsi": 28.3,
-    "note": "RSI 28.3 < 30 (oversold)",
+    "close": 2420,
+    "rsi": 28.0,
+    "note": "RSI 28.0 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
