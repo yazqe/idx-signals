@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "CDIA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 428,
+    "vol_ratio": 2.8,
+    "pct_chg": 10.88,
+    "note": "Volume 2.8x avg + price +10.88%",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0079,
+      "win_5d": 0.3,
+      "n": 10
+    }
+  }
+]
