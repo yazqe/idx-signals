@@ -17,14 +17,28 @@
     "ticker": "HRTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1275,
-    "rsi": 29.2,
-    "note": "RSI 29.2 < 30 (oversold)",
+    "close": 1265,
+    "rsi": 28.7,
+    "note": "RSI 28.7 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0078,
       "win_5d": 0.545,
       "n": 11
+    }
+  },
+  {
+    "ticker": "BRPT",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 640,
+    "rsi": 29.4,
+    "note": "RSI 29.4 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0204,
+      "win_5d": 0.333,
+      "n": 18
     }
   }
 ]
