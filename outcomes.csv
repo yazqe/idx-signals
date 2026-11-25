@@ -1431,3 +1431,6 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-11-23,MBMA,vol_breakout_up,BUY,362,0.0,,,2026-11-24T05:17:16
 2026-11-23,DIVA,vol_breakout_up,BUY,99,0.0,,,2026-11-24T05:17:16
 2026-11-23,TPIA,vol_breakout_up,BUY,1295,0.0039,,,2026-11-24T05:17:16
+2026-11-24,DEFI,vol_breakout_up,BUY,76,0.0132,,,2026-11-25T05:17:16
+2026-11-24,WMUU,vol_breakout_up,BUY,51,0.0,,,2026-11-25T05:17:16
+2026-11-24,CBDK,rsi_oversold,BUY,2420,-0.0165,,,2026-11-25T05:17:16
