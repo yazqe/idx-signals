@@ -1,11 +1,26 @@
 [
   {
+    "ticker": "KOTA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 64,
+    "vol_ratio": 2.2,
+    "pct_chg": 8.47,
+    "note": "Volume 2.2x avg + price +8.47%",
+    "history": {
+      "tier": "high",
+      "edge_5d": 0.0711,
+      "win_5d": 0.511,
+      "n": 45
+    }
+  },
+  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 2380,
-    "rsi": 27.0,
-    "note": "RSI 27.0 < 30 (oversold)",
+    "close": 2320,
+    "rsi": 25.4,
+    "note": "RSI 25.4 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
@@ -17,9 +32,9 @@
     "ticker": "HRTA",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 1265,
-    "rsi": 28.7,
-    "note": "RSI 28.7 < 30 (oversold)",
+    "close": 1260,
+    "rsi": 28.5,
+    "note": "RSI 28.5 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0078,
@@ -39,6 +54,20 @@
       "edge_5d": -0.0204,
       "win_5d": 0.333,
       "n": 18
+    }
+  },
+  {
+    "ticker": "EMTK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 264,
+    "rsi": 29.6,
+    "note": "RSI 29.6 < 30 (oversold)",
+    "history": {
+      "tier": "negative",
+      "edge_5d": -0.0367,
+      "win_5d": 0.2,
+      "n": 10
     }
   }
 ]
