@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "CBDK",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 2340,
+    "rsi": 27.9,
+    "note": "RSI 27.9 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0155,
+      "win_5d": 0.615,
+      "n": 13
+    }
+  },
+  {
+    "ticker": "HRTA",
+    "strategy": "rsi_oversold",
+    "side": "BUY",
+    "close": 1270,
+    "rsi": 29.8,
+    "note": "RSI 29.8 < 30 (oversold)",
+    "history": {
+      "tier": "low",
+      "edge_5d": 0.0078,
+      "win_5d": 0.545,
+      "n": 11
+    }
+  }
+]

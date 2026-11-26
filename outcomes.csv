@@ -1434,3 +1434,8 @@ signal_date,ticker,strategy,side,entry_price,ret_1d,ret_5d,ret_20d,computed_at
 2026-11-24,DEFI,vol_breakout_up,BUY,76,0.0132,,,2026-11-25T05:17:16
 2026-11-24,WMUU,vol_breakout_up,BUY,51,0.0,,,2026-11-25T05:17:16
 2026-11-24,CBDK,rsi_oversold,BUY,2420,-0.0165,,,2026-11-25T05:17:16
+2026-11-25,KOTA,vol_breakout_up,BUY,64,0.0156,,,2026-11-26T05:17:15
+2026-11-25,CBDK,rsi_oversold,BUY,2320,0.0129,,,2026-11-26T05:17:15
+2026-11-25,HRTA,rsi_oversold,BUY,1260,0.0079,,,2026-11-26T05:17:15
+2026-11-25,BRPT,rsi_oversold,BUY,640,0.0938,,,2026-11-26T05:17:15
+2026-11-25,EMTK,rsi_oversold,BUY,264,0.0076,,,2026-11-26T05:17:15
