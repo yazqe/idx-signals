@@ -1,5 +1,20 @@
 [
   {
+    "ticker": "TOBA",
+    "strategy": "vol_breakout_up",
+    "side": "BUY",
+    "close": 412,
+    "vol_ratio": 4.7,
+    "pct_chg": 24.85,
+    "note": "Volume 4.7x avg + price +24.85%",
+    "history": {
+      "tier": "medium",
+      "edge_5d": 0.0473,
+      "win_5d": 0.5,
+      "n": 34
+    }
+  },
+  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
@@ -17,10 +32,10 @@
     "ticker": "CDIA",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 392,
-    "vol_ratio": 2.4,
-    "pct_chg": 4.26,
-    "note": "Volume 2.4x avg + price +4.26%",
+    "close": 398,
+    "vol_ratio": 2.5,
+    "pct_chg": 5.85,
+    "note": "Volume 2.5x avg + price +5.85%",
     "history": {
       "tier": "low",
       "edge_5d": 0.0079,
@@ -43,28 +58,13 @@
     }
   },
   {
-    "ticker": "ZATA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 40,
-    "vol_ratio": 2.2,
-    "pct_chg": 2.56,
-    "note": "Volume 2.2x avg + price +2.56%",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0052,
-      "win_5d": 0.387,
-      "n": 31
-    }
-  },
-  {
     "ticker": "AADI",
     "strategy": "vol_breakout_up",
     "side": "BUY",
-    "close": 10350,
-    "vol_ratio": 2.9,
-    "pct_chg": 4.55,
-    "note": "Volume 2.9x avg + price +4.55%",
+    "close": 10375,
+    "vol_ratio": 3.7,
+    "pct_chg": 4.8,
+    "note": "Volume 3.7x avg + price +4.80%",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0322,
@@ -76,9 +76,9 @@
     "ticker": "EMTK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 258,
-    "rsi": 28.1,
-    "note": "RSI 28.1 < 30 (oversold)",
+    "close": 260,
+    "rsi": 28.6,
+    "note": "RSI 28.6 < 30 (oversold)",
     "history": {
       "tier": "negative",
       "edge_5d": -0.0367,
