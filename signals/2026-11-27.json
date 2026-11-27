@@ -1,45 +1,16 @@
 [
   {
-    "ticker": "TOBA",
-    "strategy": "vol_breakout_up",
-    "side": "BUY",
-    "close": 430,
-    "vol_ratio": 3.4,
-    "pct_chg": 4.37,
-    "note": "Volume 3.4x avg + price +4.37%",
-    "history": {
-      "tier": "medium",
-      "edge_5d": 0.0473,
-      "win_5d": 0.5,
-      "n": 34
-    }
-  },
-  {
     "ticker": "CBDK",
     "strategy": "rsi_oversold",
     "side": "BUY",
-    "close": 2320,
-    "rsi": 27.0,
-    "note": "RSI 27.0 < 30 (oversold)",
+    "close": 2290,
+    "rsi": 24.7,
+    "note": "RSI 24.7 < 30 (oversold)",
     "history": {
       "tier": "low",
       "edge_5d": 0.0155,
       "win_5d": 0.615,
       "n": 13
-    }
-  },
-  {
-    "ticker": "HRTA",
-    "strategy": "rsi_oversold",
-    "side": "BUY",
-    "close": 1245,
-    "rsi": 29.0,
-    "note": "RSI 29.0 < 30 (oversold)",
-    "history": {
-      "tier": "low",
-      "edge_5d": 0.0078,
-      "win_5d": 0.545,
-      "n": 11
     }
   }
 ]
